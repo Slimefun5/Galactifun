@@ -1,62 +1,80 @@
 plugins {
-    `java-library`
-    id("com.github.johnrengelman.shadow") version "8.1.1"
-    id("io.freefair.lombok") version "8.6"
-    id("net.minecrell.plugin-yml.bukkit") version "0.5.3"
-    id("xyz.jpenilla.run-paper") version "2.2.0"
-}
-
-repositories {
-    mavenLocal()
-    mavenCentral()
-    maven(url = "https://repo.papermc.io/repository/maven-public/")
-    maven(url = "https://jitpack.io")
-}
-
-dependencies {
-    api("io.github.mooy1:InfinityLib:1.3.7")
-    compileOnly("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
-    compileOnly("io.github.TheBusyBiscuit:Slimefun4:RC-37")
-    compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-
-    testImplementation("com.github.seeseemelk:MockBukkit-v1.18:2.85.2")
+    java
+    id("com.gradleup.shadow") version "9.3.2"
+    id("io.github.intisy.github-gradle") version "1.3.8"
 }
 
 group = "io.github.addoncommunity.galactifun"
-version = "MODIFIED"
-description = "Galactifun"
-java.sourceCompatibility = JavaVersion.VERSION_17
+version = "1.0.0"
+description = "Galactifun is a Slimefun addon that adds galaxies, star systems, planets, moons, rockets, and spacesuits."
 
-tasks.shadowJar {
-    relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
-
-    archiveFileName = "galactifun.jar"
+github {
+    accessToken = System.getenv("GITHUB_TOKEN") ?: ""
 }
 
-bukkit {
-    name = rootProject.name
-    description = "Space addon for Slimefun"
-    main = "io.github.addoncommunity.galactifun.Galactifun"
-    version = project.version.toString()
-    authors = listOf("Seggan", "Mooy1", "GallowsDove", "ProfElements")
-    apiVersion = "1.18"
-    softDepend = listOf("ClayTech", "BentoBox")
-    loadBefore = listOf("Multiverse-Core")
-    depend = listOf("Slimefun")
+publishGithub {
+    tag = System.getenv("GITHUB_REF_NAME")
+}
 
-    commands {
-        register("galactifun") {
-            description = "Galactifun main command"
-            usage = "/galactifun <subcommand>"
-            aliases = listOf("gf", "galactic")
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven("https://repo.papermc.io/repository/maven-public/")
+    maven("https://jitpack.io")
+    maven("https://repo.codemc.io/repository/maven-public/")
+}
+
+dependencies {
+    githubCompileOnly("Slimefun5:Slimefun5:v5.0.3")
+    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("com.google.code.findbugs:jsr305:3.0.2")
+
+    implementation("com.github.Riley31415:InfinityLib:1.3.10") {
+        isTransitive = false
+    }
+    implementation("org.bstats:bstats-bukkit:3.0.2")
+
+    testImplementation(platform("org.junit:junit-bom:5.11.4"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation("org.mockito:mockito-core:5.15.2")
+    testImplementation("org.slf4j:slf4j-simple:2.0.16")
+    testImplementation("org.mockbukkit.mockbukkit:mockbukkit-v1.21:4.107.0") {
+        exclude(group = "org.jetbrains", module = "annotations")
+    }
+}
+
+configurations.testImplementation {
+    extendsFrom(configurations.compileOnly.get())
+}
+
+tasks {
+    compileJava {
+        options.encoding = "UTF-8"
+    }
+    processResources {
+        filesMatching("plugin.yml") {
+            expand("version" to project.version)
         }
     }
-}
-
-tasks.runServer {
-    downloadPlugins {
-        url("https://blob.build/dl/Slimefun4/Dev/1116")
+    jar {
+        enabled = false
     }
-    maxHeapSize = "4G"
-    minecraftVersion("1.20.4")
+    shadowJar {
+        archiveFileName.set("Galactifun v${project.version}.jar")
+        relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
+        relocate("org.bstats", "io.github.addoncommunity.galactifun.bstats")
+        exclude("META-INF/**")
+    }
+    build {
+        dependsOn(shadowJar)
+    }
+    test {
+        useJUnitPlatform()
+    }
 }
