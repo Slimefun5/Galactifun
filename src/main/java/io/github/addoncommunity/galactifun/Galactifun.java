@@ -88,12 +88,6 @@ public final class Galactifun extends AbstractAddon {
                 log(Level.SEVERE, "Please use Minecraft 1.17 or above");
                 shouldDisable = true;
             }
-            if (Bukkit.getPluginManager().isPluginEnabled("ClayTech")) {
-                log(Level.SEVERE, "Galactifun will not work properly with ClayTech");
-                log(Level.SEVERE, "Please disable ClayTech");
-                shouldDisable = true;
-            }
-
             if (Bukkit.getPluginManager().isPluginEnabled("ChatColor2")) {
                 log(Level.SEVERE, "Galactifun will not work properly with ChatColor2");
                 log(Level.SEVERE, "Please disable ChatColor2");
