@@ -2,7 +2,6 @@ package io.github.addoncommunity.galactifun.base;
 
 import java.util.Arrays;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -31,8 +30,9 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
  * @author Seggan
  * @author Mooy1
  */
-@UtilityClass
 public final class BaseMats {
+
+    private BaseMats() {}
 
     //<editor-fold desc="Generated Blocks" defaultstate="collapsed">
     public static final SlimefunItemStack MOON_DUST = new SlimefunItemStack(

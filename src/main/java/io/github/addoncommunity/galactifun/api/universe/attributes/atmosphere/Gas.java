@@ -7,7 +7,6 @@ import io.github.addoncommunity.galactifun.api.universe.PlanetaryObject;
 import io.github.addoncommunity.galactifun.base.BaseUniverse;
 import io.github.addoncommunity.galactifun.core.CoreRecipeType;
 
-import lombok.Getter;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -64,10 +63,8 @@ public enum Gas {
         }
     }
 
-    @Getter
     private final SlimefunItemStack item;
 
-    @Getter
     private final SlimefunItem slimefunItem;
 
     Gas(@Nonnull String texture) {
@@ -125,4 +122,8 @@ public enum Gas {
                 null, null, null
         });
     }
+
+    public SlimefunItemStack item() { return item; }
+
+    public SlimefunItem slimefunItem() { return slimefunItem; }
 }

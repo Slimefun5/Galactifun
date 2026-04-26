@@ -5,7 +5,6 @@ import java.util.List;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -14,8 +13,9 @@ import org.bukkit.block.Biome;
 import org.bukkit.generator.BiomeProvider;
 import org.bukkit.generator.WorldInfo;
 
-@UtilityClass
 public final class GenUtils {
+
+    private GenUtils() {}
 
     @ParametersAreNonnullByDefault
     public static void generateSquare(RegionAccessor accessor, Location center, Material material, int radius) {

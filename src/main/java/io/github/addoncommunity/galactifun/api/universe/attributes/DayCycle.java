@@ -2,7 +2,6 @@ package io.github.addoncommunity.galactifun.api.universe.attributes;
 
 import javax.annotation.Nonnull;
 
-import lombok.Getter;
 
 import org.bukkit.GameRule;
 import org.bukkit.World;
@@ -44,7 +43,6 @@ public final class DayCycle {
         return new DayCycle(days + hours / 24, hours % 24);
     }
 
-    @Getter
     @Nonnull
     private final String description;
     private final long startTime;
@@ -102,4 +100,7 @@ public final class DayCycle {
         }
     }
 
+
+    @Nonnull
+    public String description() { return description; }
 }

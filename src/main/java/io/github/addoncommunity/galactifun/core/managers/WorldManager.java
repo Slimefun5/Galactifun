@@ -14,7 +14,6 @@ import java.util.UUID;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import lombok.Getter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -80,7 +79,6 @@ public final class WorldManager implements Listener {
 
     private static final String PLACED = "placed";
 
-    @Getter
     private final int maxAliensPerPlayer;
     private final Map<World, PlanetaryWorld> spaceWorlds = new HashMap<>();
     private final Map<World, AlienWorld> alienWorlds = new HashMap<>();
@@ -471,4 +469,6 @@ public final class WorldManager implements Listener {
         return ChunkStorage.untag(b, PLACED);
     }
 
+
+    public int maxAliensPerPlayer() { return maxAliensPerPlayer; }
 }

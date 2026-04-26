@@ -6,7 +6,6 @@ import java.util.Set;
 
 import javax.annotation.Nonnull;
 
-import lombok.NonNull;
 
 import com.google.common.collect.ImmutableSet;
 import io.github.addoncommunity.galactifun.api.universe.PlanetaryObject;
@@ -55,7 +54,7 @@ public final class PlanetaryType extends UniversalType {
         allTypes.put(id, this);
     }
 
-    public static PlanetaryType getById(@NonNull String id) {
+    public static PlanetaryType getById(@Nonnull String id) {
         return allTypes.get(id);
     }
 

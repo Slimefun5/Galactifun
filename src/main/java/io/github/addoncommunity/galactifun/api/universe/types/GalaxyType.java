@@ -6,7 +6,6 @@ import java.util.Set;
 
 import javax.annotation.Nonnull;
 
-import lombok.NonNull;
 
 import com.google.common.collect.ImmutableSet;
 
@@ -28,7 +27,7 @@ public final class GalaxyType extends UniversalType {
         allTypes.put(id, this);
     }
 
-    public static GalaxyType getById(@NonNull String id) {
+    public static GalaxyType getById(@Nonnull String id) {
         return allTypes.get(id);
     }
 

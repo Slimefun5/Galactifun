@@ -6,7 +6,6 @@ import java.util.Random;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.Getter;
 
 import org.apache.commons.lang.Validate;
 import org.bukkit.Chunk;
@@ -38,7 +37,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.Persis
  * @author Mooy1
  * @see Martian
  */
-@Getter
 public class Alien<T extends Mob> {
 
     private final Class<T> clazz;
@@ -160,4 +158,16 @@ public class Alien<T extends Mob> {
         return this.id.hashCode();
     }
 
+
+    public Class<T> clazz() { return clazz; }
+
+    public String id() { return id; }
+
+    public String name() { return name; }
+
+    public double spawnChance() { return spawnChance; }
+
+    public double maxHealth() { return maxHealth; }
+
+    public AlienManager alienManager() { return alienManager; }
 }

@@ -2,7 +2,6 @@ package io.github.addoncommunity.galactifun.api.universe;
 
 import javax.annotation.Nonnull;
 
-import lombok.Getter;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -17,7 +16,6 @@ import io.github.addoncommunity.galactifun.api.universe.types.PlanetaryType;
  *
  * @author Mooy1
  */
-@Getter
 public class PlanetaryObject extends UniversalObject {
 
     private final DayCycle dayCycle;
@@ -40,4 +38,10 @@ public class PlanetaryObject extends UniversalObject {
         this.gravity = gravity;
     }
 
+
+    public DayCycle dayCycle() { return dayCycle; }
+
+    public Atmosphere atmosphere() { return atmosphere; }
+
+    public Gravity gravity() { return gravity; }
 }

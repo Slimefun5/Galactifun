@@ -2,7 +2,6 @@ package io.github.addoncommunity.galactifun.api.universe.attributes;
 
 import javax.annotation.Nonnull;
 
-import lombok.Getter;
 
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
@@ -40,7 +39,6 @@ public final class Gravity {
         return new Gravity(DEFAULT_JUMP / blocks);
     }
 
-    @Getter
     private final int percent;
     private final PotionEffect effect;
 
@@ -72,4 +70,6 @@ public final class Gravity {
         p.removePotionEffect(this.effect.getType());
     }
 
+
+    public int percent() { return percent; }
 }

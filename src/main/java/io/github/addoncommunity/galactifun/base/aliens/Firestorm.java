@@ -2,7 +2,6 @@ package io.github.addoncommunity.galactifun.base.aliens;
 
 import javax.annotation.Nonnull;
 
-import lombok.NonNull;
 
 import org.bukkit.entity.Blaze;
 import org.bukkit.entity.Projectile;
@@ -23,7 +22,7 @@ import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
 public final class Firestorm extends Alien<Blaze> implements Listener {
 
 
-    public Firestorm(@NonNull String id, @NonNull String name, double maxHealth, double spawnChance) {
+    public Firestorm(@Nonnull String id, @Nonnull String name, double maxHealth, double spawnChance) {
         super(Blaze.class, id, name, maxHealth, spawnChance);
 
         Events.registerListener(this);

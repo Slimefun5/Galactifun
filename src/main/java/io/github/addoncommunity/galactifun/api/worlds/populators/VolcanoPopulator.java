@@ -4,7 +4,6 @@ import java.util.Random;
 
 import javax.annotation.Nonnull;
 
-import lombok.AllArgsConstructor;
 
 import org.bukkit.Material;
 import org.bukkit.generator.BlockPopulator;
@@ -17,8 +16,13 @@ import org.bukkit.generator.WorldInfo;
  * @author Seggan
  * @author Mooy1
  */
-@AllArgsConstructor
 public class VolcanoPopulator extends BlockPopulator {
+    public VolcanoPopulator(int minY, Material belowLiquid, Material liquid) {
+        this.minY = minY;
+        this.belowLiquid = belowLiquid;
+        this.liquid = liquid;
+    }
+
 
     private final int minY;
     private final Material belowLiquid;

@@ -1,6 +1,5 @@
 package io.github.addoncommunity.galactifun.base;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.boss.BarColor;
 import org.bukkit.boss.BarFlag;
@@ -17,8 +16,9 @@ import io.github.addoncommunity.galactifun.base.aliens.TitanAlien;
 import io.github.addoncommunity.galactifun.base.aliens.TitanKing;
 import io.github.addoncommunity.galactifun.core.managers.AlienManager;
 
-@UtilityClass
 public final class BaseAlien {
+
+    private BaseAlien() {}
 
     public static final Firestorm FIRESTORM = new Firestorm("FIRESTORM", "Firestorm", 40, 10);
     public static final MutantCreeper MUTANT_CREEPER = new MutantCreeper("MUTANT_CREEPER", "Mutant Creeper", 40, 5);

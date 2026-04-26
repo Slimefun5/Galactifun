@@ -1,6 +1,5 @@
 package io.github.addoncommunity.galactifun.base;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -50,8 +49,9 @@ import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 /**
  * Holds the base machines and setup
  */
-@UtilityClass
 public final class BaseItems {
+
+    private BaseItems() {}
 
     //<editor-fold desc="Space Suits, Oxygen, Upgrades" defaultstate="collapsed">
     public static final SlimefunItemStack OXYGEN_FILLER = new SlimefunItemStack(

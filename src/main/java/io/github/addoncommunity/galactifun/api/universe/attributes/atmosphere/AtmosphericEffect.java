@@ -8,8 +8,6 @@ import java.util.function.BiConsumer;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import lombok.Getter;
-import lombok.NonNull;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -54,14 +52,12 @@ public final class AtmosphericEffect {
         player.setFreezeTicks(Ints.constrainToRange(150 * level, 0, player.getMaxFreezeTicks()));
     });
 
-    @Getter
     private final String id;
-    @Getter
     @Nullable
     private final SpaceSuitStat stat;
     private final BiConsumer<Player, Integer> applier;
 
-    public AtmosphericEffect(@NonNull String id, @Nullable SpaceSuitStat stat, @NonNull PotionEffectType effectType) {
+    public AtmosphericEffect(@Nonnull String id, @Nullable SpaceSuitStat stat, @Nonnull PotionEffectType effectType) {
         this(id, stat, (player, level) -> player.addPotionEffect(new PotionEffect(
                 effectType,
                 200,
@@ -72,7 +68,7 @@ public final class AtmosphericEffect {
         )));
     }
 
-    public AtmosphericEffect(@NonNull String id, @Nullable SpaceSuitStat stat, @NonNull BiConsumer<Player, Integer> applier) {
+    public AtmosphericEffect(@Nonnull String id, @Nullable SpaceSuitStat stat, @Nonnull BiConsumer<Player, Integer> applier) {
         this.id = id;
         this.stat = stat;
         this.applier = applier;
@@ -80,7 +76,7 @@ public final class AtmosphericEffect {
         allEffects.put(id, this);
     }
 
-    public static AtmosphericEffect getById(@NonNull String id) {
+    public static AtmosphericEffect getById(@Nonnull String id) {
         return allEffects.get(id);
     }
 
@@ -89,7 +85,7 @@ public final class AtmosphericEffect {
         return ImmutableSet.copyOf(allEffects.values());
     }
 
-    public void apply(@NonNull Player p, int level) {
+    public void apply(@Nonnull Player p, int level) {
         if (level > 0) {
             p.sendMessage(ChatColor.RED + "You have been exposed to " + this + "!");
             this.applier.accept(p, level);
@@ -106,4 +102,9 @@ public final class AtmosphericEffect {
         return this.id.hashCode();
     }
 
+
+    public String id() { return id; }
+
+    @Nullable
+    public SpaceSuitStat stat() { return stat; }
 }

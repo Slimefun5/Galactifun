@@ -1,6 +1,5 @@
 package io.github.addoncommunity.galactifun.base.universe.saturn;
 
-import lombok.Getter;
 
 import org.bukkit.block.Biome;
 
@@ -13,10 +12,11 @@ enum TitanBiome {
     CARBON_FOREST(Biome.DARK_FOREST),
     FROZEN_CARBON_FOREST(Biome.BIRCH_FOREST);
 
-    @Getter
     private final Biome biome;
 
     TitanBiome(Biome biome) {
         this.biome = biome;
     }
+
+    public Biome biome() { return biome; }
 }

@@ -1,13 +1,13 @@
 package io.github.addoncommunity.galactifun.base;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.inventory.ItemStack;
 
 import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
 
-@UtilityClass
 public final class GalactifunHead {
+
+    private GalactifunHead() {}
 
     public static final ItemStack ROCKET = SlimefunUtils.getCustomHead("27a627242b0149282d2b3802b244b62622beb152bc47f1dd07079ced3ad8b90");
     public static final ItemStack CORE = SlimefunUtils.getCustomHead("dc9365642c6eddcfedf5b5e14e2bc71257d9e4a3363d123c6f33c55cafbf6d");

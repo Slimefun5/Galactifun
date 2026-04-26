@@ -7,7 +7,6 @@ import java.util.Set;
 
 import javax.annotation.Nonnull;
 
-import lombok.NonNull;
 
 import org.bukkit.Location;
 
@@ -57,7 +56,7 @@ public final class ProtectionManager {
     }
 
     @Nonnull
-    public Map<AtmosphericEffect, Integer> subtractProtections(@NonNull Atmosphere atmosphere, @NonNull Map<AtmosphericEffect, Integer> protections) {
+    public Map<AtmosphericEffect, Integer> subtractProtections(@Nonnull Atmosphere atmosphere, @Nonnull Map<AtmosphericEffect, Integer> protections) {
         Map<AtmosphericEffect, Integer> ret = new HashMap<>();
         for (Map.Entry<AtmosphericEffect, Integer> eff : atmosphere.effects().entrySet()) {
             int val = eff.getValue() - protections.getOrDefault(eff.getKey(), 0);

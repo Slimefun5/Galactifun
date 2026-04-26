@@ -4,7 +4,6 @@ import java.util.Random;
 
 import javax.annotation.Nonnull;
 
-import lombok.AllArgsConstructor;
 
 import org.bukkit.Location;
 import org.bukkit.generator.BlockPopulator;
@@ -18,8 +17,11 @@ import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
-@AllArgsConstructor
 public class FallenSatellitePopulator extends BlockPopulator {
+    public FallenSatellitePopulator(double chance) {
+        this.chance = chance;
+    }
+
 
     private final double chance;
 

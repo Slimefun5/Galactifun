@@ -1,11 +1,11 @@
 package io.github.addoncommunity.galactifun.api.items;
 
+import javax.annotation.Nonnull;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import lombok.Getter;
-import lombok.NonNull;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -18,7 +18,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Randomized
 import it.unimi.dsi.fastutil.ints.IntIntImmutablePair;
 import it.unimi.dsi.fastutil.ints.IntIntPair;
 
-@Getter
 public class Relic extends SlimefunItem {
 
     private final RandomizedSet<ItemStack> optionals;
@@ -44,14 +43,18 @@ public class Relic extends SlimefunItem {
         private final RandomizedSet<ItemStack> optionals = new RandomizedSet<>();
         private final Map<ItemStack, IntIntPair> required = new HashMap<>();
 
-        public RelicSettings addOptional(@NonNull ItemStack item, float weight) {
+        public RelicSettings addOptional(@Nonnull ItemStack item, float weight) {
             optionals.add(item, weight);
             return this;
         }
 
-        public RelicSettings addRequired(@NonNull ItemStack item, int min, int max) {
+        public RelicSettings addRequired(@Nonnull ItemStack item, int min, int max) {
             required.put(item, new IntIntImmutablePair(min, max));
             return this;
         }
     }
+
+    public RandomizedSet<ItemStack> optionals() { return optionals; }
+
+    public Map<ItemStack, IntIntPair> required() { return required; }
 }

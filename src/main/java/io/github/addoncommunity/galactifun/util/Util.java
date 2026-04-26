@@ -13,8 +13,6 @@ import java.util.stream.Collectors;
 
 import javax.annotation.Nonnull;
 
-import lombok.NonNull;
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -32,8 +30,9 @@ import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
  * @author Seggan
  * @author Mooy1
  */
-@UtilityClass
 public final class Util {
+
+    private Util() {}
 
     public static final double KM_PER_LY = 9.461e12;
     public static final Pattern COORD_PATTERN = Pattern.compile("^-?\\d+ -?\\d+$");
@@ -91,7 +90,7 @@ public final class Util {
      * @return blocks traversed, or an empty optional if traversed blocks > max
      */
     @Nonnull
-    public static Optional<Set<BlockPosition>> floodFill(@NonNull Location start, int max) {
+    public static Optional<Set<BlockPosition>> floodFill(@Nonnull Location start, int max) {
         if (max == 0) return Optional.empty();
 
         Set<Block> visited = new HashSet<>();
@@ -117,7 +116,7 @@ public final class Util {
     /**
      * Gets the highest block of this {@link RegionAccessor}
      */
-    public static Location getHighestBlockAt(@NonNull RegionAccessor region, int x, int z) {
+    public static Location getHighestBlockAt(@Nonnull RegionAccessor region, int x, int z) {
         for (int y = 0; y < 319; y++) {
             if (region.getType(x, y, z).isAir()) {
                 return new Location(null, x, y - 1, z);
@@ -127,7 +126,7 @@ public final class Util {
         return new Location(null, x, 0, z);
     }
 
-    public static Block getHighestBlockAt(@NonNull World world, int x, int z, @NonNull Predicate<Block> isSolid) {
+    public static Block getHighestBlockAt(@Nonnull World world, int x, int z, @Nonnull Predicate<Block> isSolid) {
         for (int y = world.getMaxHeight() - 1; y > world.getMinHeight(); y--) {
             Block block = world.getBlockAt(x, y, z);
             if (isSolid.test(block)) {

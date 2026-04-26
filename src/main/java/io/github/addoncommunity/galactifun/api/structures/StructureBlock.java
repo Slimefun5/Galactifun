@@ -2,8 +2,6 @@ package io.github.addoncommunity.galactifun.api.structures;
 
 import java.util.EnumMap;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -13,8 +11,11 @@ import org.bukkit.block.Block;
  *
  * @author Mooy1
  */
-@AllArgsConstructor(access = AccessLevel.PACKAGE)
 class StructureBlock {
+    StructureBlock(Material material) {
+        this.material = material;
+    }
+
 
     static final StructureBlock AIR = new StructureBlock(Material.AIR) {
         @Override

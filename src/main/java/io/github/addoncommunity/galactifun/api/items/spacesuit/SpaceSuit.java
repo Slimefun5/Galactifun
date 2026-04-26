@@ -7,7 +7,6 @@ import java.util.Map;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.Getter;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
@@ -32,9 +31,7 @@ public class SpaceSuit extends SlimefunItem implements ProtectiveArmor {
     private static final NamespacedKey OXYGEN_KEY = Galactifun.createKey("oxygen");
     private static final String OXYGEN_LORE = ChatColors.color("&bOxygen: &7");
 
-    @Getter
     private final int maxUpgrades;
-    @Getter
     private final int maxOxygen;
 
     /**
@@ -108,4 +105,8 @@ public class SpaceSuit extends SlimefunItem implements ProtectiveArmor {
         return OXYGEN_LORE + amount + " / " + max;
     }
 
+
+    public int maxUpgrades() { return maxUpgrades; }
+
+    public int maxOxygen() { return maxOxygen; }
 }

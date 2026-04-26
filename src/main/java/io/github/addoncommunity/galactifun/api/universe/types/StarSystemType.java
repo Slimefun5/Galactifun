@@ -6,7 +6,6 @@ import java.util.Set;
 
 import javax.annotation.Nonnull;
 
-import lombok.NonNull;
 
 import com.google.common.collect.ImmutableSet;
 
@@ -27,7 +26,7 @@ public final class StarSystemType extends UniversalType {
         allTypes.put(id, this);
     }
 
-    public static StarSystemType getById(@NonNull String id) {
+    public static StarSystemType getById(@Nonnull String id) {
         return allTypes.get(id);
     }
 

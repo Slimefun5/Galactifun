@@ -13,7 +13,6 @@ import java.util.UUID;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import lombok.Getter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
@@ -44,9 +43,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.Persis
 
 public final class AlienManager implements Listener {
 
-    @Getter
     private final NamespacedKey key;
-    @Getter
     private final NamespacedKey bossKey;
     private final Map<String, Alien<?>> aliens = new HashMap<>();
     private final Set<UUID> alienIds = new HashSet<>();
@@ -223,4 +220,8 @@ public final class AlienManager implements Listener {
         }
     }
 
+
+    public NamespacedKey key() { return key; }
+
+    public NamespacedKey bossKey() { return bossKey; }
 }

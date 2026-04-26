@@ -7,8 +7,6 @@ import java.util.UUID;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -17,9 +15,10 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.mooy1.infinitylib.common.Scheduler;
 
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 @ParametersAreNonnullByDefault
 public final class SpaceSuitProfile {
+    private SpaceSuitProfile() {}
+
 
     private static final Map<UUID, SpaceSuitProfile> profiles = new HashMap<>();
     private static final double OXYGEN_PER_TICK = .05;

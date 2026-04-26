@@ -7,7 +7,6 @@ import java.util.Locale;
 
 import javax.annotation.Nonnull;
 
-import lombok.Getter;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -24,15 +23,10 @@ import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
 public abstract class UniversalObject {
 
     private final List<UniversalObject> orbiters = new ArrayList<>();
-    @Getter
     private final String name;
-    @Getter
     protected final String id;
-    @Getter
     private final ItemStack item;
-    @Getter
     private final UniversalObject orbiting;
-    @Getter
     private final Orbit orbit;
     protected final int orbitLevel;
 
@@ -85,4 +79,14 @@ public abstract class UniversalObject {
         return this.id.hashCode();
     }
 
+
+    public String name() { return name; }
+
+    public String id() { return id; }
+
+    public ItemStack item() { return item; }
+
+    public UniversalObject orbiting() { return orbiting; }
+
+    public Orbit orbit() { return orbit; }
 }

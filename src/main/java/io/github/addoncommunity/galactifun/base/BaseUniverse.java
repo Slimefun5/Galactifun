@@ -1,6 +1,5 @@
 package io.github.addoncommunity.galactifun.base;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
@@ -38,8 +37,9 @@ import io.github.addoncommunity.galactifun.base.universe.saturn.Titan;
  * @author Mooy1
  * @author Seggan
  */
-@UtilityClass
 public final class BaseUniverse {
+
+    private BaseUniverse() {}
 
     public static final TheUniverse THE_UNIVERSE = new TheUniverse("The Universe");
     public static final Galaxy MILKY_WAY = new Galaxy(

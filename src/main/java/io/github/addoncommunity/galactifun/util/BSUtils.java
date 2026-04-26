@@ -6,7 +6,6 @@ import java.util.function.Function;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.experimental.UtilityClass;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -16,8 +15,9 @@ import org.bukkit.block.Block;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.common.CommonPatterns;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
-@UtilityClass
-public class BSUtils {
+public final class BSUtils {
+
+    private BSUtils() {}
 
     @ParametersAreNonnullByDefault
     public static <T> void addBlockInfo(Block b, String key, T o) {

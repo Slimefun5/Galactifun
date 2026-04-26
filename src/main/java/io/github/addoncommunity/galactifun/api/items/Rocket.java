@@ -8,7 +8,6 @@ import java.util.Map;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.Getter;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -75,11 +74,8 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
     private static final List<String> LAUNCH_MESSAGES = Galactifun.instance().getConfig().getStringList("rockets.launch-msgs");
     private static final double DISTANCE_PER_FUEL = 2_000_000 / Util.KM_PER_LY;
 
-    @Getter
     private final int fuelCapacity;
-    @Getter
     private final int storageCapacity;
-    @Getter
     private final Map<String, Double> allowedFuels = new HashMap<>();
 
     public Rocket(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe, int fuelCapacity, int storageCapacity) {
@@ -324,4 +320,10 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
 
         return ret;
     }
+
+    public int fuelCapacity() { return fuelCapacity; }
+
+    public int storageCapacity() { return storageCapacity; }
+
+    public Map<String, Double> allowedFuels() { return allowedFuels; }
 }

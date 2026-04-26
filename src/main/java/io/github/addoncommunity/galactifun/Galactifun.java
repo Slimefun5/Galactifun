@@ -6,7 +6,6 @@ import java.util.logging.Level;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import lombok.Getter;
 
 import org.bukkit.Bukkit;
 import org.bukkit.World;
@@ -41,7 +40,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
 
 public final class Galactifun extends AbstractAddon {
 
-    @Getter
     private static Galactifun instance;
 
     private boolean isTest = false;
@@ -170,4 +168,6 @@ public final class Galactifun extends AbstractAddon {
         return null;
     }
 
+
+    public static Galactifun instance() { return instance; }
 }

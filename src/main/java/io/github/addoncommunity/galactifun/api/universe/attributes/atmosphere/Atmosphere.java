@@ -6,7 +6,6 @@ import java.util.Map;
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-import lombok.Getter;
 
 import org.bukkit.GameRule;
 import org.bukkit.World;
@@ -22,7 +21,6 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Randomized
  *
  * @author Mooy1
  */
-@Getter
 @ParametersAreNonnullByDefault
 public final class Atmosphere {
 
@@ -137,4 +135,24 @@ public final class Atmosphere {
         return builder;
     }
 
+
+    public boolean weatherEnabled() { return weatherEnabled; }
+
+    public boolean storming() { return storming; }
+
+    public boolean thundering() { return thundering; }
+
+    public boolean flammable() { return flammable; }
+
+    public int growthAttempts() { return growthAttempts; }
+
+    public double pressure() { return pressure; }
+
+    public World.Environment environment() { return environment; }
+
+    public Map<AtmosphericEffect, Integer> effects() { return effects; }
+
+    public Map<Gas, Double> composition() { return composition; }
+
+    public RandomizedSet<Gas> weightedCompositionSet() { return weightedCompositionSet; }
 }
