@@ -1,14 +1,12 @@
 # Galactifun
 
-A Slimefun addon which adds galaxies, star systems, planets, moons, rockets, and spacesuits. It has a large api for addon devs.
+A Slimefun5 addon which adds galaxies, star systems, planets, moons, rockets, and spacesuits. It has a large API for addon devs.
 
-Inspiration taken from ClayTech and the mod GalactiCraft.
+Inspiration taken from GalactiCraft.
 
 ## Download
 
-Download here (just click the badge!):
-
-[![Build Status](https://thebusybiscuit.github.io/builds/Slimefun-Addon-Community/Galactifun/master/badge.svg)](https://thebusybiscuit.github.io/builds/Slimefun-Addon-Community/Galactifun/master)
+Download from [GitHub Releases](https://github.com/Slimefun5/Galactifun/releases).
 
 ## Discord
 
