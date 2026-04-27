@@ -15,9 +15,9 @@ public final class CoreRecipeType {
     private CoreRecipeType() {}
 
     public static final RecipeType ALIEN_DROP = new RecipeType(Galactifun.createKey("alien_drop"), RecipeType.MOB_DROP.toItem());
-    public static final RecipeType ATMOSPHERIC_HARVESTER = new RecipeType(Galactifun.createKey("atmospheric_harvester"), BaseItems.ATMOSPHERIC_HARVESTER);
-    public static final RecipeType CHEMICAL_REACTOR = new RecipeType(Galactifun.createKey("chemical_reactor"), BaseItems.CHEMICAL_REACTOR);
-    public static final RecipeType WORLD_GEN = new RecipeType(Galactifun.createKey("world_gen"), new CustomItemStack(
+    public static final RecipeType ATMOSPHERIC_HARVESTER = new RecipeType(Galactifun.createKey("atmospheric_harvester"), BaseItems.ATMOSPHERIC_HARVESTER.item());
+    public static final RecipeType CHEMICAL_REACTOR = new RecipeType(Galactifun.createKey("chemical_reactor"), BaseItems.CHEMICAL_REACTOR.item());
+    public static final RecipeType WORLD_GEN = new RecipeType(Galactifun.createKey("world_gen"), CustomItemStack.create(
             Material.END_STONE,
             "&fNaturally Generated",
             "",

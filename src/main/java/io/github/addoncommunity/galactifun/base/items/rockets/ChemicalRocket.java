@@ -20,9 +20,9 @@ public final class ChemicalRocket extends Rocket {
     @Override
     protected Map<ItemStack, Double> getAllowedFuels() {
         return Map.of(
-                SlimefunItems.OIL_BUCKET, .5,
+                SlimefunItems.OIL_BUCKET.item(), .5,
                 Gas.HYDROCARBONS.item(), .5,
-                SlimefunItems.FUEL_BUCKET, 1.0,
+                SlimefunItems.FUEL_BUCKET.item(), 1.0,
                 Gas.HYDROGEN.item(), 3.5,
                 Gas.AMMONIA.item(), 4.0,
                 Gas.METHANE.item(), 6.0

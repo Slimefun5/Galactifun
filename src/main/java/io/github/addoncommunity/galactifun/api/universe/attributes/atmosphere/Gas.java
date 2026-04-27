@@ -59,7 +59,7 @@ public enum Gas {
 
         if (BaseItems.DIAMOND_ANVIL.getItem() instanceof DiamondAnvil anvil) {
             anvil.registerRecipe(10, HYDROGEN.item().asQuantity(4), HELIUM.item());
-            anvil.registerRecipe(10, HELIUM.item().asQuantity(4), BaseMats.FUSION_PELLET);
+            anvil.registerRecipe(10, HELIUM.item().asQuantity(4), BaseMats.FUSION_PELLET.item());
         }
     }
 

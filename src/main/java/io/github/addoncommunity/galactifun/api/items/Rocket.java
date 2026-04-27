@@ -311,7 +311,7 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
         List<ItemStack> ret = new ArrayList<>();
 
         for (Map.Entry<ItemStack, Double> entry : getAllowedFuels().entrySet()) {
-            ret.add(new CustomItemStack(
+            ret.add(CustomItemStack.create(
                     entry.getKey(),
                     ItemUtils.getItemName(entry.getKey()),
                     "&7Efficiency: " + entry.getValue() + 'x'

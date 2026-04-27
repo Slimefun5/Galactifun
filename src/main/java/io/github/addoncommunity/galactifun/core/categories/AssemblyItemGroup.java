@@ -59,7 +59,7 @@ public final class AssemblyItemGroup extends FlexItemGroup {
             menu.addItem(i, ChestMenuUtils.getBackground(), ChestMenuUtils.getEmptyClickHandler());
         }
 
-        menu.addItem(1, new CustomItemStack(ChestMenuUtils.getBackButton(p, "",
+        menu.addItem(1, CustomItemStack.create(ChestMenuUtils.getBackButton(p, "",
                 ChatColor.GRAY + Slimefun.getLocalization().getMessage(p, "guide.back.guide")))
         );
         menu.addMenuClickHandler(1, (p12, slot, item, action) -> {
@@ -89,7 +89,7 @@ public final class AssemblyItemGroup extends FlexItemGroup {
         ChestMenu menu = new ChestMenu("Recipe for " + item.getKey().getDisplayName());
         menu.setEmptySlotsClickable(false);
 
-        menu.addItem(0, new CustomItemStack(ChestMenuUtils.getBackButton(p, "",
+        menu.addItem(0, CustomItemStack.create(ChestMenuUtils.getBackButton(p, "",
                 ChatColor.GRAY + Slimefun.getLocalization().getMessage(p, "guide.back.guide")))
         );
         menu.addMenuClickHandler(0, (p12, slot, it, action) -> {
@@ -109,7 +109,7 @@ public final class AssemblyItemGroup extends FlexItemGroup {
             }
         }
 
-        menu.addItem(18, BaseItems.ASSEMBLY_TABLE, ChestMenuUtils.getEmptyClickHandler());
+        menu.addItem(18, BaseItems.ASSEMBLY_TABLE.item(), ChestMenuUtils.getEmptyClickHandler());
         menu.addItem(26, item.getKey(), ChestMenuUtils.getEmptyClickHandler());
 
         menu.open(p);
