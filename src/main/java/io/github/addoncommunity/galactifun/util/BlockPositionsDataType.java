@@ -10,7 +10,7 @@ import org.bukkit.World;
 import org.bukkit.persistence.PersistentDataAdapterContext;
 import org.bukkit.persistence.PersistentDataType;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
 
 final class BlockPositionsDataType implements PersistentDataType<long[], Set<BlockPosition>> {
 
@@ -53,3 +53,4 @@ final class BlockPositionsDataType implements PersistentDataType<long[], Set<Blo
         return positions;
     }
 }
+

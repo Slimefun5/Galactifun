@@ -14,7 +14,7 @@ import org.bukkit.util.Vector;
 import io.github.addoncommunity.galactifun.base.BaseItems;
 import io.github.addoncommunity.galactifun.util.Util;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 public class FallenSatellitePopulator extends BlockPopulator {
@@ -52,3 +52,4 @@ public class FallenSatellitePopulator extends BlockPopulator {
     }
 
 }
+

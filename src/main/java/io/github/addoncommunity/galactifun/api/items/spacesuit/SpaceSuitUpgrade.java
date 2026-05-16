@@ -15,11 +15,11 @@ import org.bukkit.persistence.PersistentDataContainer;
 
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.mooy1.infinitylib.common.PersistentType;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.implementation.items.blocks.UnplaceableBlock;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.implementation.items.blocks.UnplaceableBlock;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 
 @ParametersAreNonnullByDefault
 public final class SpaceSuitUpgrade extends UnplaceableBlock {
@@ -92,3 +92,4 @@ public final class SpaceSuitUpgrade extends UnplaceableBlock {
     }
 
 }
+

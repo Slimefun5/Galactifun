@@ -37,14 +37,14 @@ import io.github.addoncommunity.galactifun.base.items.rockets.ChemicalRocket;
 import io.github.addoncommunity.galactifun.base.items.rockets.IonRocket;
 import io.github.addoncommunity.galactifun.core.CoreItemGroup;
 import io.github.mooy1.infinitylib.machines.MachineBlock;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.MachineTier;
-import io.github.thebusybiscuit.slimefun4.core.attributes.MachineType;
-import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
-import io.github.thebusybiscuit.slimefun4.utils.HeadTexture;
-import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.MachineTier;
+import io.github.thebusybiscuit.slimefun5.core.attributes.MachineType;
+import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun5.utils.HeadTexture;
+import io.github.thebusybiscuit.slimefun5.utils.LoreBuilder;
 
 /**
  * Holds the base machines and setup
@@ -765,3 +765,4 @@ public final class BaseItems {
     }
 
 }
+

@@ -5,7 +5,7 @@ import java.util.Set;
 import javax.annotation.Nonnull;
 
 import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
-import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
+import io.github.thebusybiscuit.slimefun5.api.geo.GEOResource;
 
 /**
  * A resource that is exclusive to certain {@link PlanetaryWorld}s
@@ -32,3 +32,4 @@ public interface ExclusiveGEOResource extends GEOResource {
     }
 
 }
+

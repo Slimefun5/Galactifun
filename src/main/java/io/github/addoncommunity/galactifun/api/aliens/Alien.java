@@ -26,8 +26,8 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 
 import io.github.addoncommunity.galactifun.base.aliens.Martian;
 import io.github.addoncommunity.galactifun.core.managers.AlienManager;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
 
 /**
  * Abstract class for an alien
@@ -171,3 +171,4 @@ public class Alien<T extends Mob> {
 
     public AlienManager alienManager() { return alienManager; }
 }
+

@@ -14,7 +14,7 @@ import org.bukkit.entity.Player;
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.items.spacesuit.SpaceSuitProfile;
 import io.github.addoncommunity.galactifun.api.items.spacesuit.SpaceSuitStat;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.RandomizedSet;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.RandomizedSet;
 
 /**
  * An atmosphere of a celestial object, use {@link AtmosphereBuilder} to create
@@ -156,3 +156,4 @@ public final class Atmosphere {
 
     public RandomizedSet<Gas> weightedCompositionSet() { return weightedCompositionSet; }
 }
+

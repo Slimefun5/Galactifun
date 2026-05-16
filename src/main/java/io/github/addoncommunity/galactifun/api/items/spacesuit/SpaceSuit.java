@@ -15,13 +15,13 @@ import org.bukkit.persistence.PersistentDataType;
 
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.mooy1.infinitylib.common.StackUtils;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.ProtectionType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.ProtectiveArmor;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.ChatColors;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.ProtectionType;
+import io.github.thebusybiscuit.slimefun5.core.attributes.ProtectiveArmor;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 
 @ParametersAreNonnullByDefault
 public class SpaceSuit extends SlimefunItem implements ProtectiveArmor {
@@ -110,3 +110,4 @@ public class SpaceSuit extends SlimefunItem implements ProtectiveArmor {
 
     public int maxOxygen() { return maxOxygen; }
 }
+

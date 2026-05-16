@@ -38,8 +38,8 @@ import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.At
 import io.github.addoncommunity.galactifun.api.universe.types.PlanetaryType;
 import io.github.addoncommunity.galactifun.api.worlds.populators.relics.FallenSatellitePopulator;
 import io.github.addoncommunity.galactifun.base.universe.earth.EarthOrbit;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 /**
@@ -281,3 +281,4 @@ public abstract class AlienWorld extends PlanetaryWorld {
     }
 
 }
+

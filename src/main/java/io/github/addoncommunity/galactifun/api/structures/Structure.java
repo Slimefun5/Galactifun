@@ -18,7 +18,7 @@ import org.bukkit.block.data.BlockData;
 import org.bukkit.block.data.Directional;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.CommonPatterns;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.CommonPatterns;
 
 /**
  * A structure that can be pasted
@@ -245,3 +245,4 @@ public final class Structure {
     }
 
 }
+

@@ -14,7 +14,7 @@ import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
 import io.github.addoncommunity.galactifun.base.items.knowledge.KnowledgeLevel;
 import io.github.mooy1.infinitylib.commands.SubCommand;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
+import io.github.thebusybiscuit.slimefun5.libraries.paperlib.PaperLib;
 
 /**
  * Command to teleport to world spawns
@@ -59,3 +59,4 @@ public final class GalactiportCommand extends SubCommand {
     }
 
 }
+

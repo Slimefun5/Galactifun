@@ -12,7 +12,7 @@ import org.bukkit.block.Block;
 
 import com.google.common.collect.Iterables;
 import io.github.addoncommunity.galactifun.Galactifun;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.blocks.BlockPosition;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 /**
@@ -129,3 +129,4 @@ public final class ChunkStorage {
         return untag(new BlockPosition(block), tag);
     }
 }
+

@@ -17,7 +17,7 @@ import org.bukkit.potion.PotionEffectType;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.primitives.Ints;
 import io.github.addoncommunity.galactifun.api.items.spacesuit.SpaceSuitStat;
-import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
+import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 
 /**
  * An effect that can be applied by an atmosphere
@@ -108,3 +108,4 @@ public final class AtmosphericEffect {
     @Nullable
     public SpaceSuitStat stat() { return stat; }
 }
+

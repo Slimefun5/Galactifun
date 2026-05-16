@@ -64,16 +64,16 @@ import io.github.addoncommunity.galactifun.base.universe.earth.Earth;
 import io.github.addoncommunity.galactifun.util.ChunkStorage;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun4.api.events.ExplosiveToolBreakBlocksEvent;
-import io.github.thebusybiscuit.slimefun4.api.events.GEOResourceGenerationEvent;
-import io.github.thebusybiscuit.slimefun4.api.events.WaypointCreateEvent;
-import io.github.thebusybiscuit.slimefun4.api.geo.GEOResource;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.core.handlers.BlockBreakHandler;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.ItemUtils;
-import io.github.thebusybiscuit.slimefun4.libraries.paperlib.PaperLib;
-import io.github.thebusybiscuit.slimefun4.utils.ChatUtils;
-import io.github.thebusybiscuit.slimefun4.utils.tags.SlimefunTag;
+import io.github.thebusybiscuit.slimefun5.api.events.ExplosiveToolBreakBlocksEvent;
+import io.github.thebusybiscuit.slimefun5.api.events.GEOResourceGenerationEvent;
+import io.github.thebusybiscuit.slimefun5.api.events.WaypointCreateEvent;
+import io.github.thebusybiscuit.slimefun5.api.geo.GEOResource;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.core.handlers.BlockBreakHandler;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.libraries.paperlib.PaperLib;
+import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
+import io.github.thebusybiscuit.slimefun5.utils.tags.SlimefunTag;
 
 public final class WorldManager implements Listener {
 
@@ -472,3 +472,4 @@ public final class WorldManager implements Listener {
 
     public int maxAliensPerPlayer() { return maxAliensPerPlayer; }
 }
+

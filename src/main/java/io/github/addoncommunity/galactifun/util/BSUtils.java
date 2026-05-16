@@ -12,7 +12,7 @@ import org.bukkit.Location;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.block.Block;
 
-import io.github.thebusybiscuit.slimefun4.libraries.dough.common.CommonPatterns;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.common.CommonPatterns;
 import me.mrCookieSlime.Slimefun.api.BlockStorage;
 
 public final class BSUtils {
@@ -93,3 +93,4 @@ public final class BSUtils {
     }
 
 }
+

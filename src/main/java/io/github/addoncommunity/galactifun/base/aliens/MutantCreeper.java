@@ -14,7 +14,7 @@ import org.bukkit.event.entity.EntityTargetEvent;
 
 import io.github.addoncommunity.galactifun.api.aliens.Alien;
 import io.github.addoncommunity.galactifun.base.BaseMats;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 
 /**
  * A class for a charged alien creeper, passive until attacked
@@ -61,3 +61,4 @@ public final class MutantCreeper extends Alien<Creeper> {
     }
 
 }
+

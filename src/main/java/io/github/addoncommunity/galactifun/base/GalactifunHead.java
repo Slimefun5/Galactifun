@@ -3,7 +3,7 @@ package io.github.addoncommunity.galactifun.base;
 
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.utils.SlimefunUtils;
+import io.github.thebusybiscuit.slimefun5.utils.SlimefunUtils;
 
 public final class GalactifunHead {
 
@@ -20,3 +20,4 @@ public final class GalactifunHead {
     public static final ItemStack ION_ROCKET = SlimefunUtils.getCustomHead("6b2853c590580511c3c8e7e99328b752ddec60e42cf95d9062d6db2b31997274");
     public static final ItemStack FALLEN_SATELLITE = SlimefunUtils.getCustomHead("d78afe4387d1c51bfd144789bca7a0ab4805f8401168418733dd1c34dc6be909");
 }
+

@@ -9,8 +9,8 @@ import io.github.addoncommunity.galactifun.core.categories.AssemblyItemGroup;
 import io.github.addoncommunity.galactifun.core.categories.GalacticItemGroup;
 import io.github.mooy1.infinitylib.groups.MultiGroup;
 import io.github.mooy1.infinitylib.groups.SubGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
+import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 
 /**
  * Slimefun item categories
@@ -62,3 +62,4 @@ public final class CoreItemGroup {
     }
 
 }
+
