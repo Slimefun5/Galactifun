@@ -22,20 +22,22 @@ java {
 }
 
 repositories {
+    mavenLocal()
     mavenCentral()
+    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://jitpack.io")
-    maven("https://repo.codemc.io/repository/maven-public/")
 }
 
 dependencies {
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-
-    implementation("com.github.Riley31415:InfinityLib:1.3.10") {
-        isTransitive = false
-    }
+    
+    compileOnly("com.github.Riley31415:InfinityLib:1.3.10")
+    compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
+    compileOnly("commons-lang:commons-lang:2.6")
+    compileOnly("commons-codec:commons-codec:1.17.1")
     implementation("org.bstats:bstats-bukkit:3.0.2")
 
     testImplementation(platform("org.junit:junit-bom:5.11.4"))

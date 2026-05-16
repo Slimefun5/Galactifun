@@ -49,7 +49,7 @@ public final class FusionReactor extends Reactor {
 
     @Override
     protected void registerDefaultFuelTypes() {
-        registerFuel(new MachineFuel(60 * 60 * 3, BaseMats.FUSION_PELLET.item(), new SlimefunItemStack(SlimefunItems.CARBON, 6)));
+        registerFuel(new MachineFuel(60 * 60 * 3, BaseMats.FUSION_PELLET.item(), SlimefunItems.CARBON.item().asQuantity(6)));
     }
 
     @Override

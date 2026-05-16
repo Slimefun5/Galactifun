@@ -25,17 +25,17 @@ public class Electrolyzer extends AContainer {
 
     @Override
     protected void registerDefaultRecipes() {
-        registerRecipe(new ItemStack(Material.WATER_BUCKET), Gas.WATER.item(), new ItemStack(Material.BUCKET));
-        registerRecipe(Gas.WATER.item(), Gas.HYDROGEN.item().asQuantity(2), Gas.OXYGEN.item());
+        registerRecipe(new ItemStack(Material.WATER_BUCKET), Gas.WATER.item().item(), new ItemStack(Material.BUCKET));
+        registerRecipe(Gas.WATER.item().item(), Gas.HYDROGEN.item().asQuantity(2), Gas.OXYGEN.item().item());
 
-        registerRecipe(SlimefunItems.OIL_BUCKET.item(), Gas.HYDROCARBONS.item(), new ItemStack(Material.BUCKET));
-        registerRecipe(Gas.HYDROCARBONS.item(), Gas.METHANE.item().asQuantity(6));
-        registerRecipe(Gas.METHANE.item(), Gas.HYDROGEN.item().asQuantity(4), SlimefunItems.CARBON.item());
-        registerRecipe(Gas.CARBON_DIOXIDE.item(), Gas.OXYGEN.item().asQuantity(2), SlimefunItems.CARBON.item());
+        registerRecipe(SlimefunItems.OIL_BUCKET.item(), Gas.HYDROCARBONS.item().item(), new ItemStack(Material.BUCKET));
+        registerRecipe(Gas.HYDROCARBONS.item().item(), Gas.METHANE.item().asQuantity(6));
+        registerRecipe(Gas.METHANE.item().item(), Gas.HYDROGEN.item().asQuantity(4), SlimefunItems.CARBON.item());
+        registerRecipe(Gas.CARBON_DIOXIDE.item().item(), Gas.OXYGEN.item().asQuantity(2), SlimefunItems.CARBON.item());
 
-        registerRecipe(Gas.AMMONIA.item(), Gas.HYDROGEN.item().asQuantity(3), Gas.NITROGEN.item());
+        registerRecipe(Gas.AMMONIA.item().item(), Gas.HYDROGEN.item().asQuantity(3), Gas.NITROGEN.item().item());
 
-        registerRecipe(BaseMats.MARS_DUST.item(), SlimefunItems.IRON_DUST.asQuantity(2), Gas.OXYGEN.item().asQuantity(3));
+        registerRecipe(BaseMats.MARS_DUST.item(), SlimefunItems.IRON_DUST.item().asQuantity(2), Gas.OXYGEN.item().asQuantity(3));
         registerRecipe(BaseMats.MOON_DUST.item(), Gas.HELIUM.item().asQuantity(3));
     }
 

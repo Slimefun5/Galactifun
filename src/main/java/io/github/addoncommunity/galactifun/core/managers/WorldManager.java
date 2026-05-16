@@ -301,8 +301,8 @@ public final class WorldManager implements Listener {
             if (item != null && !removePlacedBlock(b)) {
                 e.setDropItems(false);
                 List<ItemStack> drops = new ArrayList<>();
-                drops.add(item.clone());
-                item.getItem().callItemHandler(BlockBreakHandler.class, h -> h.onPlayerBreak(e, item, drops));
+                drops.add(item.item());
+                item.getItem().callItemHandler(BlockBreakHandler.class, h -> h.onPlayerBreak(e, item.item(), drops));
                 for (ItemStack drop : drops) {
                     w.dropItemNaturally(b.getLocation().add(0.5, 0, 0.5), drop);
                 }
@@ -334,7 +334,7 @@ public final class WorldManager implements Listener {
                 SlimefunItemStack item = world.getMappedItem(b);
                 if (item != null && !removePlacedBlock(b)) {
                     blocks.remove();
-                    w.dropItemNaturally(b.getLocation().add(0.5, 0, 0.5), item.clone());
+                    w.dropItemNaturally(b.getLocation().add(0.5, 0, 0.5), item.item());
                     Scheduler.run(() -> b.setType(Material.AIR));
                 }
             }
@@ -414,7 +414,7 @@ public final class WorldManager implements Listener {
                     toBePlaced.setType(Material.ICE);
                 }
             } else if (manager.getEffectAt(l, AtmosphericEffect.HEAT) > 1) {
-                p.getWorld().spawnParticle(Particle.SMOKE_NORMAL, l, 5);
+                p.getWorld().spawnParticle(Particle.SMOKE, l, 5);
             } else {
                 e.setCancelled(false);
             }

@@ -36,7 +36,7 @@ public enum Gas {
     HYDROCARBONS("725691372e0734bfb57bb03690490661a83f053a3488860df3436ce1caa24d11"),
     HYDROGEN("725691372e0734bfb57bb03690490661a83f053a3488860df3436ce1caa24d11"),
     AMMONIA("c7a1ece691ad28d17bbbcecb22270c85e1c9581485806264c676de67c272e2d0", CoreRecipeType.CHEMICAL_REACTOR, new ItemStack[] {
-            NITROGEN.item, HYDROGEN.item.asQuantity(3), null,
+            NITROGEN.item.item(), HYDROGEN.item.asQuantity(3), null,
             null, null, null,
             null, null, null
     }),
@@ -44,22 +44,22 @@ public enum Gas {
 
     static {
         if (SlimefunItems.FREEZER_2.getItem() instanceof Freezer freezer) {
-            freezer.registerRecipe(10, NITROGEN.item(), SlimefunItems.REACTOR_COOLANT_CELL.asQuantity(4));
+            freezer.registerRecipe(10, NITROGEN.item.item(), SlimefunItems.REACTOR_COOLANT_CELL.asQuantity(4));
         }
         if (SlimefunItems.FREEZER_3.getItem() instanceof  Freezer freezer) {
-            freezer.registerRecipe(7, NITROGEN.item(), SlimefunItems.REACTOR_COOLANT_CELL.asQuantity(4));
+            freezer.registerRecipe(7, NITROGEN.item.item(), SlimefunItems.REACTOR_COOLANT_CELL.asQuantity(4));
         }
 
         if (SlimefunItems.COMBUSTION_REACTOR.getItem() instanceof CombustionGenerator generator) {
-            generator.registerFuel(new MachineFuel(15, HYDROGEN.item()));
-            generator.registerFuel(new MachineFuel(30, HYDROCARBONS.item()));
-            generator.registerFuel(new MachineFuel(70, AMMONIA.item()));
-            generator.registerFuel(new MachineFuel(200, METHANE.item()));
+            generator.registerFuel(new MachineFuel(15, HYDROGEN.item.item()));
+            generator.registerFuel(new MachineFuel(30, HYDROCARBONS.item.item()));
+            generator.registerFuel(new MachineFuel(70, AMMONIA.item.item()));
+            generator.registerFuel(new MachineFuel(200, METHANE.item.item()));
         }
 
         if (BaseItems.DIAMOND_ANVIL.getItem() instanceof DiamondAnvil anvil) {
-            anvil.registerRecipe(10, HYDROGEN.item().asQuantity(4), HELIUM.item());
-            anvil.registerRecipe(10, HELIUM.item().asQuantity(4), BaseMats.FUSION_PELLET.item());
+            anvil.registerRecipe(10, HYDROGEN.item.asQuantity(4), HELIUM.item.item());
+            anvil.registerRecipe(10, HELIUM.item.asQuantity(4), BaseMats.FUSION_PELLET.item());
         }
     }
 

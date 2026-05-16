@@ -189,7 +189,7 @@ public final class Titan extends AlienWorld {
                 40,
                 2,
                 6,
-                BaseMats.LASERITE_ORE.item(),
+                BaseMats.LASERITE_ORE,
                 Material.STONE, Material.COAL_ORE
         ));
 

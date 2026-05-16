@@ -325,8 +325,8 @@ public final class BaseMats {
                 SlimefunItems.TIN_DUST.item(), SlimefunItems.ALUMINUM_DUST.item()
         );
         component(TUNGSTEN_INGOT, RecipeType.SMELTERY, FALLEN_METEOR.item());
-        component(ALUMINUM_COMPOSITE_SHEET, RecipeType.COMPRESSOR, new SlimefunItemStack(ALUMINUM_COMPOSITE, 8));
-        component(HEAVY_DUTY_SHEET, RecipeType.COMPRESSOR, new SlimefunItemStack(ALUMINUM_COMPOSITE_SHEET, 8));
+        component(ALUMINUM_COMPOSITE_SHEET, RecipeType.COMPRESSOR, ALUMINUM_COMPOSITE.item().asQuantity(8));
+        component(HEAVY_DUTY_SHEET, RecipeType.COMPRESSOR, ALUMINUM_COMPOSITE_SHEET.item().asQuantity(8));
         component(SPACE_GRADE_PLATE, RecipeType.HEATED_PRESSURE_CHAMBER, HEAVY_DUTY_SHEET.item(), TUNGSTEN_CARBIDE.item());
         ((HeatedPressureChamber) SlimefunItems.HEATED_PRESSURE_CHAMBER.getItem()).registerRecipe(
                 20,
@@ -338,7 +338,7 @@ public final class BaseMats {
                 new ItemStack[]{ HEAVY_DUTY_SHEET.item(), TUNGSTEN_CARBIDE.item()},
                 new ItemStack[]{ SPACE_GRADE_PLATE.item() }
         );
-        component(ULTRA_DUTY_SHEET, RecipeType.COMPRESSOR, new SlimefunItemStack(SPACE_GRADE_PLATE, 4));
+        component(ULTRA_DUTY_SHEET, RecipeType.COMPRESSOR, SPACE_GRADE_PLATE.item().asQuantity(4));
         component(GOLD_FOIL, RecipeType.COMPRESSOR, 4, SlimefunItems.GOLD_24K_BLOCK.item());
         component(REINFORCED_CHANNEL, RecipeType.ENHANCED_CRAFTING_TABLE, 8,
                 ALUMINUM_COMPOSITE_SHEET.item(), null, ALUMINUM_COMPOSITE_SHEET.item(),
@@ -461,11 +461,11 @@ public final class BaseMats {
 
         component(BLISTERING_VOLCANIC_INGOT, DiamondAnvil.TYPE, VOLCANIC_INGOT.item(), SlimefunItems.BLISTERING_INGOT_3.item());
         new UnplaceableBlock(CoreItemGroup.ITEMS, FUSION_PELLET, DiamondAnvil.TYPE, new ItemStack[] {
-                BLISTERING_VOLCANIC_INGOT.item(), new SlimefunItemStack(MOON_DUST, 8)
-        }, new SlimefunItemStack(FUSION_PELLET, 8)).register(Galactifun.instance());
+                BLISTERING_VOLCANIC_INGOT.item(), MOON_DUST.item().asQuantity(8)
+        }, FUSION_PELLET.item().asQuantity(8)).register(Galactifun.instance());
 
         component(LASERITE_DUST, true, RecipeType.ORE_CRUSHER, LASERITE_ORE.item());
-        component(LASERITE, DiamondAnvil.TYPE, new SlimefunItemStack(LASERITE_DUST, 12));
+        component(LASERITE, DiamondAnvil.TYPE, LASERITE_DUST.item().asQuantity(12));
 
         new MoonCheese(CoreItemGroup.ITEMS, MOON_CHEESE, CoreRecipeType.WORLD_GEN, new ItemStack[]{
                 BaseUniverse.THE_MOON.item()
@@ -481,20 +481,20 @@ public final class BaseMats {
 
         RecipeType.GRIND_STONE.register(
                 Arrays.copyOf(new ItemStack[] { SULFUR_BLOCK.item() }, 9),
-                new SlimefunItemStack(SlimefunItems.SULFATE, 9)
+                SlimefunItems.SULFATE.item().asQuantity(9)
         );
         RecipeType.GRIND_STONE.register(
                 Arrays.copyOf(new ItemStack[] { MARS_ROCK.item() }, 9),
-                new SlimefunItemStack(MARS_DUST, 4)
+                MARS_DUST.item().asQuantity(4)
         );
         RecipeType.GRIND_STONE.register(
                 Arrays.copyOf(new ItemStack[] { MOON_ROCK.item() }, 9),
-                new SlimefunItemStack(MOON_DUST, 4)
+                MOON_DUST.item().asQuantity(4)
         );
 
         RecipeType.SMELTERY.register(
                 Arrays.copyOf(new ItemStack[] { METHANE_ICE.item() }, 9),
-                new SlimefunItemStack(Gas.METHANE, 4)
+                Gas.METHANE.item().asQuantity(4)
         );
     }
 
@@ -511,7 +511,7 @@ public final class BaseMats {
     }
 
     private static void component(SlimefunItemStack item, RecipeType type, int output, ItemStack... recipe) {
-        new SlimefunItem(CoreItemGroup.COMPONENTS, item, type, recipe, new SlimefunItemStack(item, output)).register(Galactifun.instance());
+        new SlimefunItem(CoreItemGroup.COMPONENTS, item, type, recipe, new SlimefunItemStack(item, output).item()).register(Galactifun.instance());
     }
 
     private static void assembly(SlimefunItemStack item, boolean unplaceable, ItemStack... recipe) {
