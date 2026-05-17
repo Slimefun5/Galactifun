@@ -1,4 +1,4 @@
-﻿plugins {
+plugins {
     java
     id("com.gradleup.shadow") version "9.3.2"
     id("io.github.intisy.github-gradle") version "1.8.2.1"
@@ -22,7 +22,6 @@ java {
 }
 
 repositories {
-    mavenLocal()
     mavenCentral()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.papermc.io/repository/maven-public/")
@@ -79,3 +78,4 @@ tasks {
         useJUnitPlatform()
     }
 }
+
