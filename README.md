@@ -12,12 +12,6 @@ A Slimefun addon that adds space exploration, rockets, planets, and alien techno
 - Paper 1.16.* - 26.1.*
 - Slimefun 5
 
-A Slimefun5 addon which adds galaxies, star systems, planets, moons, rockets, and spacesuits. It has a large API for addon devs.
-
-Inspiration taken from GalactiCraft.
-
-Download from [GitHub Releases](https://github.com/Slimefun5/Galactifun/releases).
-
 ## Discord
 
 Feel free to join us on the Slimefun Addon Community Discord:
