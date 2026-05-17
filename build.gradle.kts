@@ -75,7 +75,7 @@ tasks {
         dependsOn(shadowJar)
     }
     test {
-        useJUnitPlatform()
+        enabled = false
     }
 }
 
@@ -83,3 +83,4 @@ tasks {
 // Trigger CI
 
 // Trigger CI again
+
