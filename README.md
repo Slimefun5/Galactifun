@@ -12,6 +12,8 @@ A Slimefun addon that adds space exploration, rockets, planets, and alien techno
 - Paper 1.16.* - 26.1.*
 - Slimefun 5
 
+Inspiration taken from GalactiCraft. It has a large API for addon devs.
+
 ## Discord
 
 Feel free to join us on the Slimefun Addon Community Discord:
