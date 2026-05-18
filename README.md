@@ -8,17 +8,11 @@
 A Slimefun addon that adds space exploration, rockets, planets, and alien technology.
 
 ## Requirements
-- Java 25
-- Paper 1.16.* - 26.1.*
+- Java 17+
+- Paper 1.16.* - 1.20.*
 - Slimefun 5
 
 Inspiration taken from GalactiCraft. It has a large API for addon devs.
-
-## Discord
-
-Feel free to join us on the Slimefun Addon Community Discord:
-
-https://discord.gg/SqD3gg5SAU
 
 ## Developer API
 
@@ -35,3 +29,21 @@ dependencies {
     "githubCompileOnly"("Slimefun5:Galactifun:v2.0.1")
 }
 ```
+
+## Wiki
+
+[Read more on the Slimefun Wiki...](https://github.com/Slimefun5/Wiki/wiki/Galactifun)
+
+## Discord
+
+You can find Slimefun's community on Discord! Click the badge below to join the server for suggestions/questions or other discussions about this plugin.
+
+<p align="center">
+  <a href="https://discord.gg/fsD4Bkh">
+    <img src="https://discordapp.com/api/guilds/738626600539160576/widget.png?style=banner2" alt="Discord"/>
+  </a>
+</p>
+
+## License
+
+This project is open-source and licensed under the MIT License.
