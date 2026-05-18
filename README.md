@@ -8,9 +8,9 @@
 A Slimefun addon that adds space exploration, rockets, planets, and alien technology.
 
 ## Requirements
-- Java 17+
-- Paper 1.16.* - 1.20.*
-- Slimefun 5
+- Java 25
+- Paper 1.16.* - 26.1.*
+- [Slimefun 5](https://github.com/Slimefun5/Slimefun5)
 
 Inspiration taken from GalactiCraft. It has a large API for addon devs.
 
