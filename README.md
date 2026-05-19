@@ -4,6 +4,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Slimefun5/Galactifun/total)
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/Galactifun?style=social)](https://github.com/Slimefun5/Galactifun)
+[![bStats](https://bStats.org/signatures/bukkit/Galactifun.svg)](https://bStats.org/plugin/bukkit/Galactifun/11613)
 
 A Slimefun addon that adds space exploration, rockets, planets, and alien technology.
 
