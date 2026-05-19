@@ -29,6 +29,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
@@ -37,8 +38,7 @@ dependencies {
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
     compileOnly("commons-lang:commons-lang:2.6")
     compileOnly("commons-codec:commons-codec:1.17.1")
-    implementation("org.bstats:bstats-bukkit:3.0.2")
-
+    
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
@@ -68,8 +68,7 @@ tasks {
     shadowJar {
         archiveFileName.set("Galactifun v${project.version}.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
-        relocate("org.bstats", "io.github.addoncommunity.galactifun.bstats")
-        exclude("META-INF/**")
+                exclude("META-INF/**")
     }
     build {
         dependsOn(shadowJar)
