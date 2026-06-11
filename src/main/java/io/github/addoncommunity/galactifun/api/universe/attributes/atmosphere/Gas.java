@@ -43,21 +43,25 @@ public enum Gas {
     OTHER;
 
     static {
-        if (SlimefunItems.FREEZER_2.getItem() instanceof Freezer freezer) {
+        if (SlimefunItems.FREEZER_2.getItem() instanceof Freezer) {
+            Freezer freezer = (Freezer) SlimefunItems.FREEZER_2.getItem();
             freezer.registerRecipe(10, NITROGEN.item.item(), SlimefunItems.REACTOR_COOLANT_CELL.asQuantity(4));
         }
-        if (SlimefunItems.FREEZER_3.getItem() instanceof  Freezer freezer) {
+        if (SlimefunItems.FREEZER_3.getItem() instanceof Freezer) {
+            Freezer freezer = (Freezer) SlimefunItems.FREEZER_3.getItem();
             freezer.registerRecipe(7, NITROGEN.item.item(), SlimefunItems.REACTOR_COOLANT_CELL.asQuantity(4));
         }
 
-        if (SlimefunItems.COMBUSTION_REACTOR.getItem() instanceof CombustionGenerator generator) {
+        if (SlimefunItems.COMBUSTION_REACTOR.getItem() instanceof CombustionGenerator) {
+            CombustionGenerator generator = (CombustionGenerator) SlimefunItems.COMBUSTION_REACTOR.getItem();
             generator.registerFuel(new MachineFuel(15, HYDROGEN.item.item()));
             generator.registerFuel(new MachineFuel(30, HYDROCARBONS.item.item()));
             generator.registerFuel(new MachineFuel(70, AMMONIA.item.item()));
             generator.registerFuel(new MachineFuel(200, METHANE.item.item()));
         }
 
-        if (BaseItems.DIAMOND_ANVIL.getItem() instanceof DiamondAnvil anvil) {
+        if (BaseItems.DIAMOND_ANVIL.getItem() instanceof DiamondAnvil) {
+            DiamondAnvil anvil = (DiamondAnvil) BaseItems.DIAMOND_ANVIL.getItem();
             anvil.registerRecipe(10, HYDROGEN.item.asQuantity(4), HELIUM.item.item());
             anvil.registerRecipe(10, HELIUM.item.asQuantity(4), BaseMats.FUSION_PELLET.item());
         }

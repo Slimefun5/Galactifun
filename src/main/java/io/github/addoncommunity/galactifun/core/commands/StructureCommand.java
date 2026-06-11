@@ -35,15 +35,16 @@ public final class StructureCommand extends SubCommand {
         super("structure", "The command for structures", true);
 
         this.saveFolder = new File(galactifun.getDataFolder(), "saved_structures");
-        this.pos1 = Galactifun.createKey("pos1");
-        this.pos2 = Galactifun.createKey("pos2");
+        this.pos1 = new NamespacedKey("galactifun", "pos1");
+        this.pos2 = new NamespacedKey("galactifun", "pos2");
     }
 
     @Override
     public void execute(@Nonnull CommandSender sender, String[] args) {
-        if (args.length == 1 || !(sender instanceof Player p)) {
+        if (args.length == 1 || !(sender instanceof Player)) {
             return;
         }
+        Player p = (Player) sender;
 
         if (args[0].equals("save")) {
             if (args.length != 2) {
@@ -70,7 +71,7 @@ public final class StructureCommand extends SubCommand {
             file.getParentFile().mkdirs();
             if (file.exists()) {
                 try {
-                    Files.writeString(file.toPath(), struct.saveToString(), Charsets.UTF_8);
+                    Files.write(file.toPath(), struct.saveToString().getBytes(Charsets.UTF_8));
                     this.savedStructures.put(args[1], struct);
                     p.sendMessage(ChatColor.GREEN + "Saved as '" + args[1] + "'!");
                 } catch (IOException e) {

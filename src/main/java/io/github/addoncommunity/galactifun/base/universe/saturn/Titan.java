@@ -85,13 +85,20 @@ public final class Titan extends AlienWorld {
                 int height = getHeight(realX, realZ);
                 TitanBiome biome = this.provider.getBiome(world, realX, realZ);
 
-                Material material = height < 57 ? Material.BLUE_ICE : switch (biome) {
-                    case FOREST -> random.nextBoolean() ? Material.WARPED_NYLIUM : Material.CRIMSON_NYLIUM;
-                    case FROZEN_FOREST -> Material.WARPED_NYLIUM;
-                    case WASTELAND -> Material.SAND;
-                    case DRY_ICE_FLATS -> Material.PACKED_ICE;
-                    case CARBON_FOREST, FROZEN_CARBON_FOREST -> Material.COAL_BLOCK;
-                };
+                Material material;
+                if (height < 57) {
+                    material = Material.BLUE_ICE;
+                } else {
+                    switch (biome) {
+                        case FOREST: material = random.nextBoolean() ? Material.WARPED_NYLIUM : Material.CRIMSON_NYLIUM; break;
+                        case FROZEN_FOREST: material = Material.WARPED_NYLIUM; break;
+                        case WASTELAND: material = Material.SAND; break;
+                        case DRY_ICE_FLATS: material = Material.PACKED_ICE; break;
+                        case CARBON_FOREST:
+                        case FROZEN_CARBON_FOREST: material = Material.COAL_BLOCK; break;
+                        default: material = Material.SAND; break;
+                    }
+                }
 
                 chunk.setBlock(x, height, z, material);
 

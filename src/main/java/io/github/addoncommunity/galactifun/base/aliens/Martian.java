@@ -86,7 +86,7 @@ public final class Martian extends Alien<ZombieVillager> {
             LivingEntity entity = (LivingEntity) e.getRightClicked();
             Objects.requireNonNull(entity.getEquipment()).setItemInOffHand(item);
             entity.addPotionEffect(new PotionEffect(
-                    PotionEffectType.SLOWNESS,
+                    PotionEffectType.SLOW,
                     Integer.MAX_VALUE,
                     100,
                     false,
@@ -102,7 +102,7 @@ public final class Martian extends Alien<ZombieVillager> {
                     entity.getWorld().dropItemNaturally(entity.getLocation(), trade.clone());
 
                     entity.getEquipment().setItemInOffHand(null);
-                    entity.removePotionEffect(PotionEffectType.SLOWNESS);
+                    entity.removePotionEffect(PotionEffectType.SLOW);
                 }
             });
         }

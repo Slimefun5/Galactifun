@@ -63,7 +63,8 @@ public class TechnologicalSalvager extends AbstractMachineBlock implements Machi
         } else {
             for (int i : INPUT_SLOTS) {
                 ItemStack item = menu.getItemInSlot(i);
-                if (SlimefunItem.getByItem(item) instanceof Relic relic) {
+                if (SlimefunItem.getByItem(item) instanceof Relic) {
+                    Relic relic = (Relic) SlimefunItem.getByItem(item);
                     List<ItemStack> results = new ArrayList<>();
                     for (Map.Entry<ItemStack, IntIntPair> entry : relic.required().entrySet()) {
                         int amount = ThreadLocalRandom.current().nextInt(entry.getValue().leftInt(),
@@ -80,7 +81,7 @@ public class TechnologicalSalvager extends AbstractMachineBlock implements Machi
 
                     processor.startOperation(b, new CraftingOperation(
                             new ItemStack[]{item},
-                            results.toArray(ItemStack[]::new),
+                            results.toArray(new ItemStack[0]),
                             240
                     ));
 

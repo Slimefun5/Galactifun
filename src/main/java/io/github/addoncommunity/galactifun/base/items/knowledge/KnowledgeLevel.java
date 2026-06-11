@@ -119,7 +119,7 @@ public enum KnowledgeLevel {
     public static KnowledgeLevel get(@Nonnull Player p, @Nonnull PlanetaryWorld world) {
         return KnowledgeLevel.valueOf(PersistentDataAPI.getString(
                 world.worldStorage(),
-                Galactifun.createKey("player_knowledge_" + p.getUniqueId()),
+                new org.bukkit.NamespacedKey("galactifun", "player_knowledge_" + p.getUniqueId()),
                 KnowledgeLevel.NONE.name()
         ));
     }
@@ -129,7 +129,7 @@ public enum KnowledgeLevel {
     public void set(@Nonnull Player p, @Nonnull PlanetaryWorld world) {
         PersistentDataAPI.setString(
                 world.worldStorage(),
-                Galactifun.createKey("player_knowledge_" + p.getUniqueId()),
+                new org.bukkit.NamespacedKey("galactifun", "player_knowledge_" + p.getUniqueId()),
                 this.name()
         );
     }

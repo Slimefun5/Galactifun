@@ -14,7 +14,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.Persis
 
 public final class MoonCow extends Alien<Cow> {
 
-    private static final NamespacedKey TIMER = Galactifun.createKey("timer");
+    private static final NamespacedKey TIMER = new NamespacedKey("galactifun", "timer");
 
     public MoonCow(@Nonnull String id, @Nonnull String name, double maxHealth, double spawnChance) {
         super(Cow.class, id, name, maxHealth, spawnChance);

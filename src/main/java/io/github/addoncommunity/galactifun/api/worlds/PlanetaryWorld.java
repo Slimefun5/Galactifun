@@ -42,7 +42,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.Persis
  */
 public abstract class PlanetaryWorld extends PlanetaryObject {
 
-    private static final NamespacedKey WORLD_STORAGE_KEY = Galactifun.createKey("world_storage");
+    private static final NamespacedKey WORLD_STORAGE_KEY = new NamespacedKey("galactifun", "world_storage");
 
     private World world;
     private WorldManager worldManager;

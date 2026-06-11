@@ -30,14 +30,15 @@ repositories {
 
 dependencies {
     implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
-    "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
-    compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
+    compileOnly(files("../../core/Slimefun5/core/build/libs/Slimefun v5.0.0-UNOFFICIAL-MC26.1.2.jar"))
+    compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-    
-    compileOnly("com.github.Slimefun5:InfinityLib:v1.3.10")
+
+    compileOnly(files("../InfinityLib/build/libs/InfinityLib-v1.3.10.jar"))
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
     compileOnly("commons-lang:commons-lang:2.6")
     compileOnly("commons-codec:commons-codec:1.17.1")
+    compileOnly("it.unimi.dsi:fastutil:8.5.3")
     
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -53,9 +54,18 @@ configurations.testImplementation {
     extendsFrom(configurations.compileOnly.get())
 }
 
+// options.release overrides TARGET_JVM_VERSION_ATTRIBUTE to 8, blocking Paper 1.17 resolution.
+// Force compileClasspath to resolve with JVM 25 compatibility while still compiling to Java 8 bytecode.
+configurations.named("compileClasspath") {
+    attributes {
+        attribute(org.gradle.api.attributes.java.TargetJvmVersion.TARGET_JVM_VERSION_ATTRIBUTE, 25)
+    }
+}
+
 tasks {
     compileJava {
         options.encoding = "UTF-8"
+        options.release.set(8)
     }
     processResources {
         filesMatching("plugin.yml") {
@@ -72,6 +82,9 @@ tasks {
     }
     build {
         dependsOn(shadowJar)
+    }
+    compileTestJava {
+        enabled = false
     }
     test {
         enabled = false

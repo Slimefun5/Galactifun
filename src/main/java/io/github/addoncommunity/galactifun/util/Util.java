@@ -143,9 +143,9 @@ public final class Util {
      */
     public static String formatDistance(double distance) {
         if (distance >= 0.25) {
-            return "%.3f ly".formatted(distance);
+            return String.format("%.3f ly", distance);
         } else {
-            return "%.3f km".formatted(distance * KM_PER_LY);
+            return String.format("%.3f km", distance * KM_PER_LY);
         }
     }
 }

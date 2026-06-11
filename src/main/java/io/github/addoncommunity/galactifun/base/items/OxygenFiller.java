@@ -50,7 +50,8 @@ public final class OxygenFiller extends AContainer {
 
     private boolean addOxygen(Block b, BlockMenu inv, int slot, ItemStack item) {
         SlimefunItem sfItem = SlimefunItem.getByItem(item);
-        if (sfItem instanceof SpaceSuit suit) {
+        if (sfItem instanceof SpaceSuit) {
+            SpaceSuit suit = (SpaceSuit) sfItem;
             ItemMeta meta = item.getItemMeta();
             int oxygen = suit.getOxygen(meta);
 

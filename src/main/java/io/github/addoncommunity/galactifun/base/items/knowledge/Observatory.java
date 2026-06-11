@@ -24,7 +24,7 @@ public final class Observatory extends MultiBlockMachine {
 
     @Override
     public void onInteract(Player p, Block b) {
-        NamespacedKey key = Galactifun.createKey("discovering_" + p.getUniqueId());
+        NamespacedKey key = new NamespacedKey("galactifun", "discovering_" + p.getUniqueId());
 
         PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
         if (world == null) {
@@ -38,7 +38,8 @@ public final class Observatory extends MultiBlockMachine {
         }
 
         new WorldSelector((pl, w, l) -> {
-            if (w instanceof PlanetaryWorld pw) {
+            if (w instanceof PlanetaryWorld) {
+                PlanetaryWorld pw = (PlanetaryWorld) w;
                 if (KnowledgeLevel.get(pl, pw) == KnowledgeLevel.ADVANCED) return false;
                 return world.distanceTo(w) <= 0.25;
             }

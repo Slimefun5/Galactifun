@@ -68,7 +68,7 @@ import net.kyori.adventure.text.format.NamedTextColor;
 
 public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
 
-    public static final NamespacedKey CARGO_KEY = Galactifun.createKey("cargo");
+    public static final NamespacedKey CARGO_KEY = new NamespacedKey("galactifun", "cargo");
 
     // todo Move static to some sort of RocketManager
     private static final List<String> LAUNCH_MESSAGES = Galactifun.instance().getConfig().getStringList("rockets.launch-msgs");

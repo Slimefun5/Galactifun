@@ -174,7 +174,7 @@ public final class StargateController extends SlimefunItem implements Listener {
             return;
         }
         event.cancel();
-        if (getPortalBlocks(b).isEmpty()) {
+        if (!getPortalBlocks(b).isPresent()) {
             for (ComponentPosition position : PORTAL_POSITIONS) {
                 Block portal = position.getBlock(b);
                 portal.setType(Material.END_GATEWAY);
@@ -287,7 +287,7 @@ public final class StargateController extends SlimefunItem implements Listener {
         }
 
         Optional<List<Block>> portalOptional = getPortalBlocks(b);
-        if (portalOptional.isEmpty()) {
+        if (!portalOptional.isPresent()) {
             p.sendMessage(ChatColor.RED + "The Stargate is not lit for some reason...");
             return;
         }
@@ -329,7 +329,7 @@ public final class StargateController extends SlimefunItem implements Listener {
 
         Block b = dest.getBlock();
         if (BlockStorage.check(b, BaseItems.STARGATE_CONTROLLER.getItemId()) &&
-                StargateController.getPortalBlocks(b).isEmpty()) {
+                !StargateController.getPortalBlocks(b).isPresent()) {
             p.sendMessage(ChatColor.RED + "The destination Stargate is not activated");
             return;
         }
@@ -349,7 +349,15 @@ public final class StargateController extends SlimefunItem implements Listener {
         }
     }
 
-    private static final record ComponentPosition(int y, int z) {
+    private static final class ComponentPosition {
+
+        private final int y;
+        private final int z;
+
+        ComponentPosition(int y, int z) {
+            this.y = y;
+            this.z = z;
+        }
 
         public boolean isInSameRing(@Nonnull Block b) {
             return BlockStorage.check(b.getRelative(0, this.y, this.z)) instanceof StargateRing;

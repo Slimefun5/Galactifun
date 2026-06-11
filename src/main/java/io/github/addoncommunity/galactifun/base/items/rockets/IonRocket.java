@@ -1,5 +1,6 @@
 package io.github.addoncommunity.galactifun.base.items.rockets;
 
+import java.util.Collections;
 import java.util.Map;
 
 import javax.annotation.Nonnull;
@@ -21,7 +22,7 @@ public final class IonRocket extends Rocket {
 
     @Override
     protected Map<ItemStack, Double> getAllowedFuels() {
-        return Map.of(Gas.ARGON.item().item(), 18.0);
+        return Collections.singletonMap(Gas.ARGON.item().item(), 18.0);
     }
 
     @Nonnull

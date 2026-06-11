@@ -26,7 +26,7 @@ public final class FleeGoal<T extends Mob> extends AlienBehavior<T> implements L
     private int ticks = 0;
 
     public FleeGoal(@Nonnull Class<T> entityClass, @Nonnull T mob, int fleeTicks) {
-        super(entityClass, Galactifun.createKey("flee"), mob);
+        super(entityClass, new org.bukkit.NamespacedKey("galactifun", "flee"), mob);
         this.fleeTicks = fleeTicks;
 
         // Todo dont register a new listener for every alien, move to alien manager

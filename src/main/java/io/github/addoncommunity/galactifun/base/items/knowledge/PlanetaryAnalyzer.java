@@ -28,7 +28,7 @@ public final class PlanetaryAnalyzer extends SimpleSlimefunItem<BlockUseHandler>
     public BlockUseHandler getItemHandler() {
         return e -> {
             Player p = e.getPlayer();
-            NamespacedKey key = Galactifun.createKey("analyzing_" + p.getUniqueId());
+            NamespacedKey key = new NamespacedKey("galactifun", "analyzing_" + p.getUniqueId());
 
             PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
             if (world == null) {

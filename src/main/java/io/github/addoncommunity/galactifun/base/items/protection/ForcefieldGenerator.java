@@ -65,7 +65,7 @@ public final class ForcefieldGenerator extends SlimefunItem implements EnergyNet
 
         addItemHandler((BlockUseHandler) e -> {
             e.cancel();
-            Block b = e.getClickedBlock().orElseThrow();
+            Block b = e.getClickedBlock().orElseThrow(() -> new java.util.NoSuchElementException());
             if (b.getType() != Material.DISPENSER) return;
             Player p = e.getPlayer();
             if (BSUtils.getStoredBoolean(b, ACTIVE)) {

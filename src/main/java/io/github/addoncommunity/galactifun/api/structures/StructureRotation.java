@@ -26,24 +26,24 @@ public enum StructureRotation {
 
     @Nonnull
     public BlockFace rotateFace(BlockFace face) {
-        return switch (face) {
-            case NORTH -> FACES[this.ordinal()];
-            case EAST -> FACES[this.ordinal() + 1];
-            case SOUTH -> FACES[this.ordinal() + 2];
-            case WEST -> FACES[this.ordinal() + 3];
-            default -> face;
-        };
+        switch (face) {
+            case NORTH: return FACES[this.ordinal()];
+            case EAST: return FACES[this.ordinal() + 1];
+            case SOUTH: return FACES[this.ordinal() + 2];
+            case WEST: return FACES[this.ordinal() + 3];
+            default: return face;
+        }
     }
 
     @Nonnull
     public static StructureRotation fromFace(BlockFace face) {
-        return switch (face) {
-            case NORTH -> DEFAULT;
-            case EAST -> CLOCKWISE;
-            case SOUTH -> OPPOSITE;
-            case WEST -> COUNTER_CLOCKWISE;
-            default -> throw new IllegalArgumentException("BlockFace " + face + " cant be converted to StructureRotation!");
-        };
+        switch (face) {
+            case NORTH: return DEFAULT;
+            case EAST: return CLOCKWISE;
+            case SOUTH: return OPPOSITE;
+            case WEST: return COUNTER_CLOCKWISE;
+            default: throw new IllegalArgumentException("BlockFace " + face + " cant be converted to StructureRotation!");
+        }
     }
 
 }

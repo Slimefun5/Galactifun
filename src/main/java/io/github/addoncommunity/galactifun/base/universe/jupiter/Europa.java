@@ -35,7 +35,7 @@ public final class Europa extends FlatWorld {
     @Override
     protected Int2ObjectSortedMap<Material> getLayers() {
         // double brace init go brr
-        return new Int2ObjectLinkedOpenHashMap<>() {{
+        return new Int2ObjectLinkedOpenHashMap<Material>() {{
             put(30, Material.PACKED_ICE);
             put(60, Material.ICE);
         }};

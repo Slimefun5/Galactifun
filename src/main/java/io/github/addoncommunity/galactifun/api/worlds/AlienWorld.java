@@ -51,7 +51,7 @@ import me.mrCookieSlime.Slimefun.api.BlockStorage;
  */
 public abstract class AlienWorld extends PlanetaryWorld {
 
-    public static final NamespacedKey CHUNK_VER_KEY = Galactifun.createKey("chunk_version");
+    public static final NamespacedKey CHUNK_VER_KEY = new NamespacedKey("galactifun", "chunk_version");
 
     private final Map<Material, SlimefunItemStack> blockMappings = new EnumMap<>(Material.class);
     private final List<Alien<?>> species = new ArrayList<>();

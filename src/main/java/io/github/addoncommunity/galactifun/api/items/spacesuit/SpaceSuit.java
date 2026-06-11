@@ -27,8 +27,8 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 public class SpaceSuit extends SlimefunItem implements ProtectiveArmor {
 
     private static final Map<String, SpaceSuit> SPACE_SUITS = new HashMap<>();
-    private static final NamespacedKey SPACE_SUIT_KEY = Galactifun.createKey("space_suit");
-    private static final NamespacedKey OXYGEN_KEY = Galactifun.createKey("oxygen");
+    private static final io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey SPACE_SUIT_KEY = Galactifun.createKey("space_suit");
+    private static final NamespacedKey OXYGEN_KEY = new NamespacedKey("galactifun", "oxygen");
     private static final String OXYGEN_LORE = ChatColors.color("&bOxygen: &7");
 
     private final int maxUpgrades;
@@ -64,7 +64,7 @@ public class SpaceSuit extends SlimefunItem implements ProtectiveArmor {
 
     @Nonnull
     @Override
-    public final NamespacedKey getArmorSetId() {
+    public final io.github.thebusybiscuit.slimefun5.libraries.keys.NamespacedKey getArmorSetId() {
         return SPACE_SUIT_KEY;
     }
 

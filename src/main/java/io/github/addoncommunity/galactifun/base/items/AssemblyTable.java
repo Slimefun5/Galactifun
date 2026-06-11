@@ -75,7 +75,7 @@ public final class AssemblyTable extends CraftingBlock implements EnergyNetCompo
         super.onNewInstance(menu, b);
         menu.addMenuClickHandler(RECIPE_SLOT, (p, slot, item, action) -> {
             Optional<PlayerProfile> profile = PlayerProfile.find(p);
-            if (profile.isEmpty()) {
+            if (!profile.isPresent()) {
                 PlayerProfile.request(p);
             }
             CoreItemGroup.ASSEMBLY_CATEGORY.open(p, PlayerProfile.find(p).get(), SlimefunGuide.getDefaultMode());

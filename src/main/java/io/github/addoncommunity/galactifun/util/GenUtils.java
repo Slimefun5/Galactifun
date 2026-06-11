@@ -1,5 +1,6 @@
 package io.github.addoncommunity.galactifun.util;
 
+import java.util.Collections;
 import java.util.List;
 
 import javax.annotation.Nonnull;
@@ -56,7 +57,7 @@ public final class GenUtils {
 
         public SingleBiomeProvider(Biome biome) {
             this.biome = biome;
-            this.singletonBiome = List.of(biome);
+            this.singletonBiome = Collections.singletonList(biome);
         }
 
         @Nonnull

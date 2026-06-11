@@ -124,7 +124,10 @@ public abstract class FlatWorld extends AlienWorld {
             IntIterator iter = layers.keySet().intIterator();
 
             iter.skip(layers.size() / 2 + 1);
-            iter.forEachRemaining(i -> newTop.put(i, layers.get(i)));
+            while (iter.hasNext()) {
+                int i = iter.nextInt();
+                newTop.put(i, layers.get(i));
+            }
 
             this.top = Int2ObjectSortedMaps.unmodifiable(newTop);
         }

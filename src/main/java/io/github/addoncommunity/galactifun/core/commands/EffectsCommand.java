@@ -22,7 +22,8 @@ public final class EffectsCommand extends SubCommand {
 
     @Override
     public void execute(@Nonnull CommandSender commandSender, @Nonnull String[] strings) {
-        if (!(commandSender instanceof Player p)) return;
+        if (!(commandSender instanceof Player)) return;
+        Player p = (Player) commandSender;
 
         PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
         if (world == null) {

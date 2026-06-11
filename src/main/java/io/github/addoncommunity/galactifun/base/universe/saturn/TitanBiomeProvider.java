@@ -23,7 +23,7 @@ final class TitanBiomeProvider extends BiomeProvider {
     private volatile SimplexOctaveGenerator heat;
     private volatile SimplexOctaveGenerator humidity;
 
-    private final Map<IntIntPair, TitanBiome> cachedData = Collections.synchronizedMap(new LinkedHashMap<>() {
+    private final Map<IntIntPair, TitanBiome> cachedData = Collections.synchronizedMap(new LinkedHashMap<IntIntPair, TitanBiome>() {
         @Override
         protected boolean removeEldestEntry(Map.Entry<IntIntPair, TitanBiome> eldest) {
             return size() > 200;

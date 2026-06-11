@@ -234,13 +234,29 @@ public abstract class SimpleAlienWorld extends AlienWorld {
      *                  and deeper the crater.
      *
      */
-    protected static record CraterSettings(int octaves, double scale, double frequency, double amplitude, double noiseDepth) {
+    protected static class CraterSettings {
 
-        public static CraterSettings DEFAULT = new CraterSettings(3, 0.01, 0.5,
-                0.1, 0.35);
+        public static CraterSettings DEFAULT = new CraterSettings(3, 0.01, 0.5, 0.1, 0.35);
 
-        // sadly we have to do this as protected will not give accessibility to subclasses
-        public CraterSettings {}
+        private final int octaves;
+        private final double scale;
+        private final double frequency;
+        private final double amplitude;
+        private final double noiseDepth;
+
+        public CraterSettings(int octaves, double scale, double frequency, double amplitude, double noiseDepth) {
+            this.octaves = octaves;
+            this.scale = scale;
+            this.frequency = frequency;
+            this.amplitude = amplitude;
+            this.noiseDepth = noiseDepth;
+        }
+
+        public int octaves() { return this.octaves; }
+        public double scale() { return this.scale; }
+        public double frequency() { return this.frequency; }
+        public double amplitude() { return this.amplitude; }
+        public double noiseDepth() { return this.noiseDepth; }
     }
 
 }

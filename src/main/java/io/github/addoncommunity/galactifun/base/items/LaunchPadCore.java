@@ -69,12 +69,14 @@ public final class LaunchPadCore extends TickingMenuBlock {
         Block b = block.getRelative(BlockFace.UP);
 
         SlimefunItem sfItem = BlockStorage.check(b);
-        if (!(sfItem instanceof Rocket rocket)) return;
+        if (!(sfItem instanceof Rocket)) return;
+        Rocket rocket = (Rocket) sfItem;
 
         Location l = b.getLocation();
         if (BSUtils.getStoredBoolean(l, "isLaunching")) return;
 
-        String string = Objects.requireNonNullElse(BlockStorage.getLocationInfo(l, "fuel"), "0");
+        String fuelInfo = BlockStorage.getLocationInfo(l, "fuel");
+        String string = fuelInfo != null ? fuelInfo : "0";
         int fuel = Integer.parseInt(string);
 
         string = BlockStorage.getLocationInfo(l, "fuelType");

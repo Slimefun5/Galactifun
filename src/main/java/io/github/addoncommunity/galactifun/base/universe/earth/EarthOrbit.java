@@ -82,9 +82,9 @@ public final class EarthOrbit extends AlienWorld implements OrbitWorld {
                             (region.getCenterChunkZ() << 4) + z
                     );
                     switch (random.nextInt(3)) {
-                        case 0 -> EarthOrbit.this.asteroid.generate(l, region, 5, 2);
-                        case 1 -> EarthOrbit.this.comet.generate(l, region, 5, 2);
-                        case 2 -> region.setType(l, Material.IRON_BLOCK);
+                        case 0: EarthOrbit.this.asteroid.generate(l, region, 5, 2); break;
+                        case 1: EarthOrbit.this.comet.generate(l, region, 5, 2); break;
+                        case 2: region.setType(l, Material.IRON_BLOCK); break;
                     }
                 }
             }
