@@ -1,7 +1,7 @@
 plugins {
     java
     id("com.gradleup.shadow") version "9.3.2"
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
+    id("io.github.intisy.github-gradle") version "1.8.3"
 }
 
 group = "io.github.addoncommunity.galactifun"
@@ -30,11 +30,11 @@ repositories {
 
 dependencies {
     implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
-    compileOnly(files("../../core/Slimefun5/core/build/libs/Slimefun v5.0.0-UNOFFICIAL-MC26.1.2.jar"))
+    githubCompileOnly("Slimefun5:Slimefun5:v5.2.1")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
 
-    compileOnly(files("../InfinityLib/build/libs/InfinityLib-v1.3.10.jar"))
+    githubImplementation("Slimefun5:InfinityLib:v1.3.12")
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
     compileOnly("commons-lang:commons-lang:2.6")
     compileOnly("commons-codec:commons-codec:1.17.1")
@@ -76,6 +76,7 @@ tasks {
         enabled = false
     }
     shadowJar {
+        relocate("org.bstats", "galactifun.libs.bstats")
         archiveFileName.set("Galactifun v${project.version}.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
                 exclude("META-INF/**")
