@@ -12,6 +12,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.NamespacedKey;
 import org.bukkit.Particle;
 import org.bukkit.World;
@@ -177,10 +179,10 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
                         p.sendMessage(ChatColor.RED + "You do not have permission to land there");
                     } else {
                         Block down = destBlock.getRelative(BlockFace.DOWN);
-                        if (down.getType() == Material.CHEST) {
+                        if (down.getType() == MaterialCompat.safe(XMaterial.CHEST)) {
                             destBlock = down;
                         } else {
-                            destBlock.setType(Material.CHEST);
+                            destBlock.setType(MaterialCompat.safe(XMaterial.CHEST));
                         }
                         launch(
                                 p,
@@ -283,7 +285,7 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
                 }.runTaskTimer(Galactifun.instance(), 0, 8);
             }
 
-            rocket.setType(Material.AIR);
+            rocket.setType(MaterialCompat.safe(XMaterial.AIR));
             BlockStorage.clearBlockInfo(rocket);
         });
     }

@@ -13,6 +13,8 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import dev.walshy.sfmetrics.MetricsModule;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -123,7 +125,7 @@ public final class Structure {
         );
         structure.setEach((x, y, z) -> {
             Block block = pos1.getRelative(x, y, z);
-            if (block.getType() == Material.AIR) {
+            if (block.getType() == MaterialCompat.safe(XMaterial.AIR)) {
                 return StructureBlock.AIR;
             }
             Material material = block.getType();

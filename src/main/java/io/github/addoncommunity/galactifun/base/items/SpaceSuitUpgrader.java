@@ -4,6 +4,8 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -63,7 +65,7 @@ public final class SpaceSuitUpgrader extends AContainer {
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.ANVIL);
+        return new ItemStack(MaterialCompat.safe(XMaterial.ANVIL));
     }
 
     @Nonnull

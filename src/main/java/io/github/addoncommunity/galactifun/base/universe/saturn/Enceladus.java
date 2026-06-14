@@ -5,6 +5,8 @@ import java.util.List;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BlockPopulator;
 import org.bukkit.inventory.ItemStack;
@@ -30,7 +32,7 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectSortedMap;
 public final class Enceladus extends FlatWorld {
 
     private final Structure cryovolcano = Structure.get(Galactifun.instance(), "cryovolcano");
-    private final Sphere waterPocket = new Sphere(Material.WATER);
+    private final Sphere waterPocket = new Sphere(MaterialCompat.safe(XMaterial.WATER));
 
     public Enceladus(String name, PlanetaryType type, Orbit orbit, PlanetaryObject orbiting, ItemStack baseItem,
                      DayCycle dayCycle, Atmosphere atmosphere, Gravity gravity) {
@@ -41,8 +43,8 @@ public final class Enceladus extends FlatWorld {
     @Override
     protected Int2ObjectSortedMap<Material> getLayers() {
         return new Int2ObjectLinkedOpenHashMap<Material>() {{
-            put(30, Material.PACKED_ICE);
-            put(60, Material.BLUE_ICE);
+            put(30, MaterialCompat.safe(XMaterial.PACKED_ICE));
+            put(60, MaterialCompat.safe(XMaterial.BLUE_ICE));
         }};
     }
 

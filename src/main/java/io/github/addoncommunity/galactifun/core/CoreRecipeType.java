@@ -4,6 +4,8 @@ import io.github.addoncommunity.galactifun.base.BaseItems;
 
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
@@ -18,7 +20,7 @@ public final class CoreRecipeType {
     public static final RecipeType ATMOSPHERIC_HARVESTER = new RecipeType(Galactifun.createKey("atmospheric_harvester"), BaseItems.ATMOSPHERIC_HARVESTER.item());
     public static final RecipeType CHEMICAL_REACTOR = new RecipeType(Galactifun.createKey("chemical_reactor"), BaseItems.CHEMICAL_REACTOR.item());
     public static final RecipeType WORLD_GEN = new RecipeType(Galactifun.createKey("world_gen"), CustomItemStack.create(
-            Material.END_STONE,
+            MaterialCompat.safe(XMaterial.END_STONE),
             "&fNaturally Generated",
             "",
             "&7Find this material on a alien world"

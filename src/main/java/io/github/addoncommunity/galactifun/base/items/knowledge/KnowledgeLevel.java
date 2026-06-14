@@ -15,7 +15,7 @@ import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.AtmosphericEffect;
 import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.Gas;
 import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
@@ -117,7 +117,7 @@ public enum KnowledgeLevel {
     }
 
     public static KnowledgeLevel get(@Nonnull Player p, @Nonnull PlanetaryWorld world) {
-        return KnowledgeLevel.valueOf(PersistentDataAPI.getString(
+        return KnowledgeLevel.valueOf(Pdc.getString(
                 world.worldStorage(),
                 new org.bukkit.NamespacedKey("galactifun", "player_knowledge_" + p.getUniqueId()),
                 KnowledgeLevel.NONE.name()
@@ -127,7 +127,7 @@ public enum KnowledgeLevel {
     public abstract void addLore(@Nonnull List<Component> lore, @Nonnull PlanetaryWorld world);
 
     public void set(@Nonnull Player p, @Nonnull PlanetaryWorld world) {
-        PersistentDataAPI.setString(
+        Pdc.setString(
                 world.worldStorage(),
                 new org.bukkit.NamespacedKey("galactifun", "player_knowledge_" + p.getUniqueId()),
                 this.name()

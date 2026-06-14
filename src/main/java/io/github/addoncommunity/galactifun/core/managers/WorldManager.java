@@ -20,6 +20,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.Particle;
 import org.bukkit.Tag;
 import org.bukkit.World;
@@ -275,7 +277,7 @@ public final class WorldManager implements Listener {
             ProtectionManager manager = Galactifun.protectionManager();
             Location l = block.getLocation();
             if (manager.getEffectAt(l, AtmosphericEffect.COLD) > 1) {
-                Scheduler.run(() -> block.setType(Material.ICE));
+                Scheduler.run(() -> block.setType(MaterialCompat.safe(XMaterial.ICE)));
             } else if (manager.getEffectAt(l, AtmosphericEffect.HEAT) > 1) {
                 Scheduler.run(block::breakNaturally);
             } else {
@@ -336,7 +338,7 @@ public final class WorldManager implements Listener {
                 if (item != null && !removePlacedBlock(b)) {
                     blocks.remove();
                     w.dropItemNaturally(b.getLocation().add(0.5, 0, 0.5), item.item());
-                    Scheduler.run(() -> b.setType(Material.AIR));
+                    Scheduler.run(() -> b.setType(MaterialCompat.safe(XMaterial.AIR)));
                 }
             }
         }
@@ -392,7 +394,7 @@ public final class WorldManager implements Listener {
 
     @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = true)
     private void onPlayerPlaceWater(PlayerBucketEmptyEvent e) {
-        if (e.getBucket() != Material.WATER_BUCKET) return;
+        if (e.getBucket() != MaterialCompat.safe(XMaterial.WATER_BUCKET)) return;
         Player p = e.getPlayer();
         PlanetaryWorld world = this.getWorld(p.getWorld());
         if (world != null && world != BaseUniverse.EARTH) {
@@ -409,7 +411,7 @@ public final class WorldManager implements Listener {
             Location l = toBePlaced.getLocation();
             if (manager.getEffectAt(l, AtmosphericEffect.COLD) > 1) {
                 if (toBePlaced.isEmpty()) {
-                    toBePlaced.setType(Material.ICE);
+                    toBePlaced.setType(MaterialCompat.safe(XMaterial.ICE));
                 }
             } else if (manager.getEffectAt(l, AtmosphericEffect.HEAT) > 1) {
                 p.getWorld().spawnParticle(Particle.SMOKE_NORMAL, l, 5);

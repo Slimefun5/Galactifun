@@ -3,6 +3,8 @@ package io.github.addoncommunity.galactifun.base.items;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.Gas;
@@ -25,10 +27,10 @@ public class Electrolyzer extends AContainer {
 
     @Override
     protected void registerDefaultRecipes() {
-        registerRecipe(new ItemStack(Material.WATER_BUCKET), Gas.WATER.item().item(), new ItemStack(Material.BUCKET));
+        registerRecipe(new ItemStack(MaterialCompat.safe(XMaterial.WATER_BUCKET)), Gas.WATER.item().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)));
         registerRecipe(Gas.WATER.item().item(), Gas.HYDROGEN.item().asQuantity(2), Gas.OXYGEN.item().item());
 
-        registerRecipe(SlimefunItems.OIL_BUCKET.item(), Gas.HYDROCARBONS.item().item(), new ItemStack(Material.BUCKET));
+        registerRecipe(SlimefunItems.OIL_BUCKET.item(), Gas.HYDROCARBONS.item().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)));
         registerRecipe(Gas.HYDROCARBONS.item().item(), Gas.METHANE.item().asQuantity(6));
         registerRecipe(Gas.METHANE.item().item(), Gas.HYDROGEN.item().asQuantity(4), SlimefunItems.CARBON.item());
         registerRecipe(Gas.CARBON_DIOXIDE.item().item(), Gas.OXYGEN.item().asQuantity(2), SlimefunItems.CARBON.item());

@@ -15,7 +15,7 @@ import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun5.core.handlers.BlockUseHandler;
 import io.github.thebusybiscuit.slimefun5.implementation.items.SimpleSlimefunItem;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 public final class PlanetaryAnalyzer extends SimpleSlimefunItem<BlockUseHandler> {
 
@@ -36,15 +36,15 @@ public final class PlanetaryAnalyzer extends SimpleSlimefunItem<BlockUseHandler>
                 return;
             }
 
-            if (PersistentDataAPI.getBoolean(world.worldStorage(), key)) {
+            if (Pdc.getBoolean(world.worldStorage(), key)) {
                 p.sendMessage(ChatColor.RED + "Already analyzing!");
                 return;
             }
 
             p.sendMessage(ChatColor.GREEN + "Analyzing planet " + world.name());
-            PersistentDataAPI.setBoolean(world.worldStorage(), key, true);
+            Pdc.setBoolean(world.worldStorage(), key, true);
             Scheduler.run(30 * 60 * 20, () -> {
-                PersistentDataAPI.setBoolean(world.worldStorage(), key, false);
+                Pdc.setBoolean(world.worldStorage(), key, false);
                 KnowledgeLevel.BASIC.set(p, world);
             });
         };

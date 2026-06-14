@@ -30,7 +30,7 @@ import io.github.addoncommunity.galactifun.base.universe.earth.Earth;
 import io.github.addoncommunity.galactifun.core.managers.WorldManager;
 import io.github.thebusybiscuit.slimefun5.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun5.api.geo.GEOResource;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 /**
  * Any world that can be travelled to by rockets or other means
@@ -80,7 +80,7 @@ public abstract class PlanetaryWorld extends PlanetaryObject {
 
             if (markers.isEmpty()) {
                 this.worldStorage = this.world.spawn(new Location(this.world, 0, 0, 0), Marker.class);
-                PersistentDataAPI.setString(this.worldStorage, WORLD_STORAGE_KEY, "");
+                Pdc.setString(this.worldStorage, WORLD_STORAGE_KEY, "");
             } else {
                 this.worldStorage = Iterables.get(markers, 0);
             }

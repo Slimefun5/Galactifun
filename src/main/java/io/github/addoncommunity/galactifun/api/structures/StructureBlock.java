@@ -4,6 +4,8 @@ import java.util.EnumMap;
 
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 
 /**
@@ -17,7 +19,7 @@ class StructureBlock {
     }
 
 
-    static final StructureBlock AIR = new StructureBlock(Material.AIR) {
+    static final StructureBlock AIR = new StructureBlock(MaterialCompat.safe(XMaterial.AIR)) {
         @Override
         public String save() {
             return "";

@@ -15,6 +15,8 @@ import javax.annotation.Nullable;
 import org.apache.commons.lang.Validate;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.NamespacedKey;
 import org.bukkit.World;
 import org.bukkit.WorldCreator;
@@ -92,7 +94,7 @@ public abstract class AlienWorld extends PlanetaryWorld {
                         int bedrock = getBedrockLayer();
                         for (int x = 0; x < 16; x++) {
                             for (int z = 0; z < 16; z++) {
-                                chunkData.setBlock(x, bedrock, z, Material.BEDROCK);
+                                chunkData.setBlock(x, bedrock, z, MaterialCompat.safe(XMaterial.BEDROCK));
                             }
                         }
                     }
@@ -125,12 +127,12 @@ public abstract class AlienWorld extends PlanetaryWorld {
 
         if (world.getEnvironment() == World.Environment.THE_END) {
             // Prevents ender dragon spawn using portal, surrounds portal with bedrock
-            world.getBlockAt(0, 0, 0).setType(Material.END_PORTAL);
-            world.getBlockAt(0, 1, 0).setType(Material.BEDROCK);
-            world.getBlockAt(1, 0, 0).setType(Material.BEDROCK);
-            world.getBlockAt(-1, 0, 0).setType(Material.BEDROCK);
-            world.getBlockAt(0, 0, 1).setType(Material.BEDROCK);
-            world.getBlockAt(0, 0, -1).setType(Material.BEDROCK);
+            world.getBlockAt(0, 0, 0).setType(MaterialCompat.safe(XMaterial.END_PORTAL));
+            world.getBlockAt(0, 1, 0).setType(MaterialCompat.safe(XMaterial.BEDROCK));
+            world.getBlockAt(1, 0, 0).setType(MaterialCompat.safe(XMaterial.BEDROCK));
+            world.getBlockAt(-1, 0, 0).setType(MaterialCompat.safe(XMaterial.BEDROCK));
+            world.getBlockAt(0, 0, 1).setType(MaterialCompat.safe(XMaterial.BEDROCK));
+            world.getBlockAt(0, 0, -1).setType(MaterialCompat.safe(XMaterial.BEDROCK));
         }
 
         // load effects

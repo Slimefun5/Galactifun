@@ -6,6 +6,8 @@ import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.data.Directional;
@@ -66,7 +68,7 @@ public final class ForcefieldGenerator extends SlimefunItem implements EnergyNet
         addItemHandler((BlockUseHandler) e -> {
             e.cancel();
             Block b = e.getClickedBlock().orElseThrow(() -> new java.util.NoSuchElementException());
-            if (b.getType() != Material.DISPENSER) return;
+            if (b.getType() != MaterialCompat.safe(XMaterial.DISPENSER)) return;
             Player p = e.getPlayer();
             if (BSUtils.getStoredBoolean(b, ACTIVE)) {
                 deactivate(b);
@@ -94,7 +96,7 @@ public final class ForcefieldGenerator extends SlimefunItem implements EnergyNet
         Block next = b.getRelative(direction);
         int steps = 0;
         while (!next.getType().isSolid() && steps < 64) {
-            next.setType(Material.LIGHT);
+            next.setType(MaterialCompat.safe(XMaterial.LIGHT));
             Light light = (Light) next.getBlockData();
             light.setLevel(6);
             next.setBlockData(light);
@@ -111,8 +113,8 @@ public final class ForcefieldGenerator extends SlimefunItem implements EnergyNet
         BlockFace direction = ((Directional) b.getBlockData()).getFacing();
         Block next = b.getRelative(direction);
         int steps = 0;
-        while (next.getType() == Material.LIGHT && steps < 64) {
-            next.setType(Material.AIR);
+        while (next.getType() == MaterialCompat.safe(XMaterial.LIGHT) && steps < 64) {
+            next.setType(MaterialCompat.safe(XMaterial.AIR));
 
             next = next.getRelative(direction);
             steps++;

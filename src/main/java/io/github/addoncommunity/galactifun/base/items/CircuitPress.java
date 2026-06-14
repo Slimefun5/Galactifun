@@ -6,6 +6,8 @@ import java.util.Locale;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.base.BaseItems;
@@ -29,7 +31,7 @@ public final class CircuitPress extends AContainer {
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.PISTON);
+        return new ItemStack(MaterialCompat.safe(XMaterial.PISTON));
     }
 
     @Nonnull

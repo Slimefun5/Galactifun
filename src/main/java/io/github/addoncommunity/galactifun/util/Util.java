@@ -16,6 +16,8 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.RegionAccessor;
 import org.bukkit.World;
 import org.bukkit.block.Block;
@@ -52,18 +54,18 @@ public final class Util {
         IMPERMEABLE_BLOCKS.addAll(SlimefunTag.TERRACOTTA.getValues());
         IMPERMEABLE_BLOCKS.addAll(SlimefunTag.UNBREAKABLE_MATERIALS.getValues());
         IMPERMEABLE_BLOCKS.addAll(Arrays.asList(
-                Material.IRON_DOOR,
-                Material.IRON_TRAPDOOR,
-                Material.OBSIDIAN,
-                Material.IRON_BLOCK,
-                Material.GOLD_BLOCK,
-                Material.DIAMOND_BLOCK,
-                Material.NETHERITE_BLOCK,
-                Material.SEA_LANTERN,
-                Material.QUARTZ_BLOCK,
-                Material.SMOOTH_QUARTZ
+                MaterialCompat.safe(XMaterial.IRON_DOOR),
+                MaterialCompat.safe(XMaterial.IRON_TRAPDOOR),
+                MaterialCompat.safe(XMaterial.OBSIDIAN),
+                MaterialCompat.safe(XMaterial.IRON_BLOCK),
+                MaterialCompat.safe(XMaterial.GOLD_BLOCK),
+                MaterialCompat.safe(XMaterial.DIAMOND_BLOCK),
+                MaterialCompat.safe(XMaterial.NETHERITE_BLOCK),
+                MaterialCompat.safe(XMaterial.SEA_LANTERN),
+                MaterialCompat.safe(XMaterial.QUARTZ_BLOCK),
+                MaterialCompat.safe(XMaterial.SMOOTH_QUARTZ)
         ));
-        IMPERMEABLE_BLOCKS.add(Material.LIGHT);
+        IMPERMEABLE_BLOCKS.add(MaterialCompat.safe(XMaterial.LIGHT));
         for (Material material : Material.values()) {
             if (material.name().startsWith("WAXED") || material.name().endsWith("CONCRETE")) {
                 IMPERMEABLE_BLOCKS.add(material);

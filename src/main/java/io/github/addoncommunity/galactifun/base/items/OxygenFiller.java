@@ -3,6 +3,8 @@ package io.github.addoncommunity.galactifun.base.items;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.inventory.ItemStack;
@@ -72,7 +74,7 @@ public final class OxygenFiller extends AContainer {
 
     @Override
     public ItemStack getProgressBar() {
-        return new ItemStack(Material.WATER_BUCKET);
+        return new ItemStack(MaterialCompat.safe(XMaterial.WATER_BUCKET));
     }
 
     @Nonnull

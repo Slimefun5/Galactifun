@@ -39,7 +39,7 @@ import io.github.addoncommunity.galactifun.api.aliens.Alien;
 import io.github.addoncommunity.galactifun.api.aliens.BossAlien;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 public final class AlienManager implements Listener {
 
@@ -93,7 +93,7 @@ public final class AlienManager implements Listener {
 
     @Nullable
     public Alien<?> getAlien(@Nonnull Entity entity) {
-        String id = PersistentDataAPI.getString(entity, this.key);
+        String id = Pdc.getString(entity, this.key);
         return id == null ? null : getAlien(id);
     }
 

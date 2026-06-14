@@ -7,6 +7,8 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.TreeType;
 import org.bukkit.generator.BiomeProvider;
 import org.bukkit.generator.BlockPopulator;
@@ -67,9 +69,9 @@ public final class Titan extends AlienWorld {
 
                 for (int y = 0; y < height; y++) {
                     if (random.nextBoolean()) {
-                        chunk.setBlock(x, y, z, Material.STONE);
+                        chunk.setBlock(x, y, z, MaterialCompat.safe(XMaterial.STONE));
                     } else {
-                        chunk.setBlock(x, y, z, Material.COAL_ORE);
+                        chunk.setBlock(x, y, z, MaterialCompat.safe(XMaterial.COAL_ORE));
                     }
                 }
             }
@@ -87,16 +89,16 @@ public final class Titan extends AlienWorld {
 
                 Material material;
                 if (height < 57) {
-                    material = Material.BLUE_ICE;
+                    material = MaterialCompat.safe(XMaterial.BLUE_ICE);
                 } else {
                     switch (biome) {
-                        case FOREST: material = random.nextBoolean() ? Material.WARPED_NYLIUM : Material.CRIMSON_NYLIUM; break;
-                        case FROZEN_FOREST: material = Material.WARPED_NYLIUM; break;
-                        case WASTELAND: material = Material.SAND; break;
-                        case DRY_ICE_FLATS: material = Material.PACKED_ICE; break;
+                        case FOREST: material = random.nextBoolean() ? MaterialCompat.safe(XMaterial.WARPED_NYLIUM) : MaterialCompat.safe(XMaterial.CRIMSON_NYLIUM); break;
+                        case FROZEN_FOREST: material = MaterialCompat.safe(XMaterial.WARPED_NYLIUM); break;
+                        case WASTELAND: material = MaterialCompat.safe(XMaterial.SAND); break;
+                        case DRY_ICE_FLATS: material = MaterialCompat.safe(XMaterial.PACKED_ICE); break;
                         case CARBON_FOREST:
-                        case FROZEN_CARBON_FOREST: material = Material.COAL_BLOCK; break;
-                        default: material = Material.SAND; break;
+                        case FROZEN_CARBON_FOREST: material = MaterialCompat.safe(XMaterial.COAL_BLOCK); break;
+                        default: material = MaterialCompat.safe(XMaterial.SAND); break;
                     }
                 }
 
@@ -107,16 +109,16 @@ public final class Titan extends AlienWorld {
                     if (biome == TitanBiome.CARBON_FOREST) {
                         if (random.nextDouble() < 0.1) {
                             for (int y = height + random.nextInt(4); y > height; y--) {
-                                chunk.setBlock(x, y, z, Material.COAL_BLOCK);
+                                chunk.setBlock(x, y, z, MaterialCompat.safe(XMaterial.COAL_BLOCK));
                             }
                         }
                     } else if (biome == TitanBiome.FROZEN_CARBON_FOREST) {
                         if (random.nextDouble() < 0.1) {
                             for (int y = height + random.nextInt(4); y > height; y--) {
                                 if (random.nextBoolean()) {
-                                    chunk.setBlock(x, y, z, Material.PACKED_ICE);
+                                    chunk.setBlock(x, y, z, MaterialCompat.safe(XMaterial.PACKED_ICE));
                                 } else {
-                                    chunk.setBlock(x, y, z, Material.COAL_BLOCK);
+                                    chunk.setBlock(x, y, z, MaterialCompat.safe(XMaterial.COAL_BLOCK));
                                 }
                             }
                         }
@@ -163,9 +165,9 @@ public final class Titan extends AlienWorld {
 
                     if (region.getBiome(x, 1, z) == TitanBiome.FOREST.biome()) {
                         Location l = Util.getHighestBlockAt(region, x, z);
-                        if (region.getType(l) == Material.WARPED_NYLIUM) {
+                        if (region.getType(l) == MaterialCompat.safe(XMaterial.WARPED_NYLIUM)) {
                             region.generateTree(l.add(0, 1, 0), random, TreeType.WARPED_FUNGUS);
-                        } else if (region.getType(l) == Material.CRIMSON_NYLIUM) {
+                        } else if (region.getType(l) == MaterialCompat.safe(XMaterial.CRIMSON_NYLIUM)) {
                             region.generateTree(l.add(0, 1, 0), random, TreeType.CRIMSON_FUNGUS);
                         }
                     }
@@ -181,7 +183,7 @@ public final class Titan extends AlienWorld {
                     int x = (cx << 4) + random.nextInt(16);
                     int z = (cz << 4) + random.nextInt(16);
 
-                    if (region.getBiome(x, 1, z) == TitanBiome.FROZEN_FOREST.biome() && region.getType(x, 1, z) == Material.WARPED_NYLIUM) {
+                    if (region.getBiome(x, 1, z) == TitanBiome.FROZEN_FOREST.biome() && region.getType(x, 1, z) == MaterialCompat.safe(XMaterial.WARPED_NYLIUM)) {
                         Location l = Util.getHighestBlockAt(region, x, z).add(0, 1, 0);
                         region.generateTree(l, random, TreeType.WARPED_FUNGUS);
                     }
@@ -197,10 +199,10 @@ public final class Titan extends AlienWorld {
                 2,
                 6,
                 BaseMats.LASERITE_ORE,
-                Material.STONE, Material.COAL_ORE
+                MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.COAL_ORE)
         ));
 
-        populators.add(new LakePopulator(58, Material.WATER));
+        populators.add(new LakePopulator(58, MaterialCompat.safe(XMaterial.WATER)));
     }
 
 }

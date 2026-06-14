@@ -11,6 +11,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -46,13 +48,13 @@ public abstract class ProtectingBlock extends MenuBlock implements EnergyNetComp
 
     private static final Set<BlockPosition> allBlocks = new HashSet<>();
     private static final ItemStack ENABLED_ITEM = CustomItemStack.create(
-            Material.STRUCTURE_VOID,
+            MaterialCompat.safe(XMaterial.STRUCTURE_VOID),
             "&aEnabled",
             "",
             "&7Click to disable"
     );
     private static final ItemStack DISABLED_ITEM = CustomItemStack.create(
-            Material.BARRIER,
+            MaterialCompat.safe(XMaterial.BARRIER),
             "&cDisabled",
             "",
             "&7Click to enable"

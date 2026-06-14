@@ -3,6 +3,8 @@ package io.github.addoncommunity.galactifun.base.aliens;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.entity.Phantom;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.EntityTargetEvent;
@@ -35,7 +37,7 @@ public final class Skywhale extends Alien<Phantom> {
     @Override
     public void onDeath(@Nonnull EntityDeathEvent e) {
         e.getDrops().clear();
-        e.getDrops().add(new ItemStack(Material.PHANTOM_MEMBRANE, 20));
+        e.getDrops().add(new ItemStack(MaterialCompat.safe(XMaterial.PHANTOM_MEMBRANE), 20));
     }
 
     @Override

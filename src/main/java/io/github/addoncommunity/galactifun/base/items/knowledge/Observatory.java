@@ -14,7 +14,7 @@ import io.github.addoncommunity.galactifun.core.WorldSelector;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.core.multiblocks.MultiBlockMachine;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 public final class Observatory extends MultiBlockMachine {
 
@@ -32,7 +32,7 @@ public final class Observatory extends MultiBlockMachine {
             return;
         }
 
-        if (PersistentDataAPI.getBoolean(world.worldStorage(), key)) {
+        if (Pdc.getBoolean(world.worldStorage(), key)) {
             p.sendMessage(ChatColor.RED + "Already observing!");
             return;
         }
@@ -46,9 +46,9 @@ public final class Observatory extends MultiBlockMachine {
             return true;
         }, (pl, w) -> {
             pl.sendMessage(ChatColor.GREEN + "Observing planet " + w.name());
-            PersistentDataAPI.setBoolean(world.worldStorage(), key, true);
+            Pdc.setBoolean(world.worldStorage(), key, true);
             Scheduler.run(30 * 60 * 20, () -> {
-                PersistentDataAPI.setBoolean(world.worldStorage(), key, false);
+                Pdc.setBoolean(world.worldStorage(), key, false);
                 KnowledgeLevel.BASIC.set(pl, w);
             });
         }).open(p);

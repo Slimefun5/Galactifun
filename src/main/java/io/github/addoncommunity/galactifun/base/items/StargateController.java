@@ -13,6 +13,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.block.EndGateway;
 import org.bukkit.entity.Player;
@@ -177,7 +179,7 @@ public final class StargateController extends SlimefunItem implements Listener {
         if (!getPortalBlocks(b).isPresent()) {
             for (ComponentPosition position : PORTAL_POSITIONS) {
                 Block portal = position.getBlock(b);
-                portal.setType(Material.END_GATEWAY);
+                portal.setType(MaterialCompat.safe(XMaterial.END_GATEWAY));
                 EndGateway gateway = (EndGateway) portal.getState();
                 gateway.setAge(GATEWAY_TICKS);
                 gateway.setExitLocation(b.getLocation());
@@ -225,7 +227,7 @@ public final class StargateController extends SlimefunItem implements Listener {
 
         String temp = address;
         menu.addItem(ADDRESS_SLOT, CustomItemStack.create(
-                Material.BOOK,
+                MaterialCompat.safe(XMaterial.BOOK),
                 "&fAddress: " + address,
                 "&7Click to send the address to chat"
         ), (p, i, s, c) -> {
@@ -241,12 +243,12 @@ public final class StargateController extends SlimefunItem implements Listener {
         });
 
         menu.addItem(DEACTIVATE_SLOT, CustomItemStack.create(
-                Material.BARRIER,
+                MaterialCompat.safe(XMaterial.BARRIER),
                 "&fClick to Deactivate the Stargate"
         ), (p, i, s, c) -> {
             getPortalBlocks(b).ifPresent(li -> {
                 for (Block block : li) {
-                    block.setType(Material.AIR);
+                    block.setType(MaterialCompat.safe(XMaterial.AIR));
                     BlockStorage.clearBlockInfo(block);
                 }
             });
@@ -256,7 +258,7 @@ public final class StargateController extends SlimefunItem implements Listener {
         });
 
         menu.addItem(DESTINATION_SLOT, CustomItemStack.create(
-                Material.RAIL,
+                MaterialCompat.safe(XMaterial.RAIL),
                 "&fClick to Set Destination",
                 "&7Current Destination: " + destination
         ), (p, i, s, c) -> {
@@ -308,7 +310,7 @@ public final class StargateController extends SlimefunItem implements Listener {
     @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGHEST)
     public void onGateBreak(BlockBreakEvent e) {
         Block b = e.getBlock();
-        if (b.getType() == Material.END_GATEWAY &&
+        if (b.getType() == MaterialCompat.safe(XMaterial.END_GATEWAY) &&
                 Boolean.parseBoolean(BlockStorage.getLocationInfo(b.getLocation(), "locked"))) {
             e.setCancelled(true);
             e.getPlayer().sendMessage(ChatColor.RED + "Deactivate the Stargate before destroying it");
@@ -369,7 +371,7 @@ public final class StargateController extends SlimefunItem implements Listener {
         }
 
         public boolean isPortal(@Nonnull Block b) {
-            return b.getRelative(0, this.y, this.z).getType() == Material.END_GATEWAY;
+            return b.getRelative(0, this.y, this.z).getType() == MaterialCompat.safe(XMaterial.END_GATEWAY);
         }
 
     }

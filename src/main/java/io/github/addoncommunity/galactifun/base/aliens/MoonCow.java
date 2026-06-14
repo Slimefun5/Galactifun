@@ -10,7 +10,7 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.aliens.Alien;
 import io.github.addoncommunity.galactifun.base.BaseMats;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 public final class MoonCow extends Alien<Cow> {
 
@@ -23,11 +23,11 @@ public final class MoonCow extends Alien<Cow> {
     @Override
     public void onInteract(@Nonnull PlayerInteractEntityEvent e) {
         Entity entity = e.getRightClicked();
-        long timer = PersistentDataAPI.getLong(entity, TIMER, 0);
+        long timer = Pdc.getLong(entity, TIMER, 0);
         long currentTime = System.currentTimeMillis();
         if (currentTime - timer > 5 * 60 * 1000) {
             entity.getWorld().dropItemNaturally(entity.getLocation(), BaseMats.MOON_CHEESE.item());
-            PersistentDataAPI.setLong(entity, TIMER, currentTime);
+            Pdc.setLong(entity, TIMER, currentTime);
         }
     }
 

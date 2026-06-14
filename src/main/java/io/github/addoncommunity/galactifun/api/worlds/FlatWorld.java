@@ -5,6 +5,8 @@ import java.util.Random;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BiomeProvider;
 import org.bukkit.generator.ChunkGenerator;
@@ -53,8 +55,8 @@ public abstract class FlatWorld extends AlienWorld {
      * <pre>
      *     protected Int2ObjectSortedMap<Material> getLayers() {
      *         return new Int2ObjectLinkedOpenHashMap<>() {{
-     *             put(30, Material.PACKED_ICE);
-     *             put(60, Material.ICE);
+     *             put(30, MaterialCompat.safe(XMaterial.PACKED_ICE));
+     *             put(60, MaterialCompat.safe(XMaterial.ICE));
      *         }};
      *     }
      * </pre>

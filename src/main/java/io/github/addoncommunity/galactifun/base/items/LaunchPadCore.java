@@ -10,6 +10,8 @@ import javax.annotation.Nonnull;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -146,7 +148,7 @@ public final class LaunchPadCore extends TickingMenuBlock {
 
             if (item instanceof Rocket) {
                 World world = l.getWorld();
-                rocketBlock.setType(Material.AIR);
+                rocketBlock.setType(MaterialCompat.safe(XMaterial.AIR));
                 BlockStorage.clearBlockInfo(rocketBlock);
                 world.dropItemNaturally(rocketBlock.getLocation(), item.getItem().clone());
             }
