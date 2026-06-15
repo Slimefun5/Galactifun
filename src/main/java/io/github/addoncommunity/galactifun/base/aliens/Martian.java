@@ -76,7 +76,7 @@ public final class Martian extends Alien<ZombieVillager> {
 
     @Override
     public void onInteract(@Nonnull PlayerInteractEntityEvent e) {
-        ItemStack item = e.getPlayer().getInventory().getItem(e.getHand());
+        ItemStack item = e.getPlayer().getInventory().getItemInHand();
         if (item == null) {
             return;
         }

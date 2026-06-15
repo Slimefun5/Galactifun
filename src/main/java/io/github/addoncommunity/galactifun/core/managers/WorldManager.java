@@ -400,7 +400,7 @@ public final class WorldManager implements Listener {
         if (world != null && world != BaseUniverse.EARTH) {
             e.setCancelled(true);
             if (p.getGameMode() != GameMode.CREATIVE) {
-                ItemStack item = p.getInventory().getItem(e.getHand());
+                ItemStack item = p.getInventory().getItemInHand();
                 if (item != null) {
                     ItemUtils.consumeItem(item, true);
                 }
