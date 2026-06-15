@@ -64,7 +64,7 @@ public final class Martian extends Alien<ZombieVillager> {
                 new ItemStack(MaterialCompat.safe(XMaterial.IRON_CHESTPLATE)),
                 new ItemStack(MaterialCompat.safe(XMaterial.IRON_HELMET))
         });
-        spawned.getEquipment().setItemInMainHand(new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)));
+        spawned.getEquipment().setItemInHand(new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)));
     }
 
     @Override
