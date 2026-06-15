@@ -447,7 +447,7 @@ public final class BaseMats {
 
         component(MUNPOWDER, CoreRecipeType.ALIEN_DROP,
                 null, null, null,
-                null, CustomItemStack.create(MaterialCompat.safe(XMaterial.CREEPER_HEAD), "&fMutant Creeper")
+                null, CustomItemStack.create(MaterialCompat.stack(XMaterial.CREEPER_HEAD), "&fMutant Creeper")
         );
         component(ENDER_BLOCK, DiamondAnvil.TYPE, new ItemStack(MaterialCompat.safe(XMaterial.ENDER_PEARL), 16), BLISTERING_VOLCANIC_INGOT.item());
         component(LUNAR_GLASS, RecipeType.SMELTERY, new ItemStack(MaterialCompat.safe(XMaterial.SAND)), MOON_DUST.item());
