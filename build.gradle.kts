@@ -77,7 +77,7 @@ tasks {
     }
     shadowJar {
         relocate("org.bstats", "galactifun.libs.bstats")
-        archiveFileName.set("Galactifun v${project.version}.jar")
+        archiveFileName.set("Galactifun-1.0.0-UNOFFICIAL.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
                 exclude("META-INF/**")
     }
