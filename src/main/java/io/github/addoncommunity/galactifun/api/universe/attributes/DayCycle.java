@@ -87,7 +87,7 @@ public final class DayCycle {
     public void applyEffects(@Nonnull World world) {
         world.setGameRule(GameRule.DO_DAYLIGHT_CYCLE, false);
         if (this.startTime != -1) {
-            world.setTime(this.startTime);
+            setTimeSafely(world, this.startTime);
         }
     }
 
@@ -96,7 +96,20 @@ public final class DayCycle {
      */
     public void tick(@Nonnull World world) {
         if (this.perFiveSeconds != 0) {
-            world.setTime(world.getTime() + this.perFiveSeconds);
+            setTimeSafely(world, world.getTime() + this.perFiveSeconds);
+        }
+    }
+
+    /**
+     * Sets the world time, tolerating worlds that have no clock (some server versions, e.g. 26.x,
+     * throw {@code IllegalArgumentException} for clockless custom worlds). Without this guard the
+     * day-cycle task would throw every 5 seconds and spam the console.
+     */
+    private static void setTimeSafely(@Nonnull World world, long time) {
+        try {
+            world.setTime(time);
+        } catch (IllegalArgumentException ignored) {
+            // This world does not support a day/night clock on this server version - skip.
         }
     }
 
