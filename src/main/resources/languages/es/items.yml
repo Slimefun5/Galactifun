@@ -1,0 +1,57 @@
+# Spanish item translations for Galactifun. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+OXYGEN_FILLER:
+  name: "&fRellenador de oxigeno"
+  lore:
+    - "&7Llena los trajes espaciales con oxigeno"
+
+SPACE_SUIT_HELMET:
+  name: "&fCasco de traje espacial"
+  lore:
+    - "&7Un casco de traje espacial basico"
+
+SPACE_SUIT_CHEST:
+  name: "&fPeto de traje espacial"
+  lore:
+    - "&7Un peto de traje espacial basico"
+
+LAUNCH_PAD_CORE:
+  name: "&fNucleo de plataforma de lanzamiento"
+  lore:
+    - "&7Rodealo con 8 &fSuelos de plataforma de lanzamiento"
+    - "&7para usarlo"
+
+ASSEMBLY_TABLE:
+  name: "&fMesa de ensamblaje"
+  lore:
+    - "&7Se usa para construir muchas cosas"
+
+STARGATE_RING:
+  name: "&9Anillo de puerta estelar"
+  lore:
+    - "&7Se usa para construir una puerta estelar"
+
+OBSERVATORY:
+  name: "&fObservatorio"
+  lore:
+    - "&7Permite descubrir informacion basica"
+    - "&7sobre un mundo de forma remota"
+
+PLANETARY_ANALYZER:
+  name: "&fAnalizador planetario"
+  lore:
+    - "&7Permite descubrir informacion avanzada"
+    - "&7sobre el planeta actual"
+
+FUSION_REACTOR:
+  name: "&fReactor de fusion"
+  lore:
+    - "&7Usa laseres para fusionar pellets de helio-3"
+    - "&7y generar enormes cantidades de energia"
+
+CHEMICAL_REACTOR:
+  name: "&fReactor quimico"
+  lore:
+    - "&7Hace reaccionar productos quimicos entre si"
+    - "&7para crear otros nuevos"

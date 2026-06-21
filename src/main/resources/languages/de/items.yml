@@ -1,0 +1,57 @@
+# German item translations for Galactifun. Keyed by Slimefun item id.
+# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+
+OXYGEN_FILLER:
+  name: "&fSauerstofffueller"
+  lore:
+    - "&7Befuellt Raumanzuege mit Sauerstoff"
+
+SPACE_SUIT_HELMET:
+  name: "&fRaumanzug-Helm"
+  lore:
+    - "&7Ein einfacher Raumanzug-Helm"
+
+SPACE_SUIT_CHEST:
+  name: "&fRaumanzug-Brustpanzer"
+  lore:
+    - "&7Ein einfacher Raumanzug-Brustpanzer"
+
+LAUNCH_PAD_CORE:
+  name: "&fStartrampen-Kern"
+  lore:
+    - "&7Umgebe ihn mit 8 &fStartrampen-Boeden&7,"
+    - "&7um ihn zu nutzen"
+
+ASSEMBLY_TABLE:
+  name: "&fMontagetisch"
+  lore:
+    - "&7Wird zum Bau vieler Dinge verwendet"
+
+STARGATE_RING:
+  name: "&9Sternentor-Ring"
+  lore:
+    - "&7Wird zum Bau eines Sternentors verwendet"
+
+OBSERVATORY:
+  name: "&fObservatorium"
+  lore:
+    - "&7Ermoeglicht das Entdecken grundlegender Infos"
+    - "&7ueber eine Welt aus der Ferne"
+
+PLANETARY_ANALYZER:
+  name: "&fPlanetenanalysator"
+  lore:
+    - "&7Ermoeglicht das Entdecken erweiterter Infos"
+    - "&7ueber den aktuellen Planeten"
+
+FUSION_REACTOR:
+  name: "&fFusionsreaktor"
+  lore:
+    - "&7Nutzt Laser, um Helium-3-Pellets zu fusionieren"
+    - "&7und dabei enorme Mengen Energie zu erzeugen"
+
+CHEMICAL_REACTOR:
+  name: "&fChemiereaktor"
+  lore:
+    - "&7Laesst Chemikalien miteinander reagieren,"
+    - "&7um neue zu erzeugen"

@@ -138,6 +138,9 @@ public final class Galactifun extends AbstractAddon {
                 .addSub(new StructureCommand(this))
                 .addSub(new SealedCommand())
                 .addSub(new EffectsCommand());
+
+        // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
+        Slimefun.getItemTranslationService().registerTranslations(this);
     }
 
     @Override
