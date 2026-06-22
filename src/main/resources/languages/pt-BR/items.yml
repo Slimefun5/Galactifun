@@ -1,0 +1,188 @@
+# Galactifun item-name translations (pt-BR). Keyed by Slimefun item id. Names only.
+
+OXYGEN_FILLER:
+  name: "&fAbastecedor de oxigenio"
+SPACE_SUIT_UPGRADER:
+  name: "&fAprimorador de traje espacial"
+HEAT_RESISTANCE_UPGRADE:
+  name: "&7Aprimoramento de resistencia ao calor"
+COLD_RESISTANCE_UPGRADE:
+  name: "&7Aprimoramento de resistencia ao frio"
+RADIATION_RESISTANCE_UPGRADE:
+  name: "&7Aprimoramento de resistencia a radiacao"
+SPACE_SUIT_HELMET:
+  name: "&fCapacete de traje espacial"
+SPACE_SUIT_CHEST:
+  name: "&fPeitoral de traje espacial"
+SPACE_SUIT_PANTS:
+  name: "&fCalcas de traje espacial"
+SPACE_SUIT_BOOTS:
+  name: "&fBotas de traje espacial"
+LAUNCH_PAD_CORE:
+  name: "&fNucleo da plataforma de lancamento"
+LAUNCH_PAD_FLOOR:
+  name: "&fPiso da plataforma de lancamento"
+CIRCUIT_PRESS:
+  name: "&fPrensa de circuitos"
+ASSEMBLY_TABLE:
+  name: "&fMesa de montagem"
+STARGATE_RING:
+  name: "&9Anel de Stargate"
+STARGATE_CONTROLLER:
+  name: "&9Controlador de Stargate"
+OBSERVATORY:
+  name: "&fObservatorio"
+PLANETARY_ANALYZER:
+  name: "&fAnalisador planetario"
+DIAMOND_ANVIL:
+  name: "&fBigorna de diamante"
+FUSION_REACTOR:
+  name: "&fReator de fusao"
+ATMOSPHERIC_HARVESTER:
+  name: "&fColetor atmosferico"
+CHEMICAL_REACTOR:
+  name: "&fReator quimico"
+ELECTROLYZER:
+  name: "&fEletrolisador"
+COOLING_UNIT_1:
+  name: "&bUnidade de resfriamento I"
+COOLING_UNIT_2:
+  name: "&bUnidade de resfriamento II"
+COOLING_UNIT_3:
+  name: "&bUnidade de resfriamento III"
+SPACE_HEATER_1:
+  name: "&6Aquecedor espacial I"
+SPACE_HEATER_2:
+  name: "&6Aquecedor espacial II"
+SPACE_HEATER_3:
+  name: "&6Aquecedor espacial III"
+ION_DISPERSER_1:
+  name: "&fDispersor de ions I"
+ION_DISPERSER_2:
+  name: "&fDispersor de ions II"
+OXYGEN_SEALER:
+  name: "&fVedador de oxigenio"
+LANDING_HATCH:
+  name: "&fEscotilha de pouso"
+SUPER_FAN:
+  name: "&7Superventilador"
+AUTOMATIC_DOOR:
+  name: "&fPorta automatica"
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: "&fGerador de campo de forca ambiental"
+ENGINE_RELIC:
+  name: "&fReliquia: 'Letagivd Yynmukav"
+REACTOR_RELIC:
+  name: "&fReliquia: Rotarenegortkele Yynmukav"
+COMPUTER_RELIC:
+  name: "&fReliquia: Retuypmok Yyntnavk"
+BROKEN_SOLAR_PANEL_RELIC:
+  name: "&7Reliquia: 'Lenap Ayanhcenlos Ayanamolop"
+FALLEN_SATELLITE_RELIC:
+  name: "&7Reliquia: Kintups Yyhsdap"
+TECHNOLOGICAL_SALVAGER:
+  name: "&fRecuperador tecnologico"
+ROCKET_TIER_ONE:
+  name: "&4Foguete quimico nivel 1"
+ROCKET_TIER_TWO:
+  name: "&4Foguete quimico nivel 2"
+ROCKET_TIER_THREE:
+  name: "&4Foguete quimico nivel 3"
+ION_ROCKET:
+  name: "&bFoguete ionico"
+MOON_DUST:
+  name: "&7Poeira lunar"
+MOON_ROCK:
+  name: "&7Rocha lunar"
+MARS_DUST:
+  name: "&cPoeira marciana"
+MARS_ROCK:
+  name: "&cRocha marciana"
+DRY_ICE:
+  name: "&bGelo seco"
+METHANE_ICE:
+  name: "&bGelo de metano"
+SULFUR_BLOCK:
+  name: "&6Bloco de enxofre"
+VENTSTONE:
+  name: "&6Pedra de chamine"
+LASERITE_ORE:
+  name: "&cMinerio de laserita"
+ALUMINUM_COMPOSITE:
+  name: "&fComposto de aluminio"
+TUNGSTEN_INGOT:
+  name: "&bLingote de tungstenio"
+ALUMINUM_COMPOSITE_SHEET:
+  name: "&fChapa de composto de aluminio"
+HEAVY_DUTY_SHEET:
+  name: "&fChapa resistente"
+SPACE_GRADE_PLATE:
+  name: "&fPlaca de grau espacial"
+ULTRA_DUTY_SHEET:
+  name: "&fChapa ultrarresistente"
+GOLD_FOIL:
+  name: "&6Folha de ouro"
+REINFORCED_CHANNEL:
+  name: "&fCanal reforcado"
+FAN_BLADE:
+  name: "&fPa de ventilador"
+NOZZLE:
+  name: "&fBocal"
+AIR_FILTER:
+  name: "&fFiltro"
+OXYGEN_REGENERATOR:
+  name: "&bRegenerador de oxigenio"
+SPARK_PLUG:
+  name: "&fVela de ignicao"
+SPARK_PLUG_2:
+  name: "&fVela de ignicao Mk 2"
+ROCKET_ENGINE:
+  name: "&fMotor de foguete"
+ROCKET_ENGINE_2:
+  name: "&fMotor de foguete Mk 2"
+ROCKET_ENGINE_3:
+  name: "&fMotor de foguete Mk 3"
+ION_ENGINE:
+  name: "&bMotor ionico"
+ADVANCED_PROCESSING_UNIT:
+  name: "&4Unidade de processamento avancada"
+LIFE_SUPPORT_MODULE:
+  name: "&4Modulo de suporte de vida"
+NOSE_CONE:
+  name: "&fCone de nariz"
+FUEL_TANK:
+  name: "&6Tanque de combustivel"
+FUEL_TANK_2:
+  name: "&6Tanque de combustivel Mk 2"
+DIAMOND_CIRCUIT:
+  name: "&7Circuito de diamante"
+REDSTONE_CIRCUIT:
+  name: "&7Circuito de redstone"
+LAPIS_CIRCUIT:
+  name: "&7Circuito de lapis"
+GLOWSTONE_CIRCUIT:
+  name: "&7Circuito de glowstone"
+MUNPOWDER:
+  name: "&7Polvora lunar"
+FALLEN_METEOR:
+  name: "&4Meteoro caido"
+MOON_CHEESE:
+  name: "&6Queijo lunar"
+ENDER_BLOCK:
+  name: "&3Bloco do End"
+LUNAR_GLASS:
+  name: "&fVidro lunar"
+VOLCANIC_INGOT:
+  name: "&4Lingote vulcanico"
+BLISTERING_VOLCANIC_INGOT:
+  name: "&6Lingote vulcanico escaldante"
+TUNGSTEN_CARBIDE:
+  name: "&7Carboneto de tungstenio"
+DIAMOND_ANVIL_CELL:
+  name: "&bCelula de bigorna de diamante"
+FUSION_PELLET:
+  name: "&fPastilha de fusao"
+LASERITE_DUST:
+  name: "&cPo de laserita"
+LASERITE:
+  name: "&cLaserita"

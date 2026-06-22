@@ -1,0 +1,188 @@
+# Galactifun item-name translations (zh-CN). Keyed by Slimefun item id. Names only.
+
+OXYGEN_FILLER:
+  name: "&f氧气填充器"
+SPACE_SUIT_UPGRADER:
+  name: "&f宇航服升级器"
+HEAT_RESISTANCE_UPGRADE:
+  name: "&7耐热升级"
+COLD_RESISTANCE_UPGRADE:
+  name: "&7耐寒升级"
+RADIATION_RESISTANCE_UPGRADE:
+  name: "&7抗辐射升级"
+SPACE_SUIT_HELMET:
+  name: "&f宇航服头盔"
+SPACE_SUIT_CHEST:
+  name: "&f宇航服胸甲"
+SPACE_SUIT_PANTS:
+  name: "&f宇航服护腿"
+SPACE_SUIT_BOOTS:
+  name: "&f宇航服靴子"
+LAUNCH_PAD_CORE:
+  name: "&f发射台核心"
+LAUNCH_PAD_FLOOR:
+  name: "&f发射台地板"
+CIRCUIT_PRESS:
+  name: "&f电路压制机"
+ASSEMBLY_TABLE:
+  name: "&f组装台"
+STARGATE_RING:
+  name: "&9Stargate 环"
+STARGATE_CONTROLLER:
+  name: "&9Stargate 控制器"
+OBSERVATORY:
+  name: "&f天文台"
+PLANETARY_ANALYZER:
+  name: "&f行星分析仪"
+DIAMOND_ANVIL:
+  name: "&f金刚石压砧"
+FUSION_REACTOR:
+  name: "&f聚变反应堆"
+ATMOSPHERIC_HARVESTER:
+  name: "&f大气采集器"
+CHEMICAL_REACTOR:
+  name: "&f化学反应堆"
+ELECTROLYZER:
+  name: "&f电解器"
+COOLING_UNIT_1:
+  name: "&b冷却单元 I"
+COOLING_UNIT_2:
+  name: "&b冷却单元 II"
+COOLING_UNIT_3:
+  name: "&b冷却单元 III"
+SPACE_HEATER_1:
+  name: "&6太空加热器 I"
+SPACE_HEATER_2:
+  name: "&6太空加热器 II"
+SPACE_HEATER_3:
+  name: "&6太空加热器 III"
+ION_DISPERSER_1:
+  name: "&f离子驱散器 I"
+ION_DISPERSER_2:
+  name: "&f离子驱散器 II"
+OXYGEN_SEALER:
+  name: "&f氧气密封机"
+LANDING_HATCH:
+  name: "&f着陆舱门"
+SUPER_FAN:
+  name: "&7超级风扇"
+AUTOMATIC_DOOR:
+  name: "&f自动门"
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: "&f环境力场发生器"
+ENGINE_RELIC:
+  name: "&f遗物: 'Letagivd Yynmukav"
+REACTOR_RELIC:
+  name: "&f遗物: Rotarenegortkele Yynmukav"
+COMPUTER_RELIC:
+  name: "&f遗物: Retuypmok Yyntnavk"
+BROKEN_SOLAR_PANEL_RELIC:
+  name: "&7遗物: 'Lenap Ayanhcenlos Ayanamolop"
+FALLEN_SATELLITE_RELIC:
+  name: "&7遗物: Kintups Yyhsdap"
+TECHNOLOGICAL_SALVAGER:
+  name: "&f科技回收机"
+ROCKET_TIER_ONE:
+  name: "&4化学火箭 1 级"
+ROCKET_TIER_TWO:
+  name: "&4化学火箭 2 级"
+ROCKET_TIER_THREE:
+  name: "&4化学火箭 3 级"
+ION_ROCKET:
+  name: "&b离子火箭"
+MOON_DUST:
+  name: "&7月球尘"
+MOON_ROCK:
+  name: "&7月球岩"
+MARS_DUST:
+  name: "&c火星尘"
+MARS_ROCK:
+  name: "&c火星岩"
+DRY_ICE:
+  name: "&b干冰"
+METHANE_ICE:
+  name: "&b甲烷冰"
+SULFUR_BLOCK:
+  name: "&6硫磺块"
+VENTSTONE:
+  name: "&6喷口石"
+LASERITE_ORE:
+  name: "&c激光石矿石"
+ALUMINUM_COMPOSITE:
+  name: "&f铝复合材料"
+TUNGSTEN_INGOT:
+  name: "&b钨锭"
+ALUMINUM_COMPOSITE_SHEET:
+  name: "&f铝复合板"
+HEAVY_DUTY_SHEET:
+  name: "&f重型板"
+SPACE_GRADE_PLATE:
+  name: "&f航天级板"
+ULTRA_DUTY_SHEET:
+  name: "&f超重型板"
+GOLD_FOIL:
+  name: "&6金箔"
+REINFORCED_CHANNEL:
+  name: "&f强化导管"
+FAN_BLADE:
+  name: "&f风扇叶片"
+NOZZLE:
+  name: "&f喷嘴"
+AIR_FILTER:
+  name: "&f过滤器"
+OXYGEN_REGENERATOR:
+  name: "&b氧气再生器"
+SPARK_PLUG:
+  name: "&f火花塞"
+SPARK_PLUG_2:
+  name: "&f火花塞 Mk 2"
+ROCKET_ENGINE:
+  name: "&f火箭引擎"
+ROCKET_ENGINE_2:
+  name: "&f火箭引擎 Mk 2"
+ROCKET_ENGINE_3:
+  name: "&f火箭引擎 Mk 3"
+ION_ENGINE:
+  name: "&b离子引擎"
+ADVANCED_PROCESSING_UNIT:
+  name: "&4高级处理单元"
+LIFE_SUPPORT_MODULE:
+  name: "&4生命维持模块"
+NOSE_CONE:
+  name: "&f鼻锥"
+FUEL_TANK:
+  name: "&6燃料箱"
+FUEL_TANK_2:
+  name: "&6燃料箱 Mk 2"
+DIAMOND_CIRCUIT:
+  name: "&7金刚石电路"
+REDSTONE_CIRCUIT:
+  name: "&7红石电路"
+LAPIS_CIRCUIT:
+  name: "&7青金石电路"
+GLOWSTONE_CIRCUIT:
+  name: "&7萤石电路"
+MUNPOWDER:
+  name: "&7月尘火药"
+FALLEN_METEOR:
+  name: "&4坠落陨石"
+MOON_CHEESE:
+  name: "&6月球奶酪"
+ENDER_BLOCK:
+  name: "&3末影块"
+LUNAR_GLASS:
+  name: "&f月球玻璃"
+VOLCANIC_INGOT:
+  name: "&4火山锭"
+BLISTERING_VOLCANIC_INGOT:
+  name: "&6灼热火山锭"
+TUNGSTEN_CARBIDE:
+  name: "&7碳化钨"
+DIAMOND_ANVIL_CELL:
+  name: "&b金刚石压砧单元"
+FUSION_PELLET:
+  name: "&f聚变颗粒"
+LASERITE_DUST:
+  name: "&c激光石粉"
+LASERITE:
+  name: "&c激光石"

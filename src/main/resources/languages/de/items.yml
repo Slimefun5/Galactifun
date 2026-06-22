@@ -1,57 +1,188 @@
-# German item translations for Galactifun. Keyed by Slimefun item id.
-# name = display name, lore = list of lines, '&' colour codes. Missing items fall back to English.
+# Galactifun item-name translations (de). Keyed by Slimefun item id. Names only.
 
 OXYGEN_FILLER:
   name: "&fSauerstofffueller"
-  lore:
-    - "&7Befuellt Raumanzuege mit Sauerstoff"
-
+SPACE_SUIT_UPGRADER:
+  name: "&fRaumanzug-Verbesserer"
+HEAT_RESISTANCE_UPGRADE:
+  name: "&7Hitzewiderstand-Verbesserung"
+COLD_RESISTANCE_UPGRADE:
+  name: "&7Kaeltewiderstand-Verbesserung"
+RADIATION_RESISTANCE_UPGRADE:
+  name: "&7Strahlungswiderstand-Verbesserung"
 SPACE_SUIT_HELMET:
   name: "&fRaumanzug-Helm"
-  lore:
-    - "&7Ein einfacher Raumanzug-Helm"
-
 SPACE_SUIT_CHEST:
   name: "&fRaumanzug-Brustpanzer"
-  lore:
-    - "&7Ein einfacher Raumanzug-Brustpanzer"
-
+SPACE_SUIT_PANTS:
+  name: "&fRaumanzug-Hose"
+SPACE_SUIT_BOOTS:
+  name: "&fRaumanzug-Stiefel"
 LAUNCH_PAD_CORE:
   name: "&fStartrampen-Kern"
-  lore:
-    - "&7Umgebe ihn mit 8 &fStartrampen-Boeden&7,"
-    - "&7um ihn zu nutzen"
-
+LAUNCH_PAD_FLOOR:
+  name: "&fStartrampen-Boden"
+CIRCUIT_PRESS:
+  name: "&fSchaltkreispresse"
 ASSEMBLY_TABLE:
   name: "&fMontagetisch"
-  lore:
-    - "&7Wird zum Bau vieler Dinge verwendet"
-
 STARGATE_RING:
   name: "&9Sternentor-Ring"
-  lore:
-    - "&7Wird zum Bau eines Sternentors verwendet"
-
+STARGATE_CONTROLLER:
+  name: "&9Sternentor-Steuerung"
 OBSERVATORY:
   name: "&fObservatorium"
-  lore:
-    - "&7Ermoeglicht das Entdecken grundlegender Infos"
-    - "&7ueber eine Welt aus der Ferne"
-
 PLANETARY_ANALYZER:
   name: "&fPlanetenanalysator"
-  lore:
-    - "&7Ermoeglicht das Entdecken erweiterter Infos"
-    - "&7ueber den aktuellen Planeten"
-
+DIAMOND_ANVIL:
+  name: "&fDiamantamboss"
 FUSION_REACTOR:
   name: "&fFusionsreaktor"
-  lore:
-    - "&7Nutzt Laser, um Helium-3-Pellets zu fusionieren"
-    - "&7und dabei enorme Mengen Energie zu erzeugen"
-
+ATMOSPHERIC_HARVESTER:
+  name: "&fAtmosphaerenernter"
 CHEMICAL_REACTOR:
   name: "&fChemiereaktor"
-  lore:
-    - "&7Laesst Chemikalien miteinander reagieren,"
-    - "&7um neue zu erzeugen"
+ELECTROLYZER:
+  name: "&fElektrolyseur"
+COOLING_UNIT_1:
+  name: "&bKuehleinheit I"
+COOLING_UNIT_2:
+  name: "&bKuehleinheit II"
+COOLING_UNIT_3:
+  name: "&bKuehleinheit III"
+SPACE_HEATER_1:
+  name: "&6Raumheizer I"
+SPACE_HEATER_2:
+  name: "&6Raumheizer II"
+SPACE_HEATER_3:
+  name: "&6Raumheizer III"
+ION_DISPERSER_1:
+  name: "&fIonenzerstreuer I"
+ION_DISPERSER_2:
+  name: "&fIonenzerstreuer II"
+OXYGEN_SEALER:
+  name: "&fSauerstoffversiegler"
+LANDING_HATCH:
+  name: "&fLandeluke"
+SUPER_FAN:
+  name: "&7Superventilator"
+AUTOMATIC_DOOR:
+  name: "&fAutomatische Tuer"
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: "&fUmwelt-Kraftfeldgenerator"
+ENGINE_RELIC:
+  name: "&fRelikt: 'Letagivd Yynmukav"
+REACTOR_RELIC:
+  name: "&fRelikt: Rotarenegortkele Yynmukav"
+COMPUTER_RELIC:
+  name: "&fRelikt: Retuypmok Yyntnavk"
+BROKEN_SOLAR_PANEL_RELIC:
+  name: "&7Relikt: 'Lenap Ayanhcenlos Ayanamolop"
+FALLEN_SATELLITE_RELIC:
+  name: "&7Relikt: Kintups Yyhsdap"
+TECHNOLOGICAL_SALVAGER:
+  name: "&fTechnologie-Berger"
+ROCKET_TIER_ONE:
+  name: "&4Chemierakete Stufe 1"
+ROCKET_TIER_TWO:
+  name: "&4Chemierakete Stufe 2"
+ROCKET_TIER_THREE:
+  name: "&4Chemierakete Stufe 3"
+ION_ROCKET:
+  name: "&bIonenrakete"
+MOON_DUST:
+  name: "&7Mondstaub"
+MOON_ROCK:
+  name: "&7Mondgestein"
+MARS_DUST:
+  name: "&cMarsstaub"
+MARS_ROCK:
+  name: "&cMarsgestein"
+DRY_ICE:
+  name: "&bTrockeneis"
+METHANE_ICE:
+  name: "&bMethaneis"
+SULFUR_BLOCK:
+  name: "&6Schwefelblock"
+VENTSTONE:
+  name: "&6Schlotstein"
+LASERITE_ORE:
+  name: "&cLaserit-Erz"
+ALUMINUM_COMPOSITE:
+  name: "&fAluminiumverbund"
+TUNGSTEN_INGOT:
+  name: "&bWolframbarren"
+ALUMINUM_COMPOSITE_SHEET:
+  name: "&fAluminiumverbundblech"
+HEAVY_DUTY_SHEET:
+  name: "&fHochleistungsblech"
+SPACE_GRADE_PLATE:
+  name: "&fRaumfahrtplatte"
+ULTRA_DUTY_SHEET:
+  name: "&fUltrahochleistungsblech"
+GOLD_FOIL:
+  name: "&6Goldfolie"
+REINFORCED_CHANNEL:
+  name: "&fVerstaerkter Kanal"
+FAN_BLADE:
+  name: "&fVentilatorblatt"
+NOZZLE:
+  name: "&fDuese"
+AIR_FILTER:
+  name: "&fFilter"
+OXYGEN_REGENERATOR:
+  name: "&bSauerstoffregenerator"
+SPARK_PLUG:
+  name: "&fZuendkerze"
+SPARK_PLUG_2:
+  name: "&fZuendkerze Mk 2"
+ROCKET_ENGINE:
+  name: "&fRaketentriebwerk"
+ROCKET_ENGINE_2:
+  name: "&fRaketentriebwerk Mk 2"
+ROCKET_ENGINE_3:
+  name: "&fRaketentriebwerk Mk 3"
+ION_ENGINE:
+  name: "&bIonentriebwerk"
+ADVANCED_PROCESSING_UNIT:
+  name: "&4Fortschrittliche Recheneinheit"
+LIFE_SUPPORT_MODULE:
+  name: "&4Lebenserhaltungsmodul"
+NOSE_CONE:
+  name: "&fBugspitze"
+FUEL_TANK:
+  name: "&6Treibstofftank"
+FUEL_TANK_2:
+  name: "&6Treibstofftank Mk 2"
+DIAMOND_CIRCUIT:
+  name: "&7Diamantschaltkreis"
+REDSTONE_CIRCUIT:
+  name: "&7Redstone-Schaltkreis"
+LAPIS_CIRCUIT:
+  name: "&7Lapis-Schaltkreis"
+GLOWSTONE_CIRCUIT:
+  name: "&7Glowstone-Schaltkreis"
+MUNPOWDER:
+  name: "&7Mondpulver"
+FALLEN_METEOR:
+  name: "&4Gefallener Meteor"
+MOON_CHEESE:
+  name: "&6Mondkaese"
+ENDER_BLOCK:
+  name: "&3Enderblock"
+LUNAR_GLASS:
+  name: "&fMondglas"
+VOLCANIC_INGOT:
+  name: "&4Vulkanbarren"
+BLISTERING_VOLCANIC_INGOT:
+  name: "&6Gluehender Vulkanbarren"
+TUNGSTEN_CARBIDE:
+  name: "&7Wolframkarbid"
+DIAMOND_ANVIL_CELL:
+  name: "&bDiamantstempelzelle"
+FUSION_PELLET:
+  name: "&fFusionspellet"
+LASERITE_DUST:
+  name: "&cLaserit-Staub"
+LASERITE:
+  name: "&cLaserit"
