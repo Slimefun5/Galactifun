@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cLaserietstof"
 LASERITE:
   name: "&cLaseriet"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fZuurstofgasbus"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fStikstofgasbus"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fKoolstofdioxidegasbus"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fWatergasbus"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fHeliumgasbus"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fArgongasbus"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fMethaangasbus"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fKoolwaterstoffengasbus"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fWaterstofgasbus"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fAmmoniakgasbus"

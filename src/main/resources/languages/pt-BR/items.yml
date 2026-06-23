@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cPo de laserita"
 LASERITE:
   name: "&cLaserita"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fCilindro de oxigênio"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fCilindro de nitrogênio"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fCilindro de dióxido de carbono"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fCilindro de água"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fCilindro de hélio"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fCilindro de argônio"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fCilindro de metano"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fCilindro de hidrocarbonetos"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fCilindro de hidrogênio"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fCilindro de amônia"

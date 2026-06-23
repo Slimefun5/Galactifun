@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cPyl laserytu"
 LASERITE:
   name: "&cLaseryt"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fKanister z tlenem"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fKanister z azotem"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fKanister z dwutlenkiem węgla"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fKanister z wodą"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fKanister z helem"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fKanister z argonem"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fKanister z metanem"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fKanister z węglowodorami"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fKanister z wodorem"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fKanister z amoniakiem"

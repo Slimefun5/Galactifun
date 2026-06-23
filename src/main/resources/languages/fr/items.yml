@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cPoudre de laserite"
 LASERITE:
   name: "&cLaserite"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fCartouche de gaz oxygène"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fCartouche de gaz azote"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fCartouche de dioxyde de carbone"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fCartouche de vapeur d'eau"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fCartouche de gaz hélium"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fCartouche de gaz argon"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fCartouche de méthane"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fCartouche d'hydrocarbures"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fCartouche de gaz hydrogène"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fCartouche d'ammoniac"

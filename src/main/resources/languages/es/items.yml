@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cPolvo de laserita"
 LASERITE:
   name: "&cLaserita"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fBombona de oxígeno"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fBombona de nitrógeno"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fBombona de dióxido de carbono"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fBombona de agua"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fBombona de helio"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fBombona de argón"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fBombona de metano"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fBombona de hidrocarburos"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fBombona de hidrógeno"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fBombona de amoníaco"

@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cLaserit-Staub"
 LASERITE:
   name: "&cLaserit"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fSauerstoff-Gaskanister"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fStickstoff-Gaskanister"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fKohlendioxid-Gaskanister"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fWasser-Gaskanister"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fHelium-Gaskanister"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fArgon-Gaskanister"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fMethan-Gaskanister"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fKohlenwasserstoff-Gaskanister"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fWasserstoff-Gaskanister"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fAmmoniak-Gaskanister"

@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&c激光石粉"
 LASERITE:
   name: "&c激光石"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&f氧气气罐"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&f氮气气罐"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&f二氧化碳气罐"
+ATMOSPHERIC_GAS_WATER:
+  name: "&f水气罐"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&f氦气气罐"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&f氩气气罐"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&f甲烷气罐"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&f碳氢化合物气罐"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&f氢气气罐"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&f氨气气罐"

@@ -186,3 +186,24 @@ LASERITE_DUST:
   name: "&cЛазеритовая пыль"
 LASERITE:
   name: "&cЛазерит"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fБаллон с кислородом"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fБаллон с азотом"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fБаллон с углекислым газом"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fБаллон с водой"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fБаллон с гелием"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fБаллон с аргоном"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fБаллон с метаном"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fБаллон с углеводородами"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fБаллон с водородом"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fБаллон с аммиаком"
