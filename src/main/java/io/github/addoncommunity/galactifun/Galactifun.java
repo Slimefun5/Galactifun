@@ -62,11 +62,11 @@ public final class Galactifun extends AbstractAddon {
     private boolean shouldDisable = false;
 
     public Galactifun() {
-        super("Slimefun-Addon-Community", "Galactifun", "master", "auto-update");
+        super("Slimefun5", "Galactifun", "master", "auto-update");
     }
 
     public Galactifun(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
-        super(loader, description, dataFolder, file, "Slimefun-Addon-Community", "Galactifun", "master", "auto-update");
+        super(loader, description, dataFolder, file, "Slimefun5", "Galactifun", "master", "auto-update");
         isTest = true;
     }
 
