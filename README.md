@@ -36,7 +36,7 @@ plugins {
 }
 
 dependencies {
-    "githubCompileOnly"("Slimefun5:Galactifun:v2.0.2")
+    "githubCompileOnly"("Slimefun5:Galactifun:v2.0.2.1")
 }
 ```
 
