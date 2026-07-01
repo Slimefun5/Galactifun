@@ -4,7 +4,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Slimefun5/Galactifun/total)
 [![GitHub Followers](https://img.shields.io/github/followers/Slimefun5?style=social)](https://github.com/Slimefun5)
 [![GitHub Stars](https://img.shields.io/github/stars/Slimefun5/Galactifun?style=social)](https://github.com/Slimefun5/Galactifun)
-[![bStats](https://bStats.org/signatures/bukkit/Galactifun.svg)](https://bStats.org/plugin/bukkit/Galactifun/11613)
+[![bStats](https://bStats.org/signatures/bukkit/Galactifun.svg)](https://bStats.org/plugin/bukkit/Galactifun/31444)
 
 A Slimefun addon that adds space exploration, rockets, planets, and alien technology.
 
@@ -14,6 +14,15 @@ A Slimefun addon that adds space exploration, rockets, planets, and alien techno
 - [Slimefun 5](https://github.com/Slimefun5/Slimefun5)
 
 Inspiration taken from GalactiCraft. It has a large API for addon devs.
+<<<<<<< HEAD
+=======
+
+## Discord
+
+Feel free to join us on the Slimefun Addon Community Discord:
+
+https://discord.gg/CbBYZBEWdR
+>>>>>>> origin/experimental
 
 ## Developer API
 
@@ -27,7 +36,7 @@ plugins {
 }
 
 dependencies {
-    "githubCompileOnly"("Slimefun5:Galactifun:v2.0.1")
+    "githubCompileOnly"("Slimefun5:Galactifun:v2.0.2")
 }
 ```
 
