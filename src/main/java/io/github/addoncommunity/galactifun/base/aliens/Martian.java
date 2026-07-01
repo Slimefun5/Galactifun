@@ -10,6 +10,8 @@ import javax.annotation.Nonnull;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.ZombieVillager;
 import org.bukkit.event.entity.EntityDeathEvent;
@@ -39,8 +41,8 @@ public final class Martian extends Alien<ZombieVillager> {
         super(ZombieVillager.class, id, name, maxHealth, spawnChance);
 
         // Fixes the sword
-        this.trades.put(Material.IRON_SWORD.name(), new ItemStack(Material.IRON_SWORD));
-        this.trades.put(Material.IRON_ORE.name(), new ItemStack(Material.IRON_INGOT));
+        this.trades.put(MaterialCompat.safe(XMaterial.IRON_SWORD).name(), new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)));
+        this.trades.put(MaterialCompat.safe(XMaterial.IRON_ORE).name(), new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT)));
         this.trades.put(SlimefunItems.REINFORCED_PLATE.getItemId(), BaseMats.TUNGSTEN_INGOT.item());
     }
 
@@ -57,24 +59,24 @@ public final class Martian extends Alien<ZombieVillager> {
         Objects.requireNonNull(spawned.getEquipment());
 
         spawned.getEquipment().setArmorContents(new ItemStack[] {
-                new ItemStack(Material.IRON_BOOTS),
-                new ItemStack(Material.IRON_LEGGINGS),
-                new ItemStack(Material.IRON_CHESTPLATE),
-                new ItemStack(Material.IRON_HELMET)
+                new ItemStack(MaterialCompat.safe(XMaterial.IRON_BOOTS)),
+                new ItemStack(MaterialCompat.safe(XMaterial.IRON_LEGGINGS)),
+                new ItemStack(MaterialCompat.safe(XMaterial.IRON_CHESTPLATE)),
+                new ItemStack(MaterialCompat.safe(XMaterial.IRON_HELMET))
         });
-        spawned.getEquipment().setItemInMainHand(new ItemStack(Material.IRON_SWORD));
+        spawned.getEquipment().setItemInHand(new ItemStack(MaterialCompat.safe(XMaterial.IRON_SWORD)));
     }
 
     @Override
     public void onDeath(@Nonnull EntityDeathEvent e) {
         e.getDrops().clear();
-        e.getDrops().add(new ItemStack(Material.IRON_INGOT, 2));
-        e.getDrops().add(new ItemStack(Material.RED_SAND));
+        e.getDrops().add(new ItemStack(MaterialCompat.safe(XMaterial.IRON_INGOT), 2));
+        e.getDrops().add(new ItemStack(MaterialCompat.safe(XMaterial.RED_SAND)));
     }
 
     @Override
     public void onInteract(@Nonnull PlayerInteractEntityEvent e) {
-        ItemStack item = e.getPlayer().getInventory().getItem(e.getHand());
+        ItemStack item = e.getPlayer().getInventory().getItemInHand();
         if (item == null) {
             return;
         }
@@ -86,7 +88,7 @@ public final class Martian extends Alien<ZombieVillager> {
             LivingEntity entity = (LivingEntity) e.getRightClicked();
             Objects.requireNonNull(entity.getEquipment()).setItemInOffHand(item);
             entity.addPotionEffect(new PotionEffect(
-                    PotionEffectType.SLOWNESS,
+                    PotionEffectType.SLOW,
                     Integer.MAX_VALUE,
                     100,
                     false,
@@ -102,7 +104,7 @@ public final class Martian extends Alien<ZombieVillager> {
                     entity.getWorld().dropItemNaturally(entity.getLocation(), trade.clone());
 
                     entity.getEquipment().setItemInOffHand(null);
-                    entity.removePotionEffect(PotionEffectType.SLOWNESS);
+                    entity.removePotionEffect(PotionEffectType.SLOW);
                 }
             });
         }

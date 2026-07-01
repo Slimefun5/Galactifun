@@ -41,7 +41,7 @@ public final class BSUtils {
     @ParametersAreNonnullByDefault
     public static int getStoredInt(Location l, String key) {
         String s = BlockStorage.getLocationInfo(l, key);
-        if (s == null || s.isEmpty() || s.isBlank()) return 0;
+        if (s == null || s.isEmpty() || s.trim().isEmpty()) return 0;
 
         return Integer.parseInt(s);
     }
@@ -49,7 +49,7 @@ public final class BSUtils {
     @ParametersAreNonnullByDefault
     public static double getStoredDouble(Location l, String key) {
         String s = BlockStorage.getLocationInfo(l, key);
-        if (s == null || s.isEmpty() || s.isBlank()) return 0;
+        if (s == null || s.isEmpty() || s.trim().isEmpty()) return 0;
 
         return Double.parseDouble(s);
     }
@@ -67,7 +67,7 @@ public final class BSUtils {
     @ParametersAreNonnullByDefault
     public static Location getStoredLocation(Location l, String key) {
         String s = BlockStorage.getLocationInfo(l, key);
-        if (s == null || s.isEmpty() || s.isBlank()) return null;
+        if (s == null || s.isEmpty() || s.trim().isEmpty()) return null;
 
         String[] split = CommonPatterns.SEMICOLON.split(s);
         return new Location(Bukkit.getWorld(UUID.fromString(split[3])), Double.parseDouble(split[0]), Double.parseDouble(split[1]), Double.parseDouble(split[2]));
@@ -82,7 +82,7 @@ public final class BSUtils {
     @ParametersAreNonnullByDefault
     public static OfflinePlayer getStoredPlayer(Location l) {
         String s = BlockStorage.getLocationInfo(l, "player");
-        if (s == null || s.isEmpty() || s.isBlank()) return null;
+        if (s == null || s.isEmpty() || s.trim().isEmpty()) return null;
 
         return Bukkit.getOfflinePlayer(UUID.fromString(s));
     }

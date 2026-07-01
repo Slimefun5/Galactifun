@@ -20,6 +20,8 @@ import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.Particle;
 import org.bukkit.Tag;
 import org.bukkit.World;
@@ -126,8 +128,8 @@ public final class WorldManager implements Listener {
             throw new IllegalArgumentException("Alien World " + world.id() + " is already registered!");
         }
         this.spaceWorlds.put(world.world(), world);
-        if (world instanceof AlienWorld alienWorld) {
-            this.alienWorlds.put(world.world(), alienWorld);
+        if (world instanceof AlienWorld) {
+            this.alienWorlds.put(world.world(), (AlienWorld) world);
         }
     }
 
@@ -275,14 +277,15 @@ public final class WorldManager implements Listener {
             ProtectionManager manager = Galactifun.protectionManager();
             Location l = block.getLocation();
             if (manager.getEffectAt(l, AtmosphericEffect.COLD) > 1) {
-                Scheduler.run(() -> block.setType(Material.ICE));
+                Scheduler.run(() -> block.setType(MaterialCompat.safe(XMaterial.ICE)));
             } else if (manager.getEffectAt(l, AtmosphericEffect.HEAT) > 1) {
                 Scheduler.run(block::breakNaturally);
             } else {
                 int attempts = world.atmosphere().growthAttempts();
-                if (attempts != 0 && SlimefunTag.CROPS.isTagged(block.getType())) {
+                if (attempts != 0 && org.bukkit.Tag.CROPS.isTagged(block.getType())) {
                     BlockData data = block.getBlockData();
-                    if (data instanceof Ageable ageable) {
+                    if (data instanceof Ageable) {
+                        Ageable ageable = (Ageable) data;
                         ageable.setAge(ageable.getAge() + attempts);
                         block.setBlockData(ageable);
                     }
@@ -335,7 +338,7 @@ public final class WorldManager implements Listener {
                 if (item != null && !removePlacedBlock(b)) {
                     blocks.remove();
                     w.dropItemNaturally(b.getLocation().add(0.5, 0, 0.5), item.item());
-                    Scheduler.run(() -> b.setType(Material.AIR));
+                    Scheduler.run(() -> b.setType(MaterialCompat.safe(XMaterial.AIR)));
                 }
             }
         }
@@ -374,10 +377,7 @@ public final class WorldManager implements Listener {
                 if (timeSince < (60 * 1000)) {
                     int times = this.respawnTimes.merge(p.getUniqueId(), 1, Integer::sum);
                     if (times > 3) {
-                        p.sendMessage(ChatColor.YELLOW + """
-                                A possible respawn loop has been detected!
-                                Do you wish to go back to Earth? (yes/no)"""
-                        );
+                        p.sendMessage(ChatColor.YELLOW + "A possible respawn loop has been detected!\nDo you wish to go back to Earth? (yes/no)");
                         ChatUtils.awaitInput(p, s -> {
                             if (s.equalsIgnoreCase("yes")) {
                                 PaperLib.teleportAsync(p, BaseUniverse.EARTH.world().getSpawnLocation());
@@ -394,13 +394,13 @@ public final class WorldManager implements Listener {
 
     @EventHandler(priority = EventPriority.LOWEST, ignoreCancelled = true)
     private void onPlayerPlaceWater(PlayerBucketEmptyEvent e) {
-        if (e.getBucket() != Material.WATER_BUCKET) return;
+        if (e.getBucket() != MaterialCompat.safe(XMaterial.WATER_BUCKET)) return;
         Player p = e.getPlayer();
         PlanetaryWorld world = this.getWorld(p.getWorld());
         if (world != null && world != BaseUniverse.EARTH) {
             e.setCancelled(true);
             if (p.getGameMode() != GameMode.CREATIVE) {
-                ItemStack item = p.getInventory().getItem(e.getHand());
+                ItemStack item = p.getInventory().getItemInHand();
                 if (item != null) {
                     ItemUtils.consumeItem(item, true);
                 }
@@ -411,10 +411,10 @@ public final class WorldManager implements Listener {
             Location l = toBePlaced.getLocation();
             if (manager.getEffectAt(l, AtmosphericEffect.COLD) > 1) {
                 if (toBePlaced.isEmpty()) {
-                    toBePlaced.setType(Material.ICE);
+                    toBePlaced.setType(MaterialCompat.safe(XMaterial.ICE));
                 }
             } else if (manager.getEffectAt(l, AtmosphericEffect.HEAT) > 1) {
-                p.getWorld().spawnParticle(Particle.SMOKE, l, 5);
+                p.getWorld().spawnParticle(Particle.SMOKE_NORMAL, l, 5);
             } else {
                 e.setCancelled(false);
             }
@@ -426,7 +426,8 @@ public final class WorldManager implements Listener {
         PlanetaryWorld world = this.getWorld(e.getWorld());
         if (world == null) return;
 
-        if (e.getResource() instanceof ExclusiveGEOResource exclusiveResource) {
+        if (e.getResource() instanceof ExclusiveGEOResource) {
+            ExclusiveGEOResource exclusiveResource = (ExclusiveGEOResource) e.getResource();
             if (exclusiveResource.getWorlds().contains(world)) return;
         } else {
             if (world instanceof Earth) return;
@@ -444,7 +445,9 @@ public final class WorldManager implements Listener {
         if (e.getCause() != EntityDamageEvent.DamageCause.VOID) return;
         PlanetaryWorld world = this.getWorld(e.getEntity().getWorld());
 
-        if (world instanceof OrbitWorld orbitWorld && orbitWorld.getPlanet() instanceof PlanetaryWorld planet) {
+        if (world instanceof OrbitWorld && ((OrbitWorld) world).getPlanet() instanceof PlanetaryWorld) {
+            OrbitWorld orbitWorld = (OrbitWorld) world;
+            PlanetaryWorld planet = (PlanetaryWorld) orbitWorld.getPlanet();
             e.setCancelled(true);
             Location l = e.getEntity().getLocation();
             e.getEntity().teleport(new Location(

@@ -22,9 +22,10 @@ public class AlienRemoveCommand extends SubCommand {
 
     @Override
     public void execute(@Nonnull CommandSender commandSender, @Nonnull String[] strings) {
-        if (!(commandSender instanceof Player p) || strings.length != 1) {
+        if (!(commandSender instanceof Player) || strings.length != 1) {
             return;
         }
+        Player p = (Player) commandSender;
 
         if (strings[0].equalsIgnoreCase("all")) {
             for (UUID uuid : new HashSet<>(Galactifun.alienManager().alienIds())) {

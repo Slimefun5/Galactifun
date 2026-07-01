@@ -6,6 +6,8 @@ import java.util.Random;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BlockPopulator;
 import org.bukkit.inventory.ItemStack;
@@ -34,21 +36,21 @@ public final class Venus extends SimpleAlienWorld {
 
     @Override
     public void getPopulators(@Nonnull List<BlockPopulator> populators) {
-        populators.add(new VolcanoPopulator(117, Material.MAGMA_BLOCK, Material.LAVA));
-        populators.add(new LakePopulator(75, Material.LAVA));
+        populators.add(new VolcanoPopulator(117, MaterialCompat.safe(XMaterial.MAGMA_BLOCK), MaterialCompat.safe(XMaterial.LAVA)));
+        populators.add(new LakePopulator(75, MaterialCompat.safe(XMaterial.LAVA)));
     }
 
     @Nonnull
     @Override
     protected Material generateMaterial(@Nonnull Random random, int x, int y, int z, int top) {
         if (y > 75) {
-            return Material.BLACKSTONE;
+            return MaterialCompat.safe(XMaterial.BLACKSTONE);
         } else if (y > 9) {
-            return Material.BASALT;
+            return MaterialCompat.safe(XMaterial.BASALT);
         } else if (y > 8) {
-            return Material.YELLOW_TERRACOTTA;
+            return MaterialCompat.safe(XMaterial.YELLOW_TERRACOTTA);
         } else {
-            return Material.BASALT;
+            return MaterialCompat.safe(XMaterial.BASALT);
         }
     }
 

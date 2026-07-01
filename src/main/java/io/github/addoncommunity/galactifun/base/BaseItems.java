@@ -2,6 +2,8 @@ package io.github.addoncommunity.galactifun.base;
 
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.Galactifun;
@@ -56,7 +58,7 @@ public final class BaseItems {
     //<editor-fold desc="Space Suits, Oxygen, Upgrades" defaultstate="collapsed">
     public static final SlimefunItemStack OXYGEN_FILLER = new SlimefunItemStack(
             "OXYGEN_FILLER",
-            new ItemStack(Material.QUARTZ_BLOCK),
+            new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ_BLOCK)),
             "&fOxygen Filler",
             "",
             "&7Fills space suits with oxygen",
@@ -67,7 +69,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SPACE_SUIT_UPGRADER = new SlimefunItemStack(
             "SPACE_SUIT_UPGRADER",
-            new ItemStack(Material.IRON_BLOCK),
+            new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)),
             "&fSpace Suit Upgrader",
             "",
             "&7Adds upgrades to your space suit",
@@ -78,28 +80,28 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack HEAT_RESISTANCE_UPGRADE = new SlimefunItemStack(
             "HEAT_RESISTANCE_UPGRADE",
-            Material.IRON_BLOCK,
+            MaterialCompat.safe(XMaterial.IRON_BLOCK),
             "&7Heat Resistance Upgrade",
             "",
             "&8Add to your space suit to increase heat resistance"
     );
     public static final SlimefunItemStack COLD_RESISTANCE_UPGRADE = new SlimefunItemStack(
             "COLD_RESISTANCE_UPGRADE",
-            Material.IRON_BLOCK,
+            MaterialCompat.safe(XMaterial.IRON_BLOCK),
             "&7Cold Resistance Upgrade",
             "",
             "&8Add to your space suit to increase cold resistance"
     );
     public static final SlimefunItemStack RADIATION_RESISTANCE_UPGRADE = new SlimefunItemStack(
             "RADIATION_RESISTANCE_UPGRADE",
-            Material.IRON_BLOCK,
+            MaterialCompat.safe(XMaterial.IRON_BLOCK),
             "&7Radiation Resistance Upgrade",
             "",
             "&8Add to your space suit to increase radiation resistance"
     );
     public static final SlimefunItemStack SPACE_SUIT_HELMET = new SlimefunItemStack(
             "SPACE_SUIT_HELMET",
-            Material.GLASS,
+            MaterialCompat.safe(XMaterial.GLASS),
             "&fSpace Suit Helmet",
             "",
             "&7A basic space suit helmet",
@@ -107,7 +109,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SPACE_SUIT_CHEST = new SlimefunItemStack(
             "SPACE_SUIT_CHEST",
-            Material.IRON_CHESTPLATE,
+            MaterialCompat.safe(XMaterial.IRON_CHESTPLATE),
             "&fSpace Suit Chest",
             "",
             "&7A basic space suit chest",
@@ -116,14 +118,14 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SPACE_SUIT_PANTS = new SlimefunItemStack(
             "SPACE_SUIT_PANTS",
-            Material.IRON_LEGGINGS,
+            MaterialCompat.safe(XMaterial.IRON_LEGGINGS),
             "&fSpace Suit Pants",
             "",
             "&7Basic pair of space suit pants"
     );
     public static final SlimefunItemStack SPACE_SUIT_BOOTS = new SlimefunItemStack(
             "SPACE_SUIT_BOOTS",
-            Material.IRON_BOOTS,
+            MaterialCompat.safe(XMaterial.IRON_BOOTS),
             "&fSpace Suit Boots",
             "",
             "&7Basic pair of space suit boots"
@@ -132,7 +134,7 @@ public final class BaseItems {
     //<editor-fold desc="Random Stuff" defaultstate="collapsed">
     public static final SlimefunItemStack LAUNCH_PAD_CORE = new SlimefunItemStack(
             "LAUNCH_PAD_CORE",
-            Material.STONE,
+            MaterialCompat.safe(XMaterial.STONE),
             "&fLaunch Pad Core",
             "",
             "&7Surround with 8 &fLaunch Pad Floor&7s",
@@ -141,7 +143,7 @@ public final class BaseItems {
 
     public static final SlimefunItemStack LAUNCH_PAD_FLOOR = new SlimefunItemStack(
             "LAUNCH_PAD_FLOOR",
-            Material.STONE_SLAB,
+            MaterialCompat.safe(XMaterial.STONE_SLAB),
             "&fLaunch Pad Floor",
             "",
             "&7Used in constructing the Launch Pad"
@@ -149,7 +151,7 @@ public final class BaseItems {
 
     public static final SlimefunItemStack CIRCUIT_PRESS = new SlimefunItemStack(
             "CIRCUIT_PRESS",
-            Material.PISTON,
+            MaterialCompat.safe(XMaterial.PISTON),
             "&fCircuit Press",
             "",
             "&7Creates circuits",
@@ -159,7 +161,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack ASSEMBLY_TABLE = new SlimefunItemStack(
             "ASSEMBLY_TABLE",
-            Material.SMITHING_TABLE,
+            MaterialCompat.safe(XMaterial.SMITHING_TABLE),
             "&fAssembly Table",
             "",
             "&7Used to construct many things",
@@ -169,21 +171,21 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack STARGATE_RING = new SlimefunItemStack(
             "STARGATE_RING",
-            Material.QUARTZ_BLOCK,
+            MaterialCompat.safe(XMaterial.QUARTZ_BLOCK),
             "&9Stargate Ring",
             "",
             "&7Used to construct a stargate"
     );
     public static final SlimefunItemStack STARGATE_CONTROLLER = new SlimefunItemStack(
             "STARGATE_CONTROLLER",
-            Material.CHISELED_QUARTZ_BLOCK,
+            MaterialCompat.safe(XMaterial.CHISELED_QUARTZ_BLOCK),
             "&9Stargate Controller",
             "",
             "&7Used to control a stargate"
     );
     public static final SlimefunItemStack OBSERVATORY = new SlimefunItemStack(
             "OBSERVATORY",
-            Material.GLASS,
+            MaterialCompat.safe(XMaterial.GLASS),
             "&fObservatory",
             "",
             "&7Allows you to discover basic info about",
@@ -192,7 +194,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack PLANETARY_ANALYZER = new SlimefunItemStack(
             "PLANETARY_ANALYZER",
-            Material.SEA_LANTERN,
+            MaterialCompat.safe(XMaterial.SEA_LANTERN),
             "&fPlanetary Analyzer",
             "",
             "&7Allows you to discover advanced info",
@@ -200,7 +202,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack DIAMOND_ANVIL = new SlimefunItemStack(
             "DIAMOND_ANVIL",
-            Material.PISTON,
+            MaterialCompat.safe(XMaterial.PISTON),
             "&fDiamond Anvil",
             "",
             "&7Compresses material so hard",
@@ -234,7 +236,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack CHEMICAL_REACTOR = new SlimefunItemStack(
             "CHEMICAL_REACTOR",
-            Material.SEA_LANTERN,
+            MaterialCompat.safe(XMaterial.SEA_LANTERN),
             "&fChemical Reactor",
             "",
             "&7Reacts chemicals together",
@@ -244,7 +246,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack ELECTROLYZER = new SlimefunItemStack(
             "ELECTROLYZER",
-            Material.LANTERN,
+            MaterialCompat.safe(XMaterial.LANTERN),
             "&fElectrolyzer",
             "",
             "&7Uses electricity to split",
@@ -289,7 +291,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SPACE_HEATER_1 = new SlimefunItemStack(
             "SPACE_HEATER_1",
-            Material.SHROOMLIGHT,
+            MaterialCompat.safe(XMaterial.SHROOMLIGHT),
             "&6Space Heater I",
             "",
             "&7Effect: Cold",
@@ -300,7 +302,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SPACE_HEATER_2 = new SlimefunItemStack(
             "SPACE_HEATER_2",
-            Material.SHROOMLIGHT,
+            MaterialCompat.safe(XMaterial.SHROOMLIGHT),
             "&6Space Heater II",
             "",
             "&7Effect: Cold",
@@ -311,7 +313,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SPACE_HEATER_3 = new SlimefunItemStack(
             "SPACE_HEATER_3",
-            Material.SHROOMLIGHT,
+            MaterialCompat.safe(XMaterial.SHROOMLIGHT),
             "&6Space Heater III",
             "",
             "&7Effect: Cold",
@@ -322,7 +324,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack ION_DISPERSER_1 = new SlimefunItemStack(
             "ION_DISPERSER_1",
-            Material.PRISMARINE,
+            MaterialCompat.safe(XMaterial.PRISMARINE),
             "&fIon Disperser I",
             "",
             "&7Effect: Radiation",
@@ -333,7 +335,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack ION_DISPERSER_2 = new SlimefunItemStack(
             "ION_DISPERSER_2",
-            Material.PRISMARINE,
+            MaterialCompat.safe(XMaterial.PRISMARINE),
             "&fIon Disperser II",
             "",
             "&7Effect: Radiation",
@@ -344,14 +346,14 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack OXYGEN_SEALER = new SlimefunItemStack(
             "OXYGEN_SEALER",
-            Material.FURNACE,
+            MaterialCompat.safe(XMaterial.FURNACE),
             "&fOxygen Sealer",
             "",
             "&7Fills a sealed area with oxygen. Range 1000 blocks"
     );
     public static final SlimefunItemStack LANDING_HATCH = new SlimefunItemStack(
             "LANDING_HATCH",
-            Material.IRON_TRAPDOOR,
+            MaterialCompat.safe(XMaterial.IRON_TRAPDOOR),
             "&fLanding Hatch",
             "",
             "&7Rockets ignore this block when",
@@ -362,7 +364,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack SUPER_FAN = new SlimefunItemStack(
             "SUPER_FAN",
-            Material.WHITE_WOOL,
+            MaterialCompat.safe(XMaterial.WHITE_WOOL),
             "&7Super Fan",
             "",
             "&7Place this next to a block that needs",
@@ -370,7 +372,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack AUTOMATIC_DOOR = new SlimefunItemStack(
             "AUTOMATIC_DOOR",
-            Material.OBSERVER,
+            MaterialCompat.safe(XMaterial.OBSERVER),
             "&fAutomatic Door",
             "",
             "&7Automatically places/removes the blocks inside",
@@ -378,7 +380,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack ENVIRONMENTAL_FORCEFIELD_GENERATOR = new SlimefunItemStack(
             "ENVIRONMENTAL_FORCEFIELD_GENERATOR",
-            Material.DISPENSER,
+            MaterialCompat.safe(XMaterial.DISPENSER),
             "&fEnvironmental Forcefield Generator",
             "",
             "&7Produces a forcefield that keeps air from",
@@ -388,7 +390,7 @@ public final class BaseItems {
     //<editor-fold desc="Relics" defaultstate="collapsed">
     public static final SlimefunItemStack ENGINE_RELIC = new SlimefunItemStack(
             "ENGINE_RELIC",
-            Material.SEA_LANTERN,
+            MaterialCompat.safe(XMaterial.SEA_LANTERN),
             "&fRelic: 'Letagivd Yynmukav",
             "",
             "&7Dorepv 'lbarok 'tagivd yboths amukav",
@@ -396,7 +398,7 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack REACTOR_RELIC = new SlimefunItemStack(
             "REACTOR_RELIC",
-            Material.BEACON,
+            MaterialCompat.safe(XMaterial.BEACON),
             "&fRelic: Rotarenegortkele Yynmukav",
             "",
             "&7Ovehcin zi 'taribos onhzom uyigrene",
@@ -412,14 +414,14 @@ public final class BaseItems {
     );
     public static final SlimefunItemStack BROKEN_SOLAR_PANEL_RELIC = new SlimefunItemStack(
             "BROKEN_SOLAR_PANEL_RELIC",
-            Material.DAYLIGHT_DETECTOR,
+            MaterialCompat.safe(XMaterial.DAYLIGHT_DETECTOR),
             "&7Relic: 'Lenap Ayanhcenlos Ayanamolop",
             "",
             "&7'Lenap ayanhcenlos ayarats 'nehco"
     );
     public static final SlimefunItemStack FALLEN_SATELLITE_RELIC = new SlimefunItemStack(
             "FALLEN_SATELLITE_RELIC",
-            Material.CHISELED_QUARTZ_BLOCK,
+            MaterialCompat.safe(XMaterial.CHISELED_QUARTZ_BLOCK),
             "&7Relic: Kintups Yyhsdap",
             "",
             "&7Aben s lapu yyrotok, kintups"
@@ -493,17 +495,17 @@ public final class BaseItems {
 
         new SpaceSuitUpgrade(CoreItemGroup.EQUIPMENT, HEAT_RESISTANCE_UPGRADE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item(),
-                SlimefunItems.COOLING_UNIT.item(), new ItemStack(Material.IRON_BLOCK), SlimefunItems.COOLING_UNIT.item(),
+                SlimefunItems.COOLING_UNIT.item(), new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)), SlimefunItems.COOLING_UNIT.item(),
                 SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item(), SlimefunItems.COOLING_UNIT.item()
         }, SpaceSuitStat.HEAT_RESISTANCE, 1).register(galactifun);
         new SpaceSuitUpgrade(CoreItemGroup.EQUIPMENT, COLD_RESISTANCE_UPGRADE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item(),
-                SlimefunItems.HEATING_COIL.item(), new ItemStack(Material.IRON_BLOCK), SlimefunItems.HEATING_COIL.item(),
+                SlimefunItems.HEATING_COIL.item(), new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)), SlimefunItems.HEATING_COIL.item(),
                 SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item(), SlimefunItems.HEATING_COIL.item()
         }, SpaceSuitStat.COLD_RESISTANCE, 1).register(galactifun);
         new SpaceSuitUpgrade(CoreItemGroup.EQUIPMENT, RADIATION_RESISTANCE_UPGRADE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 SlimefunItems.LEAD_INGOT.item(), SlimefunItems.LEAD_INGOT.item(), SlimefunItems.LEAD_INGOT.item(),
-                SlimefunItems.LEAD_INGOT.item(), new ItemStack(Material.IRON_BLOCK), SlimefunItems.LEAD_INGOT.item(),
+                SlimefunItems.LEAD_INGOT.item(), new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)), SlimefunItems.LEAD_INGOT.item(),
                 SlimefunItems.LEAD_INGOT.item(), SlimefunItems.LEAD_INGOT.item(), SlimefunItems.LEAD_INGOT.item()
         }, SpaceSuitStat.RADIATION_RESISTANCE, 1).register(galactifun);
 
@@ -529,9 +531,9 @@ public final class BaseItems {
         }, 2, 0).register(galactifun);
 
         new CircuitPress(CoreItemGroup.MACHINES, CIRCUIT_PRESS, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                SlimefunItems.HEATING_COIL.item(), new ItemStack(Material.PISTON), SlimefunItems.HEATING_COIL.item(),
+                SlimefunItems.HEATING_COIL.item(), new ItemStack(MaterialCompat.safe(XMaterial.PISTON)), SlimefunItems.HEATING_COIL.item(),
                 BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), null, BaseMats.ALUMINUM_COMPOSITE_SHEET.item(),
-                SlimefunItems.HEATING_COIL.item(), new ItemStack(Material.PISTON), SlimefunItems.HEATING_COIL.item()
+                SlimefunItems.HEATING_COIL.item(), new ItemStack(MaterialCompat.safe(XMaterial.PISTON)), SlimefunItems.HEATING_COIL.item()
         }).setCapacity(512).setEnergyConsumption(128).setProcessingSpeed(1).register(galactifun);
 
         new AssemblyTable(ASSEMBLY_TABLE, new ItemStack[] {
@@ -580,7 +582,7 @@ public final class BaseItems {
         }, TIER_THREE_FUEL, TIER_THREE_STORAGE).register(galactifun);
 
         new SlimefunItem(CoreItemGroup.ITEMS, LANDING_HATCH, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                BaseMats.HEAVY_DUTY_SHEET.item(), new ItemStack(Material.IRON_TRAPDOOR), BaseMats.HEAVY_DUTY_SHEET.item(),
+                BaseMats.HEAVY_DUTY_SHEET.item(), new ItemStack(MaterialCompat.safe(XMaterial.IRON_TRAPDOOR)), BaseMats.HEAVY_DUTY_SHEET.item(),
                 BaseMats.SPACE_GRADE_PLATE.item(), null, BaseMats.SPACE_GRADE_PLATE.item(),
                 BaseMats.SPACE_GRADE_PLATE.item(), null, BaseMats.SPACE_GRADE_PLATE.item()
         }).register(galactifun);
@@ -622,7 +624,7 @@ public final class BaseItems {
         }, 1).register(galactifun);
 
         new SpaceHeater(SPACE_HEATER_2, new ItemStack[] {
-                BaseMats.SPACE_GRADE_PLATE.item(), new ItemStack(Material.LAVA_BUCKET), BaseMats.SPACE_GRADE_PLATE.item(),
+                BaseMats.SPACE_GRADE_PLATE.item(), new ItemStack(MaterialCompat.safe(XMaterial.LAVA_BUCKET)), BaseMats.SPACE_GRADE_PLATE.item(),
                 BaseMats.VENTSTONE.item(), SPACE_HEATER_1.item(), BaseMats.VENTSTONE.item(),
                 BaseMats.SPACE_GRADE_PLATE.item(), SlimefunItems.HEATING_COIL.item(), BaseMats.SPACE_GRADE_PLATE.item()
         }, 2).register(galactifun);
@@ -635,7 +637,7 @@ public final class BaseItems {
 
         new IonDisperser(ION_DISPERSER_1, new ItemStack[] {
                 BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), BaseMats.FAN_BLADE.item(), BaseMats.ALUMINUM_COMPOSITE_SHEET.item(),
-                new ItemStack(Material.PRISMARINE_CRYSTALS), BaseMats.SULFUR_BLOCK.item(), new ItemStack(Material.PRISMARINE_CRYSTALS),
+                new ItemStack(MaterialCompat.safe(XMaterial.PRISMARINE_CRYSTALS)), BaseMats.SULFUR_BLOCK.item(), new ItemStack(MaterialCompat.safe(XMaterial.PRISMARINE_CRYSTALS)),
                 BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), BaseMats.VENTSTONE.item(), BaseMats.ALUMINUM_COMPOSITE_SHEET.item()
         }, 1).register(galactifun);
 
@@ -646,9 +648,9 @@ public final class BaseItems {
         }, 2).register(galactifun);
 
         new Observatory(OBSERVATORY, new ItemStack[] {
-                new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.PISTON), new ItemStack(Material.IRON_BLOCK),
-                new ItemStack(Material.PISTON), BaseMats.LUNAR_GLASS.item(), new ItemStack(Material.PISTON),
-                new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.PISTON), new ItemStack(Material.IRON_BLOCK)
+                new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.PISTON)), new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)),
+                new ItemStack(MaterialCompat.safe(XMaterial.PISTON)), BaseMats.LUNAR_GLASS.item(), new ItemStack(MaterialCompat.safe(XMaterial.PISTON)),
+                new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK)), new ItemStack(MaterialCompat.safe(XMaterial.PISTON)), new ItemStack(MaterialCompat.safe(XMaterial.IRON_BLOCK))
         }).register(galactifun);
         new PlanetaryAnalyzer(PLANETARY_ANALYZER, new ItemStack[] {
                 BaseMats.TUNGSTEN_INGOT.item(), SlimefunItems.GPS_TRANSMITTER_4.item(), BaseMats.TUNGSTEN_INGOT.item(),
@@ -656,9 +658,9 @@ public final class BaseItems {
                 BaseMats.TUNGSTEN_INGOT.item(), BaseMats.VOLCANIC_INGOT.item(), BaseMats.TUNGSTEN_INGOT.item()
         }).register(galactifun);
         new DiamondAnvil(DIAMOND_ANVIL, new ItemStack[] {
-                BaseMats.ULTRA_DUTY_SHEET.item(), new ItemStack(Material.GLASS), BaseMats.ULTRA_DUTY_SHEET.item(),
+                BaseMats.ULTRA_DUTY_SHEET.item(), new ItemStack(MaterialCompat.safe(XMaterial.GLASS)), BaseMats.ULTRA_DUTY_SHEET.item(),
                 BaseMats.ULTRA_DUTY_SHEET.item(), BaseMats.DIAMOND_ANVIL_CELL.item(), BaseMats.ULTRA_DUTY_SHEET.item(),
-                BaseMats.ULTRA_DUTY_SHEET.item(), new ItemStack(Material.ANVIL), BaseMats.ULTRA_DUTY_SHEET.item()
+                BaseMats.ULTRA_DUTY_SHEET.item(), new ItemStack(MaterialCompat.safe(XMaterial.ANVIL)), BaseMats.ULTRA_DUTY_SHEET.item()
         }).setCapacity(2048).setEnergyConsumption(512).setProcessingSpeed(1).register(galactifun);
 
         new OxygenSealer(OXYGEN_SEALER, new ItemStack[] {
@@ -674,7 +676,7 @@ public final class BaseItems {
         }).register(galactifun);
 
         new AutomaticDoor(AUTOMATIC_DOOR, new ItemStack[] {
-                BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), new ItemStack(Material.OBSERVER), BaseMats.ALUMINUM_COMPOSITE_SHEET.item(),
+                BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), new ItemStack(MaterialCompat.safe(XMaterial.OBSERVER)), BaseMats.ALUMINUM_COMPOSITE_SHEET.item(),
                 BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), SlimefunItems.PROGRAMMABLE_ANDROID_MINER.item(), BaseMats.ALUMINUM_COMPOSITE_SHEET.item(),
                 BaseMats.ALUMINUM_COMPOSITE_SHEET.item(), SlimefunItems.BLOCK_PLACER.item(), BaseMats.ALUMINUM_COMPOSITE_SHEET.item()
         }).register(galactifun);
@@ -715,13 +717,13 @@ public final class BaseItems {
                 BaseMats.ADVANCED_PROCESSING_UNIT.item(), BaseMats.ULTRA_DUTY_SHEET.item(), BaseMats.ADVANCED_PROCESSING_UNIT.item()
         });
 
-        chemicalReactor.addRecipe(new ItemStack(Material.WATER_BUCKET), Gas.WATER.item().item(), new ItemStack(Material.BUCKET));
+        chemicalReactor.addRecipe(new ItemStack(MaterialCompat.safe(XMaterial.WATER_BUCKET)), Gas.WATER.item().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)));
         chemicalReactor.addRecipe(Gas.WATER.item().item(), Gas.OXYGEN.item().item(), Gas.HYDROGEN.item().asQuantity(2));
 
         chemicalReactor.addRecipe(Gas.CARBON_DIOXIDE.item().item(), SlimefunItems.CARBON.item(), Gas.OXYGEN.item().asQuantity(2));
         chemicalReactor.addRecipe(Gas.METHANE.item().item(), SlimefunItems.CARBON.item(), Gas.HYDROGEN.item().asQuantity(4));
         chemicalReactor.addRecipe(Gas.HYDROCARBONS.item().item(), Gas.METHANE.item().asQuantity(6));
-        chemicalReactor.addRecipe(SlimefunItems.OIL_BUCKET.item(), Gas.HYDROCARBONS.item().item(), new ItemStack(Material.BUCKET));
+        chemicalReactor.addRecipe(SlimefunItems.OIL_BUCKET.item(), Gas.HYDROCARBONS.item().item(), new ItemStack(MaterialCompat.safe(XMaterial.BUCKET)));
 
         chemicalReactor.addRecipe(Gas.AMMONIA.item().item(), Gas.NITROGEN.item().item(), Gas.HYDROGEN.item().asQuantity(3));
 
@@ -760,7 +762,7 @@ public final class BaseItems {
         new TechnologicalSalvager(TECHNOLOGICAL_SALVAGER, new ItemStack[] {
                 BaseMats.ULTRA_DUTY_SHEET.item(), null, BaseMats.ULTRA_DUTY_SHEET.item(),
                 BaseMats.ADVANCED_PROCESSING_UNIT.item(), null, BaseMats.ADVANCED_PROCESSING_UNIT.item(),
-                BaseMats.ULTRA_DUTY_SHEET.item(), new ItemStack(Material.STICKY_PISTON), BaseMats.ULTRA_DUTY_SHEET.item()
+                BaseMats.ULTRA_DUTY_SHEET.item(), new ItemStack(MaterialCompat.safe(XMaterial.STICKY_PISTON)), BaseMats.ULTRA_DUTY_SHEET.item()
         }).register(galactifun);
     }
 

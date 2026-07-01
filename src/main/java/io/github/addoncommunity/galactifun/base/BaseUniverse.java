@@ -2,6 +2,8 @@ package io.github.addoncommunity.galactifun.base;
 
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.Galactifun;
@@ -47,21 +49,21 @@ public final class BaseUniverse {
             GalaxyType.SPIRAL,
             Orbit.lightYears(12_000_000_000D, 0),
             THE_UNIVERSE,
-            new ItemStack(Material.MILK_BUCKET)
+            new ItemStack(MaterialCompat.safe(XMaterial.MILK_BUCKET))
     );
     public static final StarSystem SOLAR_SYSTEM = new StarSystem(
             "Solar System",
             StarSystemType.NORMAL,
             Orbit.lightYears(27_000, 250_000_000D),
             MILKY_WAY,
-            new ItemStack(Material.SUNFLOWER)
+            new ItemStack(MaterialCompat.safe(XMaterial.SUNFLOWER))
     );
     public static final PlanetaryObject JUPITER = new PlanetaryObject(
             "&6Jupiter",
             PlanetaryType.GAS_GIANT,
             Orbit.kilometers(778_340_821L, 12D),
             SOLAR_SYSTEM,
-            new ItemStack(Material.RED_DYE),
+            new ItemStack(MaterialCompat.safe(XMaterial.RED_DYE)),
             DayCycle.hours(10),
             new AtmosphereBuilder()
                     .addStorm()
@@ -77,7 +79,7 @@ public final class BaseUniverse {
             PlanetaryType.TERRESTRIAL,
             Orbit.kilometers(421_800L, 2),
             JUPITER,
-            new ItemStack(Material.LAVA_BUCKET),
+            new ItemStack(MaterialCompat.safe(XMaterial.LAVA_BUCKET)),
             DayCycle.hours(42),
             new AtmosphereBuilder()
                     .setPressure(0)
@@ -91,7 +93,7 @@ public final class BaseUniverse {
             PlanetaryType.FROZEN,
             Orbit.kilometers(671_100, 3),
             JUPITER,
-            new ItemStack(Material.ICE),
+            new ItemStack(MaterialCompat.safe(XMaterial.ICE)),
             DayCycle.ETERNAL_NIGHT,
             Atmosphere.NONE,
             Gravity.metersPerSec(1.315)
@@ -101,7 +103,7 @@ public final class BaseUniverse {
             PlanetaryType.GAS_GIANT,
             Orbit.kilometers(1_490_500_000, 29D),
             SOLAR_SYSTEM,
-            new ItemStack(Material.QUARTZ_BLOCK),
+            new ItemStack(MaterialCompat.safe(XMaterial.QUARTZ_BLOCK)),
             DayCycle.hours(10),
             new AtmosphereBuilder()
                     .enableWeather()
@@ -115,7 +117,7 @@ public final class BaseUniverse {
             PlanetaryType.TERRESTRIAL,
             Orbit.kilometers(149_600_000L, 1D),
             SOLAR_SYSTEM,
-            new ItemStack(Material.GRASS_BLOCK),
+            new ItemStack(MaterialCompat.safe(XMaterial.GRASS_BLOCK)),
             DayCycle.EARTH_LIKE,
             Atmosphere.EARTH_LIKE,
             Gravity.EARTH_LIKE
@@ -125,7 +127,7 @@ public final class BaseUniverse {
             PlanetaryType.SPACE,
             Orbit.kilometers(24_000, 1),
             EARTH,
-            new ItemStack(Material.OBSIDIAN),
+            new ItemStack(MaterialCompat.safe(XMaterial.OBSIDIAN)),
             DayCycle.ETERNAL_NIGHT,
             Atmosphere.NONE, Gravity.ZERO
     );
@@ -134,7 +136,7 @@ public final class BaseUniverse {
             PlanetaryType.TERRESTRIAL,
             Orbit.kilometers(108_860_000L, 225),
             SOLAR_SYSTEM,
-            new ItemStack(Material.BLACK_TERRACOTTA),
+            new ItemStack(MaterialCompat.safe(XMaterial.BLACK_TERRACOTTA)),
             DayCycle.days(117),
             new AtmosphereBuilder()
                     .setNether()
@@ -152,7 +154,7 @@ public final class BaseUniverse {
             PlanetaryType.TERRESTRIAL,
             Orbit.kilometers(382_500L, 27),
             EARTH,
-            new ItemStack(Material.ANDESITE),
+            new ItemStack(MaterialCompat.safe(XMaterial.ANDESITE)),
             DayCycle.EARTH_LIKE,
             Atmosphere.NONE.toBuilder()
                     .addEffect(AtmosphericEffect.COLD, 1)
@@ -164,7 +166,7 @@ public final class BaseUniverse {
             PlanetaryType.TERRESTRIAL,
             Orbit.kilometers(227_943_824L, 687),
             SOLAR_SYSTEM,
-            new ItemStack(Material.RED_SAND),
+            new ItemStack(MaterialCompat.safe(XMaterial.RED_SAND)),
             DayCycle.of(1, 1),
             new AtmosphereBuilder()
                     .add(Gas.CARBON_DIOXIDE, 94.9)
@@ -180,7 +182,7 @@ public final class BaseUniverse {
             PlanetaryType.TERRESTRIAL,
             Orbit.kilometers(1_200_000L, 16),
             SATURN,
-            new ItemStack(Material.SAND),
+            new ItemStack(MaterialCompat.safe(XMaterial.SAND)),
             DayCycle.EARTH_LIKE,
             new AtmosphereBuilder()
                     .enableWeather()
@@ -198,7 +200,7 @@ public final class BaseUniverse {
             PlanetaryType.FROZEN,
             Orbit.kilometers(237_948L, 1),
             SATURN,
-            new ItemStack(Material.ICE),
+            new ItemStack(MaterialCompat.safe(XMaterial.ICE)),
             DayCycle.ETERNAL_NIGHT,
             Atmosphere.NONE,
             Gravity.relativeToEarth(0.0113)

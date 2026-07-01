@@ -1,0 +1,209 @@
+# Galactifun item-name translations (ru). Keyed by Slimefun item id. Names only.
+
+OXYGEN_FILLER:
+  name: "&fЗаправщик кислорода"
+SPACE_SUIT_UPGRADER:
+  name: "&fУлучшатель скафандра"
+HEAT_RESISTANCE_UPGRADE:
+  name: "&7Улучшение жаростойкости"
+COLD_RESISTANCE_UPGRADE:
+  name: "&7Улучшение морозостойкости"
+RADIATION_RESISTANCE_UPGRADE:
+  name: "&7Улучшение радиационной защиты"
+SPACE_SUIT_HELMET:
+  name: "&fШлем скафандра"
+SPACE_SUIT_CHEST:
+  name: "&fНагрудник скафандра"
+SPACE_SUIT_PANTS:
+  name: "&fШтаны скафандра"
+SPACE_SUIT_BOOTS:
+  name: "&fБотинки скафандра"
+LAUNCH_PAD_CORE:
+  name: "&fЯдро стартовой площадки"
+LAUNCH_PAD_FLOOR:
+  name: "&fПол стартовой площадки"
+CIRCUIT_PRESS:
+  name: "&fПресс для схем"
+ASSEMBLY_TABLE:
+  name: "&fСборочный стол"
+STARGATE_RING:
+  name: "&9Кольцо Звёздных врат"
+STARGATE_CONTROLLER:
+  name: "&9Контроллер Звёздных врат"
+OBSERVATORY:
+  name: "&fОбсерватория"
+PLANETARY_ANALYZER:
+  name: "&fПланетарный анализатор"
+DIAMOND_ANVIL:
+  name: "&fАлмазная наковальня"
+FUSION_REACTOR:
+  name: "&fТермоядерный реактор"
+ATMOSPHERIC_HARVESTER:
+  name: "&fАтмосферный сборщик"
+CHEMICAL_REACTOR:
+  name: "&fХимический реактор"
+ELECTROLYZER:
+  name: "&fЭлектролизёр"
+COOLING_UNIT_1:
+  name: "&bОхлаждающий блок I"
+COOLING_UNIT_2:
+  name: "&bОхлаждающий блок II"
+COOLING_UNIT_3:
+  name: "&bОхлаждающий блок III"
+SPACE_HEATER_1:
+  name: "&6Космический обогреватель I"
+SPACE_HEATER_2:
+  name: "&6Космический обогреватель II"
+SPACE_HEATER_3:
+  name: "&6Космический обогреватель III"
+ION_DISPERSER_1:
+  name: "&fИонный рассеиватель I"
+ION_DISPERSER_2:
+  name: "&fИонный рассеиватель II"
+OXYGEN_SEALER:
+  name: "&fКислородный герметизатор"
+LANDING_HATCH:
+  name: "&fПосадочный люк"
+SUPER_FAN:
+  name: "&7Супервентилятор"
+AUTOMATIC_DOOR:
+  name: "&fАвтоматическая дверь"
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: "&fГенератор защитного поля среды"
+ENGINE_RELIC:
+  name: "&fРеликвия: 'Letagivd Yynmukav"
+REACTOR_RELIC:
+  name: "&fРеликвия: Rotarenegortkele Yynmukav"
+COMPUTER_RELIC:
+  name: "&fРеликвия: Retuypmok Yyntnavk"
+BROKEN_SOLAR_PANEL_RELIC:
+  name: "&7Реликвия: 'Lenap Ayanhcenlos Ayanamolop"
+FALLEN_SATELLITE_RELIC:
+  name: "&7Реликвия: Kintups Yyhsdap"
+TECHNOLOGICAL_SALVAGER:
+  name: "&fТехнологический утилизатор"
+ROCKET_TIER_ONE:
+  name: "&4Химическая ракета уровень 1"
+ROCKET_TIER_TWO:
+  name: "&4Химическая ракета уровень 2"
+ROCKET_TIER_THREE:
+  name: "&4Химическая ракета уровень 3"
+ION_ROCKET:
+  name: "&bИонная ракета"
+MOON_DUST:
+  name: "&7Лунная пыль"
+MOON_ROCK:
+  name: "&7Лунная порода"
+MARS_DUST:
+  name: "&cМарсианская пыль"
+MARS_ROCK:
+  name: "&cМарсианская порода"
+DRY_ICE:
+  name: "&bСухой лёд"
+METHANE_ICE:
+  name: "&bМетановый лёд"
+SULFUR_BLOCK:
+  name: "&6Блок серы"
+VENTSTONE:
+  name: "&6Жерловой камень"
+LASERITE_ORE:
+  name: "&cРуда лазерита"
+ALUMINUM_COMPOSITE:
+  name: "&fАлюминиевый композит"
+TUNGSTEN_INGOT:
+  name: "&bВольфрамовый слиток"
+ALUMINUM_COMPOSITE_SHEET:
+  name: "&fЛист алюминиевого композита"
+HEAVY_DUTY_SHEET:
+  name: "&fУсиленный лист"
+SPACE_GRADE_PLATE:
+  name: "&fПластина космического класса"
+ULTRA_DUTY_SHEET:
+  name: "&fСверхпрочный лист"
+GOLD_FOIL:
+  name: "&6Золотая фольга"
+REINFORCED_CHANNEL:
+  name: "&fУсиленный канал"
+FAN_BLADE:
+  name: "&fЛопасть вентилятора"
+NOZZLE:
+  name: "&fСопло"
+AIR_FILTER:
+  name: "&fФильтр"
+OXYGEN_REGENERATOR:
+  name: "&bРегенератор кислорода"
+SPARK_PLUG:
+  name: "&fСвеча зажигания"
+SPARK_PLUG_2:
+  name: "&fСвеча зажигания Mk 2"
+ROCKET_ENGINE:
+  name: "&fРакетный двигатель"
+ROCKET_ENGINE_2:
+  name: "&fРакетный двигатель Mk 2"
+ROCKET_ENGINE_3:
+  name: "&fРакетный двигатель Mk 3"
+ION_ENGINE:
+  name: "&bИонный двигатель"
+ADVANCED_PROCESSING_UNIT:
+  name: "&4Продвинутый процессорный блок"
+LIFE_SUPPORT_MODULE:
+  name: "&4Модуль жизнеобеспечения"
+NOSE_CONE:
+  name: "&fНосовой обтекатель"
+FUEL_TANK:
+  name: "&6Топливный бак"
+FUEL_TANK_2:
+  name: "&6Топливный бак Mk 2"
+DIAMOND_CIRCUIT:
+  name: "&7Алмазная схема"
+REDSTONE_CIRCUIT:
+  name: "&7Редстоуновая схема"
+LAPIS_CIRCUIT:
+  name: "&7Лазуритовая схема"
+GLOWSTONE_CIRCUIT:
+  name: "&7Светопыльная схема"
+MUNPOWDER:
+  name: "&7Лунный порох"
+FALLEN_METEOR:
+  name: "&4Упавший метеор"
+MOON_CHEESE:
+  name: "&6Лунный сыр"
+ENDER_BLOCK:
+  name: "&3Эндер-блок"
+LUNAR_GLASS:
+  name: "&fЛунное стекло"
+VOLCANIC_INGOT:
+  name: "&4Вулканический слиток"
+BLISTERING_VOLCANIC_INGOT:
+  name: "&6Раскалённый вулканический слиток"
+TUNGSTEN_CARBIDE:
+  name: "&7Карбид вольфрама"
+DIAMOND_ANVIL_CELL:
+  name: "&bЯчейка алмазной наковальни"
+FUSION_PELLET:
+  name: "&fТермоядерная таблетка"
+LASERITE_DUST:
+  name: "&cЛазеритовая пыль"
+LASERITE:
+  name: "&cЛазерит"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fБаллон с кислородом"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fБаллон с азотом"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fБаллон с углекислым газом"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fБаллон с водой"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fБаллон с гелием"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fБаллон с аргоном"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fБаллон с метаном"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fБаллон с углеводородами"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fБаллон с водородом"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fБаллон с аммиаком"

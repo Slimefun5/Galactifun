@@ -8,6 +8,8 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.World;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BiomeProvider;
@@ -32,8 +34,8 @@ import io.github.addoncommunity.galactifun.util.Sphere;
 
 public final class EarthOrbit extends AlienWorld implements OrbitWorld {
 
-    private final Sphere comet = new Sphere(Material.ICE, Material.PACKED_ICE, Material.BLUE_ICE);
-    private final Sphere asteroid = new Sphere(Material.STONE, Material.COBBLESTONE, Material.ANDESITE);
+    private final Sphere comet = new Sphere(MaterialCompat.safe(XMaterial.ICE), MaterialCompat.safe(XMaterial.PACKED_ICE), MaterialCompat.safe(XMaterial.BLUE_ICE));
+    private final Sphere asteroid = new Sphere(MaterialCompat.safe(XMaterial.STONE), MaterialCompat.safe(XMaterial.COBBLESTONE), MaterialCompat.safe(XMaterial.ANDESITE));
 
     public EarthOrbit(String name, PlanetaryType type, Orbit orbit, PlanetaryObject orbiting, ItemStack baseItem,
                       DayCycle dayCycle, Atmosphere atmosphere, Gravity gravity) {
@@ -82,9 +84,9 @@ public final class EarthOrbit extends AlienWorld implements OrbitWorld {
                             (region.getCenterChunkZ() << 4) + z
                     );
                     switch (random.nextInt(3)) {
-                        case 0 -> EarthOrbit.this.asteroid.generate(l, region, 5, 2);
-                        case 1 -> EarthOrbit.this.comet.generate(l, region, 5, 2);
-                        case 2 -> region.setType(l, Material.IRON_BLOCK);
+                        case 0: EarthOrbit.this.asteroid.generate(l, region, 5, 2); break;
+                        case 1: EarthOrbit.this.comet.generate(l, region, 5, 2); break;
+                        case 2: region.setType(l, MaterialCompat.safe(XMaterial.IRON_BLOCK)); break;
                     }
                 }
             }

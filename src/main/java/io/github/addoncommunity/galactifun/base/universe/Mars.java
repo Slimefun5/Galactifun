@@ -7,6 +7,8 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
@@ -44,17 +46,17 @@ public final class Mars extends SimpleAlienWorld {
     protected Material generateMaterial(@Nonnull Random random, int x, int y, int z, int top) {
         if (random.nextDouble() <= 0.1 && y <= 15) {
             // 10% of blocks under y 15 are iron ore
-            return Material.IRON_ORE;
+            return MaterialCompat.safe(XMaterial.IRON_ORE);
         }
         // 90% of blocks are terracotta
-        return Material.TERRACOTTA;
+        return MaterialCompat.safe(XMaterial.TERRACOTTA);
     }
 
     @Nonnull
     @Override
     protected ObjectIntPair<Material> getTop() {
         // top 4 blocks
-        return new ObjectIntImmutablePair<>(Material.RED_SAND, 4);
+        return new ObjectIntImmutablePair<>(MaterialCompat.safe(XMaterial.RED_SAND), 4);
     }
 
     @Override
@@ -66,7 +68,7 @@ public final class Mars extends SimpleAlienWorld {
 
             // Choose a narrow selection of blocks
             if (Math.abs(density) < 0.03) {
-                chunk.setBlock(x, y, z, Material.CAVE_AIR);
+                chunk.setBlock(x, y, z, MaterialCompat.safe(XMaterial.CAVE_AIR));
             }
         }
     }
@@ -88,7 +90,7 @@ public final class Mars extends SimpleAlienWorld {
 
                     for (int y = 0; y < worldInfo.getMaxHeight(); y++) {
                         if (region.getType(x, y, z).isAir()) {
-                            region.setType(x, y, z, Material.ANCIENT_DEBRIS);
+                            region.setType(x, y, z, MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS));
                             break;
                         }
                     }
@@ -107,7 +109,7 @@ public final class Mars extends SimpleAlienWorld {
                     GenUtils.generateSquare(
                             region,
                             new Location(null, x, y, z),
-                            Material.PACKED_ICE,
+                            MaterialCompat.safe(XMaterial.PACKED_ICE),
                             random.nextInt(4) + 1
                     );
                 }

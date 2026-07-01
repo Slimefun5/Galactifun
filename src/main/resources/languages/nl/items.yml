@@ -1,0 +1,209 @@
+# Galactifun item-name translations (nl). Keyed by Slimefun item id. Names only.
+
+OXYGEN_FILLER:
+  name: "&fZuurstofvuller"
+SPACE_SUIT_UPGRADER:
+  name: "&fRuimtepak-upgrader"
+HEAT_RESISTANCE_UPGRADE:
+  name: "&7Hittebestendigheid-upgrade"
+COLD_RESISTANCE_UPGRADE:
+  name: "&7Koudebestendigheid-upgrade"
+RADIATION_RESISTANCE_UPGRADE:
+  name: "&7Stralingsbestendigheid-upgrade"
+SPACE_SUIT_HELMET:
+  name: "&fRuimtepak-helm"
+SPACE_SUIT_CHEST:
+  name: "&fRuimtepak-borstplaat"
+SPACE_SUIT_PANTS:
+  name: "&fRuimtepak-broek"
+SPACE_SUIT_BOOTS:
+  name: "&fRuimtepak-laarzen"
+LAUNCH_PAD_CORE:
+  name: "&fLanceerplatform-kern"
+LAUNCH_PAD_FLOOR:
+  name: "&fLanceerplatform-vloer"
+CIRCUIT_PRESS:
+  name: "&fCircuitpers"
+ASSEMBLY_TABLE:
+  name: "&fAssemblagetafel"
+STARGATE_RING:
+  name: "&9Stargate-ring"
+STARGATE_CONTROLLER:
+  name: "&9Stargate-controller"
+OBSERVATORY:
+  name: "&fObservatorium"
+PLANETARY_ANALYZER:
+  name: "&fPlanetaire analysator"
+DIAMOND_ANVIL:
+  name: "&fDiamanten aambeeld"
+FUSION_REACTOR:
+  name: "&fFusiereactor"
+ATMOSPHERIC_HARVESTER:
+  name: "&fAtmosferische oogster"
+CHEMICAL_REACTOR:
+  name: "&fChemische reactor"
+ELECTROLYZER:
+  name: "&fElektrolyser"
+COOLING_UNIT_1:
+  name: "&bKoeleenheid I"
+COOLING_UNIT_2:
+  name: "&bKoeleenheid II"
+COOLING_UNIT_3:
+  name: "&bKoeleenheid III"
+SPACE_HEATER_1:
+  name: "&6Ruimteverwarmer I"
+SPACE_HEATER_2:
+  name: "&6Ruimteverwarmer II"
+SPACE_HEATER_3:
+  name: "&6Ruimteverwarmer III"
+ION_DISPERSER_1:
+  name: "&fIonenverspreider I"
+ION_DISPERSER_2:
+  name: "&fIonenverspreider II"
+OXYGEN_SEALER:
+  name: "&fZuurstofafdichter"
+LANDING_HATCH:
+  name: "&fLandingsluik"
+SUPER_FAN:
+  name: "&7Superventilator"
+AUTOMATIC_DOOR:
+  name: "&fAutomatische deur"
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: "&fOmgevingskrachtveldgenerator"
+ENGINE_RELIC:
+  name: "&fRelikwie: 'Letagivd Yynmukav"
+REACTOR_RELIC:
+  name: "&fRelikwie: Rotarenegortkele Yynmukav"
+COMPUTER_RELIC:
+  name: "&fRelikwie: Retuypmok Yyntnavk"
+BROKEN_SOLAR_PANEL_RELIC:
+  name: "&7Relikwie: 'Lenap Ayanhcenlos Ayanamolop"
+FALLEN_SATELLITE_RELIC:
+  name: "&7Relikwie: Kintups Yyhsdap"
+TECHNOLOGICAL_SALVAGER:
+  name: "&fTechnologische berger"
+ROCKET_TIER_ONE:
+  name: "&4Chemische raket niveau 1"
+ROCKET_TIER_TWO:
+  name: "&4Chemische raket niveau 2"
+ROCKET_TIER_THREE:
+  name: "&4Chemische raket niveau 3"
+ION_ROCKET:
+  name: "&bIonenraket"
+MOON_DUST:
+  name: "&7Maanstof"
+MOON_ROCK:
+  name: "&7Maangesteente"
+MARS_DUST:
+  name: "&cMarsstof"
+MARS_ROCK:
+  name: "&cMarsgesteente"
+DRY_ICE:
+  name: "&bDroogijs"
+METHANE_ICE:
+  name: "&bMethaanijs"
+SULFUR_BLOCK:
+  name: "&6Zwavelblok"
+VENTSTONE:
+  name: "&6Schoorsteensteen"
+LASERITE_ORE:
+  name: "&cLaseriet-erts"
+ALUMINUM_COMPOSITE:
+  name: "&fAluminiumcomposiet"
+TUNGSTEN_INGOT:
+  name: "&bWolfraamstaaf"
+ALUMINUM_COMPOSITE_SHEET:
+  name: "&fAluminiumcomposietplaat"
+HEAVY_DUTY_SHEET:
+  name: "&fZware plaat"
+SPACE_GRADE_PLATE:
+  name: "&fRuimtevaartplaat"
+ULTRA_DUTY_SHEET:
+  name: "&fUltrazware plaat"
+GOLD_FOIL:
+  name: "&6Goudfolie"
+REINFORCED_CHANNEL:
+  name: "&fVersterkt kanaal"
+FAN_BLADE:
+  name: "&fVentilatorblad"
+NOZZLE:
+  name: "&fSpuitmond"
+AIR_FILTER:
+  name: "&fFilter"
+OXYGEN_REGENERATOR:
+  name: "&bZuurstofregenerator"
+SPARK_PLUG:
+  name: "&fBougie"
+SPARK_PLUG_2:
+  name: "&fBougie Mk 2"
+ROCKET_ENGINE:
+  name: "&fRaketmotor"
+ROCKET_ENGINE_2:
+  name: "&fRaketmotor Mk 2"
+ROCKET_ENGINE_3:
+  name: "&fRaketmotor Mk 3"
+ION_ENGINE:
+  name: "&bIonenmotor"
+ADVANCED_PROCESSING_UNIT:
+  name: "&4Geavanceerde verwerkingseenheid"
+LIFE_SUPPORT_MODULE:
+  name: "&4Levensondersteuningsmodule"
+NOSE_CONE:
+  name: "&fNeuskegel"
+FUEL_TANK:
+  name: "&6Brandstoftank"
+FUEL_TANK_2:
+  name: "&6Brandstoftank Mk 2"
+DIAMOND_CIRCUIT:
+  name: "&7Diamanten circuit"
+REDSTONE_CIRCUIT:
+  name: "&7Redstone-circuit"
+LAPIS_CIRCUIT:
+  name: "&7Lapis-circuit"
+GLOWSTONE_CIRCUIT:
+  name: "&7Glowstone-circuit"
+MUNPOWDER:
+  name: "&7Maankruit"
+FALLEN_METEOR:
+  name: "&4Gevallen meteoor"
+MOON_CHEESE:
+  name: "&6Maankaas"
+ENDER_BLOCK:
+  name: "&3Enderblok"
+LUNAR_GLASS:
+  name: "&fMaanglas"
+VOLCANIC_INGOT:
+  name: "&4Vulkanische staaf"
+BLISTERING_VOLCANIC_INGOT:
+  name: "&6Gloeiende vulkanische staaf"
+TUNGSTEN_CARBIDE:
+  name: "&7Wolfraamcarbide"
+DIAMOND_ANVIL_CELL:
+  name: "&bDiamanten aambeeldcel"
+FUSION_PELLET:
+  name: "&fFusiekorrel"
+LASERITE_DUST:
+  name: "&cLaserietstof"
+LASERITE:
+  name: "&cLaseriet"
+
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fZuurstofgasbus"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fStikstofgasbus"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fKoolstofdioxidegasbus"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fWatergasbus"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fHeliumgasbus"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fArgongasbus"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fMethaangasbus"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fKoolwaterstoffengasbus"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fWaterstofgasbus"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fAmmoniakgasbus"

@@ -30,7 +30,7 @@ import it.unimi.dsi.fastutil.ints.IntList;
  */
 public final class Leech extends Alien<Silverfish> {
 
-    private final NamespacedKey eatenKey = Galactifun.createKey("eaten");
+    private final NamespacedKey eatenKey = new NamespacedKey("galactifun", "eaten");
 
     public Leech(String id, String name, double maxHealth, int spawnChance) {
         super(Silverfish.class, id, name, maxHealth, spawnChance);

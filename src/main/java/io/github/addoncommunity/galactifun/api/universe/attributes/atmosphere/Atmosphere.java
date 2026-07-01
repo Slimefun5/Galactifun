@@ -117,8 +117,8 @@ public final class Atmosphere {
     public AtmosphereBuilder toBuilder() {
         AtmosphereBuilder builder = new AtmosphereBuilder();
         switch (this.environment) {
-            case NETHER -> builder.setNether();
-            case THE_END -> builder.setEnd();
+            case NETHER: builder.setNether(); break;
+            case THE_END: builder.setEnd(); break;
         }
 
         for (Map.Entry<AtmosphericEffect, Integer> effect : this.effects.entrySet()) {

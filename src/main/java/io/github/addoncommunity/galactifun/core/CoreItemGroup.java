@@ -2,6 +2,8 @@ package io.github.addoncommunity.galactifun.core;
 
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.base.GalactifunHead;
@@ -24,41 +26,46 @@ public final class CoreItemGroup {
 
     /* cheat categories */
     public static final ItemGroup ASSEMBLY = new SubGroup(
-            "assembly", CustomItemStack.create(Material.SMITHING_TABLE, "&fAssembly Table Recipes")
-    );
+            "assembly", CustomItemStack.create(MaterialCompat.safe(XMaterial.SMITHING_TABLE), "&fAssembly Table Recipes")
+    ).setTheme("misc");
 
     /* normal categories */
     public static final ItemGroup EQUIPMENT = new SubGroup(
-            "equipment", CustomItemStack.create(Material.IRON_HELMET, "&fEquipment")
-    );
+            "equipment", CustomItemStack.create(MaterialCompat.safe(XMaterial.IRON_HELMET), "&fEquipment")
+    ).setTheme("armor");
     public static final ItemGroup ITEMS = new SubGroup(
             "items", CustomItemStack.create(GalactifunHead.ROCKET, "&fGalactifun")
-    );
+    ).setTheme("misc");
     public static final ItemGroup COMPONENTS = new SubGroup(
-            "components", CustomItemStack.create(Material.IRON_INGOT, "&fGalactifun Components")
-    );
+            "components", CustomItemStack.create(MaterialCompat.safe(XMaterial.IRON_INGOT), "&fGalactifun Components")
+    ).setTheme("resources");
     public static final ItemGroup MACHINES = new SubGroup(
-            "machines", CustomItemStack.create(Material.REDSTONE_LAMP, "&fGalactifun Machines")
-    );
+            "machines", CustomItemStack.create(MaterialCompat.safe(XMaterial.REDSTONE_LAMP), "&fGalactifun Machines")
+    ).setTheme("machines");
     public static final ItemGroup BLOCKS = new SubGroup(
-            "blocks", CustomItemStack.create(Material.COBBLESTONE, "&fGalactifun Blocks")
-    );
+            "blocks", CustomItemStack.create(MaterialCompat.safe(XMaterial.COBBLESTONE), "&fGalactifun Blocks")
+    ).setTheme("misc");
     public static final ItemGroup RELICS = new SubGroup(
-            "relics", CustomItemStack.create(Material.CHISELED_POLISHED_BLACKSTONE, "&fGalactifun Relics")
-    );
+            "relics", CustomItemStack.create(MaterialCompat.safe(XMaterial.CHISELED_POLISHED_BLACKSTONE), "&fGalactifun Relics")
+    ).setTheme("misc");
 
     public static final AssemblyItemGroup ASSEMBLY_CATEGORY = new AssemblyItemGroup(
             Galactifun.createKey("assembly_flex"),
-            CustomItemStack.create(Material.SMITHING_TABLE, "&fAssembly Table Recipes"));
+            CustomItemStack.create(MaterialCompat.safe(XMaterial.SMITHING_TABLE), "&fAssembly Table Recipes"));
 
     public static void setup(Galactifun galactifun) {
-        ItemGroup universe = new GalacticItemGroup(Galactifun.createKey("galactic_flex"),
-                CustomItemStack.create(Material.END_STONE, "&bThe Universe"));
+        ASSEMBLY_CATEGORY.setTheme("machines");
 
-        new MultiGroup("main",
-                CustomItemStack.create(Material.BEACON, "&bGalactifun"),
+        ItemGroup universe = new GalacticItemGroup(Galactifun.createKey("galactic_flex"),
+                CustomItemStack.create(MaterialCompat.safe(XMaterial.END_STONE), "&bThe Universe"));
+        universe.setTheme("misc");
+
+        MultiGroup main = new MultiGroup("main",
+                CustomItemStack.create(MaterialCompat.safe(XMaterial.BEACON), "&bGalactifun"),
                 EQUIPMENT, ITEMS, COMPONENTS, MACHINES, BLOCKS, universe, ASSEMBLY_CATEGORY, RELICS
-        ).register(galactifun);
+        );
+        main.setTheme("misc");
+        main.register(galactifun);
     }
 
 }

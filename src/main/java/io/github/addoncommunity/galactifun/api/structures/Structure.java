@@ -1,5 +1,6 @@
 package io.github.addoncommunity.galactifun.api.structures;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -12,6 +13,11 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.Material;
+<<<<<<< HEAD
+=======
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
+>>>>>>> origin/experimental
 import dev.walshy.sfmetrics.MetricsModule;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -67,7 +73,11 @@ public final class Structure {
         try (InputStream stream = Objects.requireNonNull(plugin.getResource(path),
                 "No galactic structure found in " + plugin.getName() + "'s resources named " + path)) {
 
-            structure = loadFromString(new String(stream.readAllBytes()));
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            byte[] buffer = new byte[8192];
+            int n;
+            while ((n = stream.read(buffer)) != -1) baos.write(buffer, 0, n);
+            structure = loadFromString(new String(baos.toByteArray()));
 
         } catch (IOException e) {
             throw new IllegalStateException("Failed to read galactic structure '" + path + "' from '" + plugin.getName() + "'", e);
@@ -96,11 +106,11 @@ public final class Structure {
                     return StructureBlock.AIR;
                 }
                 String[] blockSplit = CommonPatterns.COMMA.split(block);
-                return switch (blockSplit.length) {
-                    case 1 -> StructureBlock.of(Material.valueOf(blockSplit[0]));
-                    case 2 -> new RotatableBlock(Material.valueOf(blockSplit[0]), BlockFace.valueOf(blockSplit[1]));
-                    default -> throw new IllegalArgumentException("Failed to load structure block from String '" + block + "'");
-                };
+                switch (blockSplit.length) {
+                    case 1: return StructureBlock.of(Material.valueOf(blockSplit[0]));
+                    case 2: return new RotatableBlock(Material.valueOf(blockSplit[0]), BlockFace.valueOf(blockSplit[1]));
+                    default: throw new IllegalArgumentException("Failed to load structure block from String '" + block + "'");
+                }
             });
 
             return structure;
@@ -118,13 +128,13 @@ public final class Structure {
         );
         structure.setEach((x, y, z) -> {
             Block block = pos1.getRelative(x, y, z);
-            if (block.getType() == Material.AIR) {
+            if (block.getType() == MaterialCompat.safe(XMaterial.AIR)) {
                 return StructureBlock.AIR;
             }
             Material material = block.getType();
             BlockData data = block.getBlockData();
-            if (data instanceof Directional dir) {
-                return new RotatableBlock(material, dir.getFacing());
+            if (data instanceof Directional) {
+                return new RotatableBlock(material, ((Directional) data).getFacing());
             }
             return StructureBlock.of(material);
         });

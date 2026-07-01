@@ -10,6 +10,8 @@ import javax.annotation.Nonnull;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -69,12 +71,14 @@ public final class LaunchPadCore extends TickingMenuBlock {
         Block b = block.getRelative(BlockFace.UP);
 
         SlimefunItem sfItem = BlockStorage.check(b);
-        if (!(sfItem instanceof Rocket rocket)) return;
+        if (!(sfItem instanceof Rocket)) return;
+        Rocket rocket = (Rocket) sfItem;
 
         Location l = b.getLocation();
         if (BSUtils.getStoredBoolean(l, "isLaunching")) return;
 
-        String string = Objects.requireNonNullElse(BlockStorage.getLocationInfo(l, "fuel"), "0");
+        String fuelInfo = BlockStorage.getLocationInfo(l, "fuel");
+        String string = fuelInfo != null ? fuelInfo : "0";
         int fuel = Integer.parseInt(string);
 
         string = BlockStorage.getLocationInfo(l, "fuelType");
@@ -144,7 +148,7 @@ public final class LaunchPadCore extends TickingMenuBlock {
 
             if (item instanceof Rocket) {
                 World world = l.getWorld();
-                rocketBlock.setType(Material.AIR);
+                rocketBlock.setType(MaterialCompat.safe(XMaterial.AIR));
                 BlockStorage.clearBlockInfo(rocketBlock);
                 world.dropItemNaturally(rocketBlock.getLocation(), item.getItem().clone());
             }

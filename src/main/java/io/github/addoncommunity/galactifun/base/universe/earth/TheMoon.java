@@ -6,6 +6,8 @@ import java.util.Random;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BlockPopulator;
 import org.bukkit.inventory.ItemStack;
@@ -42,16 +44,16 @@ public final class TheMoon extends SimpleAlienWorld {
     @Override
     protected Material generateMaterial(@Nonnull Random random, int x, int y, int z, int top) {
         if (random.nextFloat() > .02) {
-            return Material.ANDESITE;
+            return MaterialCompat.safe(XMaterial.ANDESITE);
         } else {
-            return Material.GOLD_ORE;
+            return MaterialCompat.safe(XMaterial.GOLD_ORE);
         }
     }
 
     @Nonnull
     @Override
     protected ObjectIntPair<Material> getTop() {
-        return new ObjectIntImmutablePair<>(Material.LIGHT_GRAY_CONCRETE_POWDER, 2);
+        return new ObjectIntImmutablePair<>(MaterialCompat.safe(XMaterial.LIGHT_GRAY_CONCRETE_POWDER), 2);
     }
 
     @Nonnull

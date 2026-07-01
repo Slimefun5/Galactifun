@@ -39,7 +39,7 @@ import io.github.addoncommunity.galactifun.api.aliens.Alien;
 import io.github.addoncommunity.galactifun.api.aliens.BossAlien;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 public final class AlienManager implements Listener {
 
@@ -74,9 +74,9 @@ public final class AlienManager implements Listener {
             }
         });
 
-        this.key = Galactifun.createKey("alien");
-        this.bossKey = Galactifun.createKey("boss_alien");
-        this.alienIds.addAll(this.config.getStringList("uuids").stream().map(UUID::fromString).toList());
+        this.key = new org.bukkit.NamespacedKey("galactifun", "alien");
+        this.bossKey = new org.bukkit.NamespacedKey("galactifun", "boss_alien");
+        this.alienIds.addAll(this.config.getStringList("uuids").stream().map(UUID::fromString).collect(java.util.stream.Collectors.toList()));
     }
 
     public void register(Alien<?> alien) {
@@ -93,7 +93,7 @@ public final class AlienManager implements Listener {
 
     @Nullable
     public Alien<?> getAlien(@Nonnull Entity entity) {
-        String id = PersistentDataAPI.getString(entity, this.key);
+        String id = Pdc.getString(entity, this.key);
         return id == null ? null : getAlien(id);
     }
 
@@ -121,7 +121,8 @@ public final class AlienManager implements Listener {
 
         for (UUID uuid : this.alienIds) {
             Entity entity = Bukkit.getEntity(uuid);
-            if (entity instanceof LivingEntity livingEntity) {
+            if (entity instanceof LivingEntity) {
+                LivingEntity livingEntity = (LivingEntity) entity;
                 Alien<?> alien = getAlien(livingEntity);
                 if (alien != null) {
                     alien.onEntityTick(livingEntity);
@@ -193,7 +194,8 @@ public final class AlienManager implements Listener {
     @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGHEST)
     private void onAlienShoot(@Nonnull ProjectileLaunchEvent e) {
         ProjectileSource source = e.getEntity().getShooter();
-        if (source instanceof Mob mob) {
+        if (source instanceof Mob) {
+            Mob mob = (Mob) source;
             Alien<?> alien = getAlien(mob);
             if (alien != null) {
                 alien.onShoot(e);
@@ -208,11 +210,11 @@ public final class AlienManager implements Listener {
 
     public void onDisable() {
         this.aliens().forEach(a -> {
-            if (a instanceof BossAlien<?> b) {
-                b.removeBossBars();
+            if (a instanceof BossAlien) {
+                ((BossAlien<?>) a).removeBossBars();
             }
         });
-        this.config.set("uuids", this.alienIds.stream().map(UUID::toString).toList());
+        this.config.set("uuids", this.alienIds.stream().map(UUID::toString).collect(java.util.stream.Collectors.toList()));
         try {
             this.config.save(new File("plugins/Galactifun", "uuids.yml"));
         } catch (IOException e) {

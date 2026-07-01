@@ -10,6 +10,8 @@ import javax.annotation.Nonnull;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -98,7 +100,7 @@ public final class AutomaticDoor extends MenuBlock {
                     for (int i = 0; i < size; i++) {
                         if (startBlock.isEmpty() || startBlock.getType() != mat || BlockStorage.hasBlockInfo(startBlock)) break;
 
-                        startBlock.setType(Material.AIR);
+                        startBlock.setType(MaterialCompat.safe(XMaterial.AIR));
                         menu.pushItem(itemStack.clone(), INPUT_SLOT);
                         startBlock = startBlock.getRelative(direction);
                     }

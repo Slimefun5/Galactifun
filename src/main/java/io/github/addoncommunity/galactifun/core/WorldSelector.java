@@ -100,7 +100,8 @@ public final class WorldSelector {
 
         int offset = 1;
 
-        if (object instanceof PlanetaryWorld world) {
+        if (object instanceof PlanetaryWorld) {
+            PlanetaryWorld world = (PlanetaryWorld) object;
             ItemStack item = world.item();
             offset++;
 
@@ -115,7 +116,7 @@ public final class WorldSelector {
 
                     if (distance > 0) {
                         lore.add(Component.text("Distance: " + (distance < .5
-                                ? "%.3f Kilometers".formatted(distance * Util.KM_PER_LY)
+                                ? String.format("%.3f Kilometers", distance * Util.KM_PER_LY)
                                 : distance + " Light Years")
                         ).color(NamedTextColor.GRAY));
                     } else {
@@ -141,9 +142,12 @@ public final class WorldSelector {
         // objects
         for (int i = 0; i < Math.min(MAX_OBJECTS_PER_PAGE, orbiters.size()); i++) {
             UniversalObject orbiter = orbiters.get(i);
-            if (orbiter instanceof PlanetaryWorld planetaryWorld && !planetaryWorld.enabled()) {
-                offset--;
-                continue;
+            if (orbiter instanceof PlanetaryWorld) {
+                PlanetaryWorld planetaryWorld = (PlanetaryWorld) orbiter;
+                if (!planetaryWorld.enabled()) {
+                    offset--;
+                    continue;
+                }
             }
 
             ItemStack item = orbiter.item();
@@ -164,7 +168,8 @@ public final class WorldSelector {
                         lore.add(Component.text("You are here!").color(NamedTextColor.GRAY));
                     }
 
-                    if (orbiter instanceof PlanetaryWorld planetaryWorld) {
+                    if (orbiter instanceof PlanetaryWorld) {
+                        PlanetaryWorld planetaryWorld = (PlanetaryWorld) orbiter;
                         KnowledgeLevel.get(p, planetaryWorld).addLore(lore, planetaryWorld);
                     }
 
@@ -180,8 +185,8 @@ public final class WorldSelector {
                 if (orbiter.orbiters().size() == 0) {
                     menu.addMenuClickHandler(i + offset, (clicker, i1, s, a) -> {
                         // 99% true
-                        if (orbiter instanceof PlanetaryWorld planetaryWorld) {
-                            selectHandler.onSelect(clicker, planetaryWorld);
+                        if (orbiter instanceof PlanetaryWorld) {
+                            selectHandler.onSelect(clicker, (PlanetaryWorld) orbiter);
                         }
                         return false;
                     });
@@ -202,8 +207,11 @@ public final class WorldSelector {
 
     private boolean showObject(Player p, UniversalObject object) {
         for (UniversalObject o : object.orbiters()) {
-            if (o instanceof PlanetaryWorld world && world.enabled() && modifier.modifyItem(p, world, new ArrayList<>())) {
-                return true;
+            if (o instanceof PlanetaryWorld) {
+                PlanetaryWorld world = (PlanetaryWorld) o;
+                if (world.enabled() && modifier.modifyItem(p, world, new ArrayList<>())) {
+                    return true;
+                }
             } else if (showObject(p, o) && modifier.modifyItem(p, o, new ArrayList<>())) {
                 return true;
             }

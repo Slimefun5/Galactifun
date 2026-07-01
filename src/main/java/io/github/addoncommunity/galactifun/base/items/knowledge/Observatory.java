@@ -14,7 +14,7 @@ import io.github.addoncommunity.galactifun.core.WorldSelector;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.core.multiblocks.MultiBlockMachine;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 public final class Observatory extends MultiBlockMachine {
 
@@ -24,7 +24,7 @@ public final class Observatory extends MultiBlockMachine {
 
     @Override
     public void onInteract(Player p, Block b) {
-        NamespacedKey key = Galactifun.createKey("discovering_" + p.getUniqueId());
+        NamespacedKey key = new NamespacedKey("galactifun", "discovering_" + p.getUniqueId());
 
         PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
         if (world == null) {
@@ -32,22 +32,23 @@ public final class Observatory extends MultiBlockMachine {
             return;
         }
 
-        if (PersistentDataAPI.getBoolean(world.worldStorage(), key)) {
+        if (Pdc.getBoolean(world.worldStorage(), key)) {
             p.sendMessage(ChatColor.RED + "Already observing!");
             return;
         }
 
         new WorldSelector((pl, w, l) -> {
-            if (w instanceof PlanetaryWorld pw) {
+            if (w instanceof PlanetaryWorld) {
+                PlanetaryWorld pw = (PlanetaryWorld) w;
                 if (KnowledgeLevel.get(pl, pw) == KnowledgeLevel.ADVANCED) return false;
                 return world.distanceTo(w) <= 0.25;
             }
             return true;
         }, (pl, w) -> {
             pl.sendMessage(ChatColor.GREEN + "Observing planet " + w.name());
-            PersistentDataAPI.setBoolean(world.worldStorage(), key, true);
+            Pdc.setBoolean(world.worldStorage(), key, true);
             Scheduler.run(30 * 60 * 20, () -> {
-                PersistentDataAPI.setBoolean(world.worldStorage(), key, false);
+                Pdc.setBoolean(world.worldStorage(), key, false);
                 KnowledgeLevel.BASIC.set(pl, w);
             });
         }).open(p);

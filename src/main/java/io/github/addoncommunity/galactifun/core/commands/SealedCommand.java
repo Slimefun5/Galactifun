@@ -24,7 +24,8 @@ public final class SealedCommand extends SubCommand {
 
     @Override
     public void execute(@Nonnull CommandSender commandSender, @Nonnull String[] strings) {
-        if (!(commandSender instanceof Player p)) return;
+        if (!(commandSender instanceof Player)) return;
+        Player p = (Player) commandSender;
         if (strings.length != 1) {
             p.sendMessage(ChatColor.RED + "Usage: /galactifun sealed <range>");
             return;

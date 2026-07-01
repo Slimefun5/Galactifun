@@ -164,7 +164,7 @@ public final class OxygenSealer extends MenuBlock implements EnergyNetComponent,
         // check if sealed using flood fill
         Optional<Set<BlockPosition>> returned = Util.floodFill(l, range);
         // not sealed; continue on to the next block
-        if (returned.isEmpty()) {
+        if (!returned.isPresent()) {
             updateHologram(b, "&cArea Not Sealed or Too Big");
             return;
         }

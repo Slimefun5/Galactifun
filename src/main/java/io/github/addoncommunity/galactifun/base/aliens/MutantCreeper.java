@@ -47,12 +47,15 @@ public final class MutantCreeper extends Alien<Creeper> {
     @Override
     public void onHit(@Nonnull EntityDamageByEntityEvent e) {
         Creeper creeper = (Creeper) e.getEntity();
-        if (e.getDamager() instanceof Player p) {
+        if (e.getDamager() instanceof Player) {
+            Player p = (Player) e.getDamager();
             if (p.getGameMode() != GameMode.CREATIVE) {
                 creeper.setTarget((Player) e.getDamager());
             }
-        } else if (e.getDamager() instanceof Projectile pr) {
-            if (pr.getShooter() instanceof Player p) {
+        } else if (e.getDamager() instanceof Projectile) {
+            Projectile pr = (Projectile) e.getDamager();
+            if (pr.getShooter() instanceof Player) {
+                Player p = (Player) pr.getShooter();
                 if (p.getGameMode() != GameMode.CREATIVE) {
                     creeper.setTarget(p);
                 }

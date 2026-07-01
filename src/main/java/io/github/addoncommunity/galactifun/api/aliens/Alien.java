@@ -27,7 +27,7 @@ import org.bukkit.event.player.PlayerInteractEntityEvent;
 import io.github.addoncommunity.galactifun.base.aliens.Martian;
 import io.github.addoncommunity.galactifun.core.managers.AlienManager;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
-import io.github.thebusybiscuit.slimefun5.libraries.dough.data.persistent.PersistentDataAPI;
+import io.github.addoncommunity.galactifun.compat.Pdc;
 
 /**
  * Abstract class for an alien
@@ -62,10 +62,10 @@ public class Alien<T extends Mob> {
     public final T spawn(@Nonnull Location loc, @Nonnull World world) {
         T mob = world.spawn(loc, this.clazz);
 
-        PersistentDataAPI.setString(mob, this.alienManager.key(), this.id);
+        Pdc.setString(mob, this.alienManager.key(), this.id);
         this.alienManager.addAlien(mob.getUniqueId());
 
-        Objects.requireNonNull(mob.getAttribute(Attribute.MAX_HEALTH)).setBaseValue(this.maxHealth);
+        Objects.requireNonNull(mob.getAttribute(Attribute.GENERIC_MAX_HEALTH)).setBaseValue(this.maxHealth);
         mob.setHealth(this.maxHealth);
         mob.setCustomName(this.name);
         mob.setCustomNameVisible(true);

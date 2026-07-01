@@ -1,7 +1,7 @@
 plugins {
     java
     id("com.gradleup.shadow") version "9.3.2"
-    id("io.github.intisy.github-gradle") version "1.8.2.1"
+    id("io.github.intisy.github-gradle") version "1.8.3"
 }
 
 group = "io.github.addoncommunity.galactifun"
@@ -30,14 +30,23 @@ repositories {
 
 dependencies {
     implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
+<<<<<<< HEAD
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
+=======
+    githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.2")
+    compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
+>>>>>>> origin/experimental
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
-    
-    compileOnly("com.github.Slimefun5:InfinityLib:v1.3.10")
+
+    githubImplementation("Slimefun5:InfinityLib:v1.3.13")
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
     compileOnly("commons-lang:commons-lang:2.6")
     compileOnly("commons-codec:commons-codec:1.17.1")
+<<<<<<< HEAD
+=======
+    compileOnly("it.unimi.dsi:fastutil:8.5.3")
+>>>>>>> origin/experimental
     
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
@@ -53,9 +62,18 @@ configurations.testImplementation {
     extendsFrom(configurations.compileOnly.get())
 }
 
+// options.release overrides TARGET_JVM_VERSION_ATTRIBUTE to 8, blocking Paper 1.17 resolution.
+// Force compileClasspath to resolve with JVM 25 compatibility while still compiling to Java 8 bytecode.
+configurations.named("compileClasspath") {
+    attributes {
+        attribute(org.gradle.api.attributes.java.TargetJvmVersion.TARGET_JVM_VERSION_ATTRIBUTE, 25)
+    }
+}
+
 tasks {
     compileJava {
         options.encoding = "UTF-8"
+        options.release.set(8)
     }
     processResources {
         filesMatching("plugin.yml") {
@@ -66,12 +84,16 @@ tasks {
         enabled = false
     }
     shadowJar {
-        archiveFileName.set("Galactifun v${project.version}.jar")
+        relocate("org.bstats", "galactifun.libs.bstats")
+        archiveFileName.set("Galactifun-1.0.0-UNOFFICIAL.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
                 exclude("META-INF/**")
     }
     build {
         dependsOn(shadowJar)
+    }
+    compileTestJava {
+        enabled = false
     }
     test {
         enabled = false

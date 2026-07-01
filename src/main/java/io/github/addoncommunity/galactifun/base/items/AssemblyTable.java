@@ -7,6 +7,8 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -67,7 +69,7 @@ public final class AssemblyTable extends CraftingBlock implements EnergyNetCompo
     @Override
     protected void setup(BlockMenuPreset preset) {
         super.setup(preset);
-        preset.addItem(RECIPE_SLOT, CustomItemStack.create(Material.BOOK, "&6Recipes"), ChestMenuUtils.getEmptyClickHandler());
+        preset.addItem(RECIPE_SLOT, CustomItemStack.create(MaterialCompat.safe(XMaterial.BOOK), "&6Recipes"), ChestMenuUtils.getEmptyClickHandler());
     }
 
     @Override
@@ -75,7 +77,7 @@ public final class AssemblyTable extends CraftingBlock implements EnergyNetCompo
         super.onNewInstance(menu, b);
         menu.addMenuClickHandler(RECIPE_SLOT, (p, slot, item, action) -> {
             Optional<PlayerProfile> profile = PlayerProfile.find(p);
-            if (profile.isEmpty()) {
+            if (!profile.isPresent()) {
                 PlayerProfile.request(p);
             }
             CoreItemGroup.ASSEMBLY_CATEGORY.open(p, PlayerProfile.find(p).get(), SlimefunGuide.getDefaultMode());

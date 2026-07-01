@@ -8,6 +8,8 @@ import java.util.concurrent.ThreadLocalRandom;
 import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
+import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 
@@ -35,7 +37,7 @@ public class TechnologicalSalvager extends AbstractMachineBlock implements Machi
     private static final int[] OUTPUT_BORDER = new int[] { 5, 6, 7, 8, 14, 17, 23, 26, 32, 35, 41, 42, 43, 44 };
     private static final int[] OUTPUT_SLOTS = { 15, 16, 24, 25, 33, 34 };
 
-    private static final ItemStack ANALYZING = CustomItemStack.create(Material.LIME_STAINED_GLASS_PANE, "&aAnalyzing...");
+    private static final ItemStack ANALYZING = CustomItemStack.create(MaterialCompat.safe(XMaterial.LIME_STAINED_GLASS_PANE), "&aAnalyzing...");
 
     private final MachineProcessor<CraftingOperation> processor = new MachineProcessor<>(this);
 
@@ -63,7 +65,8 @@ public class TechnologicalSalvager extends AbstractMachineBlock implements Machi
         } else {
             for (int i : INPUT_SLOTS) {
                 ItemStack item = menu.getItemInSlot(i);
-                if (SlimefunItem.getByItem(item) instanceof Relic relic) {
+                if (SlimefunItem.getByItem(item) instanceof Relic) {
+                    Relic relic = (Relic) SlimefunItem.getByItem(item);
                     List<ItemStack> results = new ArrayList<>();
                     for (Map.Entry<ItemStack, IntIntPair> entry : relic.required().entrySet()) {
                         int amount = ThreadLocalRandom.current().nextInt(entry.getValue().leftInt(),
@@ -80,7 +83,7 @@ public class TechnologicalSalvager extends AbstractMachineBlock implements Machi
 
                     processor.startOperation(b, new CraftingOperation(
                             new ItemStack[]{item},
-                            results.toArray(ItemStack[]::new),
+                            results.toArray(new ItemStack[0]),
                             240
                     ));
 

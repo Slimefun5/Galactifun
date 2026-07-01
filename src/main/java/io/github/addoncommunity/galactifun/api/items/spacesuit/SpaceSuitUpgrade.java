@@ -24,7 +24,7 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 @ParametersAreNonnullByDefault
 public final class SpaceSuitUpgrade extends UnplaceableBlock {
 
-    private static final NamespacedKey UPGRADES_KEY = Galactifun.createKey("upgrades");
+    private static final NamespacedKey UPGRADES_KEY = new NamespacedKey("galactifun", "upgrades");
     private static final Map<String, SpaceSuitUpgrade> UPGRADES = new HashMap<>();
 
     private final SpaceSuitStat stat;
