@@ -40,11 +40,15 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
     implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
 <<<<<<< HEAD
     "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
     compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
 =======
+=======
+    githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
+>>>>>>> origin/experimental
     githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.2")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
 >>>>>>> origin/experimental
@@ -98,7 +102,10 @@ tasks {
         relocate("org.bstats", "galactifun.libs.bstats")
         archiveFileName.set("Galactifun-$displayVersion.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
-                exclude("META-INF/**")
+        exclude("META-INF/**")
+        // Core is provided at runtime (depend: Slimefun); never bundle it. github-gradle pulls it in
+        // transitively via InfinityLib's metadata, so exclude it explicitly.
+        exclude("io/github/thebusybiscuit/slimefun5/**")
     }
     build {
         dependsOn(shadowJar)
