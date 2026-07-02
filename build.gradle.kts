@@ -48,6 +48,10 @@ dependencies {
 =======
 =======
     githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
+<<<<<<< HEAD
+>>>>>>> origin/experimental
+=======
+    implementation("org.bstats:bstats-bukkit:2.2.1")
 >>>>>>> origin/experimental
     githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.2")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
