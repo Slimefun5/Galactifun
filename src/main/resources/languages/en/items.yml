@@ -1,0 +1,639 @@
+# Galactifun item lore (en). Keyed by Slimefun item id. Block lore: name/type/description/stats/usage.
+
+OXYGEN_FILLER:
+  name: "&fOxygen Filler"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Fills space suits with oxygen"
+  stats:
+    - "&8⇨ &e⚡ &7100 J/s"
+    - "&8⇨ &b⚡ &7Speed: &b1.0x"
+SPACE_SUIT_UPGRADER:
+  name: "&fSpace Suit Upgrader"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Adds upgrades to your space suit"
+  stats:
+    - "&8⇨ &e⚡ &7200 J/s"
+    - "&8⇨ &b⚡ &7Speed: &b1.0x"
+HEAT_RESISTANCE_UPGRADE:
+  name: "&7Heat Resistance Upgrade"
+  type:
+    - "&7&oComponent"
+  description:
+    - "&8Add to your space suit to increase heat resistance"
+COLD_RESISTANCE_UPGRADE:
+  name: "&7Cold Resistance Upgrade"
+  type:
+    - "&7&oComponent"
+  description:
+    - "&8Add to your space suit to increase cold resistance"
+RADIATION_RESISTANCE_UPGRADE:
+  name: "&7Radiation Resistance Upgrade"
+  type:
+    - "&7&oComponent"
+  description:
+    - "&8Add to your space suit to increase radiation resistance"
+SPACE_SUIT_HELMET:
+  name: "&fSpace Suit Helmet"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&7A basic space suit helmet"
+  usage:
+    - "&eRight Click&7 to use"
+SPACE_SUIT_CHEST:
+  name: "&fSpace Suit Chest"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&7A basic space suit chest"
+SPACE_SUIT_PANTS:
+  name: "&fSpace Suit Pants"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&7Basic pair of space suit pants"
+SPACE_SUIT_BOOTS:
+  name: "&fSpace Suit Boots"
+  type:
+    - "&7&oArmor"
+  description:
+    - "&7Basic pair of space suit boots"
+LAUNCH_PAD_CORE:
+  name: "&fLaunch Pad Core"
+  type:
+    - "&7&oMultiblock"
+  usage:
+    - "&7Surround with 8 &fLaunch Pad Floor&7s"
+    - "&7to use"
+LAUNCH_PAD_FLOOR:
+  name: "&fLaunch Pad Floor"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7Used in constructing the Launch Pad"
+CIRCUIT_PRESS:
+  name: "&fCircuit Press"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Creates circuits"
+  stats:
+    - "&8⇨ &e⚡ &7512 J Buffer"
+    - "&8⇨ &e⚡ &7256 J/s"
+ASSEMBLY_TABLE:
+  name: "&fAssembly Table"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Used to construct many things"
+  stats:
+    - "&8⇨ &e⚡ &72048 J/Craft"
+STARGATE_RING:
+  name: "&9Stargate Ring"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7Used to construct a stargate"
+STARGATE_CONTROLLER:
+  name: "&9Stargate Controller"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7Used to control a stargate"
+OBSERVATORY:
+  name: "&fObservatory"
+  type:
+    - "&7&oGadget"
+  description:
+    - "&7Allows you to discover basic info about"
+    - "&7a world remotely. Only works on worlds"
+    - "&7closer than 0.25 ly (2,365,200,000,000 km)"
+PLANETARY_ANALYZER:
+  name: "&fPlanetary Analyzer"
+  type:
+    - "&7&oGadget"
+  description:
+    - "&7Allows you to discover advanced info"
+    - "&7about the current planet"
+DIAMOND_ANVIL:
+  name: "&fDiamond Anvil"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Compresses material so hard"
+    - "&7it becomes something else entirely"
+  stats:
+    - "&8⇨ &e⚡ &71024 J/s"
+    - "&8⇨ &e⚡ &72048 J Buffer"
+FUSION_REACTOR:
+  name: "&fFusion Reactor"
+  type:
+    - "&7&oGenerator"
+  description:
+    - "&7Uses lasers to fuse Helium-3 pellets"
+    - "&7and generate a whale a lot of energy"
+    - "&7in the process"
+  stats:
+    - "&8⇨ &e⚡ &765536 J/s"
+    - "&8⇨ &e⚡ &765536 J Buffer"
+ATMOSPHERIC_HARVESTER:
+  name: "&fAtmospheric Harvester"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Collects gases from the atmosphere"
+  stats:
+    - "&8⇨ &e⚡ &764 J/s"
+    - "&8⇨ &e⚡ &7128 J Buffer"
+CHEMICAL_REACTOR:
+  name: "&fChemical Reactor"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Reacts chemicals together"
+    - "&7to create new ones"
+  stats:
+    - "&8⇨ &e⚡ &7256 J/s"
+    - "&8⇨ &e⚡ &7512 J Buffer"
+ELECTROLYZER:
+  name: "&fElectrolyzer"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Uses electricity to split"
+    - "&7chemicals into their constituents"
+  stats:
+    - "&8⇨ &e⚡ &7256 J/s"
+    - "&8⇨ &e⚡ &7512 J Buffer"
+COOLING_UNIT_1:
+  name: "&bCooling Unit I"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively cools the surrounding area, reducing heat exposure while powered"
+  stats:
+    - "&7Effect: Heat"
+    - "&7Protection: 2"
+    - "&7Range: 1000 blocks"
+    - "&8⇨ &e⚡ &71024 J/s"
+    - "&8⇨ &e⚡ &72048 J Buffer"
+COOLING_UNIT_2:
+  name: "&bCooling Unit II"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively cools the surrounding area, reducing heat exposure while powered"
+  stats:
+    - "&7Effect: Heat"
+    - "&7Protection: 4"
+    - "&7Range: 1500 blocks"
+    - "&8⇨ &e⚡ &72048 J/s"
+    - "&8⇨ &e⚡ &74096 J Buffer"
+COOLING_UNIT_3:
+  name: "&bCooling Unit III"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively cools the surrounding area, reducing heat exposure while powered"
+  stats:
+    - "&7Effect: Heat"
+    - "&7Protection: 6"
+    - "&7Range: 2000 blocks"
+    - "&8⇨ &e⚡ &73072 J/s"
+    - "&8⇨ &e⚡ &76144 J Buffer"
+SPACE_HEATER_1:
+  name: "&6Space Heater I"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively warms the surrounding area, reducing cold exposure while powered"
+  stats:
+    - "&7Effect: Cold"
+    - "&7Protection: 2"
+    - "&7Range: 1000 blocks"
+    - "&8⇨ &e⚡ &7512 J/s"
+    - "&8⇨ &e⚡ &71024 J Buffer"
+SPACE_HEATER_2:
+  name: "&6Space Heater II"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively warms the surrounding area, reducing cold exposure while powered"
+  stats:
+    - "&7Effect: Cold"
+    - "&7Protection: 4"
+    - "&7Range: 1500 blocks"
+    - "&8⇨ &e⚡ &71024 J/s"
+    - "&8⇨ &e⚡ &72048 J Buffer"
+SPACE_HEATER_3:
+  name: "&6Space Heater III"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively warms the surrounding area, reducing cold exposure while powered"
+  stats:
+    - "&7Effect: Cold"
+    - "&7Protection: 6"
+    - "&7Range: 2000 blocks"
+    - "&8⇨ &e⚡ &72048 J/s"
+    - "&8⇨ &e⚡ &74096 J Buffer"
+ION_DISPERSER_1:
+  name: "&fIon Disperser I"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively disperses radiation in the surrounding area while powered"
+  stats:
+    - "&7Effect: Radiation"
+    - "&7Protection: 2"
+    - "&7Range: 1000 blocks"
+    - "&8⇨ &e⚡ &7512 J/s"
+    - "&8⇨ &e⚡ &71024 J Buffer"
+ION_DISPERSER_2:
+  name: "&fIon Disperser II"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Passively disperses radiation in the surrounding area while powered"
+  stats:
+    - "&7Effect: Radiation"
+    - "&7Protection: 4"
+    - "&7Range: 1500 blocks"
+    - "&8⇨ &e⚡ &71024 J/s"
+    - "&8⇨ &e⚡ &72048 J Buffer"
+OXYGEN_SEALER:
+  name: "&fOxygen Sealer"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Fills a sealed area with oxygen"
+  stats:
+    - "&7Range: 1000 blocks"
+LANDING_HATCH:
+  name: "&fLanding Hatch"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7Rockets ignore this block when"
+    - "&7landing; they'll land on the"
+    - "&7highest block below it. It is"
+    - "&7considered impassable by air"
+    - "&7so it can be used to seal spaces"
+SUPER_FAN:
+  name: "&7Super Fan"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7Place this next to a block that needs"
+    - "&7a sealed area to extend the range by 15%"
+AUTOMATIC_DOOR:
+  name: "&fAutomatic Door"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Automatically places/removes the blocks inside"
+    - "&7when you go to/away from it"
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: "&fEnvironmental Forcefield Generator"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Produces a forcefield that keeps air from"
+    - "&7going through, but allows entities"
+ENGINE_RELIC:
+  name: "&fRelic: 'Letagivd Yynmukav"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7Dorepv 'lbarok 'tagivd yboths amukav"
+    - "&7uyigrene teuz'lopsi 'letagivd tote"
+REACTOR_RELIC:
+  name: "&fRelic: Rotarenegortkele Yynmukav"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7Ovehcin zi 'taribos onhzom uyigrene"
+    - "&7oths lamud otk?"
+COMPUTER_RELIC:
+  name: "&fRelic: Retuypmok Yyntnavk"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7Aretupmoc eyenhcybo mehc eyertsyb ogonman"
+    - "&7einelsihcsar 'taled tugom aretuypmok eyntnavk"
+BROKEN_SOLAR_PANEL_RELIC:
+  name: "&7Relic: 'Lenap Ayanhcenlos Ayanamolop"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7'Lenap ayanhcenlos ayarats 'nehco"
+FALLEN_SATELLITE_RELIC:
+  name: "&7Relic: Kintups Yyhsdap"
+  type:
+    - "&7&oMisc"
+  description:
+    - "&7Aben s lapu yyrotok, kintups"
+TECHNOLOGICAL_SALVAGER:
+  name: "&fTechnological Salvager"
+  type:
+    - "&7&oMachine"
+  description:
+    - "&7Salvages anything salvageable from relics"
+  stats:
+    - "&8⇨ &e⚡ &764 J/s"
+    - "&8⇨ &e⚡ &764 J Buffer"
+ROCKET_TIER_ONE:
+  name: "&4Chemical Rocket Tier 1"
+  type:
+    - "&7&oMultiblock"
+  stats:
+    - "&7Fuel Capacity: 10"
+    - "&7Cargo Capacity: 9"
+ROCKET_TIER_TWO:
+  name: "&4Chemical Rocket Tier 2"
+  type:
+    - "&7&oMultiblock"
+  stats:
+    - "&7Fuel Capacity: 100"
+    - "&7Cargo Capacity: 18"
+ROCKET_TIER_THREE:
+  name: "&4Chemical Rocket Tier 3"
+  type:
+    - "&7&oMultiblock"
+  stats:
+    - "&7Fuel Capacity: 500"
+    - "&7Cargo Capacity: 36"
+ION_ROCKET:
+  name: "&bIon Rocket"
+  type:
+    - "&7&oMultiblock"
+  description:
+    - "&7Uses a specialized engine that"
+    - "&7expels ions at great speed, granting"
+    - "&7extreme fuel efficiency"
+  stats:
+    - "&7Fuel Capacity: 500"
+    - "&7Cargo Capacity: 18"
+MOON_DUST:
+  name: "&7Moon Dust"
+  type:
+    - "&7&oResource"
+MOON_ROCK:
+  name: "&7Moon Rock"
+  type:
+    - "&7&oResource"
+MARS_DUST:
+  name: "&cMars Dust"
+  type:
+    - "&7&oResource"
+MARS_ROCK:
+  name: "&cMars Rock"
+  type:
+    - "&7&oResource"
+DRY_ICE:
+  name: "&bDry Ice"
+  type:
+    - "&7&oResource"
+METHANE_ICE:
+  name: "&bMethane Ice"
+  type:
+    - "&7&oResource"
+SULFUR_BLOCK:
+  name: "&6Sulfur Block"
+  type:
+    - "&7&oResource"
+VENTSTONE:
+  name: "&6Ventstone"
+  type:
+    - "&7&oResource"
+LASERITE_ORE:
+  name: "&cLaserite Ore"
+  type:
+    - "&7&oResource"
+ALUMINUM_COMPOSITE:
+  name: "&fAluminum Composite"
+  type:
+    - "&7&oComponent"
+  description:
+    - "&7You'll never guess how long it took us"
+    - "&7to name this material"
+TUNGSTEN_INGOT:
+  name: "&bTungsten Ingot"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7A strong metal obtained either from"
+    - "&7giving Martians reinforced plates or"
+    - "&7from smelting fallen meteors"
+ALUMINUM_COMPOSITE_SHEET:
+  name: "&fAluminum Composite Sheet"
+  type:
+    - "&7&oComponent"
+HEAVY_DUTY_SHEET:
+  name: "&fHeavy Duty Sheet"
+  type:
+    - "&7&oComponent"
+SPACE_GRADE_PLATE:
+  name: "&fSpace Grade Plate"
+  type:
+    - "&7&oComponent"
+ULTRA_DUTY_SHEET:
+  name: "&fUltra Duty Sheet"
+  type:
+    - "&7&oComponent"
+GOLD_FOIL:
+  name: "&6Gold Foil"
+  type:
+    - "&7&oComponent"
+REINFORCED_CHANNEL:
+  name: "&fReinforced Channel"
+  type:
+    - "&7&oComponent"
+FAN_BLADE:
+  name: "&fFan Blade"
+  type:
+    - "&7&oComponent"
+NOZZLE:
+  name: "&fNozzle"
+  type:
+    - "&7&oComponent"
+AIR_FILTER:
+  name: "&fFilter"
+  type:
+    - "&7&oComponent"
+OXYGEN_REGENERATOR:
+  name: "&bOxygen Regenerator"
+  type:
+    - "&7&oComponent"
+SPARK_PLUG:
+  name: "&fSpark Plug"
+  type:
+    - "&7&oComponent"
+SPARK_PLUG_2:
+  name: "&fSpark Plug Mk 2"
+  type:
+    - "&7&oComponent"
+ROCKET_ENGINE:
+  name: "&fRocket Engine"
+  type:
+    - "&7&oComponent"
+ROCKET_ENGINE_2:
+  name: "&fRocket Engine Mk 2"
+  type:
+    - "&7&oComponent"
+ROCKET_ENGINE_3:
+  name: "&fRocket Engine Mk 3"
+  type:
+    - "&7&oComponent"
+ION_ENGINE:
+  name: "&bIon Engine"
+  type:
+    - "&7&oComponent"
+ADVANCED_PROCESSING_UNIT:
+  name: "&4Advanced Processing Unit"
+  type:
+    - "&7&oComponent"
+LIFE_SUPPORT_MODULE:
+  name: "&4Life Support Module"
+  type:
+    - "&7&oComponent"
+NOSE_CONE:
+  name: "&fNose Cone"
+  type:
+    - "&7&oComponent"
+FUEL_TANK:
+  name: "&6Fuel Tank"
+  type:
+    - "&7&oComponent"
+FUEL_TANK_2:
+  name: "&6Fuel Tank Mk 2"
+  type:
+    - "&7&oComponent"
+DIAMOND_CIRCUIT:
+  name: "&7Diamond Circuit"
+  type:
+    - "&7&oComponent"
+REDSTONE_CIRCUIT:
+  name: "&7Redstone Circuit"
+  type:
+    - "&7&oComponent"
+LAPIS_CIRCUIT:
+  name: "&7Lapis Circuit"
+  type:
+    - "&7&oComponent"
+GLOWSTONE_CIRCUIT:
+  name: "&7Glowstone Circuit"
+  type:
+    - "&7&oComponent"
+MUNPOWDER:
+  name: "&7Munpowder"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7The gunpowder of the moon"
+FALLEN_METEOR:
+  name: "&4Fallen Meteor"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7These meteors contain Tungsten"
+MOON_CHEESE:
+  name: "&6Moon Cheese"
+  type:
+    - "&7&oFood"
+  description:
+    - "&7Ew"
+  stats:
+    - "&7Restores &b2 &7Hunger"
+    - "&7Restores &b2.0 &7Saturation"
+  usage:
+    - "&7Place to eat"
+ENDER_BLOCK:
+  name: "&3Ender Block"
+  type:
+    - "&7&oComponent"
+LUNAR_GLASS:
+  name: "&fLunar Glass"
+  type:
+    - "&7&oComponent"
+  description:
+    - "&7For some reason adding moon dust to"
+    - "&7glass makes it clearer..."
+VOLCANIC_INGOT:
+  name: "&4Volcanic Ingot"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7Forged in the depths of the closest"
+    - "&7thing we know to Hell, Volcanic Ingots"
+    - "&7are a valuable commodity"
+BLISTERING_VOLCANIC_INGOT:
+  name: "&6Blistering Volcanic Ingot"
+  type:
+    - "&7&oResource"
+TUNGSTEN_CARBIDE:
+  name: "&7Tungsten Carbide"
+  type:
+    - "&7&oResource"
+DIAMOND_ANVIL_CELL:
+  name: "&bDiamond Anvil Cell"
+  type:
+    - "&7&oComponent"
+FUSION_PELLET:
+  name: "&fFusion Pellet"
+  type:
+    - "&7&oComponent"
+LASERITE_DUST:
+  name: "&cLaserite Dust"
+  type:
+    - "&7&oResource"
+  description:
+    - "&7I'm running out of names"
+LASERITE:
+  name: "&cLaserite"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_OXYGEN:
+  name: "&fOxygen Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_NITROGEN:
+  name: "&fNitrogen Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: "&fCarbon Dioxide Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_WATER:
+  name: "&fWater Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_HELIUM:
+  name: "&fHelium Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_ARGON:
+  name: "&fArgon Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_METHANE:
+  name: "&fMethane Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: "&fHydrocarbons Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: "&fHydrogen Gas Canister"
+  type:
+    - "&7&oResource"
+ATMOSPHERIC_GAS_AMMONIA:
+  name: "&fAmmonia Gas Canister"
+  type:
+    - "&7&oResource"
