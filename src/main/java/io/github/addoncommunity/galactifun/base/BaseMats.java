@@ -3,7 +3,6 @@ package io.github.addoncommunity.galactifun.base;
 import java.util.Arrays;
 
 
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.addoncommunity.galactifun.util.MaterialCompat;
@@ -39,274 +38,201 @@ public final class BaseMats {
     //<editor-fold desc="Generated Blocks" defaultstate="collapsed">
     public static final SlimefunItemStack MOON_DUST = new SlimefunItemStack(
             "MOON_DUST",
-            MaterialCompat.safe(XMaterial.LIGHT_GRAY_CONCRETE_POWDER),
-            "&7Moon Dust"
+            MaterialCompat.safe(XMaterial.LIGHT_GRAY_CONCRETE_POWDER)
     );
     public static final SlimefunItemStack MOON_ROCK = new SlimefunItemStack(
             "MOON_ROCK",
-            MaterialCompat.safe(XMaterial.ANDESITE),
-            "&7Moon Rock"
+            MaterialCompat.safe(XMaterial.ANDESITE)
     );
     public static final SlimefunItemStack MARS_DUST = new SlimefunItemStack(
             "MARS_DUST",
-            MaterialCompat.safe(XMaterial.RED_SAND),
-            "&cMars Dust"
+            MaterialCompat.safe(XMaterial.RED_SAND)
     );
     public static final SlimefunItemStack MARS_ROCK = new SlimefunItemStack(
             "MARS_ROCK",
-            MaterialCompat.safe(XMaterial.TERRACOTTA),
-            "&cMars Rock"
+            MaterialCompat.safe(XMaterial.TERRACOTTA)
     );
     public static final SlimefunItemStack DRY_ICE = new SlimefunItemStack(
             "DRY_ICE",
-            MaterialCompat.safe(XMaterial.PACKED_ICE),
-            "&bDry Ice"
+            MaterialCompat.safe(XMaterial.PACKED_ICE)
     );
     public static final SlimefunItemStack METHANE_ICE = new SlimefunItemStack(
             "METHANE_ICE",
-            MaterialCompat.safe(XMaterial.BLUE_ICE),
-            "&bMethane Ice"
+            MaterialCompat.safe(XMaterial.BLUE_ICE)
     );
     public static final SlimefunItemStack SULFUR_BLOCK = new SlimefunItemStack(
             "SULFUR_BLOCK",
-            MaterialCompat.safe(XMaterial.YELLOW_TERRACOTTA),
-            "&6Sulfur Block"
+            MaterialCompat.safe(XMaterial.YELLOW_TERRACOTTA)
     );
     public static final SlimefunItemStack VENTSTONE = new SlimefunItemStack(
             "VENTSTONE",
-            MaterialCompat.safe(XMaterial.MAGMA_BLOCK),
-            "&6Ventstone"
+            MaterialCompat.safe(XMaterial.MAGMA_BLOCK)
     );
     public static final SlimefunItemStack LASERITE_ORE = new SlimefunItemStack(
             "LASERITE_ORE",
-            MaterialCompat.safe(XMaterial.REDSTONE_ORE),
-            "&cLaserite Ore"
+            MaterialCompat.safe(XMaterial.REDSTONE_ORE)
     );
     //</editor-fold>
     //<editor-fold desc="Ultra Duty" defaultstate="collapsed">
     public static final SlimefunItemStack ALUMINUM_COMPOSITE = new SlimefunItemStack(
             "ALUMINUM_COMPOSITE",
-            MaterialCompat.safe(XMaterial.IRON_INGOT),
-            "&fAluminum Composite",
-            "",
-            "&7You'll never guess how long it took us",
-            "&7to name this material"
+            MaterialCompat.safe(XMaterial.IRON_INGOT)
     );
     public static final SlimefunItemStack TUNGSTEN_INGOT = new SlimefunItemStack(
             "TUNGSTEN_INGOT",
-            MaterialCompat.safe(XMaterial.NETHERITE_INGOT),
-            "&bTungsten Ingot",
-            "",
-            "&7A strong metal obtained either from",
-            "&7giving Martians reinforced plates or",
-            "&7from smelting fallen meteors"
+            MaterialCompat.safe(XMaterial.NETHERITE_INGOT)
     );
     public static final SlimefunItemStack ALUMINUM_COMPOSITE_SHEET = new SlimefunItemStack(
             "ALUMINUM_COMPOSITE_SHEET",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&fAluminum Composite Sheet"
+            MaterialCompat.safe(XMaterial.PAPER)
     );
     public static final SlimefunItemStack HEAVY_DUTY_SHEET = new SlimefunItemStack(
             "HEAVY_DUTY_SHEET",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&fHeavy Duty Sheet"
+            MaterialCompat.safe(XMaterial.PAPER)
     );
     public static final SlimefunItemStack SPACE_GRADE_PLATE = new SlimefunItemStack(
             "SPACE_GRADE_PLATE",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&fSpace Grade Plate"
+            MaterialCompat.safe(XMaterial.PAPER)
     );
     public static final SlimefunItemStack ULTRA_DUTY_SHEET = new SlimefunItemStack(
             "ULTRA_DUTY_SHEET",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&fUltra Duty Sheet"
+            MaterialCompat.safe(XMaterial.PAPER)
     );
     //</editor-fold>
     //<editor-fold desc="Rocket Stuff" defaultstate="collapsed">
     public static final SlimefunItemStack GOLD_FOIL = new SlimefunItemStack(
             "GOLD_FOIL",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&6Gold Foil"
+            MaterialCompat.safe(XMaterial.PAPER)
     );
     public static final SlimefunItemStack REINFORCED_CHANNEL = new SlimefunItemStack(
             "REINFORCED_CHANNEL",
-            MaterialCompat.safe(XMaterial.BAMBOO),
-            "&fReinforced Channel"
+            MaterialCompat.safe(XMaterial.BAMBOO)
     );
     public static final SlimefunItemStack FAN_BLADE = new SlimefunItemStack(
             "FAN_BLADE",
-            GalactifunHead.FAN,
-            "&fFan Blade"
+            GalactifunHead.FAN
     );
     public static final SlimefunItemStack NOZZLE = new SlimefunItemStack(
             "NOZZLE",
-            MaterialCompat.safe(XMaterial.IRON_TRAPDOOR),
-            "&fNozzle"
+            MaterialCompat.safe(XMaterial.IRON_TRAPDOOR)
     );
     public static final SlimefunItemStack FILTER = new SlimefunItemStack(
             "AIR_FILTER",
-            MaterialCompat.safe(XMaterial.PAPER),
-            "&fFilter"
+            MaterialCompat.safe(XMaterial.PAPER)
     );
     public static final SlimefunItemStack OXYGEN_REGENERATOR = new SlimefunItemStack(
             "OXYGEN_REGENERATOR",
-            GalactifunHead.OXYGEN_REGENERATOR,
-            "&bOxygen Regenerator"
+            GalactifunHead.OXYGEN_REGENERATOR
     );
     public static final SlimefunItemStack SPARK_PLUG = new SlimefunItemStack(
             "SPARK_PLUG",
-            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL),
-            "&fSpark Plug"
+            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)
     );
     public static final SlimefunItemStack SPARK_PLUG_2 = new SlimefunItemStack(
             "SPARK_PLUG_2",
-            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL),
-            "&fSpark Plug Mk 2"
+            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)
     );
     public static final SlimefunItemStack ROCKET_ENGINE = new SlimefunItemStack(
             "ROCKET_ENGINE",
-            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL),
-            "&fRocket Engine"
+            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)
     );
     public static final SlimefunItemStack ROCKET_ENGINE_2 = new SlimefunItemStack(
             "ROCKET_ENGINE_2",
-            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL),
-            "&fRocket Engine Mk 2"
+            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)
     );
     public static final SlimefunItemStack ROCKET_ENGINE_3 = new SlimefunItemStack(
             "ROCKET_ENGINE_3",
-            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL),
-            "&fRocket Engine Mk 3"
+            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)
     );
     public static final SlimefunItemStack ION_ENGINE = new SlimefunItemStack(
             "ION_ENGINE",
-            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL),
-            "&bIon Engine"
+            MaterialCompat.safe(XMaterial.FLINT_AND_STEEL)
     );
     public static final SlimefunItemStack ADVANCED_PROCESSING_UNIT = new SlimefunItemStack(
             "ADVANCED_PROCESSING_UNIT",
-            GalactifunHead.CORE,
-            "&4Advanced Processing Unit"
+            GalactifunHead.CORE
     );
     public static final SlimefunItemStack LIFE_SUPPORT_MODULE = new SlimefunItemStack(
             "LIFE_SUPPORT_MODULE",
-            GalactifunHead.LIFE_SUPPORT_MODULE,
-            "&4Life Support Module"
+            GalactifunHead.LIFE_SUPPORT_MODULE
     );
     public static final SlimefunItemStack NOSE_CONE = new SlimefunItemStack(
             "NOSE_CONE",
-            MaterialCompat.safe(XMaterial.REDSTONE_TORCH),
-            "&fNose Cone"
+            MaterialCompat.safe(XMaterial.REDSTONE_TORCH)
     );
     public static final SlimefunItemStack FUEL_TANK = new SlimefunItemStack(
             "FUEL_TANK",
-            GalactifunHead.CAN,
-            "&6Fuel Tank"
+            GalactifunHead.CAN
     );
     public static final SlimefunItemStack FUEL_TANK_2 = new SlimefunItemStack(
             "FUEL_TANK_2",
-            GalactifunHead.CAN,
-            "&6Fuel Tank Mk 2"
+            GalactifunHead.CAN
     );
     public static final SlimefunItemStack DIAMOND_CIRCUIT = new SlimefunItemStack(
             "DIAMOND_CIRCUIT",
-            MaterialCompat.safe(XMaterial.POWERED_RAIL),
-            "&7Diamond Circuit"
+            MaterialCompat.safe(XMaterial.POWERED_RAIL)
     );
     public static final SlimefunItemStack REDSTONE_CIRCUIT = new SlimefunItemStack(
             "REDSTONE_CIRCUIT",
-            MaterialCompat.safe(XMaterial.POWERED_RAIL),
-            "&7Redstone Circuit"
+            MaterialCompat.safe(XMaterial.POWERED_RAIL)
     );
     public static final SlimefunItemStack LAPIS_CIRCUIT = new SlimefunItemStack(
             "LAPIS_CIRCUIT",
-            MaterialCompat.safe(XMaterial.POWERED_RAIL),
-            "&7Lapis Circuit"
+            MaterialCompat.safe(XMaterial.POWERED_RAIL)
     );
     public static final SlimefunItemStack GLOWSTONE_CIRCUIT = new SlimefunItemStack(
             "GLOWSTONE_CIRCUIT",
-            MaterialCompat.safe(XMaterial.POWERED_RAIL),
-            "&7Glowstone Circuit"
+            MaterialCompat.safe(XMaterial.POWERED_RAIL)
     );
     //</editor-fold>
     //<editor-fold desc="Misc" defaultstate="collapsed">
     public static final SlimefunItemStack MUNPOWDER = new SlimefunItemStack(
             "MUNPOWDER",
-            MaterialCompat.safe(XMaterial.GUNPOWDER),
-            "&7Munpowder",
-            "",
-            "&7The gunpowder of the moon"
+            MaterialCompat.safe(XMaterial.GUNPOWDER)
     );
     public static final SlimefunItemStack FALLEN_METEOR = new SlimefunItemStack(
             "FALLEN_METEOR",
-            MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS),
-            "&4Fallen Meteor",
-            "",
-            "&7These meteors contain Tungsten"
+            MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS)
     );
     public static final SlimefunItemStack MOON_CHEESE = new SlimefunItemStack(
             "MOON_CHEESE",
-            GalactifunHead.CHEESE,
-            "&6Moon Cheese",
-            "",
-            "&7Ew"
+            GalactifunHead.CHEESE
     );
     public static final SlimefunItemStack ENDER_BLOCK = new SlimefunItemStack(
             "ENDER_BLOCK",
-            MaterialCompat.safe(XMaterial.PRISMARINE_BRICKS),
-            "&3Ender Block"
+            MaterialCompat.safe(XMaterial.PRISMARINE_BRICKS)
     );
     public static final SlimefunItemStack LUNAR_GLASS = new SlimefunItemStack(
             "LUNAR_GLASS",
-            MaterialCompat.safe(XMaterial.GLASS),
-            "&fLunar Glass",
-            "",
-            "&7For some reason adding moon dust to",
-            "&7glass makes it clearer..."
+            MaterialCompat.safe(XMaterial.GLASS)
     );
     public static final SlimefunItemStack VOLCANIC_INGOT = new SlimefunItemStack(
             "VOLCANIC_INGOT",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&4Volcanic Ingot",
-            "",
-            "&7Forged in the depths of the closest",
-            "&7thing we know to Hell, Volcanic Ingots",
-            "&7are a valuable commodity"
+            MaterialCompat.safe(XMaterial.GOLD_INGOT)
     );
     public static final SlimefunItemStack BLISTERING_VOLCANIC_INGOT = new SlimefunItemStack(
             "BLISTERING_VOLCANIC_INGOT",
-            MaterialCompat.safe(XMaterial.GOLD_INGOT),
-            "&6Blistering Volcanic Ingot"
+            MaterialCompat.safe(XMaterial.GOLD_INGOT)
     );
     public static final SlimefunItemStack TUNGSTEN_CARBIDE = new SlimefunItemStack(
             "TUNGSTEN_CARBIDE",
-            MaterialCompat.safe(XMaterial.IRON_INGOT),
-            "&7Tungsten Carbide"
+            MaterialCompat.safe(XMaterial.IRON_INGOT)
     );
     public static final SlimefunItemStack DIAMOND_ANVIL_CELL = new SlimefunItemStack(
             "DIAMOND_ANVIL_CELL",
-            MaterialCompat.safe(XMaterial.DIAMOND),
-            "&bDiamond Anvil Cell"
+            MaterialCompat.safe(XMaterial.DIAMOND)
     );
     public static final SlimefunItemStack FUSION_PELLET = new SlimefunItemStack(
             "FUSION_PELLET",
-            MaterialCompat.safe(XMaterial.STONE_BUTTON),
-            "&fFusion Pellet"
+            MaterialCompat.safe(XMaterial.STONE_BUTTON)
     );
     public static final SlimefunItemStack LASERITE_DUST = new SlimefunItemStack(
             "LASERITE_DUST",
-            MaterialCompat.safe(XMaterial.REDSTONE),
-            "&cLaserite Dust",
-            "",
-            "&7I'm running out of names",
-            Bukkit.getPluginManager().isPluginEnabled("SlimefunWarfare") ?
-                    "&7Can be replaced by Laser Diode from Slimefun Warfare" :
-                    ""
+            MaterialCompat.safe(XMaterial.REDSTONE)
     );
     public static final SlimefunItemStack LASERITE = new SlimefunItemStack(
             "LASERITE",
-            MaterialCompat.safe(XMaterial.RED_DYE),
-            "&cLaserite"
+            MaterialCompat.safe(XMaterial.RED_DYE)
     );
     //</editor-fold>
 
