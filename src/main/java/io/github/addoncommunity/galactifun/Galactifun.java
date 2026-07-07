@@ -131,16 +131,7 @@ public final class Galactifun extends AbstractAddon {
         BaseMats.setup();
         BaseItems.setup(this);
 
-        // log after startup
-        Scheduler.run(() -> log(Level.INFO,
-                "################# Galactifun " + getPluginVersion() + " #################",
-                "",
-                "Galactifun is open source, you can contribute or report bugs at: ",
-                getBugTrackerURL(),
-                "Join the Slimefun Addon Community Discord: discord.gg/CbBYZBEWdR",
-                "",
-                "###################################################"
-        ));
+        // Startup banner intentionally omitted: Slimefun core logs every installed addon uniformly.
 
         getAddonCommand()
                 .addSub(new GalactiportCommand())
