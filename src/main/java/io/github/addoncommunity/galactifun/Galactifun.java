@@ -184,12 +184,12 @@ public final class Galactifun extends AbstractAddon {
 
     private static String categoryName(String key) {
         switch (key) {
-            case "equipment": return "Space Suits & Equipment";
-            case "items": return "Rockets & Gear";
-            case "components": return "Components & Materials";
-            case "machines": return "Machines";
-            case "blocks": return "Alien Resources";
-            case "relics": return "Alien Relics";
+            case "equipment": return "Galactifun: Space Suits & Equipment";
+            case "items": return "Galactifun: Rockets & Gear";
+            case "components": return "Galactifun: Components & Materials";
+            case "machines": return "Galactifun: Machines";
+            case "blocks": return "Galactifun: Alien Resources";
+            case "relics": return "Galactifun: Alien Relics";
             default: return "Galactifun";
         }
     }
