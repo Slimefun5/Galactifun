@@ -84,10 +84,7 @@ public enum Gas {
     Gas(String texture, RecipeType recipeType, ItemStack[] recipe) {
         this.item = new SlimefunItemStack(
                 "ATMOSPHERIC_GAS_" + this.name(),
-                SlimefunUtils.getCustomHead(texture),
-                "&f" + ChatUtils.humanize(this.name()) + " Gas Canister",
-                "",
-                "&f&oTexture by Sefiraat"
+                SlimefunUtils.getCustomHead(texture)
         );
 
         this.slimefunItem = new SlimefunItem(CoreItemGroup.ITEMS, this.item, recipeType, recipe);

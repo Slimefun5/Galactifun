@@ -131,16 +131,7 @@ public final class Galactifun extends AbstractAddon {
         BaseMats.setup();
         BaseItems.setup(this);
 
-        // log after startup
-        Scheduler.run(() -> log(Level.INFO,
-                "################# Galactifun " + getPluginVersion() + " #################",
-                "",
-                "Galactifun is open source, you can contribute or report bugs at: ",
-                getBugTrackerURL(),
-                "Join the Slimefun Addon Community Discord: discord.gg/CbBYZBEWdR",
-                "",
-                "###################################################"
-        ));
+        // Startup banner intentionally omitted: Slimefun core logs every installed addon uniformly.
 
         getAddonCommand()
                 .addSub(new GalactiportCommand())
@@ -193,12 +184,12 @@ public final class Galactifun extends AbstractAddon {
 
     private static String categoryName(String key) {
         switch (key) {
-            case "equipment": return "Space Suits & Equipment";
-            case "items": return "Rockets & Gear";
-            case "components": return "Components & Materials";
-            case "machines": return "Machines";
-            case "blocks": return "Alien Resources";
-            case "relics": return "Alien Relics";
+            case "equipment": return "Galactifun: Space Suits & Equipment";
+            case "items": return "Galactifun: Rockets & Gear";
+            case "components": return "Galactifun: Components & Materials";
+            case "machines": return "Galactifun: Machines";
+            case "blocks": return "Galactifun: Alien Resources";
+            case "relics": return "Galactifun: Alien Relics";
             default: return "Galactifun";
         }
     }

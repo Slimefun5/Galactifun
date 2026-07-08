@@ -52,8 +52,12 @@ dependencies {
 >>>>>>> origin/experimental
 =======
     implementation("org.bstats:bstats-bukkit:2.2.1")
+<<<<<<< HEAD
 >>>>>>> origin/experimental
     githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.2")
+=======
+    githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.4.6")
+>>>>>>> origin/experimental
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
 >>>>>>> origin/experimental
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
