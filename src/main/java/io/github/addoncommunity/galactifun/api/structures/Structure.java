@@ -13,11 +13,8 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import org.bukkit.Material;
-<<<<<<< HEAD
-=======
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.addoncommunity.galactifun.util.MaterialCompat;
->>>>>>> origin/experimental
 import dev.walshy.sfmetrics.MetricsModule;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;

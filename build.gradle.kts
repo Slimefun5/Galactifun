@@ -40,36 +40,17 @@ repositories {
 }
 
 dependencies {
-<<<<<<< HEAD
-    implementation("com.github.Slimefun5:SlimefunMetrics:master-SNAPSHOT")
-<<<<<<< HEAD
-    "githubCompileOnly"("Slimefun5:Slimefun5:v5.1.1")
-    compileOnly("io.papermc.paper:paper-api:${property("paperApiVersion")}")
-=======
-=======
     githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
-<<<<<<< HEAD
->>>>>>> origin/experimental
-=======
     implementation("org.bstats:bstats-bukkit:2.2.1")
-<<<<<<< HEAD
->>>>>>> origin/experimental
-    githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.3.2")
-=======
     githubCompileOnly("Slimefun5:Slimefun5:gh-v5.2.4.6")
->>>>>>> origin/experimental
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
->>>>>>> origin/experimental
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
 
     githubImplementation("Slimefun5:InfinityLib:v1.3.13")
     compileOnly("com.github.Slimefun.dough:dough-api:cb22e71335")
     compileOnly("commons-lang:commons-lang:2.6")
     compileOnly("commons-codec:commons-codec:1.17.1")
-<<<<<<< HEAD
-=======
     compileOnly("it.unimi.dsi:fastutil:8.5.3")
->>>>>>> origin/experimental
     
     testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation("org.junit.jupiter:junit-jupiter")
