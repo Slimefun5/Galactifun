@@ -79,7 +79,10 @@ tasks {
         relocate("org.bstats", "galactifun.libs.bstats")
         archiveFileName.set("Galactifun-1.0.0-UNOFFICIAL.jar")
         relocate("io.github.mooy1.infinitylib", "io.github.addoncommunity.galactifun.infinitylib")
-                exclude("META-INF/**")
+        exclude("META-INF/**")
+        // Core is provided at runtime (depend: Slimefun); never bundle it.
+        exclude("io/github/thebusybiscuit/slimefun5/**")
+        exclude("me/mrCookieSlime/**")
     }
     build {
         dependsOn(shadowJar)
