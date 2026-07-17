@@ -26,6 +26,7 @@ import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.implementation.SlimefunItems;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
+import io.github.thebusybiscuit.slimefun5.utils.compatibility.HandCompat;
 
 /**
  * Class for the martian
@@ -86,7 +87,7 @@ public final class Martian extends Alien<ZombieVillager> {
 
         if (trade != null && item.getAmount() >= trade.getAmount()) {
             LivingEntity entity = (LivingEntity) e.getRightClicked();
-            Objects.requireNonNull(entity.getEquipment()).setItemInOffHand(item);
+            HandCompat.setOffHand(Objects.requireNonNull(entity.getEquipment()), item);
             entity.addPotionEffect(new PotionEffect(
                     PotionEffectType.SLOW,
                     Integer.MAX_VALUE,
@@ -103,7 +104,7 @@ public final class Martian extends Alien<ZombieVillager> {
                 if (entity.isValid()) {
                     entity.getWorld().dropItemNaturally(entity.getLocation(), trade.clone());
 
-                    entity.getEquipment().setItemInOffHand(null);
+                    HandCompat.setOffHand(entity.getEquipment(), null);
                     entity.removePotionEffect(PotionEffectType.SLOW);
                 }
             });
