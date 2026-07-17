@@ -95,6 +95,7 @@ tasks {
         // Core is provided at runtime (depend: Slimefun); never bundle it. github-gradle pulls it in
         // transitively via InfinityLib's metadata, so exclude it explicitly.
         exclude("io/github/thebusybiscuit/slimefun5/**")
+        exclude("me/mrCookieSlime/**")
     }
     build {
         dependsOn(shadowJar)
