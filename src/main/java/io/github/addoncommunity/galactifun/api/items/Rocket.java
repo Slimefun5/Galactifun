@@ -82,6 +82,7 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
 
     public Rocket(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe, int fuelCapacity, int storageCapacity) {
         super(category, item, recipeType, recipe);
+        setGuideType("machines");
 
         this.fuelCapacity = fuelCapacity;
         this.storageCapacity = storageCapacity;
