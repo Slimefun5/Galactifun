@@ -428,9 +428,9 @@ public final class BaseMats {
 
     private static void component(SlimefunItemStack item, boolean unplaceable, RecipeType type, ItemStack... recipe) {
         if (unplaceable) {
-            new UnplaceableBlock(CoreItemGroup.COMPONENTS, item, type, recipe).register(Galactifun.instance());
+            new UnplaceableBlock(CoreItemGroup.COMPONENTS, item, type, recipe).setGuideType("resources").register(Galactifun.instance());
         } else {
-            new SlimefunItem(CoreItemGroup.COMPONENTS, item, type, recipe).register(Galactifun.instance());
+            new SlimefunItem(CoreItemGroup.COMPONENTS, item, type, recipe).setGuideType("resources").register(Galactifun.instance());
         }
     }
 
@@ -439,14 +439,14 @@ public final class BaseMats {
     }
 
     private static void component(SlimefunItemStack item, RecipeType type, int output, ItemStack... recipe) {
-        new SlimefunItem(CoreItemGroup.COMPONENTS, item, type, recipe, new SlimefunItemStack(item, output).item()).register(Galactifun.instance());
+        new SlimefunItem(CoreItemGroup.COMPONENTS, item, type, recipe, new SlimefunItemStack(item, output).item()).setGuideType("resources").register(Galactifun.instance());
     }
 
     private static void assembly(SlimefunItemStack item, boolean unplaceable, ItemStack... recipe) {
         if (unplaceable) {
-            new UnplaceableBlock(CoreItemGroup.ITEMS, item, AssemblyTable.TYPE, recipe).register(Galactifun.instance());
+            new UnplaceableBlock(CoreItemGroup.ITEMS, item, AssemblyTable.TYPE, recipe).setGuideType("resources").register(Galactifun.instance());
         } else {
-            new SlimefunItem(CoreItemGroup.ITEMS, item, AssemblyTable.TYPE, recipe).register(Galactifun.instance());
+            new SlimefunItem(CoreItemGroup.ITEMS, item, AssemblyTable.TYPE, recipe).setGuideType("resources").register(Galactifun.instance());
         }
     }
 
@@ -461,7 +461,7 @@ public final class BaseMats {
             recipe[i] = world.item();
             world.addBlockMapping(item.getType(), item);
         }
-        new SlimefunItem(CoreItemGroup.BLOCKS, item, CoreRecipeType.WORLD_GEN, recipe).register(Galactifun.instance());
+        new SlimefunItem(CoreItemGroup.BLOCKS, item, CoreRecipeType.WORLD_GEN, recipe).setGuideType("decoration").register(Galactifun.instance());
     }
 
 }
