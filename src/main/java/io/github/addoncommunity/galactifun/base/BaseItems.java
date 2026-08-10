@@ -77,9 +77,11 @@ public final class BaseItems {
             "SPACE_SUIT_HELMET",
             MaterialCompat.safe(XMaterial.GLASS)
     );
-    // NOTE: kept as name/lore constructor - the trailing SpaceSuit.oxygenLore(0, 3600) line is a functional
-    // marker that SpaceSuit#setOxygen finds (by prefix) and live-rewrites as the suit's oxygen changes;
-    // dropping it would remove the only lore line the live-update code can match against.
+    /**
+     * @implNote Uses the name/lore constructor deliberately: the trailing {@link SpaceSuit#oxygenLore} line is a
+     *           functional marker that {@link SpaceSuit#setOxygen} locates by prefix and live-rewrites as the suit's
+     *           oxygen changes. Dropping it removes the only lore line the live-update code can match against.
+     */
     public static final SlimefunItemStack SPACE_SUIT_CHEST = new SlimefunItemStack(
             "SPACE_SUIT_CHEST",
             MaterialCompat.safe(XMaterial.IRON_CHESTPLATE),

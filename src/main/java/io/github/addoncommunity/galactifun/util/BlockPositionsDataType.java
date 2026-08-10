@@ -14,8 +14,10 @@ import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
 
 final class BlockPositionsDataType implements PersistentDataType<long[], Set<BlockPosition>> {
 
-    // Used for reconstructing the BlockPositions from the long array. I don't feel like using a string.
-    // This class is only accessible to ChunkStorage anyway, so it's fine.
+    /**
+     * @implNote Holds the {@link World} so the primitive {@code long[]} (coordinates only) can be rebuilt into
+     *           {@link BlockPosition}s on read. Safe as shared mutable state because only ChunkStorage uses this adapter.
+     */
     World currentWorld;
 
     @Nonnull
