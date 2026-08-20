@@ -109,7 +109,10 @@ public final class Galactifun extends AbstractAddon {
             }
         }
 
-        new Metrics(this, 11613);
+        // Consolidated metrics: only start our own bStats if the server opted out (metrics.disable-addon-metrics = false).
+        if (Slimefun.getCfg().contains("metrics.disable-addon-metrics") && !Slimefun.getCfg().getBoolean("metrics.disable-addon-metrics")) {
+            new Metrics(this, 11613);
+        }
 
         if (!isTest && this.getConfig().getBoolean("auto-update") && !getPluginVersion().contains("MODIFIED")) {
             try {
@@ -141,7 +144,6 @@ public final class Galactifun extends AbstractAddon {
                 .addSub(new SealedCommand())
                 .addSub(new EffectsCommand());
 
-        // Contribute this addon's per-language item translations (languages/<lang>/items.yml).
         Slimefun.getItemTranslationService().registerTranslations(this);
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
@@ -156,7 +158,6 @@ public final class Galactifun extends AbstractAddon {
     private void registerWiki() {
         WikiText wiki = Slimefun.getWikiText();
 
-        // Group this addon's items by their ItemGroup, preserving discovery order.
         Map<ItemGroup, List<String>> byGroup = new LinkedHashMap<>();
         for (SlimefunItem item : Slimefun.getRegistry().getEnabledSlimefunItems()) {
             try {
@@ -259,7 +260,6 @@ public final class Galactifun extends AbstractAddon {
 
     /** Detailed lore pages for individual notable items. */
     private void registerItemPages(WikiText wiki) {
-        // Rockets & launch infrastructure
         wiki.set("ROCKET_TIER_ONE", Arrays.asList(
                 "&7The entry-level &4Chemical Rocket&7.",
                 "&7Carries 10 fuel and 9 cargo slots - just",
@@ -292,7 +292,6 @@ public final class Galactifun extends AbstractAddon {
                 "&7touch down on the highest block below it.",
                 "&7Seals spaces as it is impassable to air."));
 
-        // Space suit & oxygen
         wiki.set("SPACE_SUIT_HELMET", Arrays.asList(
                 "&7Part of the Space Suit set.",
                 "&7Shields your head from the vacuum.",
@@ -329,7 +328,6 @@ public final class Galactifun extends AbstractAddon {
                 "&7Combine the suit with a Heat, Cold or",
                 "&7Radiation upgrade here."));
 
-        // Oxygen sealing & habitats
         wiki.set("OXYGEN_SEALER", Arrays.asList(
                 "&7Floods a sealed room with breathable",
                 "&7oxygen, up to 1000 blocks of space.",
@@ -347,7 +345,6 @@ public final class Galactifun extends AbstractAddon {
                 "&7Place next to a sealing block to extend",
                 "&7its effective range by 15%."));
 
-        // Machines
         wiki.set("ATMOSPHERIC_HARVESTER", Arrays.asList(
                 "&7Sucks gases straight out of a planet's",
                 "&7atmosphere - the composition depends on",
@@ -387,7 +384,6 @@ public final class Galactifun extends AbstractAddon {
                 "&7Breaks down alien relics and recovers",
                 "&7whatever salvageable parts they contain."));
 
-        // Stargates
         wiki.set("STARGATE_RING", Arrays.asList(
                 "&9A segment of a Stargate.",
                 "&7Assemble several rings into a full",
@@ -396,7 +392,6 @@ public final class Galactifun extends AbstractAddon {
                 "&9Controls and dials a constructed",
                 "&7Stargate."));
 
-        // Key resources & components
         wiki.set("FALLEN_METEOR", Arrays.asList(
                 "&4Crashed meteors found on Mars.",
                 "&7Smelt them down to extract Tungsten."));
