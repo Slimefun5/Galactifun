@@ -75,4 +75,18 @@ public final class CoreItemGroup {
                 }).open(player)));
     }
 
+
+    /**
+     * Places this addon's items in the shared guide categories. One call per group is enough:
+     * the guide reads a group's category for every item in it (see ItemTypeClassifier), so items
+     * no longer fall back to Misc.
+     */
+    static {
+        EQUIPMENT.setCategory("tools");
+        ITEMS.setCategory("resources");
+        COMPONENTS.setCategory("resources");
+        MACHINES.setCategory("machines");
+        BLOCKS.setCategory("decoration");
+        RELICS.setCategory("misc");
+    }
 }
