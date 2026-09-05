@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&o资源'
 ATMOSPHERIC_HARVESTER:
   name: '&f大气采集器'
+  stats:
+  - '&8⇨ &e⚡ &764 J/秒'
+  - '&8⇨ &e⚡ &7128 J 缓冲'
   type:
   - '&7&o机器'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&o杂项'
 CHEMICAL_REACTOR:
   name: '&f化学反应堆'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/秒'
+  - '&8⇨ &e⚡ &7512 J 缓冲'
   type:
   - '&7&o机器'
 CIRCUIT_PRESS:
   name: '&f电路压制机'
+  stats:
+  - '&8⇨ &e⚡ &7512 J 缓冲'
+  - '&8⇨ &e⚡ &7256 J/秒'
   type:
   - '&7&o机器'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&o机器'
 DIAMOND_ANVIL:
   name: '&f金刚石压砧'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/秒'
+  - '&8⇨ &e⚡ &72048 J 缓冲'
   type:
   - '&7&o机器'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&o资源'
 ELECTROLYZER:
   name: '&f电解器'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/秒'
+  - '&8⇨ &e⚡ &7512 J 缓冲'
   type:
   - '&7&o机器'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&o组件'
 FUSION_REACTOR:
   name: '&f聚变反应堆'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/秒'
+  - '&8⇨ &e⚡ &765536 J 缓冲'
   type:
   - '&7&o发电机'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&o装置'
 OXYGEN_FILLER:
   name: '&f氧气填充器'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/秒'
+  - '&8⇨ &b⚡ &7速度: &b1.0x'
   type:
   - '&7&o机器'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&f宇航服头盔'
   type:
   - '&7&o护甲'
+  usage:
+  - '&e右键&7使用'
 SPACE_SUIT_PANTS:
   name: '&f宇航服护腿'
   type:
   - '&7&o护甲'
 SPACE_SUIT_UPGRADER:
   name: '&f宇航服升级器'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/秒'
+  - '&8⇨ &b⚡ &7速度: &b1.0x'
   type:
   - '&7&o机器'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&o杂项'
 TECHNOLOGICAL_SALVAGER:
   name: '&f科技回收机'
+  stats:
+  - '&8⇨ &e⚡ &764 J/秒'
+  - '&8⇨ &e⚡ &764 J 缓冲'
   type:
   - '&7&o机器'
 TUNGSTEN_CARBIDE:

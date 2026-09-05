@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oGrondstof'
 ATMOSPHERIC_HARVESTER:
   name: '&fAtmosferische oogster'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J Buffer'
   type:
   - '&7&oMachine'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oOverig'
 CHEMICAL_REACTOR:
   name: '&fChemische reactor'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Buffer'
   type:
   - '&7&oMachine'
 CIRCUIT_PRESS:
   name: '&fCircuitpers'
+  stats:
+  - '&8⇨ &e⚡ &7512 J Buffer'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMachine'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oMachine'
 DIAMOND_ANVIL:
   name: '&fDiamanten aambeeld'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Buffer'
   type:
   - '&7&oMachine'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oGrondstof'
 ELECTROLYZER:
   name: '&fElektrolyser'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Buffer'
   type:
   - '&7&oMachine'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oOnderdeel'
 FUSION_REACTOR:
   name: '&fFusiereactor'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J Buffer'
   type:
   - '&7&oGenerator'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oGadget'
 OXYGEN_FILLER:
   name: '&fZuurstofvuller'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Snelheid: &b1.0x'
   type:
   - '&7&oMachine'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fRuimtepak-helm'
   type:
   - '&7&oWapenrusting'
+  usage:
+  - '&eRechtermuisklik&7 om te gebruiken'
 SPACE_SUIT_PANTS:
   name: '&fRuimtepak-broek'
   type:
   - '&7&oWapenrusting'
 SPACE_SUIT_UPGRADER:
   name: '&fRuimtepak-upgrader'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Snelheid: &b1.0x'
   type:
   - '&7&oMachine'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oOverig'
 TECHNOLOGICAL_SALVAGER:
   name: '&fTechnologische berger'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J Buffer'
   type:
   - '&7&oMachine'
 TUNGSTEN_CARBIDE:

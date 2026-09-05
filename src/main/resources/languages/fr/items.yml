@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oRessource'
 ATMOSPHERIC_HARVESTER:
   name: '&fCollecteur atmospherique'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J Tampon'
   type:
   - '&7&oMachine'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oDivers'
 CHEMICAL_REACTOR:
   name: '&fReacteur chimique'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMachine'
 CIRCUIT_PRESS:
   name: '&fPresse a circuits'
+  stats:
+  - '&8⇨ &e⚡ &7512 J Tampon'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMachine'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oMachine'
 DIAMOND_ANVIL:
   name: '&fEnclume de diamant'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMachine'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oRessource'
 ELECTROLYZER:
   name: '&fElectrolyseur'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMachine'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oComposant'
 FUSION_REACTOR:
   name: '&fReacteur a fusion'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J Tampon'
   type:
   - '&7&oGénérateur'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oGadget'
 OXYGEN_FILLER:
   name: '&fRemplisseur d''oxygene'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
   type:
   - '&7&oMachine'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fCasque de combinaison spatiale'
   type:
   - '&7&oArmure'
+  usage:
+  - '&eClic droit&7 pour utiliser'
 SPACE_SUIT_PANTS:
   name: '&fPantalon de combinaison spatiale'
   type:
   - '&7&oArmure'
 SPACE_SUIT_UPGRADER:
   name: '&fAmeliorateur de combinaison spatiale'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Vitesse : &b1.0x'
   type:
   - '&7&oMachine'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oDivers'
 TECHNOLOGICAL_SALVAGER:
   name: '&fRecuperateur technologique'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oMachine'
 TUNGSTEN_CARBIDE:

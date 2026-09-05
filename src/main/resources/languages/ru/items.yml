@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oРесурс'
 ATMOSPHERIC_HARVESTER:
   name: '&fАтмосферный сборщик'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J Буфер'
   type:
   - '&7&oМашина'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oРазное'
 CHEMICAL_REACTOR:
   name: '&fХимический реактор'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Буфер'
   type:
   - '&7&oМашина'
 CIRCUIT_PRESS:
   name: '&fПресс для схем'
+  stats:
+  - '&8⇨ &e⚡ &7512 J Буфер'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oМашина'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oМашина'
 DIAMOND_ANVIL:
   name: '&fАлмазная наковальня'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Буфер'
   type:
   - '&7&oМашина'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oРесурс'
 ELECTROLYZER:
   name: '&fЭлектролизёр'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Буфер'
   type:
   - '&7&oМашина'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oКомпонент'
 FUSION_REACTOR:
   name: '&fТермоядерный реактор'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J Буфер'
   type:
   - '&7&oГенератор'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oГаджет'
 OXYGEN_FILLER:
   name: '&fЗаправщик кислорода'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Скорость: &b1.0x'
   type:
   - '&7&oМашина'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fШлем скафандра'
   type:
   - '&7&oБроня'
+  usage:
+  - '&eПравый клик&7, чтобы использовать'
 SPACE_SUIT_PANTS:
   name: '&fШтаны скафандра'
   type:
   - '&7&oБроня'
 SPACE_SUIT_UPGRADER:
   name: '&fУлучшатель скафандра'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Скорость: &b1.0x'
   type:
   - '&7&oМашина'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oРазное'
 TECHNOLOGICAL_SALVAGER:
   name: '&fТехнологический утилизатор'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J Буфер'
   type:
   - '&7&oМашина'
 TUNGSTEN_CARBIDE:

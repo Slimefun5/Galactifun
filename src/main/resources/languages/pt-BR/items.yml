@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oRecurso'
 ATMOSPHERIC_HARVESTER:
   name: '&fColetor atmosferico'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7Reserva de 128 J'
   type:
   - '&7&oMáquina'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oDiversos'
 CHEMICAL_REACTOR:
   name: '&fReator quimico'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7Reserva de 512 J'
   type:
   - '&7&oMáquina'
 CIRCUIT_PRESS:
   name: '&fPrensa de circuitos'
+  stats:
+  - '&8⇨ &e⚡ &7Reserva de 512 J'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMáquina'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oMáquina'
 DIAMOND_ANVIL:
   name: '&fBigorna de diamante'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &7Reserva de 2048 J'
   type:
   - '&7&oMáquina'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oRecurso'
 ELECTROLYZER:
   name: '&fEletrolisador'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7Reserva de 512 J'
   type:
   - '&7&oMáquina'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oComponente'
 FUSION_REACTOR:
   name: '&fReator de fusao'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &7Reserva de 65536 J'
   type:
   - '&7&oGerador'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oUtensílio'
 OXYGEN_FILLER:
   name: '&fAbastecedor de oxigenio'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Velocidade: &b1.0x'
   type:
   - '&7&oMáquina'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fCapacete de traje espacial'
   type:
   - '&7&oArmadura'
+  usage:
+  - '&eClique Direito&7 para usar'
 SPACE_SUIT_PANTS:
   name: '&fCalcas de traje espacial'
   type:
   - '&7&oArmadura'
 SPACE_SUIT_UPGRADER:
   name: '&fAprimorador de traje espacial'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Velocidade: &b1.0x'
   type:
   - '&7&oMáquina'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oDiversos'
 TECHNOLOGICAL_SALVAGER:
   name: '&fRecuperador tecnologico'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7Reserva de 64 J'
   type:
   - '&7&oMáquina'
 TUNGSTEN_CARBIDE:

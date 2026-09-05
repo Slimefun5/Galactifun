@@ -44,6 +44,9 @@ ATMOSPHERIC_GAS_WATER:
   type:
   - '&7&oResursă'
 ATMOSPHERIC_HARVESTER:
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J Tampon'
   type:
   - '&7&oMașină'
 AUTOMATIC_DOOR:
@@ -56,9 +59,15 @@ BROKEN_SOLAR_PANEL_RELIC:
   type:
   - '&7&oDiverse'
 CHEMICAL_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMașină'
 CIRCUIT_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7512 J Tampon'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMașină'
 COLD_RESISTANCE_UPGRADE:
@@ -77,6 +86,9 @@ COOLING_UNIT_3:
   type:
   - '&7&oMașină'
 DIAMOND_ANVIL:
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMașină'
 DIAMOND_ANVIL_CELL:
@@ -89,6 +101,9 @@ DRY_ICE:
   type:
   - '&7&oResursă'
 ELECTROLYZER:
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMașină'
 ENDER_BLOCK:
@@ -119,6 +134,9 @@ FUSION_PELLET:
   type:
   - '&7&oComponentă'
 FUSION_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J Tampon'
   type:
   - '&7&oGenerator'
 GLOWSTONE_CIRCUIT:
@@ -203,6 +221,9 @@ OBSERVATORY:
   type:
   - '&7&oGadget'
 OXYGEN_FILLER:
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
   type:
   - '&7&oMașină'
 OXYGEN_REGENERATOR:
@@ -265,10 +286,15 @@ SPACE_SUIT_CHEST:
 SPACE_SUIT_HELMET:
   type:
   - '&7&oArmură'
+  usage:
+  - '&eClick dreapta&7 pentru a folosi'
 SPACE_SUIT_PANTS:
   type:
   - '&7&oArmură'
 SPACE_SUIT_UPGRADER:
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Viteză: &b1.0x'
   type:
   - '&7&oMașină'
 SPARK_PLUG:
@@ -290,6 +316,9 @@ SUPER_FAN:
   type:
   - '&7&oDiverse'
 TECHNOLOGICAL_SALVAGER:
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oMașină'
 TUNGSTEN_CARBIDE:

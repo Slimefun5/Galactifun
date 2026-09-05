@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oRecurso'
 ATMOSPHERIC_HARVESTER:
   name: '&fRecolector atmosferico'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J de Búfer'
   type:
   - '&7&oMáquina'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oVarios'
 CHEMICAL_REACTOR:
   name: '&fReactor quimico'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J de Búfer'
   type:
   - '&7&oMáquina'
 CIRCUIT_PRESS:
   name: '&fPrensa de circuitos'
+  stats:
+  - '&8⇨ &e⚡ &7512 J de Búfer'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMáquina'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oMáquina'
 DIAMOND_ANVIL:
   name: '&fYunque de diamante'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J de Búfer'
   type:
   - '&7&oMáquina'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oRecurso'
 ELECTROLYZER:
   name: '&fElectrolizador'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J de Búfer'
   type:
   - '&7&oMáquina'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oComponente'
 FUSION_REACTOR:
   name: '&fReactor de fusion'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J de Búfer'
   type:
   - '&7&oGenerador'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oAparato'
 OXYGEN_FILLER:
   name: '&fRellenador de oxigeno'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Velocidad: &b1.0x'
   type:
   - '&7&oMáquina'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fCasco de traje espacial'
   type:
   - '&7&oArmadura'
+  usage:
+  - '&eClic Derecho&7 para usar'
 SPACE_SUIT_PANTS:
   name: '&fPantalones de traje espacial'
   type:
   - '&7&oArmadura'
 SPACE_SUIT_UPGRADER:
   name: '&fMejorador de traje espacial'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Velocidad: &b1.0x'
   type:
   - '&7&oMáquina'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oVarios'
 TECHNOLOGICAL_SALVAGER:
   name: '&fRecuperador tecnologico'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J de Búfer'
   type:
   - '&7&oMáquina'
 TUNGSTEN_CARBIDE:

@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oSurowiec'
 ATMOSPHERIC_HARVESTER:
   name: '&fKolektor atmosferyczny'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J Bufora'
   type:
   - '&7&oMaszyna'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oRóżne'
 CHEMICAL_REACTOR:
   name: '&fReaktor chemiczny'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Bufora'
   type:
   - '&7&oMaszyna'
 CIRCUIT_PRESS:
   name: '&fPrasa do obwodow'
+  stats:
+  - '&8⇨ &e⚡ &7512 J Bufora'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMaszyna'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oMaszyna'
 DIAMOND_ANVIL:
   name: '&fDiamentowe kowadlo'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bufora'
   type:
   - '&7&oMaszyna'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oSurowiec'
 ELECTROLYZER:
   name: '&fElektrolizer'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J Bufora'
   type:
   - '&7&oMaszyna'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oKomponent'
 FUSION_REACTOR:
   name: '&fReaktor fuzyjny'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J Bufora'
   type:
   - '&7&oGenerator'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oGadżet'
 OXYGEN_FILLER:
   name: '&fNapelniacz tlenu'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
   type:
   - '&7&oMaszyna'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fHelm skafandra'
   type:
   - '&7&oZbroja'
+  usage:
+  - '&ePrawy przycisk&7, aby użyć'
 SPACE_SUIT_PANTS:
   name: '&fSpodnie skafandra'
   type:
   - '&7&oZbroja'
 SPACE_SUIT_UPGRADER:
   name: '&fUlepszacz skafandra'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Prędkość: &b1.0x'
   type:
   - '&7&oMaszyna'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oRóżne'
 TECHNOLOGICAL_SALVAGER:
   name: '&fOdzyskiwacz technologii'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J Bufora'
   type:
   - '&7&oMaszyna'
 TUNGSTEN_CARBIDE:

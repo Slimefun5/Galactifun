@@ -60,6 +60,9 @@ ATMOSPHERIC_GAS_WATER:
   - '&7&oRisorsa'
 ATMOSPHERIC_HARVESTER:
   name: '&fRaccoglitore atmosferico'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J di Buffer'
   type:
   - '&7&oMacchina'
 AUTOMATIC_DOOR:
@@ -76,10 +79,16 @@ BROKEN_SOLAR_PANEL_RELIC:
   - '&7&oVarie'
 CHEMICAL_REACTOR:
   name: '&fReattore chimico'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J di Buffer'
   type:
   - '&7&oMacchina'
 CIRCUIT_PRESS:
   name: '&fPressa per circuiti'
+  stats:
+  - '&8⇨ &e⚡ &7512 J di Buffer'
+  - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMacchina'
 COLD_RESISTANCE_UPGRADE:
@@ -104,6 +113,9 @@ COOLING_UNIT_3:
   - '&7&oMacchina'
 DIAMOND_ANVIL:
   name: '&fIncudine di diamante'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J di Buffer'
   type:
   - '&7&oMacchina'
 DIAMOND_ANVIL_CELL:
@@ -120,6 +132,9 @@ DRY_ICE:
   - '&7&oRisorsa'
 ELECTROLYZER:
   name: '&fElettrolizzatore'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J di Buffer'
   type:
   - '&7&oMacchina'
 ENDER_BLOCK:
@@ -160,6 +175,9 @@ FUSION_PELLET:
   - '&7&oComponente'
 FUSION_REACTOR:
   name: '&fReattore a fusione'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J di Buffer'
   type:
   - '&7&oGeneratore'
 GLOWSTONE_CIRCUIT:
@@ -272,6 +290,9 @@ OBSERVATORY:
   - '&7&oGadget'
 OXYGEN_FILLER:
   name: '&fRiempitore di ossigeno'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7Velocità: &b1.0x'
   type:
   - '&7&oMacchina'
 OXYGEN_REGENERATOR:
@@ -354,12 +375,17 @@ SPACE_SUIT_HELMET:
   name: '&fCasco da tuta spaziale'
   type:
   - '&7&oArmatura'
+  usage:
+  - '&eClic destro&7 per usare'
 SPACE_SUIT_PANTS:
   name: '&fPantaloni da tuta spaziale'
   type:
   - '&7&oArmatura'
 SPACE_SUIT_UPGRADER:
   name: '&fPotenziatore di tuta spaziale'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7Velocità: &b1.0x'
   type:
   - '&7&oMacchina'
 SPARK_PLUG:
@@ -388,6 +414,9 @@ SUPER_FAN:
   - '&7&oVarie'
 TECHNOLOGICAL_SALVAGER:
   name: '&fRecuperatore tecnologico'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J di Buffer'
   type:
   - '&7&oMacchina'
 TUNGSTEN_CARBIDE:

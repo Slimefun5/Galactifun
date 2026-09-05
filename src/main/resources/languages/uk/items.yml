@@ -44,6 +44,9 @@ ATMOSPHERIC_GAS_WATER:
   type:
   - '&7&oРесурс'
 ATMOSPHERIC_HARVESTER:
+  stats:
+  - '&8⇨ &e⚡ &764 Дж/с'
+  - '&8⇨ &e⚡ &7Буфер: 128 Дж'
   type:
   - '&7&oМашина'
 AUTOMATIC_DOOR:
@@ -56,9 +59,15 @@ BROKEN_SOLAR_PANEL_RELIC:
   type:
   - '&7&oРізне'
 CHEMICAL_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &7256 Дж/с'
+  - '&8⇨ &e⚡ &7Буфер: 512 Дж'
   type:
   - '&7&oМашина'
 CIRCUIT_PRESS:
+  stats:
+  - '&8⇨ &e⚡ &7Буфер: 512 Дж'
+  - '&8⇨ &e⚡ &7256 Дж/с'
   type:
   - '&7&oМашина'
 COLD_RESISTANCE_UPGRADE:
@@ -77,6 +86,9 @@ COOLING_UNIT_3:
   type:
   - '&7&oМашина'
 DIAMOND_ANVIL:
+  stats:
+  - '&8⇨ &e⚡ &71024 Дж/с'
+  - '&8⇨ &e⚡ &7Буфер: 2048 Дж'
   type:
   - '&7&oМашина'
 DIAMOND_ANVIL_CELL:
@@ -89,6 +101,9 @@ DRY_ICE:
   type:
   - '&7&oРесурс'
 ELECTROLYZER:
+  stats:
+  - '&8⇨ &e⚡ &7256 Дж/с'
+  - '&8⇨ &e⚡ &7Буфер: 512 Дж'
   type:
   - '&7&oМашина'
 ENDER_BLOCK:
@@ -119,6 +134,9 @@ FUSION_PELLET:
   type:
   - '&7&oКомпонент'
 FUSION_REACTOR:
+  stats:
+  - '&8⇨ &e⚡ &765536 Дж/с'
+  - '&8⇨ &e⚡ &7Буфер: 65536 Дж'
   type:
   - '&7&oГенератор'
 GLOWSTONE_CIRCUIT:
@@ -203,6 +221,9 @@ OBSERVATORY:
   type:
   - '&7&oГаджет'
 OXYGEN_FILLER:
+  stats:
+  - '&8⇨ &e⚡ &7100 Дж/с'
+  - '&8⇨ &b⚡ &7Швидкість: &b1.0x'
   type:
   - '&7&oМашина'
 OXYGEN_REGENERATOR:
@@ -265,10 +286,15 @@ SPACE_SUIT_CHEST:
 SPACE_SUIT_HELMET:
   type:
   - '&7&oБроня'
+  usage:
+  - '&eПКМ&7, щоб використати'
 SPACE_SUIT_PANTS:
   type:
   - '&7&oБроня'
 SPACE_SUIT_UPGRADER:
+  stats:
+  - '&8⇨ &e⚡ &7200 Дж/с'
+  - '&8⇨ &b⚡ &7Швидкість: &b1.0x'
   type:
   - '&7&oМашина'
 SPARK_PLUG:
@@ -290,6 +316,9 @@ SUPER_FAN:
   type:
   - '&7&oРізне'
 TECHNOLOGICAL_SALVAGER:
+  stats:
+  - '&8⇨ &e⚡ &764 Дж/с'
+  - '&8⇨ &e⚡ &7Буфер: 64 Дж'
   type:
   - '&7&oМашина'
 TUNGSTEN_CARBIDE:
