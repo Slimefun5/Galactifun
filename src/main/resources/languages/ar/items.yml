@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oمكون'
+AIR_FILTER:
+  type:
+  - '&7&oمكون'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oمكون'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oمكون'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oآلة'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oمورد'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oآلة'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oآلة'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oمورد'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oمتنوع'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oآلة'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oآلة'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oمكون'
+COMPUTER_RELIC:
+  type:
+  - '&7&oمتنوع'
+COOLING_UNIT_1:
+  type:
+  - '&7&oآلة'
+COOLING_UNIT_2:
+  type:
+  - '&7&oآلة'
+COOLING_UNIT_3:
+  type:
+  - '&7&oآلة'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oآلة'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oمكون'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oمكون'
+DRY_ICE:
+  type:
+  - '&7&oمورد'
+ELECTROLYZER:
+  type:
+  - '&7&oآلة'
+ENDER_BLOCK:
+  type:
+  - '&7&oمكون'
+ENGINE_RELIC:
+  type:
+  - '&7&oمتنوع'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oآلة'
+FALLEN_METEOR:
+  type:
+  - '&7&oمورد'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oمتنوع'
+FAN_BLADE:
+  type:
+  - '&7&oمكون'
+FUEL_TANK:
+  type:
+  - '&7&oمكون'
+FUEL_TANK_2:
+  type:
+  - '&7&oمكون'
+FUSION_PELLET:
+  type:
+  - '&7&oمكون'
+FUSION_REACTOR:
+  type:
+  - '&7&oمولد'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oمكون'
+GOLD_FOIL:
+  type:
+  - '&7&oمكون'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oمكون'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oمكون'
+ION_DISPERSER_1:
+  type:
+  - '&7&oآلة'
+ION_DISPERSER_2:
+  type:
+  - '&7&oآلة'
+ION_ENGINE:
+  type:
+  - '&7&oمكون'
+ION_ROCKET:
+  type:
+  - '&7&oبنية مركبة'
+LANDING_HATCH:
+  type:
+  - '&7&oمتنوع'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oمكون'
+LASERITE:
+  type:
+  - '&7&oمورد'
+LASERITE_DUST:
+  type:
+  - '&7&oمورد'
+LASERITE_ORE:
+  type:
+  - '&7&oمورد'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oبنية مركبة'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oبنية مركبة'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oمكون'
+LUNAR_GLASS:
+  type:
+  - '&7&oمكون'
+MARS_DUST:
+  type:
+  - '&7&oمورد'
+MARS_ROCK:
+  type:
+  - '&7&oمورد'
+METHANE_ICE:
+  type:
+  - '&7&oمورد'
+MOON_CHEESE:
+  type:
+  - '&7&oطعام'
+MOON_DUST:
+  type:
+  - '&7&oمورد'
+MOON_ROCK:
+  type:
+  - '&7&oمورد'
+MUNPOWDER:
+  type:
+  - '&7&oمورد'
+NOSE_CONE:
+  type:
+  - '&7&oمكون'
+NOZZLE:
+  type:
+  - '&7&oمكون'
+OBSERVATORY:
+  type:
+  - '&7&oجهاز'
+OXYGEN_FILLER:
+  type:
+  - '&7&oآلة'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oمكون'
+OXYGEN_SEALER:
+  type:
+  - '&7&oآلة'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oجهاز'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oمكون'
+REACTOR_RELIC:
+  type:
+  - '&7&oمتنوع'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oمكون'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oمكون'
+ROCKET_ENGINE:
+  type:
+  - '&7&oمكون'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oمكون'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oمكون'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oبنية مركبة'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oبنية مركبة'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oبنية مركبة'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oمكون'
+SPACE_HEATER_1:
+  type:
+  - '&7&oآلة'
+SPACE_HEATER_2:
+  type:
+  - '&7&oآلة'
+SPACE_HEATER_3:
+  type:
+  - '&7&oآلة'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oدرع'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oدرع'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oدرع'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oدرع'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oآلة'
+SPARK_PLUG:
+  type:
+  - '&7&oمكون'
+SPARK_PLUG_2:
+  type:
+  - '&7&oمكون'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oبنية مركبة'
+STARGATE_RING:
+  type:
+  - '&7&oبنية مركبة'
+SULFUR_BLOCK:
+  type:
+  - '&7&oمورد'
+SUPER_FAN:
+  type:
+  - '&7&oمتنوع'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oآلة'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oمورد'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oمورد'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oمكون'
+VENTSTONE:
+  type:
+  - '&7&oمورد'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oمورد'

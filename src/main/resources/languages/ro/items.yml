@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oComponentă'
+AIR_FILTER:
+  type:
+  - '&7&oComponentă'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oComponentă'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oComponentă'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oMașină'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oResursă'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oMașină'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oMașină'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oResursă'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oDiverse'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oMașină'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oMașină'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oComponentă'
+COMPUTER_RELIC:
+  type:
+  - '&7&oDiverse'
+COOLING_UNIT_1:
+  type:
+  - '&7&oMașină'
+COOLING_UNIT_2:
+  type:
+  - '&7&oMașină'
+COOLING_UNIT_3:
+  type:
+  - '&7&oMașină'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oMașină'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oComponentă'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oComponentă'
+DRY_ICE:
+  type:
+  - '&7&oResursă'
+ELECTROLYZER:
+  type:
+  - '&7&oMașină'
+ENDER_BLOCK:
+  type:
+  - '&7&oComponentă'
+ENGINE_RELIC:
+  type:
+  - '&7&oDiverse'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oMașină'
+FALLEN_METEOR:
+  type:
+  - '&7&oResursă'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oDiverse'
+FAN_BLADE:
+  type:
+  - '&7&oComponentă'
+FUEL_TANK:
+  type:
+  - '&7&oComponentă'
+FUEL_TANK_2:
+  type:
+  - '&7&oComponentă'
+FUSION_PELLET:
+  type:
+  - '&7&oComponentă'
+FUSION_REACTOR:
+  type:
+  - '&7&oGenerator'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oComponentă'
+GOLD_FOIL:
+  type:
+  - '&7&oComponentă'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oComponentă'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oComponentă'
+ION_DISPERSER_1:
+  type:
+  - '&7&oMașină'
+ION_DISPERSER_2:
+  type:
+  - '&7&oMașină'
+ION_ENGINE:
+  type:
+  - '&7&oComponentă'
+ION_ROCKET:
+  type:
+  - '&7&oMultibloc'
+LANDING_HATCH:
+  type:
+  - '&7&oDiverse'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oComponentă'
+LASERITE:
+  type:
+  - '&7&oResursă'
+LASERITE_DUST:
+  type:
+  - '&7&oResursă'
+LASERITE_ORE:
+  type:
+  - '&7&oResursă'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oMultibloc'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oMultibloc'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oComponentă'
+LUNAR_GLASS:
+  type:
+  - '&7&oComponentă'
+MARS_DUST:
+  type:
+  - '&7&oResursă'
+MARS_ROCK:
+  type:
+  - '&7&oResursă'
+METHANE_ICE:
+  type:
+  - '&7&oResursă'
+MOON_CHEESE:
+  type:
+  - '&7&oMâncare'
+MOON_DUST:
+  type:
+  - '&7&oResursă'
+MOON_ROCK:
+  type:
+  - '&7&oResursă'
+MUNPOWDER:
+  type:
+  - '&7&oResursă'
+NOSE_CONE:
+  type:
+  - '&7&oComponentă'
+NOZZLE:
+  type:
+  - '&7&oComponentă'
+OBSERVATORY:
+  type:
+  - '&7&oGadget'
+OXYGEN_FILLER:
+  type:
+  - '&7&oMașină'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oComponentă'
+OXYGEN_SEALER:
+  type:
+  - '&7&oMașină'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oGadget'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oComponentă'
+REACTOR_RELIC:
+  type:
+  - '&7&oDiverse'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oComponentă'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oComponentă'
+ROCKET_ENGINE:
+  type:
+  - '&7&oComponentă'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oComponentă'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oComponentă'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oMultibloc'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oMultibloc'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oMultibloc'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oComponentă'
+SPACE_HEATER_1:
+  type:
+  - '&7&oMașină'
+SPACE_HEATER_2:
+  type:
+  - '&7&oMașină'
+SPACE_HEATER_3:
+  type:
+  - '&7&oMașină'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oArmură'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oArmură'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oArmură'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oArmură'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oMașină'
+SPARK_PLUG:
+  type:
+  - '&7&oComponentă'
+SPARK_PLUG_2:
+  type:
+  - '&7&oComponentă'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oMultibloc'
+STARGATE_RING:
+  type:
+  - '&7&oMultibloc'
+SULFUR_BLOCK:
+  type:
+  - '&7&oResursă'
+SUPER_FAN:
+  type:
+  - '&7&oDiverse'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oMașină'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oResursă'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oResursă'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oComponentă'
+VENTSTONE:
+  type:
+  - '&7&oResursă'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oResursă'

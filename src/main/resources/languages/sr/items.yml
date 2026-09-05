@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oКомпонента'
+AIR_FILTER:
+  type:
+  - '&7&oКомпонента'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oКомпонента'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oКомпонента'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oМашина'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oРесурс'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oМашина'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oМашина'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oРесурс'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oРазно'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oМашина'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oМашина'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oКомпонента'
+COMPUTER_RELIC:
+  type:
+  - '&7&oРазно'
+COOLING_UNIT_1:
+  type:
+  - '&7&oМашина'
+COOLING_UNIT_2:
+  type:
+  - '&7&oМашина'
+COOLING_UNIT_3:
+  type:
+  - '&7&oМашина'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oМашина'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oКомпонента'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oКомпонента'
+DRY_ICE:
+  type:
+  - '&7&oРесурс'
+ELECTROLYZER:
+  type:
+  - '&7&oМашина'
+ENDER_BLOCK:
+  type:
+  - '&7&oКомпонента'
+ENGINE_RELIC:
+  type:
+  - '&7&oРазно'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oМашина'
+FALLEN_METEOR:
+  type:
+  - '&7&oРесурс'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oРазно'
+FAN_BLADE:
+  type:
+  - '&7&oКомпонента'
+FUEL_TANK:
+  type:
+  - '&7&oКомпонента'
+FUEL_TANK_2:
+  type:
+  - '&7&oКомпонента'
+FUSION_PELLET:
+  type:
+  - '&7&oКомпонента'
+FUSION_REACTOR:
+  type:
+  - '&7&oГенератор'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oКомпонента'
+GOLD_FOIL:
+  type:
+  - '&7&oКомпонента'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oКомпонента'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oКомпонента'
+ION_DISPERSER_1:
+  type:
+  - '&7&oМашина'
+ION_DISPERSER_2:
+  type:
+  - '&7&oМашина'
+ION_ENGINE:
+  type:
+  - '&7&oКомпонента'
+ION_ROCKET:
+  type:
+  - '&7&oМултиблок'
+LANDING_HATCH:
+  type:
+  - '&7&oРазно'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oКомпонента'
+LASERITE:
+  type:
+  - '&7&oРесурс'
+LASERITE_DUST:
+  type:
+  - '&7&oРесурс'
+LASERITE_ORE:
+  type:
+  - '&7&oРесурс'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oМултиблок'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oМултиблок'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oКомпонента'
+LUNAR_GLASS:
+  type:
+  - '&7&oКомпонента'
+MARS_DUST:
+  type:
+  - '&7&oРесурс'
+MARS_ROCK:
+  type:
+  - '&7&oРесурс'
+METHANE_ICE:
+  type:
+  - '&7&oРесурс'
+MOON_CHEESE:
+  type:
+  - '&7&oХрана'
+MOON_DUST:
+  type:
+  - '&7&oРесурс'
+MOON_ROCK:
+  type:
+  - '&7&oРесурс'
+MUNPOWDER:
+  type:
+  - '&7&oРесурс'
+NOSE_CONE:
+  type:
+  - '&7&oКомпонента'
+NOZZLE:
+  type:
+  - '&7&oКомпонента'
+OBSERVATORY:
+  type:
+  - '&7&oСправа'
+OXYGEN_FILLER:
+  type:
+  - '&7&oМашина'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oКомпонента'
+OXYGEN_SEALER:
+  type:
+  - '&7&oМашина'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oСправа'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oКомпонента'
+REACTOR_RELIC:
+  type:
+  - '&7&oРазно'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oКомпонента'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oКомпонента'
+ROCKET_ENGINE:
+  type:
+  - '&7&oКомпонента'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oКомпонента'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oКомпонента'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oМултиблок'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oМултиблок'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oМултиблок'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oКомпонента'
+SPACE_HEATER_1:
+  type:
+  - '&7&oМашина'
+SPACE_HEATER_2:
+  type:
+  - '&7&oМашина'
+SPACE_HEATER_3:
+  type:
+  - '&7&oМашина'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oОклоп'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oОклоп'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oОклоп'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oОклоп'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oМашина'
+SPARK_PLUG:
+  type:
+  - '&7&oКомпонента'
+SPARK_PLUG_2:
+  type:
+  - '&7&oКомпонента'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oМултиблок'
+STARGATE_RING:
+  type:
+  - '&7&oМултиблок'
+SULFUR_BLOCK:
+  type:
+  - '&7&oРесурс'
+SUPER_FAN:
+  type:
+  - '&7&oРазно'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oМашина'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oРесурс'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oРесурс'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oКомпонента'
+VENTSTONE:
+  type:
+  - '&7&oРесурс'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oРесурс'

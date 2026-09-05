@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oרכיב'
+AIR_FILTER:
+  type:
+  - '&7&oרכיב'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oרכיב'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oרכיב'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oמכונה'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oמשאב'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oמכונה'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oמכונה'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oמשאב'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oשונות'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oמכונה'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oמכונה'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oרכיב'
+COMPUTER_RELIC:
+  type:
+  - '&7&oשונות'
+COOLING_UNIT_1:
+  type:
+  - '&7&oמכונה'
+COOLING_UNIT_2:
+  type:
+  - '&7&oמכונה'
+COOLING_UNIT_3:
+  type:
+  - '&7&oמכונה'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oמכונה'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oרכיב'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oרכיב'
+DRY_ICE:
+  type:
+  - '&7&oמשאב'
+ELECTROLYZER:
+  type:
+  - '&7&oמכונה'
+ENDER_BLOCK:
+  type:
+  - '&7&oרכיב'
+ENGINE_RELIC:
+  type:
+  - '&7&oשונות'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oמכונה'
+FALLEN_METEOR:
+  type:
+  - '&7&oמשאב'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oשונות'
+FAN_BLADE:
+  type:
+  - '&7&oרכיב'
+FUEL_TANK:
+  type:
+  - '&7&oרכיב'
+FUEL_TANK_2:
+  type:
+  - '&7&oרכיב'
+FUSION_PELLET:
+  type:
+  - '&7&oרכיב'
+FUSION_REACTOR:
+  type:
+  - '&7&oגנרטור'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oרכיב'
+GOLD_FOIL:
+  type:
+  - '&7&oרכיב'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oרכיב'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oרכיב'
+ION_DISPERSER_1:
+  type:
+  - '&7&oמכונה'
+ION_DISPERSER_2:
+  type:
+  - '&7&oמכונה'
+ION_ENGINE:
+  type:
+  - '&7&oרכיב'
+ION_ROCKET:
+  type:
+  - '&7&oרב בלוק'
+LANDING_HATCH:
+  type:
+  - '&7&oשונות'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oרכיב'
+LASERITE:
+  type:
+  - '&7&oמשאב'
+LASERITE_DUST:
+  type:
+  - '&7&oמשאב'
+LASERITE_ORE:
+  type:
+  - '&7&oמשאב'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oרב בלוק'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oרב בלוק'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oרכיב'
+LUNAR_GLASS:
+  type:
+  - '&7&oרכיב'
+MARS_DUST:
+  type:
+  - '&7&oמשאב'
+MARS_ROCK:
+  type:
+  - '&7&oמשאב'
+METHANE_ICE:
+  type:
+  - '&7&oמשאב'
+MOON_CHEESE:
+  type:
+  - '&7&oמזון'
+MOON_DUST:
+  type:
+  - '&7&oמשאב'
+MOON_ROCK:
+  type:
+  - '&7&oמשאב'
+MUNPOWDER:
+  type:
+  - '&7&oמשאב'
+NOSE_CONE:
+  type:
+  - '&7&oרכיב'
+NOZZLE:
+  type:
+  - '&7&oרכיב'
+OBSERVATORY:
+  type:
+  - '&7&oגאדג׳ט'
+OXYGEN_FILLER:
+  type:
+  - '&7&oמכונה'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oרכיב'
+OXYGEN_SEALER:
+  type:
+  - '&7&oמכונה'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oגאדג׳ט'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oרכיב'
+REACTOR_RELIC:
+  type:
+  - '&7&oשונות'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oרכיב'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oרכיב'
+ROCKET_ENGINE:
+  type:
+  - '&7&oרכיב'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oרכיב'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oרכיב'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oרב בלוק'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oרב בלוק'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oרב בלוק'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oרכיב'
+SPACE_HEATER_1:
+  type:
+  - '&7&oמכונה'
+SPACE_HEATER_2:
+  type:
+  - '&7&oמכונה'
+SPACE_HEATER_3:
+  type:
+  - '&7&oמכונה'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oשריון'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oשריון'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oשריון'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oשריון'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oמכונה'
+SPARK_PLUG:
+  type:
+  - '&7&oרכיב'
+SPARK_PLUG_2:
+  type:
+  - '&7&oרכיב'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oרב בלוק'
+STARGATE_RING:
+  type:
+  - '&7&oרב בלוק'
+SULFUR_BLOCK:
+  type:
+  - '&7&oמשאב'
+SUPER_FAN:
+  type:
+  - '&7&oשונות'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oמכונה'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oמשאב'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oמשאב'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oרכיב'
+VENTSTONE:
+  type:
+  - '&7&oמשאב'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oמשאב'

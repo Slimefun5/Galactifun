@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oKomponent'
+AIR_FILTER:
+  type:
+  - '&7&oKomponent'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oKomponent'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oKomponent'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oMaskin'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oRåmaterial'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oMaskin'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oMaskin'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oRåmaterial'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oDiverse'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oMaskin'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oMaskin'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponent'
+COMPUTER_RELIC:
+  type:
+  - '&7&oDiverse'
+COOLING_UNIT_1:
+  type:
+  - '&7&oMaskin'
+COOLING_UNIT_2:
+  type:
+  - '&7&oMaskin'
+COOLING_UNIT_3:
+  type:
+  - '&7&oMaskin'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oMaskin'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oKomponent'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+DRY_ICE:
+  type:
+  - '&7&oRåmaterial'
+ELECTROLYZER:
+  type:
+  - '&7&oMaskin'
+ENDER_BLOCK:
+  type:
+  - '&7&oKomponent'
+ENGINE_RELIC:
+  type:
+  - '&7&oDiverse'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oMaskin'
+FALLEN_METEOR:
+  type:
+  - '&7&oRåmaterial'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oDiverse'
+FAN_BLADE:
+  type:
+  - '&7&oKomponent'
+FUEL_TANK:
+  type:
+  - '&7&oKomponent'
+FUEL_TANK_2:
+  type:
+  - '&7&oKomponent'
+FUSION_PELLET:
+  type:
+  - '&7&oKomponent'
+FUSION_REACTOR:
+  type:
+  - '&7&oGenerator'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+GOLD_FOIL:
+  type:
+  - '&7&oKomponent'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponent'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oKomponent'
+ION_DISPERSER_1:
+  type:
+  - '&7&oMaskin'
+ION_DISPERSER_2:
+  type:
+  - '&7&oMaskin'
+ION_ENGINE:
+  type:
+  - '&7&oKomponent'
+ION_ROCKET:
+  type:
+  - '&7&oMultiblock'
+LANDING_HATCH:
+  type:
+  - '&7&oDiverse'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+LASERITE:
+  type:
+  - '&7&oRåmaterial'
+LASERITE_DUST:
+  type:
+  - '&7&oRåmaterial'
+LASERITE_ORE:
+  type:
+  - '&7&oRåmaterial'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oMultiblock'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oMultiblock'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oKomponent'
+LUNAR_GLASS:
+  type:
+  - '&7&oKomponent'
+MARS_DUST:
+  type:
+  - '&7&oRåmaterial'
+MARS_ROCK:
+  type:
+  - '&7&oRåmaterial'
+METHANE_ICE:
+  type:
+  - '&7&oRåmaterial'
+MOON_CHEESE:
+  type:
+  - '&7&oMat'
+MOON_DUST:
+  type:
+  - '&7&oRåmaterial'
+MOON_ROCK:
+  type:
+  - '&7&oRåmaterial'
+MUNPOWDER:
+  type:
+  - '&7&oRåmaterial'
+NOSE_CONE:
+  type:
+  - '&7&oKomponent'
+NOZZLE:
+  type:
+  - '&7&oKomponent'
+OBSERVATORY:
+  type:
+  - '&7&oPryl'
+OXYGEN_FILLER:
+  type:
+  - '&7&oMaskin'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oKomponent'
+OXYGEN_SEALER:
+  type:
+  - '&7&oMaskin'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oPryl'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponent'
+REACTOR_RELIC:
+  type:
+  - '&7&oDiverse'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oKomponent'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oKomponent'
+ROCKET_ENGINE:
+  type:
+  - '&7&oKomponent'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oKomponent'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oKomponent'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oMultiblock'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oMultiblock'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oMultiblock'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oKomponent'
+SPACE_HEATER_1:
+  type:
+  - '&7&oMaskin'
+SPACE_HEATER_2:
+  type:
+  - '&7&oMaskin'
+SPACE_HEATER_3:
+  type:
+  - '&7&oMaskin'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oRustning'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oRustning'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oRustning'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oRustning'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oMaskin'
+SPARK_PLUG:
+  type:
+  - '&7&oKomponent'
+SPARK_PLUG_2:
+  type:
+  - '&7&oKomponent'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oMultiblock'
+STARGATE_RING:
+  type:
+  - '&7&oMultiblock'
+SULFUR_BLOCK:
+  type:
+  - '&7&oRåmaterial'
+SUPER_FAN:
+  type:
+  - '&7&oDiverse'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oMaskin'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oRåmaterial'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oRåmaterial'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oKomponent'
+VENTSTONE:
+  type:
+  - '&7&oRåmaterial'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oRåmaterial'

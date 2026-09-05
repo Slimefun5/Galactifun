@@ -1,209 +1,412 @@
-# Galactifun item-name translations (zh-CN). Keyed by Slimefun item id. Names only.
-
-OXYGEN_FILLER:
-  name: "&f氧气填充器"
-SPACE_SUIT_UPGRADER:
-  name: "&f宇航服升级器"
-HEAT_RESISTANCE_UPGRADE:
-  name: "&7耐热升级"
-COLD_RESISTANCE_UPGRADE:
-  name: "&7耐寒升级"
-RADIATION_RESISTANCE_UPGRADE:
-  name: "&7抗辐射升级"
-SPACE_SUIT_HELMET:
-  name: "&f宇航服头盔"
-SPACE_SUIT_CHEST:
-  name: "&f宇航服胸甲"
-SPACE_SUIT_PANTS:
-  name: "&f宇航服护腿"
-SPACE_SUIT_BOOTS:
-  name: "&f宇航服靴子"
-LAUNCH_PAD_CORE:
-  name: "&f发射台核心"
-LAUNCH_PAD_FLOOR:
-  name: "&f发射台地板"
-CIRCUIT_PRESS:
-  name: "&f电路压制机"
-ASSEMBLY_TABLE:
-  name: "&f组装台"
-STARGATE_RING:
-  name: "&9Stargate 环"
-STARGATE_CONTROLLER:
-  name: "&9Stargate 控制器"
-OBSERVATORY:
-  name: "&f天文台"
-PLANETARY_ANALYZER:
-  name: "&f行星分析仪"
-DIAMOND_ANVIL:
-  name: "&f金刚石压砧"
-FUSION_REACTOR:
-  name: "&f聚变反应堆"
-ATMOSPHERIC_HARVESTER:
-  name: "&f大气采集器"
-CHEMICAL_REACTOR:
-  name: "&f化学反应堆"
-ELECTROLYZER:
-  name: "&f电解器"
-COOLING_UNIT_1:
-  name: "&b冷却单元 I"
-COOLING_UNIT_2:
-  name: "&b冷却单元 II"
-COOLING_UNIT_3:
-  name: "&b冷却单元 III"
-SPACE_HEATER_1:
-  name: "&6太空加热器 I"
-SPACE_HEATER_2:
-  name: "&6太空加热器 II"
-SPACE_HEATER_3:
-  name: "&6太空加热器 III"
-ION_DISPERSER_1:
-  name: "&f离子驱散器 I"
-ION_DISPERSER_2:
-  name: "&f离子驱散器 II"
-OXYGEN_SEALER:
-  name: "&f氧气密封机"
-LANDING_HATCH:
-  name: "&f着陆舱门"
-SUPER_FAN:
-  name: "&7超级风扇"
-AUTOMATIC_DOOR:
-  name: "&f自动门"
-ENVIRONMENTAL_FORCEFIELD_GENERATOR:
-  name: "&f环境力场发生器"
-ENGINE_RELIC:
-  name: "&f遗物: 'Letagivd Yynmukav"
-REACTOR_RELIC:
-  name: "&f遗物: Rotarenegortkele Yynmukav"
-COMPUTER_RELIC:
-  name: "&f遗物: Retuypmok Yyntnavk"
-BROKEN_SOLAR_PANEL_RELIC:
-  name: "&7遗物: 'Lenap Ayanhcenlos Ayanamolop"
-FALLEN_SATELLITE_RELIC:
-  name: "&7遗物: Kintups Yyhsdap"
-TECHNOLOGICAL_SALVAGER:
-  name: "&f科技回收机"
-ROCKET_TIER_ONE:
-  name: "&4化学火箭 1 级"
-ROCKET_TIER_TWO:
-  name: "&4化学火箭 2 级"
-ROCKET_TIER_THREE:
-  name: "&4化学火箭 3 级"
-ION_ROCKET:
-  name: "&b离子火箭"
-MOON_DUST:
-  name: "&7月球尘"
-MOON_ROCK:
-  name: "&7月球岩"
-MARS_DUST:
-  name: "&c火星尘"
-MARS_ROCK:
-  name: "&c火星岩"
-DRY_ICE:
-  name: "&b干冰"
-METHANE_ICE:
-  name: "&b甲烷冰"
-SULFUR_BLOCK:
-  name: "&6硫磺块"
-VENTSTONE:
-  name: "&6喷口石"
-LASERITE_ORE:
-  name: "&c激光石矿石"
-ALUMINUM_COMPOSITE:
-  name: "&f铝复合材料"
-TUNGSTEN_INGOT:
-  name: "&b钨锭"
-ALUMINUM_COMPOSITE_SHEET:
-  name: "&f铝复合板"
-HEAVY_DUTY_SHEET:
-  name: "&f重型板"
-SPACE_GRADE_PLATE:
-  name: "&f航天级板"
-ULTRA_DUTY_SHEET:
-  name: "&f超重型板"
-GOLD_FOIL:
-  name: "&6金箔"
-REINFORCED_CHANNEL:
-  name: "&f强化导管"
-FAN_BLADE:
-  name: "&f风扇叶片"
-NOZZLE:
-  name: "&f喷嘴"
-AIR_FILTER:
-  name: "&f过滤器"
-OXYGEN_REGENERATOR:
-  name: "&b氧气再生器"
-SPARK_PLUG:
-  name: "&f火花塞"
-SPARK_PLUG_2:
-  name: "&f火花塞 Mk 2"
-ROCKET_ENGINE:
-  name: "&f火箭引擎"
-ROCKET_ENGINE_2:
-  name: "&f火箭引擎 Mk 2"
-ROCKET_ENGINE_3:
-  name: "&f火箭引擎 Mk 3"
-ION_ENGINE:
-  name: "&b离子引擎"
 ADVANCED_PROCESSING_UNIT:
-  name: "&4高级处理单元"
-LIFE_SUPPORT_MODULE:
-  name: "&4生命维持模块"
-NOSE_CONE:
-  name: "&f鼻锥"
-FUEL_TANK:
-  name: "&6燃料箱"
-FUEL_TANK_2:
-  name: "&6燃料箱 Mk 2"
-DIAMOND_CIRCUIT:
-  name: "&7金刚石电路"
-REDSTONE_CIRCUIT:
-  name: "&7红石电路"
-LAPIS_CIRCUIT:
-  name: "&7青金石电路"
-GLOWSTONE_CIRCUIT:
-  name: "&7萤石电路"
-MUNPOWDER:
-  name: "&7月尘火药"
-FALLEN_METEOR:
-  name: "&4坠落陨石"
-MOON_CHEESE:
-  name: "&6月球奶酪"
-ENDER_BLOCK:
-  name: "&3末影块"
-LUNAR_GLASS:
-  name: "&f月球玻璃"
-VOLCANIC_INGOT:
-  name: "&4火山锭"
-BLISTERING_VOLCANIC_INGOT:
-  name: "&6灼热火山锭"
-TUNGSTEN_CARBIDE:
-  name: "&7碳化钨"
-DIAMOND_ANVIL_CELL:
-  name: "&b金刚石压砧单元"
-FUSION_PELLET:
-  name: "&f聚变颗粒"
-LASERITE_DUST:
-  name: "&c激光石粉"
-LASERITE:
-  name: "&c激光石"
-
-ATMOSPHERIC_GAS_OXYGEN:
-  name: "&f氧气气罐"
-ATMOSPHERIC_GAS_NITROGEN:
-  name: "&f氮气气罐"
-ATMOSPHERIC_GAS_CARBON_DIOXIDE:
-  name: "&f二氧化碳气罐"
-ATMOSPHERIC_GAS_WATER:
-  name: "&f水气罐"
-ATMOSPHERIC_GAS_HELIUM:
-  name: "&f氦气气罐"
-ATMOSPHERIC_GAS_ARGON:
-  name: "&f氩气气罐"
-ATMOSPHERIC_GAS_METHANE:
-  name: "&f甲烷气罐"
-ATMOSPHERIC_GAS_HYDROCARBONS:
-  name: "&f碳氢化合物气罐"
-ATMOSPHERIC_GAS_HYDROGEN:
-  name: "&f氢气气罐"
+  name: '&4高级处理单元'
+  type:
+  - '&7&o组件'
+AIR_FILTER:
+  name: '&f过滤器'
+  type:
+  - '&7&o组件'
+ALUMINUM_COMPOSITE:
+  name: '&f铝复合材料'
+  type:
+  - '&7&o组件'
+ALUMINUM_COMPOSITE_SHEET:
+  name: '&f铝复合板'
+  type:
+  - '&7&o组件'
+ASSEMBLY_TABLE:
+  name: '&f组装台'
+  type:
+  - '&7&o机器'
 ATMOSPHERIC_GAS_AMMONIA:
-  name: "&f氨气气罐"
+  name: '&f氨气气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_ARGON:
+  name: '&f氩气气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&f二氧化碳气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_HELIUM:
+  name: '&f氦气气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&f碳氢化合物气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&f氢气气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_METHANE:
+  name: '&f甲烷气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_NITROGEN:
+  name: '&f氮气气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_OXYGEN:
+  name: '&f氧气气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_GAS_WATER:
+  name: '&f水气罐'
+  type:
+  - '&7&o资源'
+ATMOSPHERIC_HARVESTER:
+  name: '&f大气采集器'
+  type:
+  - '&7&o机器'
+AUTOMATIC_DOOR:
+  name: '&f自动门'
+  type:
+  - '&7&o机器'
+BLISTERING_VOLCANIC_INGOT:
+  name: '&6灼热火山锭'
+  type:
+  - '&7&o资源'
+BROKEN_SOLAR_PANEL_RELIC:
+  name: '&7遗物: ''Lenap Ayanhcenlos Ayanamolop'
+  type:
+  - '&7&o杂项'
+CHEMICAL_REACTOR:
+  name: '&f化学反应堆'
+  type:
+  - '&7&o机器'
+CIRCUIT_PRESS:
+  name: '&f电路压制机'
+  type:
+  - '&7&o机器'
+COLD_RESISTANCE_UPGRADE:
+  name: '&7耐寒升级'
+  type:
+  - '&7&o组件'
+COMPUTER_RELIC:
+  name: '&f遗物: Retuypmok Yyntnavk'
+  type:
+  - '&7&o杂项'
+COOLING_UNIT_1:
+  name: '&b冷却单元 I'
+  type:
+  - '&7&o机器'
+COOLING_UNIT_2:
+  name: '&b冷却单元 II'
+  type:
+  - '&7&o机器'
+COOLING_UNIT_3:
+  name: '&b冷却单元 III'
+  type:
+  - '&7&o机器'
+DIAMOND_ANVIL:
+  name: '&f金刚石压砧'
+  type:
+  - '&7&o机器'
+DIAMOND_ANVIL_CELL:
+  name: '&b金刚石压砧单元'
+  type:
+  - '&7&o组件'
+DIAMOND_CIRCUIT:
+  name: '&7金刚石电路'
+  type:
+  - '&7&o组件'
+DRY_ICE:
+  name: '&b干冰'
+  type:
+  - '&7&o资源'
+ELECTROLYZER:
+  name: '&f电解器'
+  type:
+  - '&7&o机器'
+ENDER_BLOCK:
+  name: '&3末影块'
+  type:
+  - '&7&o组件'
+ENGINE_RELIC:
+  name: '&f遗物: ''Letagivd Yynmukav'
+  type:
+  - '&7&o杂项'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: '&f环境力场发生器'
+  type:
+  - '&7&o机器'
+FALLEN_METEOR:
+  name: '&4坠落陨石'
+  type:
+  - '&7&o资源'
+FALLEN_SATELLITE_RELIC:
+  name: '&7遗物: Kintups Yyhsdap'
+  type:
+  - '&7&o杂项'
+FAN_BLADE:
+  name: '&f风扇叶片'
+  type:
+  - '&7&o组件'
+FUEL_TANK:
+  name: '&6燃料箱'
+  type:
+  - '&7&o组件'
+FUEL_TANK_2:
+  name: '&6燃料箱 Mk 2'
+  type:
+  - '&7&o组件'
+FUSION_PELLET:
+  name: '&f聚变颗粒'
+  type:
+  - '&7&o组件'
+FUSION_REACTOR:
+  name: '&f聚变反应堆'
+  type:
+  - '&7&o发电机'
+GLOWSTONE_CIRCUIT:
+  name: '&7萤石电路'
+  type:
+  - '&7&o组件'
+GOLD_FOIL:
+  name: '&6金箔'
+  type:
+  - '&7&o组件'
+HEAT_RESISTANCE_UPGRADE:
+  name: '&7耐热升级'
+  type:
+  - '&7&o组件'
+HEAVY_DUTY_SHEET:
+  name: '&f重型板'
+  type:
+  - '&7&o组件'
+ION_DISPERSER_1:
+  name: '&f离子驱散器 I'
+  type:
+  - '&7&o机器'
+ION_DISPERSER_2:
+  name: '&f离子驱散器 II'
+  type:
+  - '&7&o机器'
+ION_ENGINE:
+  name: '&b离子引擎'
+  type:
+  - '&7&o组件'
+ION_ROCKET:
+  name: '&b离子火箭'
+  type:
+  - '&7&o多方块'
+LANDING_HATCH:
+  name: '&f着陆舱门'
+  type:
+  - '&7&o杂项'
+LAPIS_CIRCUIT:
+  name: '&7青金石电路'
+  type:
+  - '&7&o组件'
+LASERITE:
+  name: '&c激光石'
+  type:
+  - '&7&o资源'
+LASERITE_DUST:
+  name: '&c激光石粉'
+  type:
+  - '&7&o资源'
+LASERITE_ORE:
+  name: '&c激光石矿石'
+  type:
+  - '&7&o资源'
+LAUNCH_PAD_CORE:
+  name: '&f发射台核心'
+  type:
+  - '&7&o多方块'
+LAUNCH_PAD_FLOOR:
+  name: '&f发射台地板'
+  type:
+  - '&7&o多方块'
+LIFE_SUPPORT_MODULE:
+  name: '&4生命维持模块'
+  type:
+  - '&7&o组件'
+LUNAR_GLASS:
+  name: '&f月球玻璃'
+  type:
+  - '&7&o组件'
+MARS_DUST:
+  name: '&c火星尘'
+  type:
+  - '&7&o资源'
+MARS_ROCK:
+  name: '&c火星岩'
+  type:
+  - '&7&o资源'
+METHANE_ICE:
+  name: '&b甲烷冰'
+  type:
+  - '&7&o资源'
+MOON_CHEESE:
+  name: '&6月球奶酪'
+  type:
+  - '&7&o食物'
+MOON_DUST:
+  name: '&7月球尘'
+  type:
+  - '&7&o资源'
+MOON_ROCK:
+  name: '&7月球岩'
+  type:
+  - '&7&o资源'
+MUNPOWDER:
+  name: '&7月尘火药'
+  type:
+  - '&7&o资源'
+NOSE_CONE:
+  name: '&f鼻锥'
+  type:
+  - '&7&o组件'
+NOZZLE:
+  name: '&f喷嘴'
+  type:
+  - '&7&o组件'
+OBSERVATORY:
+  name: '&f天文台'
+  type:
+  - '&7&o装置'
+OXYGEN_FILLER:
+  name: '&f氧气填充器'
+  type:
+  - '&7&o机器'
+OXYGEN_REGENERATOR:
+  name: '&b氧气再生器'
+  type:
+  - '&7&o组件'
+OXYGEN_SEALER:
+  name: '&f氧气密封机'
+  type:
+  - '&7&o机器'
+PLANETARY_ANALYZER:
+  name: '&f行星分析仪'
+  type:
+  - '&7&o装置'
+RADIATION_RESISTANCE_UPGRADE:
+  name: '&7抗辐射升级'
+  type:
+  - '&7&o组件'
+REACTOR_RELIC:
+  name: '&f遗物: Rotarenegortkele Yynmukav'
+  type:
+  - '&7&o杂项'
+REDSTONE_CIRCUIT:
+  name: '&7红石电路'
+  type:
+  - '&7&o组件'
+REINFORCED_CHANNEL:
+  name: '&f强化导管'
+  type:
+  - '&7&o组件'
+ROCKET_ENGINE:
+  name: '&f火箭引擎'
+  type:
+  - '&7&o组件'
+ROCKET_ENGINE_2:
+  name: '&f火箭引擎 Mk 2'
+  type:
+  - '&7&o组件'
+ROCKET_ENGINE_3:
+  name: '&f火箭引擎 Mk 3'
+  type:
+  - '&7&o组件'
+ROCKET_TIER_ONE:
+  name: '&4化学火箭 1 级'
+  type:
+  - '&7&o多方块'
+ROCKET_TIER_THREE:
+  name: '&4化学火箭 3 级'
+  type:
+  - '&7&o多方块'
+ROCKET_TIER_TWO:
+  name: '&4化学火箭 2 级'
+  type:
+  - '&7&o多方块'
+SPACE_GRADE_PLATE:
+  name: '&f航天级板'
+  type:
+  - '&7&o组件'
+SPACE_HEATER_1:
+  name: '&6太空加热器 I'
+  type:
+  - '&7&o机器'
+SPACE_HEATER_2:
+  name: '&6太空加热器 II'
+  type:
+  - '&7&o机器'
+SPACE_HEATER_3:
+  name: '&6太空加热器 III'
+  type:
+  - '&7&o机器'
+SPACE_SUIT_BOOTS:
+  name: '&f宇航服靴子'
+  type:
+  - '&7&o护甲'
+SPACE_SUIT_CHEST:
+  name: '&f宇航服胸甲'
+  type:
+  - '&7&o护甲'
+SPACE_SUIT_HELMET:
+  name: '&f宇航服头盔'
+  type:
+  - '&7&o护甲'
+SPACE_SUIT_PANTS:
+  name: '&f宇航服护腿'
+  type:
+  - '&7&o护甲'
+SPACE_SUIT_UPGRADER:
+  name: '&f宇航服升级器'
+  type:
+  - '&7&o机器'
+SPARK_PLUG:
+  name: '&f火花塞'
+  type:
+  - '&7&o组件'
+SPARK_PLUG_2:
+  name: '&f火花塞 Mk 2'
+  type:
+  - '&7&o组件'
+STARGATE_CONTROLLER:
+  name: '&9Stargate 控制器'
+  type:
+  - '&7&o多方块'
+STARGATE_RING:
+  name: '&9Stargate 环'
+  type:
+  - '&7&o多方块'
+SULFUR_BLOCK:
+  name: '&6硫磺块'
+  type:
+  - '&7&o资源'
+SUPER_FAN:
+  name: '&7超级风扇'
+  type:
+  - '&7&o杂项'
+TECHNOLOGICAL_SALVAGER:
+  name: '&f科技回收机'
+  type:
+  - '&7&o机器'
+TUNGSTEN_CARBIDE:
+  name: '&7碳化钨'
+  type:
+  - '&7&o资源'
+TUNGSTEN_INGOT:
+  name: '&b钨锭'
+  type:
+  - '&7&o资源'
+ULTRA_DUTY_SHEET:
+  name: '&f超重型板'
+  type:
+  - '&7&o组件'
+VENTSTONE:
+  name: '&6喷口石'
+  type:
+  - '&7&o资源'
+VOLCANIC_INGOT:
+  name: '&4火山锭'
+  type:
+  - '&7&o资源'

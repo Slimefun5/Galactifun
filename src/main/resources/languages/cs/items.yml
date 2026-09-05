@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oKomponenta'
+AIR_FILTER:
+  type:
+  - '&7&oKomponenta'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oKomponenta'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oKomponenta'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oStroj'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oSurovina'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oStroj'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oStroj'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oSurovina'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oRůzné'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oStroj'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oStroj'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponenta'
+COMPUTER_RELIC:
+  type:
+  - '&7&oRůzné'
+COOLING_UNIT_1:
+  type:
+  - '&7&oStroj'
+COOLING_UNIT_2:
+  type:
+  - '&7&oStroj'
+COOLING_UNIT_3:
+  type:
+  - '&7&oStroj'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oStroj'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oKomponenta'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oKomponenta'
+DRY_ICE:
+  type:
+  - '&7&oSurovina'
+ELECTROLYZER:
+  type:
+  - '&7&oStroj'
+ENDER_BLOCK:
+  type:
+  - '&7&oKomponenta'
+ENGINE_RELIC:
+  type:
+  - '&7&oRůzné'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oStroj'
+FALLEN_METEOR:
+  type:
+  - '&7&oSurovina'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oRůzné'
+FAN_BLADE:
+  type:
+  - '&7&oKomponenta'
+FUEL_TANK:
+  type:
+  - '&7&oKomponenta'
+FUEL_TANK_2:
+  type:
+  - '&7&oKomponenta'
+FUSION_PELLET:
+  type:
+  - '&7&oKomponenta'
+FUSION_REACTOR:
+  type:
+  - '&7&oGenerátor'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oKomponenta'
+GOLD_FOIL:
+  type:
+  - '&7&oKomponenta'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponenta'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oKomponenta'
+ION_DISPERSER_1:
+  type:
+  - '&7&oStroj'
+ION_DISPERSER_2:
+  type:
+  - '&7&oStroj'
+ION_ENGINE:
+  type:
+  - '&7&oKomponenta'
+ION_ROCKET:
+  type:
+  - '&7&oMultiblok'
+LANDING_HATCH:
+  type:
+  - '&7&oRůzné'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oKomponenta'
+LASERITE:
+  type:
+  - '&7&oSurovina'
+LASERITE_DUST:
+  type:
+  - '&7&oSurovina'
+LASERITE_ORE:
+  type:
+  - '&7&oSurovina'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oMultiblok'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oMultiblok'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oKomponenta'
+LUNAR_GLASS:
+  type:
+  - '&7&oKomponenta'
+MARS_DUST:
+  type:
+  - '&7&oSurovina'
+MARS_ROCK:
+  type:
+  - '&7&oSurovina'
+METHANE_ICE:
+  type:
+  - '&7&oSurovina'
+MOON_CHEESE:
+  type:
+  - '&7&oJídlo'
+MOON_DUST:
+  type:
+  - '&7&oSurovina'
+MOON_ROCK:
+  type:
+  - '&7&oSurovina'
+MUNPOWDER:
+  type:
+  - '&7&oSurovina'
+NOSE_CONE:
+  type:
+  - '&7&oKomponenta'
+NOZZLE:
+  type:
+  - '&7&oKomponenta'
+OBSERVATORY:
+  type:
+  - '&7&oPomůcka'
+OXYGEN_FILLER:
+  type:
+  - '&7&oStroj'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oKomponenta'
+OXYGEN_SEALER:
+  type:
+  - '&7&oStroj'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oPomůcka'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponenta'
+REACTOR_RELIC:
+  type:
+  - '&7&oRůzné'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oKomponenta'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oKomponenta'
+ROCKET_ENGINE:
+  type:
+  - '&7&oKomponenta'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oKomponenta'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oKomponenta'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oMultiblok'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oMultiblok'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oMultiblok'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oKomponenta'
+SPACE_HEATER_1:
+  type:
+  - '&7&oStroj'
+SPACE_HEATER_2:
+  type:
+  - '&7&oStroj'
+SPACE_HEATER_3:
+  type:
+  - '&7&oStroj'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oBrnění'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oBrnění'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oBrnění'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oBrnění'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oStroj'
+SPARK_PLUG:
+  type:
+  - '&7&oKomponenta'
+SPARK_PLUG_2:
+  type:
+  - '&7&oKomponenta'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oMultiblok'
+STARGATE_RING:
+  type:
+  - '&7&oMultiblok'
+SULFUR_BLOCK:
+  type:
+  - '&7&oSurovina'
+SUPER_FAN:
+  type:
+  - '&7&oRůzné'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oStroj'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oSurovina'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oSurovina'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oKomponenta'
+VENTSTONE:
+  type:
+  - '&7&oSurovina'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oSurovina'

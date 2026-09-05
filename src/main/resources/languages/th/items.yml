@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oส่วนประกอบ'
+AIR_FILTER:
+  type:
+  - '&7&oส่วนประกอบ'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oส่วนประกอบ'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oส่วนประกอบ'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oเครื่องจักร'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oทรัพยากร'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oเครื่องจักร'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oเครื่องจักร'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oทรัพยากร'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oเครื่องจักร'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oเครื่องจักร'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oส่วนประกอบ'
+COMPUTER_RELIC:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+COOLING_UNIT_1:
+  type:
+  - '&7&oเครื่องจักร'
+COOLING_UNIT_2:
+  type:
+  - '&7&oเครื่องจักร'
+COOLING_UNIT_3:
+  type:
+  - '&7&oเครื่องจักร'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oเครื่องจักร'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oส่วนประกอบ'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+DRY_ICE:
+  type:
+  - '&7&oทรัพยากร'
+ELECTROLYZER:
+  type:
+  - '&7&oเครื่องจักร'
+ENDER_BLOCK:
+  type:
+  - '&7&oส่วนประกอบ'
+ENGINE_RELIC:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oเครื่องจักร'
+FALLEN_METEOR:
+  type:
+  - '&7&oทรัพยากร'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+FAN_BLADE:
+  type:
+  - '&7&oส่วนประกอบ'
+FUEL_TANK:
+  type:
+  - '&7&oส่วนประกอบ'
+FUEL_TANK_2:
+  type:
+  - '&7&oส่วนประกอบ'
+FUSION_PELLET:
+  type:
+  - '&7&oส่วนประกอบ'
+FUSION_REACTOR:
+  type:
+  - '&7&oเครื่องกำเนิดไฟฟ้า'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+GOLD_FOIL:
+  type:
+  - '&7&oส่วนประกอบ'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oส่วนประกอบ'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oส่วนประกอบ'
+ION_DISPERSER_1:
+  type:
+  - '&7&oเครื่องจักร'
+ION_DISPERSER_2:
+  type:
+  - '&7&oเครื่องจักร'
+ION_ENGINE:
+  type:
+  - '&7&oส่วนประกอบ'
+ION_ROCKET:
+  type:
+  - '&7&oMultiblock'
+LANDING_HATCH:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+LASERITE:
+  type:
+  - '&7&oทรัพยากร'
+LASERITE_DUST:
+  type:
+  - '&7&oทรัพยากร'
+LASERITE_ORE:
+  type:
+  - '&7&oทรัพยากร'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oMultiblock'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oMultiblock'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oส่วนประกอบ'
+LUNAR_GLASS:
+  type:
+  - '&7&oส่วนประกอบ'
+MARS_DUST:
+  type:
+  - '&7&oทรัพยากร'
+MARS_ROCK:
+  type:
+  - '&7&oทรัพยากร'
+METHANE_ICE:
+  type:
+  - '&7&oทรัพยากร'
+MOON_CHEESE:
+  type:
+  - '&7&oอาหาร'
+MOON_DUST:
+  type:
+  - '&7&oทรัพยากร'
+MOON_ROCK:
+  type:
+  - '&7&oทรัพยากร'
+MUNPOWDER:
+  type:
+  - '&7&oทรัพยากร'
+NOSE_CONE:
+  type:
+  - '&7&oส่วนประกอบ'
+NOZZLE:
+  type:
+  - '&7&oส่วนประกอบ'
+OBSERVATORY:
+  type:
+  - '&7&oอุปกรณ์'
+OXYGEN_FILLER:
+  type:
+  - '&7&oเครื่องจักร'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oส่วนประกอบ'
+OXYGEN_SEALER:
+  type:
+  - '&7&oเครื่องจักร'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oอุปกรณ์'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oส่วนประกอบ'
+REACTOR_RELIC:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oส่วนประกอบ'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oส่วนประกอบ'
+ROCKET_ENGINE:
+  type:
+  - '&7&oส่วนประกอบ'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oส่วนประกอบ'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oส่วนประกอบ'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oMultiblock'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oMultiblock'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oMultiblock'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oส่วนประกอบ'
+SPACE_HEATER_1:
+  type:
+  - '&7&oเครื่องจักร'
+SPACE_HEATER_2:
+  type:
+  - '&7&oเครื่องจักร'
+SPACE_HEATER_3:
+  type:
+  - '&7&oเครื่องจักร'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oเกราะ'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oเกราะ'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oเกราะ'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oเกราะ'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oเครื่องจักร'
+SPARK_PLUG:
+  type:
+  - '&7&oส่วนประกอบ'
+SPARK_PLUG_2:
+  type:
+  - '&7&oส่วนประกอบ'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oMultiblock'
+STARGATE_RING:
+  type:
+  - '&7&oMultiblock'
+SULFUR_BLOCK:
+  type:
+  - '&7&oทรัพยากร'
+SUPER_FAN:
+  type:
+  - '&7&oเบ็ดเตล็ด'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oเครื่องจักร'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oทรัพยากร'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oทรัพยากร'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oส่วนประกอบ'
+VENTSTONE:
+  type:
+  - '&7&oทรัพยากร'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oทรัพยากร'

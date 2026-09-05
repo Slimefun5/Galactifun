@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oقطعه'
+AIR_FILTER:
+  type:
+  - '&7&oقطعه'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oقطعه'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oقطعه'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oماشین'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oمنبع'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oماشین'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oماشین'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oمنبع'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oمتفرقه'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oماشین'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oماشین'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oقطعه'
+COMPUTER_RELIC:
+  type:
+  - '&7&oمتفرقه'
+COOLING_UNIT_1:
+  type:
+  - '&7&oماشین'
+COOLING_UNIT_2:
+  type:
+  - '&7&oماشین'
+COOLING_UNIT_3:
+  type:
+  - '&7&oماشین'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oماشین'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oقطعه'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oقطعه'
+DRY_ICE:
+  type:
+  - '&7&oمنبع'
+ELECTROLYZER:
+  type:
+  - '&7&oماشین'
+ENDER_BLOCK:
+  type:
+  - '&7&oقطعه'
+ENGINE_RELIC:
+  type:
+  - '&7&oمتفرقه'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oماشین'
+FALLEN_METEOR:
+  type:
+  - '&7&oمنبع'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oمتفرقه'
+FAN_BLADE:
+  type:
+  - '&7&oقطعه'
+FUEL_TANK:
+  type:
+  - '&7&oقطعه'
+FUEL_TANK_2:
+  type:
+  - '&7&oقطعه'
+FUSION_PELLET:
+  type:
+  - '&7&oقطعه'
+FUSION_REACTOR:
+  type:
+  - '&7&oژنراتور'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oقطعه'
+GOLD_FOIL:
+  type:
+  - '&7&oقطعه'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oقطعه'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oقطعه'
+ION_DISPERSER_1:
+  type:
+  - '&7&oماشین'
+ION_DISPERSER_2:
+  type:
+  - '&7&oماشین'
+ION_ENGINE:
+  type:
+  - '&7&oقطعه'
+ION_ROCKET:
+  type:
+  - '&7&oچندبلوکی'
+LANDING_HATCH:
+  type:
+  - '&7&oمتفرقه'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oقطعه'
+LASERITE:
+  type:
+  - '&7&oمنبع'
+LASERITE_DUST:
+  type:
+  - '&7&oمنبع'
+LASERITE_ORE:
+  type:
+  - '&7&oمنبع'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oچندبلوکی'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oچندبلوکی'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oقطعه'
+LUNAR_GLASS:
+  type:
+  - '&7&oقطعه'
+MARS_DUST:
+  type:
+  - '&7&oمنبع'
+MARS_ROCK:
+  type:
+  - '&7&oمنبع'
+METHANE_ICE:
+  type:
+  - '&7&oمنبع'
+MOON_CHEESE:
+  type:
+  - '&7&oخوراکی'
+MOON_DUST:
+  type:
+  - '&7&oمنبع'
+MOON_ROCK:
+  type:
+  - '&7&oمنبع'
+MUNPOWDER:
+  type:
+  - '&7&oمنبع'
+NOSE_CONE:
+  type:
+  - '&7&oقطعه'
+NOZZLE:
+  type:
+  - '&7&oقطعه'
+OBSERVATORY:
+  type:
+  - '&7&oابزارک'
+OXYGEN_FILLER:
+  type:
+  - '&7&oماشین'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oقطعه'
+OXYGEN_SEALER:
+  type:
+  - '&7&oماشین'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oابزارک'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oقطعه'
+REACTOR_RELIC:
+  type:
+  - '&7&oمتفرقه'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oقطعه'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oقطعه'
+ROCKET_ENGINE:
+  type:
+  - '&7&oقطعه'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oقطعه'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oقطعه'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oچندبلوکی'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oچندبلوکی'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oچندبلوکی'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oقطعه'
+SPACE_HEATER_1:
+  type:
+  - '&7&oماشین'
+SPACE_HEATER_2:
+  type:
+  - '&7&oماشین'
+SPACE_HEATER_3:
+  type:
+  - '&7&oماشین'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oزره'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oزره'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oزره'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oزره'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oماشین'
+SPARK_PLUG:
+  type:
+  - '&7&oقطعه'
+SPARK_PLUG_2:
+  type:
+  - '&7&oقطعه'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oچندبلوکی'
+STARGATE_RING:
+  type:
+  - '&7&oچندبلوکی'
+SULFUR_BLOCK:
+  type:
+  - '&7&oمنبع'
+SUPER_FAN:
+  type:
+  - '&7&oمتفرقه'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oماشین'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oمنبع'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oمنبع'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oقطعه'
+VENTSTONE:
+  type:
+  - '&7&oمنبع'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oمنبع'

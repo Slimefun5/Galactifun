@@ -1,0 +1,309 @@
+ADVANCED_PROCESSING_UNIT:
+  type:
+  - '&7&oKomponen'
+AIR_FILTER:
+  type:
+  - '&7&oKomponen'
+ALUMINUM_COMPOSITE:
+  type:
+  - '&7&oKomponen'
+ALUMINUM_COMPOSITE_SHEET:
+  type:
+  - '&7&oKomponen'
+ASSEMBLY_TABLE:
+  type:
+  - '&7&oMesin'
+ATMOSPHERIC_GAS_AMMONIA:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_ARGON:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_HELIUM:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_HYDROGEN:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_METHANE:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_NITROGEN:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_OXYGEN:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_GAS_WATER:
+  type:
+  - '&7&oSumber'
+ATMOSPHERIC_HARVESTER:
+  type:
+  - '&7&oMesin'
+AUTOMATIC_DOOR:
+  type:
+  - '&7&oMesin'
+BLISTERING_VOLCANIC_INGOT:
+  type:
+  - '&7&oSumber'
+BROKEN_SOLAR_PANEL_RELIC:
+  type:
+  - '&7&oPelbagai'
+CHEMICAL_REACTOR:
+  type:
+  - '&7&oMesin'
+CIRCUIT_PRESS:
+  type:
+  - '&7&oMesin'
+COLD_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponen'
+COMPUTER_RELIC:
+  type:
+  - '&7&oPelbagai'
+COOLING_UNIT_1:
+  type:
+  - '&7&oMesin'
+COOLING_UNIT_2:
+  type:
+  - '&7&oMesin'
+COOLING_UNIT_3:
+  type:
+  - '&7&oMesin'
+DIAMOND_ANVIL:
+  type:
+  - '&7&oMesin'
+DIAMOND_ANVIL_CELL:
+  type:
+  - '&7&oKomponen'
+DIAMOND_CIRCUIT:
+  type:
+  - '&7&oKomponen'
+DRY_ICE:
+  type:
+  - '&7&oSumber'
+ELECTROLYZER:
+  type:
+  - '&7&oMesin'
+ENDER_BLOCK:
+  type:
+  - '&7&oKomponen'
+ENGINE_RELIC:
+  type:
+  - '&7&oPelbagai'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  type:
+  - '&7&oMesin'
+FALLEN_METEOR:
+  type:
+  - '&7&oSumber'
+FALLEN_SATELLITE_RELIC:
+  type:
+  - '&7&oPelbagai'
+FAN_BLADE:
+  type:
+  - '&7&oKomponen'
+FUEL_TANK:
+  type:
+  - '&7&oKomponen'
+FUEL_TANK_2:
+  type:
+  - '&7&oKomponen'
+FUSION_PELLET:
+  type:
+  - '&7&oKomponen'
+FUSION_REACTOR:
+  type:
+  - '&7&oPenjana'
+GLOWSTONE_CIRCUIT:
+  type:
+  - '&7&oKomponen'
+GOLD_FOIL:
+  type:
+  - '&7&oKomponen'
+HEAT_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponen'
+HEAVY_DUTY_SHEET:
+  type:
+  - '&7&oKomponen'
+ION_DISPERSER_1:
+  type:
+  - '&7&oMesin'
+ION_DISPERSER_2:
+  type:
+  - '&7&oMesin'
+ION_ENGINE:
+  type:
+  - '&7&oKomponen'
+ION_ROCKET:
+  type:
+  - '&7&oMultiblok'
+LANDING_HATCH:
+  type:
+  - '&7&oPelbagai'
+LAPIS_CIRCUIT:
+  type:
+  - '&7&oKomponen'
+LASERITE:
+  type:
+  - '&7&oSumber'
+LASERITE_DUST:
+  type:
+  - '&7&oSumber'
+LASERITE_ORE:
+  type:
+  - '&7&oSumber'
+LAUNCH_PAD_CORE:
+  type:
+  - '&7&oMultiblok'
+LAUNCH_PAD_FLOOR:
+  type:
+  - '&7&oMultiblok'
+LIFE_SUPPORT_MODULE:
+  type:
+  - '&7&oKomponen'
+LUNAR_GLASS:
+  type:
+  - '&7&oKomponen'
+MARS_DUST:
+  type:
+  - '&7&oSumber'
+MARS_ROCK:
+  type:
+  - '&7&oSumber'
+METHANE_ICE:
+  type:
+  - '&7&oSumber'
+MOON_CHEESE:
+  type:
+  - '&7&oMakanan'
+MOON_DUST:
+  type:
+  - '&7&oSumber'
+MOON_ROCK:
+  type:
+  - '&7&oSumber'
+MUNPOWDER:
+  type:
+  - '&7&oSumber'
+NOSE_CONE:
+  type:
+  - '&7&oKomponen'
+NOZZLE:
+  type:
+  - '&7&oKomponen'
+OBSERVATORY:
+  type:
+  - '&7&oGajet'
+OXYGEN_FILLER:
+  type:
+  - '&7&oMesin'
+OXYGEN_REGENERATOR:
+  type:
+  - '&7&oKomponen'
+OXYGEN_SEALER:
+  type:
+  - '&7&oMesin'
+PLANETARY_ANALYZER:
+  type:
+  - '&7&oGajet'
+RADIATION_RESISTANCE_UPGRADE:
+  type:
+  - '&7&oKomponen'
+REACTOR_RELIC:
+  type:
+  - '&7&oPelbagai'
+REDSTONE_CIRCUIT:
+  type:
+  - '&7&oKomponen'
+REINFORCED_CHANNEL:
+  type:
+  - '&7&oKomponen'
+ROCKET_ENGINE:
+  type:
+  - '&7&oKomponen'
+ROCKET_ENGINE_2:
+  type:
+  - '&7&oKomponen'
+ROCKET_ENGINE_3:
+  type:
+  - '&7&oKomponen'
+ROCKET_TIER_ONE:
+  type:
+  - '&7&oMultiblok'
+ROCKET_TIER_THREE:
+  type:
+  - '&7&oMultiblok'
+ROCKET_TIER_TWO:
+  type:
+  - '&7&oMultiblok'
+SPACE_GRADE_PLATE:
+  type:
+  - '&7&oKomponen'
+SPACE_HEATER_1:
+  type:
+  - '&7&oMesin'
+SPACE_HEATER_2:
+  type:
+  - '&7&oMesin'
+SPACE_HEATER_3:
+  type:
+  - '&7&oMesin'
+SPACE_SUIT_BOOTS:
+  type:
+  - '&7&oPerisai'
+SPACE_SUIT_CHEST:
+  type:
+  - '&7&oPerisai'
+SPACE_SUIT_HELMET:
+  type:
+  - '&7&oPerisai'
+SPACE_SUIT_PANTS:
+  type:
+  - '&7&oPerisai'
+SPACE_SUIT_UPGRADER:
+  type:
+  - '&7&oMesin'
+SPARK_PLUG:
+  type:
+  - '&7&oKomponen'
+SPARK_PLUG_2:
+  type:
+  - '&7&oKomponen'
+STARGATE_CONTROLLER:
+  type:
+  - '&7&oMultiblok'
+STARGATE_RING:
+  type:
+  - '&7&oMultiblok'
+SULFUR_BLOCK:
+  type:
+  - '&7&oSumber'
+SUPER_FAN:
+  type:
+  - '&7&oPelbagai'
+TECHNOLOGICAL_SALVAGER:
+  type:
+  - '&7&oMesin'
+TUNGSTEN_CARBIDE:
+  type:
+  - '&7&oSumber'
+TUNGSTEN_INGOT:
+  type:
+  - '&7&oSumber'
+ULTRA_DUTY_SHEET:
+  type:
+  - '&7&oKomponen'
+VENTSTONE:
+  type:
+  - '&7&oSumber'
+VOLCANIC_INGOT:
+  type:
+  - '&7&oSumber'

@@ -1,209 +1,412 @@
-# Galactifun item-name translations (de). Keyed by Slimefun item id. Names only.
-
-OXYGEN_FILLER:
-  name: "&fSauerstofffueller"
-SPACE_SUIT_UPGRADER:
-  name: "&fRaumanzug-Verbesserer"
-HEAT_RESISTANCE_UPGRADE:
-  name: "&7Hitzewiderstand-Verbesserung"
-COLD_RESISTANCE_UPGRADE:
-  name: "&7Kaeltewiderstand-Verbesserung"
-RADIATION_RESISTANCE_UPGRADE:
-  name: "&7Strahlungswiderstand-Verbesserung"
-SPACE_SUIT_HELMET:
-  name: "&fRaumanzug-Helm"
-SPACE_SUIT_CHEST:
-  name: "&fRaumanzug-Brustpanzer"
-SPACE_SUIT_PANTS:
-  name: "&fRaumanzug-Hose"
-SPACE_SUIT_BOOTS:
-  name: "&fRaumanzug-Stiefel"
-LAUNCH_PAD_CORE:
-  name: "&fStartrampen-Kern"
-LAUNCH_PAD_FLOOR:
-  name: "&fStartrampen-Boden"
-CIRCUIT_PRESS:
-  name: "&fSchaltkreispresse"
-ASSEMBLY_TABLE:
-  name: "&fMontagetisch"
-STARGATE_RING:
-  name: "&9Sternentor-Ring"
-STARGATE_CONTROLLER:
-  name: "&9Sternentor-Steuerung"
-OBSERVATORY:
-  name: "&fObservatorium"
-PLANETARY_ANALYZER:
-  name: "&fPlanetenanalysator"
-DIAMOND_ANVIL:
-  name: "&fDiamantamboss"
-FUSION_REACTOR:
-  name: "&fFusionsreaktor"
-ATMOSPHERIC_HARVESTER:
-  name: "&fAtmosphaerenernter"
-CHEMICAL_REACTOR:
-  name: "&fChemiereaktor"
-ELECTROLYZER:
-  name: "&fElektrolyseur"
-COOLING_UNIT_1:
-  name: "&bKuehleinheit I"
-COOLING_UNIT_2:
-  name: "&bKuehleinheit II"
-COOLING_UNIT_3:
-  name: "&bKuehleinheit III"
-SPACE_HEATER_1:
-  name: "&6Raumheizer I"
-SPACE_HEATER_2:
-  name: "&6Raumheizer II"
-SPACE_HEATER_3:
-  name: "&6Raumheizer III"
-ION_DISPERSER_1:
-  name: "&fIonenzerstreuer I"
-ION_DISPERSER_2:
-  name: "&fIonenzerstreuer II"
-OXYGEN_SEALER:
-  name: "&fSauerstoffversiegler"
-LANDING_HATCH:
-  name: "&fLandeluke"
-SUPER_FAN:
-  name: "&7Superventilator"
-AUTOMATIC_DOOR:
-  name: "&fAutomatische Tuer"
-ENVIRONMENTAL_FORCEFIELD_GENERATOR:
-  name: "&fUmwelt-Kraftfeldgenerator"
-ENGINE_RELIC:
-  name: "&fRelikt: 'Letagivd Yynmukav"
-REACTOR_RELIC:
-  name: "&fRelikt: Rotarenegortkele Yynmukav"
-COMPUTER_RELIC:
-  name: "&fRelikt: Retuypmok Yyntnavk"
-BROKEN_SOLAR_PANEL_RELIC:
-  name: "&7Relikt: 'Lenap Ayanhcenlos Ayanamolop"
-FALLEN_SATELLITE_RELIC:
-  name: "&7Relikt: Kintups Yyhsdap"
-TECHNOLOGICAL_SALVAGER:
-  name: "&fTechnologie-Berger"
-ROCKET_TIER_ONE:
-  name: "&4Chemierakete Stufe 1"
-ROCKET_TIER_TWO:
-  name: "&4Chemierakete Stufe 2"
-ROCKET_TIER_THREE:
-  name: "&4Chemierakete Stufe 3"
-ION_ROCKET:
-  name: "&bIonenrakete"
-MOON_DUST:
-  name: "&7Mondstaub"
-MOON_ROCK:
-  name: "&7Mondgestein"
-MARS_DUST:
-  name: "&cMarsstaub"
-MARS_ROCK:
-  name: "&cMarsgestein"
-DRY_ICE:
-  name: "&bTrockeneis"
-METHANE_ICE:
-  name: "&bMethaneis"
-SULFUR_BLOCK:
-  name: "&6Schwefelblock"
-VENTSTONE:
-  name: "&6Schlotstein"
-LASERITE_ORE:
-  name: "&cLaserit-Erz"
-ALUMINUM_COMPOSITE:
-  name: "&fAluminiumverbund"
-TUNGSTEN_INGOT:
-  name: "&bWolframbarren"
-ALUMINUM_COMPOSITE_SHEET:
-  name: "&fAluminiumverbundblech"
-HEAVY_DUTY_SHEET:
-  name: "&fHochleistungsblech"
-SPACE_GRADE_PLATE:
-  name: "&fRaumfahrtplatte"
-ULTRA_DUTY_SHEET:
-  name: "&fUltrahochleistungsblech"
-GOLD_FOIL:
-  name: "&6Goldfolie"
-REINFORCED_CHANNEL:
-  name: "&fVerstaerkter Kanal"
-FAN_BLADE:
-  name: "&fVentilatorblatt"
-NOZZLE:
-  name: "&fDuese"
-AIR_FILTER:
-  name: "&fFilter"
-OXYGEN_REGENERATOR:
-  name: "&bSauerstoffregenerator"
-SPARK_PLUG:
-  name: "&fZuendkerze"
-SPARK_PLUG_2:
-  name: "&fZuendkerze Mk 2"
-ROCKET_ENGINE:
-  name: "&fRaketentriebwerk"
-ROCKET_ENGINE_2:
-  name: "&fRaketentriebwerk Mk 2"
-ROCKET_ENGINE_3:
-  name: "&fRaketentriebwerk Mk 3"
-ION_ENGINE:
-  name: "&bIonentriebwerk"
 ADVANCED_PROCESSING_UNIT:
-  name: "&4Fortschrittliche Recheneinheit"
-LIFE_SUPPORT_MODULE:
-  name: "&4Lebenserhaltungsmodul"
-NOSE_CONE:
-  name: "&fBugspitze"
-FUEL_TANK:
-  name: "&6Treibstofftank"
-FUEL_TANK_2:
-  name: "&6Treibstofftank Mk 2"
-DIAMOND_CIRCUIT:
-  name: "&7Diamantschaltkreis"
-REDSTONE_CIRCUIT:
-  name: "&7Redstone-Schaltkreis"
-LAPIS_CIRCUIT:
-  name: "&7Lapis-Schaltkreis"
-GLOWSTONE_CIRCUIT:
-  name: "&7Glowstone-Schaltkreis"
-MUNPOWDER:
-  name: "&7Mondpulver"
-FALLEN_METEOR:
-  name: "&4Gefallener Meteor"
-MOON_CHEESE:
-  name: "&6Mondkaese"
-ENDER_BLOCK:
-  name: "&3Enderblock"
-LUNAR_GLASS:
-  name: "&fMondglas"
-VOLCANIC_INGOT:
-  name: "&4Vulkanbarren"
-BLISTERING_VOLCANIC_INGOT:
-  name: "&6Gluehender Vulkanbarren"
-TUNGSTEN_CARBIDE:
-  name: "&7Wolframkarbid"
-DIAMOND_ANVIL_CELL:
-  name: "&bDiamantstempelzelle"
-FUSION_PELLET:
-  name: "&fFusionspellet"
-LASERITE_DUST:
-  name: "&cLaserit-Staub"
-LASERITE:
-  name: "&cLaserit"
-
-ATMOSPHERIC_GAS_OXYGEN:
-  name: "&fSauerstoff-Gaskanister"
-ATMOSPHERIC_GAS_NITROGEN:
-  name: "&fStickstoff-Gaskanister"
-ATMOSPHERIC_GAS_CARBON_DIOXIDE:
-  name: "&fKohlendioxid-Gaskanister"
-ATMOSPHERIC_GAS_WATER:
-  name: "&fWasser-Gaskanister"
-ATMOSPHERIC_GAS_HELIUM:
-  name: "&fHelium-Gaskanister"
-ATMOSPHERIC_GAS_ARGON:
-  name: "&fArgon-Gaskanister"
-ATMOSPHERIC_GAS_METHANE:
-  name: "&fMethan-Gaskanister"
-ATMOSPHERIC_GAS_HYDROCARBONS:
-  name: "&fKohlenwasserstoff-Gaskanister"
-ATMOSPHERIC_GAS_HYDROGEN:
-  name: "&fWasserstoff-Gaskanister"
+  name: '&4Fortschrittliche Recheneinheit'
+  type:
+  - '&7&oKomponente'
+AIR_FILTER:
+  name: '&fFilter'
+  type:
+  - '&7&oKomponente'
+ALUMINUM_COMPOSITE:
+  name: '&fAluminiumverbund'
+  type:
+  - '&7&oKomponente'
+ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAluminiumverbundblech'
+  type:
+  - '&7&oKomponente'
+ASSEMBLY_TABLE:
+  name: '&fMontagetisch'
+  type:
+  - '&7&oMaschine'
 ATMOSPHERIC_GAS_AMMONIA:
-  name: "&fAmmoniak-Gaskanister"
+  name: '&fAmmoniak-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgon-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fKohlendioxid-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHelium-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fKohlenwasserstoff-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fWasserstoff-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_METHANE:
+  name: '&fMethan-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fStickstoff-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fSauerstoff-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_GAS_WATER:
+  name: '&fWasser-Gaskanister'
+  type:
+  - '&7&oRohstoff'
+ATMOSPHERIC_HARVESTER:
+  name: '&fAtmosphaerenernter'
+  type:
+  - '&7&oMaschine'
+AUTOMATIC_DOOR:
+  name: '&fAutomatische Tuer'
+  type:
+  - '&7&oMaschine'
+BLISTERING_VOLCANIC_INGOT:
+  name: '&6Gluehender Vulkanbarren'
+  type:
+  - '&7&oRohstoff'
+BROKEN_SOLAR_PANEL_RELIC:
+  name: '&7Relikt: ''Lenap Ayanhcenlos Ayanamolop'
+  type:
+  - '&7&oSonstiges'
+CHEMICAL_REACTOR:
+  name: '&fChemiereaktor'
+  type:
+  - '&7&oMaschine'
+CIRCUIT_PRESS:
+  name: '&fSchaltkreispresse'
+  type:
+  - '&7&oMaschine'
+COLD_RESISTANCE_UPGRADE:
+  name: '&7Kaeltewiderstand-Verbesserung'
+  type:
+  - '&7&oKomponente'
+COMPUTER_RELIC:
+  name: '&fRelikt: Retuypmok Yyntnavk'
+  type:
+  - '&7&oSonstiges'
+COOLING_UNIT_1:
+  name: '&bKuehleinheit I'
+  type:
+  - '&7&oMaschine'
+COOLING_UNIT_2:
+  name: '&bKuehleinheit II'
+  type:
+  - '&7&oMaschine'
+COOLING_UNIT_3:
+  name: '&bKuehleinheit III'
+  type:
+  - '&7&oMaschine'
+DIAMOND_ANVIL:
+  name: '&fDiamantamboss'
+  type:
+  - '&7&oMaschine'
+DIAMOND_ANVIL_CELL:
+  name: '&bDiamantstempelzelle'
+  type:
+  - '&7&oKomponente'
+DIAMOND_CIRCUIT:
+  name: '&7Diamantschaltkreis'
+  type:
+  - '&7&oKomponente'
+DRY_ICE:
+  name: '&bTrockeneis'
+  type:
+  - '&7&oRohstoff'
+ELECTROLYZER:
+  name: '&fElektrolyseur'
+  type:
+  - '&7&oMaschine'
+ENDER_BLOCK:
+  name: '&3Enderblock'
+  type:
+  - '&7&oKomponente'
+ENGINE_RELIC:
+  name: '&fRelikt: ''Letagivd Yynmukav'
+  type:
+  - '&7&oSonstiges'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  name: '&fUmwelt-Kraftfeldgenerator'
+  type:
+  - '&7&oMaschine'
+FALLEN_METEOR:
+  name: '&4Gefallener Meteor'
+  type:
+  - '&7&oRohstoff'
+FALLEN_SATELLITE_RELIC:
+  name: '&7Relikt: Kintups Yyhsdap'
+  type:
+  - '&7&oSonstiges'
+FAN_BLADE:
+  name: '&fVentilatorblatt'
+  type:
+  - '&7&oKomponente'
+FUEL_TANK:
+  name: '&6Treibstofftank'
+  type:
+  - '&7&oKomponente'
+FUEL_TANK_2:
+  name: '&6Treibstofftank Mk 2'
+  type:
+  - '&7&oKomponente'
+FUSION_PELLET:
+  name: '&fFusionspellet'
+  type:
+  - '&7&oKomponente'
+FUSION_REACTOR:
+  name: '&fFusionsreaktor'
+  type:
+  - '&7&oGenerator'
+GLOWSTONE_CIRCUIT:
+  name: '&7Glowstone-Schaltkreis'
+  type:
+  - '&7&oKomponente'
+GOLD_FOIL:
+  name: '&6Goldfolie'
+  type:
+  - '&7&oKomponente'
+HEAT_RESISTANCE_UPGRADE:
+  name: '&7Hitzewiderstand-Verbesserung'
+  type:
+  - '&7&oKomponente'
+HEAVY_DUTY_SHEET:
+  name: '&fHochleistungsblech'
+  type:
+  - '&7&oKomponente'
+ION_DISPERSER_1:
+  name: '&fIonenzerstreuer I'
+  type:
+  - '&7&oMaschine'
+ION_DISPERSER_2:
+  name: '&fIonenzerstreuer II'
+  type:
+  - '&7&oMaschine'
+ION_ENGINE:
+  name: '&bIonentriebwerk'
+  type:
+  - '&7&oKomponente'
+ION_ROCKET:
+  name: '&bIonenrakete'
+  type:
+  - '&7&oMultiblock'
+LANDING_HATCH:
+  name: '&fLandeluke'
+  type:
+  - '&7&oSonstiges'
+LAPIS_CIRCUIT:
+  name: '&7Lapis-Schaltkreis'
+  type:
+  - '&7&oKomponente'
+LASERITE:
+  name: '&cLaserit'
+  type:
+  - '&7&oRohstoff'
+LASERITE_DUST:
+  name: '&cLaserit-Staub'
+  type:
+  - '&7&oRohstoff'
+LASERITE_ORE:
+  name: '&cLaserit-Erz'
+  type:
+  - '&7&oRohstoff'
+LAUNCH_PAD_CORE:
+  name: '&fStartrampen-Kern'
+  type:
+  - '&7&oMultiblock'
+LAUNCH_PAD_FLOOR:
+  name: '&fStartrampen-Boden'
+  type:
+  - '&7&oMultiblock'
+LIFE_SUPPORT_MODULE:
+  name: '&4Lebenserhaltungsmodul'
+  type:
+  - '&7&oKomponente'
+LUNAR_GLASS:
+  name: '&fMondglas'
+  type:
+  - '&7&oKomponente'
+MARS_DUST:
+  name: '&cMarsstaub'
+  type:
+  - '&7&oRohstoff'
+MARS_ROCK:
+  name: '&cMarsgestein'
+  type:
+  - '&7&oRohstoff'
+METHANE_ICE:
+  name: '&bMethaneis'
+  type:
+  - '&7&oRohstoff'
+MOON_CHEESE:
+  name: '&6Mondkaese'
+  type:
+  - '&7&oNahrung'
+MOON_DUST:
+  name: '&7Mondstaub'
+  type:
+  - '&7&oRohstoff'
+MOON_ROCK:
+  name: '&7Mondgestein'
+  type:
+  - '&7&oRohstoff'
+MUNPOWDER:
+  name: '&7Mondpulver'
+  type:
+  - '&7&oRohstoff'
+NOSE_CONE:
+  name: '&fBugspitze'
+  type:
+  - '&7&oKomponente'
+NOZZLE:
+  name: '&fDuese'
+  type:
+  - '&7&oKomponente'
+OBSERVATORY:
+  name: '&fObservatorium'
+  type:
+  - '&7&oGadget'
+OXYGEN_FILLER:
+  name: '&fSauerstofffueller'
+  type:
+  - '&7&oMaschine'
+OXYGEN_REGENERATOR:
+  name: '&bSauerstoffregenerator'
+  type:
+  - '&7&oKomponente'
+OXYGEN_SEALER:
+  name: '&fSauerstoffversiegler'
+  type:
+  - '&7&oMaschine'
+PLANETARY_ANALYZER:
+  name: '&fPlanetenanalysator'
+  type:
+  - '&7&oGadget'
+RADIATION_RESISTANCE_UPGRADE:
+  name: '&7Strahlungswiderstand-Verbesserung'
+  type:
+  - '&7&oKomponente'
+REACTOR_RELIC:
+  name: '&fRelikt: Rotarenegortkele Yynmukav'
+  type:
+  - '&7&oSonstiges'
+REDSTONE_CIRCUIT:
+  name: '&7Redstone-Schaltkreis'
+  type:
+  - '&7&oKomponente'
+REINFORCED_CHANNEL:
+  name: '&fVerstaerkter Kanal'
+  type:
+  - '&7&oKomponente'
+ROCKET_ENGINE:
+  name: '&fRaketentriebwerk'
+  type:
+  - '&7&oKomponente'
+ROCKET_ENGINE_2:
+  name: '&fRaketentriebwerk Mk 2'
+  type:
+  - '&7&oKomponente'
+ROCKET_ENGINE_3:
+  name: '&fRaketentriebwerk Mk 3'
+  type:
+  - '&7&oKomponente'
+ROCKET_TIER_ONE:
+  name: '&4Chemierakete Stufe 1'
+  type:
+  - '&7&oMultiblock'
+ROCKET_TIER_THREE:
+  name: '&4Chemierakete Stufe 3'
+  type:
+  - '&7&oMultiblock'
+ROCKET_TIER_TWO:
+  name: '&4Chemierakete Stufe 2'
+  type:
+  - '&7&oMultiblock'
+SPACE_GRADE_PLATE:
+  name: '&fRaumfahrtplatte'
+  type:
+  - '&7&oKomponente'
+SPACE_HEATER_1:
+  name: '&6Raumheizer I'
+  type:
+  - '&7&oMaschine'
+SPACE_HEATER_2:
+  name: '&6Raumheizer II'
+  type:
+  - '&7&oMaschine'
+SPACE_HEATER_3:
+  name: '&6Raumheizer III'
+  type:
+  - '&7&oMaschine'
+SPACE_SUIT_BOOTS:
+  name: '&fRaumanzug-Stiefel'
+  type:
+  - '&7&oRüstung'
+SPACE_SUIT_CHEST:
+  name: '&fRaumanzug-Brustpanzer'
+  type:
+  - '&7&oRüstung'
+SPACE_SUIT_HELMET:
+  name: '&fRaumanzug-Helm'
+  type:
+  - '&7&oRüstung'
+SPACE_SUIT_PANTS:
+  name: '&fRaumanzug-Hose'
+  type:
+  - '&7&oRüstung'
+SPACE_SUIT_UPGRADER:
+  name: '&fRaumanzug-Verbesserer'
+  type:
+  - '&7&oMaschine'
+SPARK_PLUG:
+  name: '&fZuendkerze'
+  type:
+  - '&7&oKomponente'
+SPARK_PLUG_2:
+  name: '&fZuendkerze Mk 2'
+  type:
+  - '&7&oKomponente'
+STARGATE_CONTROLLER:
+  name: '&9Sternentor-Steuerung'
+  type:
+  - '&7&oMultiblock'
+STARGATE_RING:
+  name: '&9Sternentor-Ring'
+  type:
+  - '&7&oMultiblock'
+SULFUR_BLOCK:
+  name: '&6Schwefelblock'
+  type:
+  - '&7&oRohstoff'
+SUPER_FAN:
+  name: '&7Superventilator'
+  type:
+  - '&7&oSonstiges'
+TECHNOLOGICAL_SALVAGER:
+  name: '&fTechnologie-Berger'
+  type:
+  - '&7&oMaschine'
+TUNGSTEN_CARBIDE:
+  name: '&7Wolframkarbid'
+  type:
+  - '&7&oRohstoff'
+TUNGSTEN_INGOT:
+  name: '&bWolframbarren'
+  type:
+  - '&7&oRohstoff'
+ULTRA_DUTY_SHEET:
+  name: '&fUltrahochleistungsblech'
+  type:
+  - '&7&oKomponente'
+VENTSTONE:
+  name: '&6Schlotstein'
+  type:
+  - '&7&oRohstoff'
+VOLCANIC_INGOT:
+  name: '&4Vulkanbarren'
+  type:
+  - '&7&oRohstoff'
