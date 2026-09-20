@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Pokročilá výpočtová jednotka'
   type:
   - '&7&oKomponent'
 AIR_FILTER:
+  name: '&fFilter'
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Neuhádneš, ako dlho nám trvalo'
+  - '&7pomenovať tento materiál'
+  name: '&fHliníkový kompozit'
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fHliníkový kompozitný plát'
   type:
   - '&7&oKomponent'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Používa sa na stavbu mnohých vecí'
+  name: '&fMontážny stôl'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/výrobu'
   type:
   - '&7&oStroj'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fPlynový kanister s amoniakom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fPlynový kanister s argónom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fPlynový kanister s oxidom uhličitým'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fPlynový kanister s héliom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fPlynový kanister s uhľovodíkmi'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fPlynový kanister s vodíkom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fPlynový kanister s metánom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fPlynový kanister s dusíkom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fPlynový kanister s kyslíkom'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fPlynový kanister s vodou'
   type:
   - '&7&oSurovina'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Zbiera plyny z atmosféry'
+  name: '&fAtmosférický zberač'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J zásobník'
   type:
   - '&7&oStroj'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Automaticky umiestňujú a odstraňujú bloky vnútri,'
+  - '&7keď k nim prídeš alebo od nich odídeš'
+  name: '&fAutomatické dvere'
   type:
   - '&7&oStroj'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Pálčivý sopečný ingot'
   type:
   - '&7&oSurovina'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7Relikvia: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oRôzne'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Nechá chemikálie reagovať,'
+  - '&7aby vznikli nové'
+  name: '&fChemický reaktor'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J zásobník'
   type:
   - '&7&oStroj'
 CIRCUIT_PRESS:
+  description:
+  - '&7Vyrába obvody'
+  name: '&fLis na obvody'
   stats:
   - '&8⇨ &e⚡ &7512 J zásobník'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oStroj'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pridaj do vesmírneho obleku na zvýšenie odolnosti voči chladu'
+  name: '&7Vylepšenie odolnosti voči chladu'
   type:
   - '&7&oKomponent'
 COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&fRelikvia: Retuypmok Yyntnavk'
   type:
   - '&7&oRôzne'
 COOLING_UNIT_1:
+  description:
+  - '&7Pasívne chladí okolitú oblasť a pri napájaní znižuje vystavenie teplu'
+  name: '&bChladiaca jednotka I'
+  stats:
+  - '&7Efekt: Teplo'
+  - '&7Ochrana: 2'
+  - '&7Dosah: 1000 blokov'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J zásobník'
   type:
   - '&7&oStroj'
 COOLING_UNIT_2:
+  description:
+  - '&7Pasívne chladí okolitú oblasť a pri napájaní znižuje vystavenie teplu'
+  name: '&bChladiaca jednotka II'
+  stats:
+  - '&7Efekt: Teplo'
+  - '&7Ochrana: 4'
+  - '&7Dosah: 1500 blokov'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J zásobník'
   type:
   - '&7&oStroj'
 COOLING_UNIT_3:
+  description:
+  - '&7Pasívne chladí okolitú oblasť a pri napájaní znižuje vystavenie teplu'
+  name: '&bChladiaca jednotka III'
+  stats:
+  - '&7Efekt: Teplo'
+  - '&7Ochrana: 6'
+  - '&7Dosah: 2000 blokov'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J zásobník'
   type:
   - '&7&oStroj'
 DIAMOND_ANVIL:
+  description:
+  - '&7Stláča materiál tak silno,'
+  - '&7že sa zmení na niečo úplne iné'
+  name: '&fDiamantová nákova'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J zásobník'
   type:
   - '&7&oStroj'
 DIAMOND_ANVIL_CELL:
+  name: '&bDiamantový nákovový článok'
   type:
   - '&7&oKomponent'
 DIAMOND_CIRCUIT:
+  name: '&7Diamantový obvod'
   type:
   - '&7&oKomponent'
 DRY_ICE:
+  name: '&bSuchý ľad'
   type:
   - '&7&oSurovina'
 ELECTROLYZER:
+  description:
+  - '&7Elektrinou rozkladá'
+  - '&7chemikálie na ich zložky'
+  name: '&fElektrolyzér'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J zásobník'
   type:
   - '&7&oStroj'
 ENDER_BLOCK:
+  name: '&3Ender blok'
   type:
   - '&7&oKomponent'
 ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&fRelikvia: ''Letagivd Yynmukav'
   type:
   - '&7&oRôzne'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Vytvára silové pole, ktoré nepustí vzduch'
+  - '&7cez seba, ale prepúšťa bytosti'
+  name: '&fGenerátor environmentálneho silového poľa'
   type:
   - '&7&oStroj'
 FALLEN_METEOR:
+  description:
+  - '&7Tieto meteory obsahujú volfrám'
+  name: '&4Spadnutý meteor'
   type:
   - '&7&oSurovina'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7Relikvia: Kintups Yyhsdap'
   type:
   - '&7&oRôzne'
 FAN_BLADE:
+  name: '&fLopatka ventilátora'
   type:
   - '&7&oKomponent'
 FUEL_TANK:
+  name: '&6Palivová nádrž'
   type:
   - '&7&oKomponent'
 FUEL_TANK_2:
+  name: '&6Palivová nádrž Mk 2'
   type:
   - '&7&oKomponent'
 FUSION_PELLET:
+  name: '&fFúzna peleta'
   type:
   - '&7&oKomponent'
 FUSION_REACTOR:
+  description:
+  - '&7Lasermi spája pelety Hélia-3'
+  - '&7a vytvára pritom veľrybie množstvo energie'
+  - '&7pri celom procese'
+  name: '&fFúzny reaktor'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J zásobník'
   type:
   - '&7&oGenerátor'
 GLOWSTONE_CIRCUIT:
+  name: '&7Glowstonový obvod'
   type:
   - '&7&oKomponent'
 GOLD_FOIL:
+  name: '&6Zlatá fólia'
   type:
   - '&7&oKomponent'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pridaj do vesmírneho obleku na zvýšenie odolnosti voči teplu'
+  name: '&7Vylepšenie odolnosti voči teplu'
   type:
   - '&7&oKomponent'
 HEAVY_DUTY_SHEET:
+  name: '&fVysokopevnostný plát'
   type:
   - '&7&oKomponent'
 ION_DISPERSER_1:
+  description:
+  - '&7Pri napájaní pasívne rozptyľuje žiarenie v okolitej oblasti'
+  name: '&fIónový rozptyľovač I'
+  stats:
+  - '&7Efekt: Žiarenie'
+  - '&7Ochrana: 2'
+  - '&7Dosah: 1000 blokov'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J zásobník'
   type:
   - '&7&oStroj'
 ION_DISPERSER_2:
+  description:
+  - '&7Pri napájaní pasívne rozptyľuje žiarenie v okolitej oblasti'
+  name: '&fIónový rozptyľovač II'
+  stats:
+  - '&7Efekt: Žiarenie'
+  - '&7Ochrana: 4'
+  - '&7Dosah: 1500 blokov'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J zásobník'
   type:
   - '&7&oStroj'
 ION_ENGINE:
+  name: '&bIónový motor'
   type:
   - '&7&oKomponent'
 ION_ROCKET:
+  description:
+  - '&7Používa špeciálny motor, ktorý'
+  - '&7vypúšťa ióny obrovskou rýchlosťou, čo dáva'
+  - '&7extrémnu palivovú úspornosť'
+  name: '&bIónová raketa'
+  stats:
+  - '&7Kapacita paliva: 500'
+  - '&7Kapacita nákladu: 18'
   type:
   - '&7&oMultiblok'
 LANDING_HATCH:
+  description:
+  - '&7Rakety tento blok pri pristávaní'
+  - '&7ignorujú; pristanú na najvyššom'
+  - '&7bloku pod ním. Považuje sa'
+  - '&7za nepriechodný pre vzduch,'
+  - '&7takže ním možno utesniť priestory'
+  name: '&fPristávací poklop'
   type:
   - '&7&oRôzne'
 LAPIS_CIRCUIT:
+  name: '&7Lazuritový obvod'
   type:
   - '&7&oKomponent'
 LASERITE:
+  name: '&cLaserit'
   type:
   - '&7&oSurovina'
 LASERITE_DUST:
+  description:
+  - '&7Dochádzajú mi mená'
+  name: '&cLaseritový prach'
   type:
   - '&7&oSurovina'
 LASERITE_ORE:
+  name: '&cLaseritová ruda'
   type:
   - '&7&oSurovina'
 LAUNCH_PAD_CORE:
+  name: '&fJadro štartovacej plošiny'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&7Obklop 8 kusmi &fPodlahy štartovacej plošiny&7,'
+  - '&7aby fungovalo'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Používa sa na stavbu štartovacej plošiny'
+  name: '&fPodlaha štartovacej plošiny'
   type:
   - '&7&oMultiblok'
 LIFE_SUPPORT_MODULE:
+  name: '&4Modul na podporu života'
   type:
   - '&7&oKomponent'
 LUNAR_GLASS:
+  description:
+  - '&7Z nejakého dôvodu je sklo po pridaní'
+  - '&7mesačného prachu čistejšie...'
+  name: '&fLunárne sklo'
   type:
   - '&7&oKomponent'
 MARS_DUST:
+  name: '&cMarsový prach'
   type:
   - '&7&oSurovina'
 MARS_ROCK:
+  name: '&cMarsová hornina'
   type:
   - '&7&oSurovina'
 METHANE_ICE:
+  name: '&bMetánový ľad'
   type:
   - '&7&oSurovina'
 MOON_CHEESE:
+  description:
+  - '&7Fuj'
+  name: '&6Mesačný syr'
+  stats:
+  - '&7Dopĺňa &b2 &7hladu'
+  - '&7Dopĺňa &b2.0 &7nasýtenia'
   type:
   - '&7&oJedlo'
+  usage:
+  - '&7Umiestni a zjedz'
 MOON_DUST:
+  name: '&7Mesačný prach'
   type:
   - '&7&oSurovina'
 MOON_ROCK:
+  name: '&7Mesačná hornina'
   type:
   - '&7&oSurovina'
 MUNPOWDER:
+  description:
+  - '&7Strelný prach z Mesiaca'
+  name: '&7Mesielny prach'
   type:
   - '&7&oSurovina'
 NOSE_CONE:
+  name: '&fNosový kužeľ'
   type:
   - '&7&oKomponent'
 NOZZLE:
+  name: '&fTryska'
   type:
   - '&7&oKomponent'
 OBSERVATORY:
+  description:
+  - '&7Umožňuje objaviť základné informácie o'
+  - '&7svete na diaľku. Funguje len na svetoch'
+  - '&7bližších než 0.25 ly (2,365,200,000,000 km)'
+  name: '&fHvezdáreň'
   type:
   - '&7&oGadget'
 OXYGEN_FILLER:
+  description:
+  - '&7Plní vesmírne obleky kyslíkom'
+  name: '&fPlnič kyslíka'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Rýchlosť: &b1.0x'
   type:
   - '&7&oStroj'
 OXYGEN_REGENERATOR:
+  name: '&bRegenerátor kyslíka'
   type:
   - '&7&oKomponent'
 OXYGEN_SEALER:
+  description:
+  - '&7Naplní uzavretú oblasť kyslíkom'
+  name: '&fKyslíkový uzáver'
+  stats:
+  - '&7Dosah: 1000 blokov'
   type:
   - '&7&oStroj'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Umožňuje objaviť pokročilé informácie'
+  - '&7o aktuálnej planéte'
+  name: '&fPlanetárny analyzátor'
   type:
   - '&7&oGadget'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pridaj do vesmírneho obleku na zvýšenie odolnosti voči žiareniu'
+  name: '&7Vylepšenie odolnosti voči žiareniu'
   type:
   - '&7&oKomponent'
 REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&fRelikvia: Rotarenegortkele Yynmukav'
   type:
   - '&7&oRôzne'
 REDSTONE_CIRCUIT:
+  name: '&7Redstonový obvod'
   type:
   - '&7&oKomponent'
 REINFORCED_CHANNEL:
+  name: '&fVystužený kanál'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE:
+  name: '&fRaketový motor'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE_2:
+  name: '&fRaketový motor Mk 2'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE_3:
+  name: '&fRaketový motor Mk 3'
   type:
   - '&7&oKomponent'
 ROCKET_TIER_ONE:
+  name: '&4Chemická raketa stupeň 1'
+  stats:
+  - '&7Kapacita paliva: 10'
+  - '&7Kapacita nákladu: 9'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_THREE:
+  name: '&4Chemická raketa stupeň 3'
+  stats:
+  - '&7Kapacita paliva: 500'
+  - '&7Kapacita nákladu: 36'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_TWO:
+  name: '&4Chemická raketa stupeň 2'
+  stats:
+  - '&7Kapacita paliva: 100'
+  - '&7Kapacita nákladu: 18'
   type:
   - '&7&oMultiblok'
 SPACE_GRADE_PLATE:
+  name: '&fDoska vesmírnej triedy'
   type:
   - '&7&oKomponent'
 SPACE_HEATER_1:
+  description:
+  - '&7Pasívne ohrieva okolitú oblasť a pri napájaní znižuje vystavenie chladu'
+  name: '&6Vesmírny ohrievač I'
+  stats:
+  - '&7Efekt: Chlad'
+  - '&7Ochrana: 2'
+  - '&7Dosah: 1000 blokov'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J zásobník'
   type:
   - '&7&oStroj'
 SPACE_HEATER_2:
+  description:
+  - '&7Pasívne ohrieva okolitú oblasť a pri napájaní znižuje vystavenie chladu'
+  name: '&6Vesmírny ohrievač II'
+  stats:
+  - '&7Efekt: Chlad'
+  - '&7Ochrana: 4'
+  - '&7Dosah: 1500 blokov'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J zásobník'
   type:
   - '&7&oStroj'
 SPACE_HEATER_3:
+  description:
+  - '&7Pasívne ohrieva okolitú oblasť a pri napájaní znižuje vystavenie chladu'
+  name: '&6Vesmírny ohrievač III'
+  stats:
+  - '&7Efekt: Chlad'
+  - '&7Ochrana: 6'
+  - '&7Dosah: 2000 blokov'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J zásobník'
   type:
   - '&7&oStroj'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Základné čižmy vesmírneho obleku'
+  name: '&fČižmy vesmírneho obleku'
   type:
   - '&7&oBrnenie'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Základný náprsník vesmírneho obleku'
+  name: '&fNáprsník vesmírneho obleku'
   type:
   - '&7&oBrnenie'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Základná prilba vesmírneho obleku'
+  name: '&fPrilba vesmírneho obleku'
   type:
   - '&7&oBrnenie'
   usage:
   - '&ePravý klik&7 pre použitie'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Základné nohavice vesmírneho obleku'
+  name: '&fNohavice vesmírneho obleku'
   type:
   - '&7&oBrnenie'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Pridáva vylepšenia do vesmírneho obleku'
+  name: '&fVylepšovač vesmírneho obleku'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Rýchlosť: &b1.0x'
   type:
   - '&7&oStroj'
 SPARK_PLUG:
+  name: '&fZapaľovacia sviečka'
   type:
   - '&7&oKomponent'
 SPARK_PLUG_2:
+  name: '&fZapaľovacia sviečka Mk 2'
   type:
   - '&7&oKomponent'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Používa sa na ovládanie hviezdnej brány'
+  name: '&9Ovládač hviezdnej brány'
   type:
   - '&7&oMultiblok'
 STARGATE_RING:
+  description:
+  - '&7Používa sa na stavbu hviezdnej brány'
+  name: '&9Prstenec hviezdnej brány'
   type:
   - '&7&oMultiblok'
 SULFUR_BLOCK:
+  name: '&6Sírový blok'
   type:
   - '&7&oSurovina'
 SUPER_FAN:
+  description:
+  - '&7Umiestni ho vedľa bloku, ktorý potrebuje'
+  - '&7uzavretú oblasť, a dosah sa zvýši o 15%'
+  name: '&7Super ventilátor'
   type:
   - '&7&oRôzne'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Získava z relikvií všetko použiteľné'
+  name: '&fTechnologický rozoberač'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J zásobník'
   type:
   - '&7&oStroj'
 TUNGSTEN_CARBIDE:
+  name: '&7Karbid volfrámu'
   type:
   - '&7&oSurovina'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Pevný kov, ktorý získaš buď tak, že'
+  - '&7dáš Marťanom vystužené dosky, alebo'
+  - '&7tavením spadnutých meteorov'
+  name: '&bVolfrámový ingot'
   type:
   - '&7&oSurovina'
 ULTRA_DUTY_SHEET:
+  name: '&fUltrapevnostný plát'
   type:
   - '&7&oKomponent'
 VENTSTONE:
+  name: '&6Prieduchový kameň'
   type:
   - '&7&oSurovina'
 VOLCANIC_INGOT:
+  description:
+  - '&7Ukované v hlbinách najbližšej veci,'
+  - '&7akú poznáme k peklu; sopečné ingoty'
+  - '&7sú cenným tovarom'
+  name: '&4Sopečný ingot'
   type:
   - '&7&oSurovina'
