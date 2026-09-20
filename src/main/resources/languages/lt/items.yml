@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Pažangus apdorojimo įrenginys'
   type:
   - '&7&oKomponentas'
 AIR_FILTER:
+  name: '&fFiltras'
   type:
   - '&7&oKomponentas'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Neatspėsite, kiek laiko mums užtruko'
+  - '&7sugalvoti pavadinimą šiai medžiagai'
+  name: '&fAliuminio kompozitas'
   type:
   - '&7&oKomponentas'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAliuminio kompozito lakštas'
   type:
   - '&7&oKomponentas'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Naudojamas daugeliui dalykų kurti'
+  name: '&fSurinkimo stalas'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/gaminimą'
   type:
   - '&7&oMašina'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmoniako dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgono dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fAnglies dioksido dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHelio dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fAngliavandenilių dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fVandenilio dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetano dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fAzoto dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fDeguonies dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fVandens dujų balionas'
   type:
   - '&7&oIšteklius'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Renka dujas iš atmosferos'
+  name: '&fAtmosferos rinktuvas'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J buferis'
   type:
   - '&7&oMašina'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Automatiškai padeda ir pašalina viduje esančius blokus'
+  - '&7kai prie jų prieinate ar nuo jų nutolstate'
+  name: '&fAutomatinės durys'
   type:
   - '&7&oMašina'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Kaitrus vulkaninis luitas'
   type:
   - '&7&oIšteklius'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7Relikvija: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oĮvairūs'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Sureaguoja chemines medžiagas tarpusavyje'
+  - '&7kad sukurtų naujas'
+  name: '&fCheminis reaktorius'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J buferis'
   type:
   - '&7&oMašina'
 CIRCUIT_PRESS:
+  description:
+  - '&7Kuria grandines'
+  name: '&fGrandinių presas'
   stats:
   - '&8⇨ &e⚡ &7512 J buferis'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMašina'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pridėkite prie kosminio skafandro, kad padidintumėte atsparumą šalčiui'
+  name: '&7Atsparumo šalčiui patobulinimas'
   type:
   - '&7&oKomponentas'
 COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&fRelikvija: Retuypmok Yyntnavk'
   type:
   - '&7&oĮvairūs'
 COOLING_UNIT_1:
+  description:
+  - '&7Pasyviai aušina aplinkinę zoną ir, kol maitinamas, mažina karščio poveikį'
+  name: '&bAušinimo įrenginys I'
+  stats:
+  - '&7Efektas: karštis'
+  - '&7Apsauga: 2'
+  - '&7Nuotolis: 1000 blokų'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašina'
 COOLING_UNIT_2:
+  description:
+  - '&7Pasyviai aušina aplinkinę zoną ir, kol maitinamas, mažina karščio poveikį'
+  name: '&bAušinimo įrenginys II'
+  stats:
+  - '&7Efektas: karštis'
+  - '&7Apsauga: 4'
+  - '&7Nuotolis: 1500 blokų'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J buferis'
   type:
   - '&7&oMašina'
 COOLING_UNIT_3:
+  description:
+  - '&7Pasyviai aušina aplinkinę zoną ir, kol maitinamas, mažina karščio poveikį'
+  name: '&bAušinimo įrenginys III'
+  stats:
+  - '&7Efektas: karštis'
+  - '&7Apsauga: 6'
+  - '&7Nuotolis: 2000 blokų'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J buferis'
   type:
   - '&7&oMašina'
 DIAMOND_ANVIL:
+  description:
+  - '&7Suspaudžia medžiagą taip stipriai'
+  - '&7kad ji tampa visai kuo kitu'
+  name: '&fDeimantinis priekalas'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašina'
 DIAMOND_ANVIL_CELL:
+  name: '&bDeimantinio priekalo celė'
   type:
   - '&7&oKomponentas'
 DIAMOND_CIRCUIT:
+  name: '&7Deimantinė grandinė'
   type:
   - '&7&oKomponentas'
 DRY_ICE:
+  name: '&bSausasis ledas'
   type:
   - '&7&oIšteklius'
 ELECTROLYZER:
+  description:
+  - '&7Elektra skaido'
+  - '&7chemines medžiagas į sudedamąsias dalis'
+  name: '&fElektrolizeris'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J buferis'
   type:
   - '&7&oMašina'
 ENDER_BLOCK:
+  name: '&3Ender blokas'
   type:
   - '&7&oKomponentas'
 ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&fRelikvija: ''Letagivd Yynmukav'
   type:
   - '&7&oĮvairūs'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Sukuria jėgos lauką, kuris neleidžia orui'
+  - '&7prasiskverbti, bet praleidžia būtybes'
+  name: '&fAplinkos jėgos lauko generatorius'
   type:
   - '&7&oMašina'
 FALLEN_METEOR:
+  description:
+  - '&7Šiuose meteoruose yra volframo'
+  name: '&4Nukritęs meteoras'
   type:
   - '&7&oIšteklius'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7Relikvija: Kintups Yyhsdap'
   type:
   - '&7&oĮvairūs'
 FAN_BLADE:
+  name: '&fVentiliatoriaus mentė'
   type:
   - '&7&oKomponentas'
 FUEL_TANK:
+  name: '&6Kuro bakas'
   type:
   - '&7&oKomponentas'
 FUEL_TANK_2:
+  name: '&6Kuro bakas Mk 2'
   type:
   - '&7&oKomponentas'
 FUSION_PELLET:
+  name: '&fSintezės granulė'
   type:
   - '&7&oKomponentas'
 FUSION_REACTOR:
+  description:
+  - '&7Lazeriais sulydo helio-3 granules'
+  - '&7ir šio proceso metu pagamina banginiškai'
+  - '&7daug energijos'
+  name: '&fSintezės reaktorius'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J buferis'
   type:
   - '&7&oGeneratorius'
 GLOWSTONE_CIRCUIT:
+  name: '&7Švytakmenio grandinė'
   type:
   - '&7&oKomponentas'
 GOLD_FOIL:
+  name: '&6Aukso folija'
   type:
   - '&7&oKomponentas'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pridėkite prie kosminio skafandro, kad padidintumėte atsparumą karščiui'
+  name: '&7Atsparumo karščiui patobulinimas'
   type:
   - '&7&oKomponentas'
 HEAVY_DUTY_SHEET:
+  name: '&fItin tvirtas lakštas'
   type:
   - '&7&oKomponentas'
 ION_DISPERSER_1:
+  description:
+  - '&7Kol maitinamas, pasyviai išsklaido radiaciją aplinkinėje zonoje'
+  name: '&fJonų skleidiklis I'
+  stats:
+  - '&7Efektas: radiacija'
+  - '&7Apsauga: 2'
+  - '&7Nuotolis: 1000 blokų'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J buferis'
   type:
   - '&7&oMašina'
 ION_DISPERSER_2:
+  description:
+  - '&7Kol maitinamas, pasyviai išsklaido radiaciją aplinkinėje zonoje'
+  name: '&fJonų skleidiklis II'
+  stats:
+  - '&7Efektas: radiacija'
+  - '&7Apsauga: 4'
+  - '&7Nuotolis: 1500 blokų'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašina'
 ION_ENGINE:
+  name: '&bJoninis variklis'
   type:
   - '&7&oKomponentas'
 ION_ROCKET:
+  description:
+  - '&7Naudoja specializuotą variklį, kuris'
+  - '&7dideliu greičiu išstumia jonus ir suteikia'
+  - '&7ypatingą kuro taupumą'
+  name: '&bJoninė raketa'
+  stats:
+  - '&7Kuro talpa: 500'
+  - '&7Krovinio talpa: 18'
   type:
   - '&7&oDaugiablokis'
 LANDING_HATCH:
+  description:
+  - '&7Raketos nepaiso šio bloko'
+  - '&7leisdamosi; jos nusileis ant'
+  - '&7aukščiausio bloko po juo. Jis'
+  - '&7laikomas nepralaidžiu orui'
+  - '&7tad juo galima sandarinti erdves'
+  name: '&fNusileidimo liukas'
   type:
   - '&7&oĮvairūs'
 LAPIS_CIRCUIT:
+  name: '&7Lazurito grandinė'
   type:
   - '&7&oKomponentas'
 LASERITE:
+  name: '&cLaseritas'
   type:
   - '&7&oIšteklius'
 LASERITE_DUST:
+  description:
+  - '&7Man baigiasi pavadinimai'
+  name: '&cLaserito dulkės'
   type:
   - '&7&oIšteklius'
 LASERITE_ORE:
+  name: '&cLaserito rūda'
   type:
   - '&7&oIšteklius'
 LAUNCH_PAD_CORE:
+  name: '&fStarto aikštelės šerdis'
   type:
   - '&7&oDaugiablokis'
+  usage:
+  - '&7Apsupkite 8 &fStarto aikštelės grindimis&7'
+  - '&7kad galėtumėte naudoti'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Naudojama statant starto aikštelę'
+  name: '&fStarto aikštelės grindys'
   type:
   - '&7&oDaugiablokis'
 LIFE_SUPPORT_MODULE:
+  name: '&4Gyvybės palaikymo modulis'
   type:
   - '&7&oKomponentas'
 LUNAR_GLASS:
+  description:
+  - '&7Kažkodėl įmaišius mėnulio dulkių į'
+  - '&7stiklą, jis tampa skaidresnis...'
+  name: '&fMėnulio stiklas'
   type:
   - '&7&oKomponentas'
 MARS_DUST:
+  name: '&cMarso dulkės'
   type:
   - '&7&oIšteklius'
 MARS_ROCK:
+  name: '&cMarso uoliena'
   type:
   - '&7&oIšteklius'
 METHANE_ICE:
+  name: '&bMetano ledas'
   type:
   - '&7&oIšteklius'
 MOON_CHEESE:
+  description:
+  - '&7Fu'
+  name: '&6Mėnulio sūris'
+  stats:
+  - '&7Atstato &b2 &7alkio'
+  - '&7Atstato &b2.0 &7sotumo'
   type:
   - '&7&oMaistas'
+  usage:
+  - '&7Padėkite, kad suvalgytumėte'
 MOON_DUST:
+  name: '&7Mėnulio dulkės'
   type:
   - '&7&oIšteklius'
 MOON_ROCK:
+  name: '&7Mėnulio uoliena'
   type:
   - '&7&oIšteklius'
 MUNPOWDER:
+  description:
+  - '&7Mėnulio parakas'
+  name: '&7Mėnparakis'
   type:
   - '&7&oIšteklius'
 NOSE_CONE:
+  name: '&fPriekinis kūgis'
   type:
   - '&7&oKomponentas'
 NOZZLE:
+  name: '&fTūta'
   type:
   - '&7&oKomponentas'
 OBSERVATORY:
+  description:
+  - '&7Leidžia sužinoti bazinę informaciją apie'
+  - '&7pasaulį nuotoliniu būdu. Veikia tik pasauliuose'
+  - '&7arčiau nei 0.25 ly (2,365,200,000,000 km)'
+  name: '&fObservatorija'
   type:
   - '&7&oĮtaisas'
 OXYGEN_FILLER:
+  description:
+  - '&7Pripildo kosminius skafandrus deguonimi'
+  name: '&fDeguonies pildytuvas'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Greitis: &b1.0x'
   type:
   - '&7&oMašina'
 OXYGEN_REGENERATOR:
+  name: '&bDeguonies regeneratorius'
   type:
   - '&7&oKomponentas'
 OXYGEN_SEALER:
+  description:
+  - '&7Pripildo sandarią zoną deguonimi'
+  name: '&fDeguonies sandarintuvas'
+  stats:
+  - '&7Nuotolis: 1000 blokų'
   type:
   - '&7&oMašina'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Leidžia sužinoti pažangią informaciją'
+  - '&7apie dabartinę planetą'
+  name: '&fPlanetų analizatorius'
   type:
   - '&7&oĮtaisas'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pridėkite prie kosminio skafandro, kad padidintumėte atsparumą radiacijai'
+  name: '&7Atsparumo radiacijai patobulinimas'
   type:
   - '&7&oKomponentas'
 REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&fRelikvija: Rotarenegortkele Yynmukav'
   type:
   - '&7&oĮvairūs'
 REDSTONE_CIRCUIT:
+  name: '&7Raudonakmenio grandinė'
   type:
   - '&7&oKomponentas'
 REINFORCED_CHANNEL:
+  name: '&fSustiprintas kanalas'
   type:
   - '&7&oKomponentas'
 ROCKET_ENGINE:
+  name: '&fRaketos variklis'
   type:
   - '&7&oKomponentas'
 ROCKET_ENGINE_2:
+  name: '&fRaketos variklis Mk 2'
   type:
   - '&7&oKomponentas'
 ROCKET_ENGINE_3:
+  name: '&fRaketos variklis Mk 3'
   type:
   - '&7&oKomponentas'
 ROCKET_TIER_ONE:
+  name: '&4Cheminė raketa, 1 pakopa'
+  stats:
+  - '&7Kuro talpa: 10'
+  - '&7Krovinio talpa: 9'
   type:
   - '&7&oDaugiablokis'
 ROCKET_TIER_THREE:
+  name: '&4Cheminė raketa, 3 pakopa'
+  stats:
+  - '&7Kuro talpa: 500'
+  - '&7Krovinio talpa: 36'
   type:
   - '&7&oDaugiablokis'
 ROCKET_TIER_TWO:
+  name: '&4Cheminė raketa, 2 pakopa'
+  stats:
+  - '&7Kuro talpa: 100'
+  - '&7Krovinio talpa: 18'
   type:
   - '&7&oDaugiablokis'
 SPACE_GRADE_PLATE:
+  name: '&fKosminės klasės plokštė'
   type:
   - '&7&oKomponentas'
 SPACE_HEATER_1:
+  description:
+  - '&7Pasyviai šildo aplinkinę zoną ir, kol maitinamas, mažina šalčio poveikį'
+  name: '&6Kosminis šildytuvas I'
+  stats:
+  - '&7Efektas: šaltis'
+  - '&7Apsauga: 2'
+  - '&7Nuotolis: 1000 blokų'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J buferis'
   type:
   - '&7&oMašina'
 SPACE_HEATER_2:
+  description:
+  - '&7Pasyviai šildo aplinkinę zoną ir, kol maitinamas, mažina šalčio poveikį'
+  name: '&6Kosminis šildytuvas II'
+  stats:
+  - '&7Efektas: šaltis'
+  - '&7Apsauga: 4'
+  - '&7Nuotolis: 1500 blokų'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašina'
 SPACE_HEATER_3:
+  description:
+  - '&7Pasyviai šildo aplinkinę zoną ir, kol maitinamas, mažina šalčio poveikį'
+  name: '&6Kosminis šildytuvas III'
+  stats:
+  - '&7Efektas: šaltis'
+  - '&7Apsauga: 6'
+  - '&7Nuotolis: 2000 blokų'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J buferis'
   type:
   - '&7&oMašina'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Bazinė kosminio skafandro batų pora'
+  name: '&fKosminio skafandro batai'
   type:
   - '&7&oŠarvai'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Baziniai kosminio skafandro krūtinės šarvai'
+  name: '&fKosminio skafandro krūtinės šarvai'
   type:
   - '&7&oŠarvai'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Bazinis kosminio skafandro šalmas'
+  name: '&fKosminio skafandro šalmas'
   type:
   - '&7&oŠarvai'
   usage:
   - '&eSpausk dešinį&7, kad naudotum'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Bazinė kosminio skafandro kelnių pora'
+  name: '&fKosminio skafandro kelnės'
   type:
   - '&7&oŠarvai'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Prideda patobulinimų prie jūsų kosminio skafandro'
+  name: '&fKosminio skafandro tobulintuvas'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Greitis: &b1.0x'
   type:
   - '&7&oMašina'
 SPARK_PLUG:
+  name: '&fUždegimo žvakė'
   type:
   - '&7&oKomponentas'
 SPARK_PLUG_2:
+  name: '&fUždegimo žvakė Mk 2'
   type:
   - '&7&oKomponentas'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Naudojamas žvaigždžių vartams valdyti'
+  name: '&9Žvaigždžių vartų valdiklis'
   type:
   - '&7&oDaugiablokis'
 STARGATE_RING:
+  description:
+  - '&7Naudojamas žvaigždžių vartams statyti'
+  name: '&9Žvaigždžių vartų žiedas'
   type:
   - '&7&oDaugiablokis'
 SULFUR_BLOCK:
+  name: '&6Sieros blokas'
   type:
   - '&7&oIšteklius'
 SUPER_FAN:
+  description:
+  - '&7Padėkite šalia bloko, kuriam reikia'
+  - '&7sandarios zonos, kad nuotolis padidėtų 15%'
+  name: '&7Super ventiliatorius'
   type:
   - '&7&oĮvairūs'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Išrenka iš relikvijų viską, ką galima panaudoti'
+  name: '&fTechnologinis ardytuvas'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J buferis'
   type:
   - '&7&oMašina'
 TUNGSTEN_CARBIDE:
+  name: '&7Volframo karbidas'
   type:
   - '&7&oIšteklius'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Tvirtas metalas, gaunamas arba'
+  - '&7duodant marsiečiams sustiprintų plokščių, arba'
+  - '&7lydant nukritusius meteorus'
+  name: '&bVolframo luitas'
   type:
   - '&7&oIšteklius'
 ULTRA_DUTY_SHEET:
+  name: '&fUltra tvirtas lakštas'
   type:
   - '&7&oKomponentas'
 VENTSTONE:
+  name: '&6Žiotakmenis'
   type:
   - '&7&oIšteklius'
 VOLCANIC_INGOT:
+  description:
+  - '&7Nukaltas artimiausio mums žinomo'
+  - '&7pragaro atitikmens gelmėse, vulkaniniai luitai'
+  - '&7yra vertinga prekė'
+  name: '&4Vulkaninis luitas'
   type:
   - '&7&oIšteklius'
