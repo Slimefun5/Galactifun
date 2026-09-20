@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Progresīva apstrādes vienība'
   type:
   - '&7&oSastāvdaļa'
 AIR_FILTER:
+  name: '&fFiltrs'
   type:
   - '&7&oSastāvdaļa'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Tu nekad neuzminēsi, cik ilgi mums vajadzēja,'
+  - '&7lai nosauktu šo materiālu'
+  name: '&fAlumīnija kompozīts'
   type:
   - '&7&oSastāvdaļa'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAlumīnija kompozīta loksne'
   type:
   - '&7&oSastāvdaļa'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Izmanto daudzu lietu būvēšanai'
+  name: '&fMontāžas galds'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/izgatavošana'
   type:
   - '&7&oMašīna'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmonjaka gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgona gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fOgļskābās gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHēlija gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fOgļūdeņražu gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fŪdeņraža gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetāna gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fSlāpekļa gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fSkābekļa gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fŪdens gāzes balons'
   type:
   - '&7&oResurss'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Savāc gāzes no atmosfēras'
+  name: '&fAtmosfēras savācējs'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J buferis'
   type:
   - '&7&oMašīna'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Automātiski novieto/noņem blokus iekšpusē,'
+  - '&7kad tu tām tuvojies vai attālinies'
+  name: '&fAutomātiskās durvis'
   type:
   - '&7&oMašīna'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Kvēlojošs vulkāniskais lietnis'
   type:
   - '&7&oResurss'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7Relikvija: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oDažādi'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Liek ķimikālijām reaģēt,'
+  - '&7lai radītu jaunas'
+  name: '&fĶīmiskais reaktors'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J buferis'
   type:
   - '&7&oMašīna'
 CIRCUIT_PRESS:
+  description:
+  - '&7Izgatavo shēmas'
+  name: '&fShēmu prese'
   stats:
   - '&8⇨ &e⚡ &7512 J buferis'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMašīna'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pievieno kosmosa tērpam, lai palielinātu aukstumizturību'
+  name: '&7Aukstumizturības uzlabojums'
   type:
   - '&7&oSastāvdaļa'
 COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&fRelikvija: Retuypmok Yyntnavk'
   type:
   - '&7&oDažādi'
 COOLING_UNIT_1:
+  description:
+  - '&7Pasīvi dzesē apkārtējo apgabalu, samazinot karstuma iedarbību, kamēr ir darbināta'
+  name: '&bDzesēšanas vienība I'
+  stats:
+  - '&7Efekts: Karstums'
+  - '&7Aizsardzība: 2'
+  - '&7Darbības rādiuss: 1000 bloki'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašīna'
 COOLING_UNIT_2:
+  description:
+  - '&7Pasīvi dzesē apkārtējo apgabalu, samazinot karstuma iedarbību, kamēr ir darbināta'
+  name: '&bDzesēšanas vienība II'
+  stats:
+  - '&7Efekts: Karstums'
+  - '&7Aizsardzība: 4'
+  - '&7Darbības rādiuss: 1500 bloki'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J buferis'
   type:
   - '&7&oMašīna'
 COOLING_UNIT_3:
+  description:
+  - '&7Pasīvi dzesē apkārtējo apgabalu, samazinot karstuma iedarbību, kamēr ir darbināta'
+  name: '&bDzesēšanas vienība III'
+  stats:
+  - '&7Efekts: Karstums'
+  - '&7Aizsardzība: 6'
+  - '&7Darbības rādiuss: 2000 bloki'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J buferis'
   type:
   - '&7&oMašīna'
 DIAMOND_ANVIL:
+  description:
+  - '&7Saspiež materiālu tik stipri,'
+  - '&7ka tas kļūst par pavisam ko citu'
+  name: '&fDimanta lakta'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašīna'
 DIAMOND_ANVIL_CELL:
+  name: '&bDimanta laktas šūna'
   type:
   - '&7&oSastāvdaļa'
 DIAMOND_CIRCUIT:
+  name: '&7Dimanta shēma'
   type:
   - '&7&oSastāvdaļa'
 DRY_ICE:
+  name: '&bSausais ledus'
   type:
   - '&7&oResurss'
 ELECTROLYZER:
+  description:
+  - '&7Ar elektrību sadala'
+  - '&7ķimikālijas to sastāvdaļās'
+  name: '&fElektrolizators'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J buferis'
   type:
   - '&7&oMašīna'
 ENDER_BLOCK:
+  name: '&3Ender bloks'
   type:
   - '&7&oSastāvdaļa'
 ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&fRelikvija: ''Letagivd Yynmukav'
   type:
   - '&7&oDažādi'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Rada spēka lauku, kas neļauj gaisam'
+  - '&7plūst cauri, bet laiž cauri būtnes'
+  name: '&fVides spēka lauka ģenerators'
   type:
   - '&7&oMašīna'
 FALLEN_METEOR:
+  description:
+  - '&7Šie meteori satur volframu'
+  name: '&4Nokritis meteors'
   type:
   - '&7&oResurss'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7Relikvija: Kintups Yyhsdap'
   type:
   - '&7&oDažādi'
 FAN_BLADE:
+  name: '&fVentilatora lāpstiņa'
   type:
   - '&7&oSastāvdaļa'
 FUEL_TANK:
+  name: '&6Degvielas tvertne'
   type:
   - '&7&oSastāvdaļa'
 FUEL_TANK_2:
+  name: '&6Degvielas tvertne Mk 2'
   type:
   - '&7&oSastāvdaļa'
 FUSION_PELLET:
+  name: '&fKodolsintēzes granula'
   type:
   - '&7&oSastāvdaļa'
 FUSION_REACTOR:
+  description:
+  - '&7Ar lāzeriem saplūdina hēlija-3 granulas'
+  - '&7un rada milzum daudz enerģijas'
+  - '&7šajā procesā'
+  name: '&fKodolsintēzes reaktors'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J buferis'
   type:
   - '&7&oĢenerators'
 GLOWSTONE_CIRCUIT:
+  name: '&7Spīdakmens shēma'
   type:
   - '&7&oSastāvdaļa'
 GOLD_FOIL:
+  name: '&6Zelta folija'
   type:
   - '&7&oSastāvdaļa'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pievieno kosmosa tērpam, lai palielinātu karstumizturību'
+  name: '&7Karstumizturības uzlabojums'
   type:
   - '&7&oSastāvdaļa'
 HEAVY_DUTY_SHEET:
+  name: '&fSevišķi izturīga loksne'
   type:
   - '&7&oSastāvdaļa'
 ION_DISPERSER_1:
+  description:
+  - '&7Pasīvi izkliedē radiāciju apkārtējā apgabalā, kamēr ir darbināts'
+  name: '&fJonu izkliedētājs I'
+  stats:
+  - '&7Efekts: Radiācija'
+  - '&7Aizsardzība: 2'
+  - '&7Darbības rādiuss: 1000 bloki'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J buferis'
   type:
   - '&7&oMašīna'
 ION_DISPERSER_2:
+  description:
+  - '&7Pasīvi izkliedē radiāciju apkārtējā apgabalā, kamēr ir darbināts'
+  name: '&fJonu izkliedētājs II'
+  stats:
+  - '&7Efekts: Radiācija'
+  - '&7Aizsardzība: 4'
+  - '&7Darbības rādiuss: 1500 bloki'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašīna'
 ION_ENGINE:
+  name: '&bJonu dzinējs'
   type:
   - '&7&oSastāvdaļa'
 ION_ROCKET:
+  description:
+  - '&7Izmanto īpašu dzinēju, kas'
+  - '&7izsviež jonus milzīgā ātrumā, dodot'
+  - '&7ārkārtīgu degvielas ekonomiju'
+  name: '&bJonu raķete'
+  stats:
+  - '&7Degvielas ietilpība: 500'
+  - '&7Kravas ietilpība: 18'
   type:
   - '&7&oDaudzbloks'
 LANDING_HATCH:
+  description:
+  - '&7Raķetes ignorē šo bloku,'
+  - '&7nolaižoties; tās nolaidīsies uz'
+  - '&7augstākā bloka zem tā. To'
+  - '&7uzskata par gaisam necaurlaidīgu,'
+  - '&7tāpēc ar to var noslēgt telpas'
+  name: '&fNolaišanās lūka'
   type:
   - '&7&oDažādi'
 LAPIS_CIRCUIT:
+  name: '&7Lazurīta shēma'
   type:
   - '&7&oSastāvdaļa'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oResurss'
 LASERITE_DUST:
+  description:
+  - '&7Man beidzas nosaukumi'
+  name: '&cLaserite putekļi'
   type:
   - '&7&oResurss'
 LASERITE_ORE:
+  name: '&cLaserite rūda'
   type:
   - '&7&oResurss'
 LAUNCH_PAD_CORE:
+  name: '&fPalaišanas platformas kodols'
   type:
   - '&7&oDaudzbloks'
+  usage:
+  - '&7Ielenc ar 8 &fpalaišanas platformas grīdām&7'
+  - '&7lai lietotu'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Izmanto palaišanas platformas būvēšanai'
+  name: '&fPalaišanas platformas grīda'
   type:
   - '&7&oDaudzbloks'
 LIFE_SUPPORT_MODULE:
+  name: '&4Dzīvības uzturēšanas modulis'
   type:
   - '&7&oSastāvdaļa'
 LUNAR_GLASS:
+  description:
+  - '&7Nez kāpēc mēness putekļu pievienošana'
+  - '&7stiklam padara to caurspīdīgāku...'
+  name: '&fMēness stikls'
   type:
   - '&7&oSastāvdaļa'
 MARS_DUST:
+  name: '&cMarsa putekļi'
   type:
   - '&7&oResurss'
 MARS_ROCK:
+  name: '&cMarsa iezis'
   type:
   - '&7&oResurss'
 METHANE_ICE:
+  name: '&bMetāna ledus'
   type:
   - '&7&oResurss'
 MOON_CHEESE:
+  description:
+  - '&7Fui'
+  name: '&6Mēness siers'
+  stats:
+  - '&7Atjauno &b2 &7badu'
+  - '&7Atjauno &b2.0 &7sātīgumu'
   type:
   - '&7&oĒdiens'
+  usage:
+  - '&7Novieto, lai ēstu'
 MOON_DUST:
+  name: '&7Mēness putekļi'
   type:
   - '&7&oResurss'
 MOON_ROCK:
+  name: '&7Mēness iezis'
   type:
   - '&7&oResurss'
 MUNPOWDER:
+  description:
+  - '&7Mēness šaujampulveris'
+  name: '&7Mēnespulveris'
   type:
   - '&7&oResurss'
 NOSE_CONE:
+  name: '&fPriekšgala konuss'
   type:
   - '&7&oSastāvdaļa'
 NOZZLE:
+  name: '&fSprausla'
   type:
   - '&7&oSastāvdaļa'
 OBSERVATORY:
+  description:
+  - '&7Ļauj attālināti uzzināt pamata informāciju'
+  - '&7par pasauli. Darbojas tikai pasaulēm,'
+  - '&7kas tuvāk par 0.25 ly (2,365,200,000,000 km)'
+  name: '&fObservatorija'
   type:
   - '&7&oIerīce'
 OXYGEN_FILLER:
+  description:
+  - '&7Uzpilda kosmosa tērpus ar skābekli'
+  name: '&fSkābekļa uzpildītājs'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Ātrums: &b1.0x'
   type:
   - '&7&oMašīna'
 OXYGEN_REGENERATOR:
+  name: '&bSkābekļa reģenerators'
   type:
   - '&7&oSastāvdaļa'
 OXYGEN_SEALER:
+  description:
+  - '&7Piepilda noslēgtu apgabalu ar skābekli'
+  name: '&fSkābekļa hermetizētājs'
+  stats:
+  - '&7Darbības rādiuss: 1000 bloki'
   type:
   - '&7&oMašīna'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Ļauj uzzināt progresīvu informāciju'
+  - '&7par pašreizējo planētu'
+  name: '&fPlanētu analizators'
   type:
   - '&7&oIerīce'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Pievieno kosmosa tērpam, lai palielinātu radiācijas izturību'
+  name: '&7Radiācijas izturības uzlabojums'
   type:
   - '&7&oSastāvdaļa'
 REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&fRelikvija: Rotarenegortkele Yynmukav'
   type:
   - '&7&oDažādi'
 REDSTONE_CIRCUIT:
+  name: '&7Sarkanakmens shēma'
   type:
   - '&7&oSastāvdaļa'
 REINFORCED_CHANNEL:
+  name: '&fPastiprināts kanāls'
   type:
   - '&7&oSastāvdaļa'
 ROCKET_ENGINE:
+  name: '&fRaķetes dzinējs'
   type:
   - '&7&oSastāvdaļa'
 ROCKET_ENGINE_2:
+  name: '&fRaķetes dzinējs Mk 2'
   type:
   - '&7&oSastāvdaļa'
 ROCKET_ENGINE_3:
+  name: '&fRaķetes dzinējs Mk 3'
   type:
   - '&7&oSastāvdaļa'
 ROCKET_TIER_ONE:
+  name: '&4Ķīmiskā raķete, 1. līmenis'
+  stats:
+  - '&7Degvielas ietilpība: 10'
+  - '&7Kravas ietilpība: 9'
   type:
   - '&7&oDaudzbloks'
 ROCKET_TIER_THREE:
+  name: '&4Ķīmiskā raķete, 3. līmenis'
+  stats:
+  - '&7Degvielas ietilpība: 500'
+  - '&7Kravas ietilpība: 36'
   type:
   - '&7&oDaudzbloks'
 ROCKET_TIER_TWO:
+  name: '&4Ķīmiskā raķete, 2. līmenis'
+  stats:
+  - '&7Degvielas ietilpība: 100'
+  - '&7Kravas ietilpība: 18'
   type:
   - '&7&oDaudzbloks'
 SPACE_GRADE_PLATE:
+  name: '&fKosmosa klases plāksne'
   type:
   - '&7&oSastāvdaļa'
 SPACE_HEATER_1:
+  description:
+  - '&7Pasīvi sasilda apkārtējo apgabalu, samazinot aukstuma iedarbību, kamēr ir darbināts'
+  name: '&6Kosmosa sildītājs I'
+  stats:
+  - '&7Efekts: Aukstums'
+  - '&7Aizsardzība: 2'
+  - '&7Darbības rādiuss: 1000 bloki'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J buferis'
   type:
   - '&7&oMašīna'
 SPACE_HEATER_2:
+  description:
+  - '&7Pasīvi sasilda apkārtējo apgabalu, samazinot aukstuma iedarbību, kamēr ir darbināts'
+  name: '&6Kosmosa sildītājs II'
+  stats:
+  - '&7Efekts: Aukstums'
+  - '&7Aizsardzība: 4'
+  - '&7Darbības rādiuss: 1500 bloki'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buferis'
   type:
   - '&7&oMašīna'
 SPACE_HEATER_3:
+  description:
+  - '&7Pasīvi sasilda apkārtējo apgabalu, samazinot aukstuma iedarbību, kamēr ir darbināts'
+  name: '&6Kosmosa sildītājs III'
+  stats:
+  - '&7Efekts: Aukstums'
+  - '&7Aizsardzība: 6'
+  - '&7Darbības rādiuss: 2000 bloki'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J buferis'
   type:
   - '&7&oMašīna'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Pamata kosmosa tērpa zābaki'
+  name: '&fKosmosa tērpa zābaki'
   type:
   - '&7&oBruņas'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Pamata kosmosa tērpa krūšu bruņas'
+  name: '&fKosmosa tērpa krūšu bruņas'
   type:
   - '&7&oBruņas'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Pamata kosmosa tērpa ķivere'
+  name: '&fKosmosa tērpa ķivere'
   type:
   - '&7&oBruņas'
   usage:
   - '&eLabais klikšķis&7, lai izmantotu'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Pamata kosmosa tērpa bikses'
+  name: '&fKosmosa tērpa bikses'
   type:
   - '&7&oBruņas'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Pievieno uzlabojumus tavam kosmosa tērpam'
+  name: '&fKosmosa tērpa uzlabotājs'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Ātrums: &b1.0x'
   type:
   - '&7&oMašīna'
 SPARK_PLUG:
+  name: '&fAizdedzes svece'
   type:
   - '&7&oSastāvdaļa'
 SPARK_PLUG_2:
+  name: '&fAizdedzes svece Mk 2'
   type:
   - '&7&oSastāvdaļa'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Izmanto zvaigžņu vārtu vadīšanai'
+  name: '&9Zvaigžņu vārtu kontrolieris'
   type:
   - '&7&oDaudzbloks'
 STARGATE_RING:
+  description:
+  - '&7Izmanto zvaigžņu vārtu būvēšanai'
+  name: '&9Zvaigžņu vārtu gredzens'
   type:
   - '&7&oDaudzbloks'
 SULFUR_BLOCK:
+  name: '&6Sēra bloks'
   type:
   - '&7&oResurss'
 SUPER_FAN:
+  description:
+  - '&7Novieto to blakus blokam, kam vajadzīgs'
+  - '&7noslēgts apgabals, lai paplašinātu rādiusu par 15%'
+  name: '&7Super ventilators'
   type:
   - '&7&oDažādi'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Atgūst visu atgūstamo no relikvijām'
+  name: '&fTehnoloģiju atgūtājs'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J buferis'
   type:
   - '&7&oMašīna'
 TUNGSTEN_CARBIDE:
+  name: '&7Volframa karbīds'
   type:
   - '&7&oResurss'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Izturīgs metāls, ko iegūst vai nu,'
+  - '&7dodot marsiešiem pastiprinātas plāksnes, vai'
+  - '&7kausējot nokritušus meteorus'
+  name: '&bVolframa lietnis'
   type:
   - '&7&oResurss'
 ULTRA_DUTY_SHEET:
+  name: '&fUltraizturīga loksne'
   type:
   - '&7&oSastāvdaļa'
 VENTSTONE:
+  name: '&6Ventakmens'
   type:
   - '&7&oResurss'
 VOLCANIC_INGOT:
+  description:
+  - '&7Kalti dziļumos vistuvākajā vietā,'
+  - '&7ko pazīstam kā elli, vulkāniskie lietņi'
+  - '&7ir vērtīga prece'
+  name: '&4Vulkāniskais lietnis'
   type:
   - '&7&oResurss'
