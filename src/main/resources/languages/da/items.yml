@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Avanceret processorenhed'
   type:
   - '&7&oKomponent'
 AIR_FILTER:
+  name: '&fFilter'
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Du gætter aldrig, hvor lang tid det tog os'
+  - '&7at navngive dette materiale'
+  name: '&fAluminiumkomposit'
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAluminiumkompositplade'
   type:
   - '&7&oKomponent'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Bruges til at bygge mange ting'
+  name: '&fSamlebord'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/fremstilling'
   type:
   - '&7&oMaskine'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmmoniakgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgongasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fKuldioxidgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHeliumgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fKulbrintegasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fBrintgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetangasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fKvælstofgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fIltgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fVandgasbeholder'
   type:
   - '&7&oRessource'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Samler gasser fra atmosfæren'
+  name: '&fAtmosfærehøster'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J buffer'
   type:
   - '&7&oMaskine'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Placerer/fjerner automatisk blokkene indeni'
+  - '&7når du går hen til/væk fra den'
+  name: '&fAutomatisk dør'
   type:
   - '&7&oMaskine'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Glohed vulkansk barre'
   type:
   - '&7&oRessource'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7Relikvie: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oDiverse'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Får kemikalier til at reagere'
+  - '&7og danne nye'
+  name: '&fKemisk reaktor'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J buffer'
   type:
   - '&7&oMaskine'
 CIRCUIT_PRESS:
+  description:
+  - '&7Fremstiller kredsløb'
+  name: '&fKredsløbspresse'
   stats:
   - '&8⇨ &e⚡ &7512 J buffer'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMaskine'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Tilføj til din rumdragt for at øge kuldemodstanden'
+  name: '&7Kuldemodstandsopgradering'
   type:
   - '&7&oKomponent'
 COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&fRelikvie: Retuypmok Yyntnavk'
   type:
   - '&7&oDiverse'
 COOLING_UNIT_1:
+  description:
+  - '&7Køler passivt det omkringliggende område og mindsker varmepåvirkning, mens den har strøm'
+  name: '&bKøleenhed I'
+  stats:
+  - '&7Effekt: Varme'
+  - '&7Beskyttelse: 2'
+  - '&7Rækkevidde: 1000 blokke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buffer'
   type:
   - '&7&oMaskine'
 COOLING_UNIT_2:
+  description:
+  - '&7Køler passivt det omkringliggende område og mindsker varmepåvirkning, mens den har strøm'
+  name: '&bKøleenhed II'
+  stats:
+  - '&7Effekt: Varme'
+  - '&7Beskyttelse: 4'
+  - '&7Rækkevidde: 1500 blokke'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J buffer'
   type:
   - '&7&oMaskine'
 COOLING_UNIT_3:
+  description:
+  - '&7Køler passivt det omkringliggende område og mindsker varmepåvirkning, mens den har strøm'
+  name: '&bKøleenhed III'
+  stats:
+  - '&7Effekt: Varme'
+  - '&7Beskyttelse: 6'
+  - '&7Rækkevidde: 2000 blokke'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J buffer'
   type:
   - '&7&oMaskine'
 DIAMOND_ANVIL:
+  description:
+  - '&7Komprimerer materiale så hårdt'
+  - '&7at det bliver til noget helt andet'
+  name: '&fDiamantambolt'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J buffer'
   type:
   - '&7&oMaskine'
 DIAMOND_ANVIL_CELL:
+  name: '&bDiamantamboltcelle'
   type:
   - '&7&oKomponent'
 DIAMOND_CIRCUIT:
+  name: '&7Diamantkredsløb'
   type:
   - '&7&oKomponent'
 DRY_ICE:
+  name: '&bTøris'
   type:
   - '&7&oRessource'
 ELECTROLYZER:
+  description:
+  - '&7Bruger elektricitet til at spalte'
+  - '&7kemikalier i deres bestanddele'
+  name: '&fElektrolysator'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J buffer'
   type:
   - '&7&oMaskine'
 ENDER_BLOCK:
+  name: '&3Enderblok'
   type:
   - '&7&oKomponent'
 ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&fRelikvie: ''Letagivd Yynmukav'
   type:
   - '&7&oDiverse'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Danner et kraftfelt, der forhindrer luft i'
+  - '&7at slippe igennem, men lader væsner passere'
+  name: '&fMiljøkraftfeltgenerator'
   type:
   - '&7&oMaskine'
 FALLEN_METEOR:
+  description:
+  - '&7Disse meteorer indeholder wolfram'
+  name: '&4Nedstyrtet meteor'
   type:
   - '&7&oRessource'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7Relikvie: Kintups Yyhsdap'
   type:
   - '&7&oDiverse'
 FAN_BLADE:
+  name: '&fVentilatorvinge'
   type:
   - '&7&oKomponent'
 FUEL_TANK:
+  name: '&6Brændstoftank'
   type:
   - '&7&oKomponent'
 FUEL_TANK_2:
+  name: '&6Brændstoftank Mk 2'
   type:
   - '&7&oKomponent'
 FUSION_PELLET:
+  name: '&fFusionspellet'
   type:
   - '&7&oKomponent'
 FUSION_REACTOR:
+  description:
+  - '&7Bruger lasere til at fusionere Helium-3-pellets'
+  - '&7og genererer en hvalmasse af energi'
+  - '&7undervejs'
+  name: '&fFusionsreaktor'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J buffer'
   type:
   - '&7&oGenerator'
 GLOWSTONE_CIRCUIT:
+  name: '&7Glowstonekredsløb'
   type:
   - '&7&oKomponent'
 GOLD_FOIL:
+  name: '&6Guldfolie'
   type:
   - '&7&oKomponent'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Tilføj til din rumdragt for at øge varmemodstanden'
+  name: '&7Varmemodstandsopgradering'
   type:
   - '&7&oKomponent'
 HEAVY_DUTY_SHEET:
+  name: '&fKraftig plade'
   type:
   - '&7&oKomponent'
 ION_DISPERSER_1:
+  description:
+  - '&7Spreder passivt stråling i det omkringliggende område, mens den har strøm'
+  name: '&fIonspreder I'
+  stats:
+  - '&7Effekt: Stråling'
+  - '&7Beskyttelse: 2'
+  - '&7Rækkevidde: 1000 blokke'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J buffer'
   type:
   - '&7&oMaskine'
 ION_DISPERSER_2:
+  description:
+  - '&7Spreder passivt stråling i det omkringliggende område, mens den har strøm'
+  name: '&fIonspreder II'
+  stats:
+  - '&7Effekt: Stråling'
+  - '&7Beskyttelse: 4'
+  - '&7Rækkevidde: 1500 blokke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buffer'
   type:
   - '&7&oMaskine'
 ION_ENGINE:
+  name: '&bIonmotor'
   type:
   - '&7&oKomponent'
 ION_ROCKET:
+  description:
+  - '&7Bruger en specialiseret motor, der'
+  - '&7udstøder ioner med stor hastighed og giver'
+  - '&7ekstrem brændstoføkonomi'
+  name: '&bIonraket'
+  stats:
+  - '&7Brændstofkapacitet: 500'
+  - '&7Fragtkapacitet: 18'
   type:
   - '&7&oMultiblok'
 LANDING_HATCH:
+  description:
+  - '&7Raketter ignorerer denne blok, når'
+  - '&7de lander; de lander på den'
+  - '&7højeste blok under den. Den'
+  - '&7regnes for ugennemtrængelig for luft'
+  - '&7så den kan bruges til at forsegle rum'
+  name: '&fLandingsluge'
   type:
   - '&7&oDiverse'
 LAPIS_CIRCUIT:
+  name: '&7Lapiskredsløb'
   type:
   - '&7&oKomponent'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oRessource'
 LASERITE_DUST:
+  description:
+  - '&7Jeg er ved at løbe tør for navne'
+  name: '&cLaseritstøv'
   type:
   - '&7&oRessource'
 LASERITE_ORE:
+  name: '&cLaseritmalm'
   type:
   - '&7&oRessource'
 LAUNCH_PAD_CORE:
+  name: '&fOpsendelsesplatformskerne'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&7Omgiv med 8 &fOpsendelsesplatformsgulv&7e'
+  - '&7for at kunne bruge den'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Bruges til at bygge opsendelsesplatformen'
+  name: '&fOpsendelsesplatformsgulv'
   type:
   - '&7&oMultiblok'
 LIFE_SUPPORT_MODULE:
+  name: '&4Livsstøttemodul'
   type:
   - '&7&oKomponent'
 LUNAR_GLASS:
+  description:
+  - '&7Af en eller anden grund bliver glas klarere,'
+  - '&7når man tilsætter månestøv...'
+  name: '&fMåneglas'
   type:
   - '&7&oKomponent'
 MARS_DUST:
+  name: '&cMarsstøv'
   type:
   - '&7&oRessource'
 MARS_ROCK:
+  name: '&cMarssten'
   type:
   - '&7&oRessource'
 METHANE_ICE:
+  name: '&bMetanis'
   type:
   - '&7&oRessource'
 MOON_CHEESE:
+  description:
+  - '&7Ad'
+  name: '&6Måneost'
+  stats:
+  - '&7Genopretter &b2 &7sult'
+  - '&7Genopretter &b2.0 &7mæthed'
   type:
   - '&7&oMad'
+  usage:
+  - '&7Placer for at spise'
 MOON_DUST:
+  name: '&7Månestøv'
   type:
   - '&7&oRessource'
 MOON_ROCK:
+  name: '&7Månesten'
   type:
   - '&7&oRessource'
 MUNPOWDER:
+  description:
+  - '&7Månens krudt'
+  name: '&7Månekrudt'
   type:
   - '&7&oRessource'
 NOSE_CONE:
+  name: '&fNæsekegle'
   type:
   - '&7&oKomponent'
 NOZZLE:
+  name: '&fDyse'
   type:
   - '&7&oKomponent'
 OBSERVATORY:
+  description:
+  - '&7Lader dig opdage basale oplysninger om'
+  - '&7en verden på afstand. Virker kun på verdener'
+  - '&7tættere end 0.25 ly (2,365,200,000,000 km)'
+  name: '&fObservatorium'
   type:
   - '&7&oGadget'
 OXYGEN_FILLER:
+  description:
+  - '&7Fylder rumdragter med ilt'
+  name: '&fIltpåfylder'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Hastighed: &b1.0x'
   type:
   - '&7&oMaskine'
 OXYGEN_REGENERATOR:
+  name: '&bIltregenerator'
   type:
   - '&7&oKomponent'
 OXYGEN_SEALER:
+  description:
+  - '&7Fylder et forseglet område med ilt'
+  name: '&fIltforsegler'
+  stats:
+  - '&7Rækkevidde: 1000 blokke'
   type:
   - '&7&oMaskine'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Lader dig opdage avancerede oplysninger'
+  - '&7om den nuværende planet'
+  name: '&fPlanetarisk analysator'
   type:
   - '&7&oGadget'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Tilføj til din rumdragt for at øge strålingsmodstanden'
+  name: '&7Strålingsmodstandsopgradering'
   type:
   - '&7&oKomponent'
 REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&fRelikvie: Rotarenegortkele Yynmukav'
   type:
   - '&7&oDiverse'
 REDSTONE_CIRCUIT:
+  name: '&7Redstonekredsløb'
   type:
   - '&7&oKomponent'
 REINFORCED_CHANNEL:
+  name: '&fForstærket kanal'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE:
+  name: '&fRaketmotor'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE_2:
+  name: '&fRaketmotor Mk 2'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE_3:
+  name: '&fRaketmotor Mk 3'
   type:
   - '&7&oKomponent'
 ROCKET_TIER_ONE:
+  name: '&4Kemisk raket trin 1'
+  stats:
+  - '&7Brændstofkapacitet: 10'
+  - '&7Fragtkapacitet: 9'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_THREE:
+  name: '&4Kemisk raket trin 3'
+  stats:
+  - '&7Brændstofkapacitet: 500'
+  - '&7Fragtkapacitet: 36'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_TWO:
+  name: '&4Kemisk raket trin 2'
+  stats:
+  - '&7Brændstofkapacitet: 100'
+  - '&7Fragtkapacitet: 18'
   type:
   - '&7&oMultiblok'
 SPACE_GRADE_PLATE:
+  name: '&fRumgodkendt plade'
   type:
   - '&7&oKomponent'
 SPACE_HEATER_1:
+  description:
+  - '&7Varmer passivt det omkringliggende område og mindsker kuldepåvirkning, mens den har strøm'
+  name: '&6Rumvarmer I'
+  stats:
+  - '&7Effekt: Kulde'
+  - '&7Beskyttelse: 2'
+  - '&7Rækkevidde: 1000 blokke'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J buffer'
   type:
   - '&7&oMaskine'
 SPACE_HEATER_2:
+  description:
+  - '&7Varmer passivt det omkringliggende område og mindsker kuldepåvirkning, mens den har strøm'
+  name: '&6Rumvarmer II'
+  stats:
+  - '&7Effekt: Kulde'
+  - '&7Beskyttelse: 4'
+  - '&7Rækkevidde: 1500 blokke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J buffer'
   type:
   - '&7&oMaskine'
 SPACE_HEATER_3:
+  description:
+  - '&7Varmer passivt det omkringliggende område og mindsker kuldepåvirkning, mens den har strøm'
+  name: '&6Rumvarmer III'
+  stats:
+  - '&7Effekt: Kulde'
+  - '&7Beskyttelse: 6'
+  - '&7Rækkevidde: 2000 blokke'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J buffer'
   type:
   - '&7&oMaskine'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Et basalt par rumdragtsstøvler'
+  name: '&fRumdragtsstøvler'
   type:
   - '&7&oRustning'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7En basal rumdragtsbrystplade'
+  name: '&fRumdragtsbrystplade'
   type:
   - '&7&oRustning'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7En basal rumdragtshjelm'
+  name: '&fRumdragtshjelm'
   type:
   - '&7&oRustning'
   usage:
   - '&eHøjreklik&7 for at bruge'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Et basalt par rumdragtsbukser'
+  name: '&fRumdragtsbukser'
   type:
   - '&7&oRustning'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Tilføjer opgraderinger til din rumdragt'
+  name: '&fRumdragtsopgraderer'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Hastighed: &b1.0x'
   type:
   - '&7&oMaskine'
 SPARK_PLUG:
+  name: '&fTændrør'
   type:
   - '&7&oKomponent'
 SPARK_PLUG_2:
+  name: '&fTændrør Mk 2'
   type:
   - '&7&oKomponent'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Bruges til at styre en stjerneport'
+  name: '&9Stjerneportsstyreenhed'
   type:
   - '&7&oMultiblok'
 STARGATE_RING:
+  description:
+  - '&7Bruges til at bygge en stjerneport'
+  name: '&9Stjerneportsring'
   type:
   - '&7&oMultiblok'
 SULFUR_BLOCK:
+  name: '&6Svovlblok'
   type:
   - '&7&oRessource'
 SUPER_FAN:
+  description:
+  - '&7Placer denne ved siden af en blok, der kræver'
+  - '&7et forseglet område, for at øge rækkevidden med 15%'
+  name: '&7Superventilator'
   type:
   - '&7&oDiverse'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Bjærger alt brugbart fra relikvier'
+  name: '&fTeknologisk bjærger'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J buffer'
   type:
   - '&7&oMaskine'
 TUNGSTEN_CARBIDE:
+  name: '&7Wolframkarbid'
   type:
   - '&7&oRessource'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Et stærkt metal, der enten fås ved'
+  - '&7at give marsboere forstærkede plader eller'
+  - '&7ved at smelte nedstyrtede meteorer'
+  name: '&bWolframbarre'
   type:
   - '&7&oRessource'
 ULTRA_DUTY_SHEET:
+  name: '&fUltrakraftig plade'
   type:
   - '&7&oKomponent'
 VENTSTONE:
+  name: '&6Ventsten'
   type:
   - '&7&oRessource'
 VOLCANIC_INGOT:
+  description:
+  - '&7Smedet i dybet af det nærmeste, vi'
+  - '&7kender til Helvede, er vulkanske barrer'
+  - '&7en værdifuld handelsvare'
+  name: '&4Vulkansk barre'
   type:
   - '&7&oRessource'
