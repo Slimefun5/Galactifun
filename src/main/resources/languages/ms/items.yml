@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Unit Pemprosesan Lanjutan'
   type:
   - '&7&oKomponen'
 AIR_FILTER:
+  name: '&fPenapis'
   type:
   - '&7&oKomponen'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Anda takkan dapat teka berapa lama masa kami ambil'
+  - '&7untuk menamakan bahan ini'
+  name: '&fKomposit Aluminium'
   type:
   - '&7&oKomponen'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fKepingan Komposit Aluminium'
   type:
   - '&7&oKomponen'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Digunakan untuk membina pelbagai benda'
+  name: '&fMeja Pemasangan'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Buatan'
   type:
   - '&7&oMesin'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fTabung Gas Ammonia'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fTabung Gas Argon'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fTabung Gas Karbon Dioksida'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fTabung Gas Helium'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fTabung Gas Hidrokarbon'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fTabung Gas Hidrogen'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fTabung Gas Metana'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fTabung Gas Nitrogen'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fTabung Gas Oksigen'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fTabung Gas Air'
   type:
   - '&7&oSumber'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Mengumpul gas dari atmosfera'
+  name: '&fPenuai Atmosfera'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7Penimbal 128 J'
   type:
   - '&7&oMesin'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Secara automatik meletak/membuang blok di dalamnya'
+  - '&7apabila anda menghampiri/menjauhinya'
+  name: '&fPintu Automatik'
   type:
   - '&7&oMesin'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Jongkong Gunung Berapi Membara'
   type:
   - '&7&oSumber'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7Peninggalan: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oPelbagai'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Membuat bahan kimia bertindak balas'
+  - '&7untuk menghasilkan yang baharu'
+  name: '&fReaktor Kimia'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7Penimbal 512 J'
   type:
   - '&7&oMesin'
 CIRCUIT_PRESS:
+  description:
+  - '&7Menghasilkan litar'
+  name: '&fMesin Tekan Litar'
   stats:
   - '&8⇨ &e⚡ &7Penimbal 512 J'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMesin'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Tambah pada sut angkasa anda untuk meningkatkan rintangan sejuk'
+  name: '&7Naik Taraf Rintangan Sejuk'
   type:
   - '&7&oKomponen'
 COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&fPeninggalan: Retuypmok Yyntnavk'
   type:
   - '&7&oPelbagai'
 COOLING_UNIT_1:
+  description:
+  - '&7Menyejukkan kawasan sekeliling secara pasif, mengurangkan pendedahan haba semasa berkuasa'
+  name: '&bUnit Penyejuk I'
+  stats:
+  - '&7Kesan: Haba'
+  - '&7Perlindungan: 2'
+  - '&7Julat: 1000 blok'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Penimbal'
   type:
   - '&7&oMesin'
 COOLING_UNIT_2:
+  description:
+  - '&7Menyejukkan kawasan sekeliling secara pasif, mengurangkan pendedahan haba semasa berkuasa'
+  name: '&bUnit Penyejuk II'
+  stats:
+  - '&7Kesan: Haba'
+  - '&7Perlindungan: 4'
+  - '&7Julat: 1500 blok'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Penimbal'
   type:
   - '&7&oMesin'
 COOLING_UNIT_3:
+  description:
+  - '&7Menyejukkan kawasan sekeliling secara pasif, mengurangkan pendedahan haba semasa berkuasa'
+  name: '&bUnit Penyejuk III'
+  stats:
+  - '&7Kesan: Haba'
+  - '&7Perlindungan: 6'
+  - '&7Julat: 2000 blok'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Penimbal'
   type:
   - '&7&oMesin'
 DIAMOND_ANVIL:
+  description:
+  - '&7Memampat bahan dengan begitu kuat'
+  - '&7sehingga ia bertukar menjadi benda lain sama sekali'
+  name: '&fAndas Berlian'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &7Penimbal 2048 J'
   type:
   - '&7&oMesin'
 DIAMOND_ANVIL_CELL:
+  name: '&bSel Andas Berlian'
   type:
   - '&7&oKomponen'
 DIAMOND_CIRCUIT:
+  name: '&7Litar Berlian'
   type:
   - '&7&oKomponen'
 DRY_ICE:
+  name: '&bAis Kering'
   type:
   - '&7&oSumber'
 ELECTROLYZER:
+  description:
+  - '&7Menggunakan elektrik untuk memecahkan'
+  - '&7bahan kimia kepada juzuk-juzuknya'
+  name: '&fPengelektrolisis'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7Penimbal 512 J'
   type:
   - '&7&oMesin'
 ENDER_BLOCK:
+  name: '&3Blok Ender'
   type:
   - '&7&oKomponen'
 ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&fPeninggalan: ''Letagivd Yynmukav'
   type:
   - '&7&oPelbagai'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Menghasilkan medan daya yang menghalang udara'
+  - '&7daripada menembusinya, tetapi membenarkan entiti'
+  name: '&fPenjana Medan Daya Persekitaran'
   type:
   - '&7&oMesin'
 FALLEN_METEOR:
+  description:
+  - '&7Meteor ini mengandungi Tungsten'
+  name: '&4Meteor Jatuh'
   type:
   - '&7&oSumber'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7Peninggalan: Kintups Yyhsdap'
   type:
   - '&7&oPelbagai'
 FAN_BLADE:
+  name: '&fBilah Kipas'
   type:
   - '&7&oKomponen'
 FUEL_TANK:
+  name: '&6Tangki Bahan Api'
   type:
   - '&7&oKomponen'
 FUEL_TANK_2:
+  name: '&6Tangki Bahan Api Mk 2'
   type:
   - '&7&oKomponen'
 FUSION_PELLET:
+  name: '&fPelet Pelakuran'
   type:
   - '&7&oKomponen'
 FUSION_REACTOR:
+  description:
+  - '&7Menggunakan laser untuk melakurkan pelet Helium-3'
+  - '&7dan menjana tenaga yang teramat banyak'
+  - '&7dalam prosesnya'
+  name: '&fReaktor Pelakuran'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &7Penimbal 65536 J'
   type:
   - '&7&oPenjana'
 GLOWSTONE_CIRCUIT:
+  name: '&7Litar Batu Bersinar'
   type:
   - '&7&oKomponen'
 GOLD_FOIL:
+  name: '&6Kerajang Emas'
   type:
   - '&7&oKomponen'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Tambah pada sut angkasa anda untuk meningkatkan rintangan haba'
+  name: '&7Naik Taraf Rintangan Haba'
   type:
   - '&7&oKomponen'
 HEAVY_DUTY_SHEET:
+  name: '&fKepingan Tugas Berat'
   type:
   - '&7&oKomponen'
 ION_DISPERSER_1:
+  description:
+  - '&7Menyerakkan sinaran di kawasan sekeliling secara pasif semasa berkuasa'
+  name: '&fPenyerak Ion I'
+  stats:
+  - '&7Kesan: Sinaran'
+  - '&7Perlindungan: 2'
+  - '&7Julat: 1000 blok'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Penimbal'
   type:
   - '&7&oMesin'
 ION_DISPERSER_2:
+  description:
+  - '&7Menyerakkan sinaran di kawasan sekeliling secara pasif semasa berkuasa'
+  name: '&fPenyerak Ion II'
+  stats:
+  - '&7Kesan: Sinaran'
+  - '&7Perlindungan: 4'
+  - '&7Julat: 1500 blok'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Penimbal'
   type:
   - '&7&oMesin'
 ION_ENGINE:
+  name: '&bEnjin Ion'
   type:
   - '&7&oKomponen'
 ION_ROCKET:
+  description:
+  - '&7Menggunakan enjin khusus yang'
+  - '&7menyembur ion pada kelajuan tinggi, memberikan'
+  - '&7kecekapan bahan api yang melampau'
+  name: '&bRoket Ion'
+  stats:
+  - '&7Kapasiti Bahan Api: 500'
+  - '&7Kapasiti Kargo: 18'
   type:
   - '&7&oMultiblok'
 LANDING_HATCH:
+  description:
+  - '&7Roket mengabaikan blok ini semasa'
+  - '&7mendarat; ia akan mendarat pada'
+  - '&7blok tertinggi di bawahnya. Ia'
+  - '&7dianggap tidak boleh dilalui udara'
+  - '&7jadi ia boleh digunakan untuk menutup ruang'
+  name: '&fPintu Pendaratan'
   type:
   - '&7&oPelbagai'
 LAPIS_CIRCUIT:
+  name: '&7Litar Lazuardi'
   type:
   - '&7&oKomponen'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oSumber'
 LASERITE_DUST:
+  description:
+  - '&7Saya sudah kehabisan nama'
+  name: '&cSerbuk Laserite'
   type:
   - '&7&oSumber'
 LASERITE_ORE:
+  name: '&cBijih Laserite'
   type:
   - '&7&oSumber'
 LAUNCH_PAD_CORE:
+  name: '&fTeras Pad Pelancaran'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&7Kelilingi dengan 8 &fLantai Pad Pelancaran&7'
+  - '&7untuk digunakan'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Digunakan untuk membina Pad Pelancaran'
+  name: '&fLantai Pad Pelancaran'
   type:
   - '&7&oMultiblok'
 LIFE_SUPPORT_MODULE:
+  name: '&4Modul Sokongan Hayat'
   type:
   - '&7&oKomponen'
 LUNAR_GLASS:
+  description:
+  - '&7Atas sebab tertentu, menambah serbuk bulan pada'
+  - '&7kaca menjadikannya lebih jernih...'
+  name: '&fKaca Bulan'
   type:
   - '&7&oKomponen'
 MARS_DUST:
+  name: '&cSerbuk Marikh'
   type:
   - '&7&oSumber'
 MARS_ROCK:
+  name: '&cBatu Marikh'
   type:
   - '&7&oSumber'
 METHANE_ICE:
+  name: '&bAis Metana'
   type:
   - '&7&oSumber'
 MOON_CHEESE:
+  description:
+  - '&7Geli'
+  name: '&6Keju Bulan'
+  stats:
+  - '&7Memulihkan &b2 &7Kelaparan'
+  - '&7Memulihkan &b2.0 &7Ketepuan'
   type:
   - '&7&oMakanan'
+  usage:
+  - '&7Letak untuk makan'
 MOON_DUST:
+  name: '&7Serbuk Bulan'
   type:
   - '&7&oSumber'
 MOON_ROCK:
+  name: '&7Batu Bulan'
   type:
   - '&7&oSumber'
 MUNPOWDER:
+  description:
+  - '&7Serbuk letup dari bulan'
+  name: '&7Munpowder'
   type:
   - '&7&oSumber'
 NOSE_CONE:
+  name: '&fKon Hidung'
   type:
   - '&7&oKomponen'
 NOZZLE:
+  name: '&fMuncung'
   type:
   - '&7&oKomponen'
 OBSERVATORY:
+  description:
+  - '&7Membolehkan anda menemui maklumat asas tentang'
+  - '&7sesebuah dunia dari jauh. Hanya berkesan pada dunia'
+  - '&7lebih dekat daripada 0.25 ly (2,365,200,000,000 km)'
+  name: '&fBalai Cerap'
   type:
   - '&7&oGajet'
 OXYGEN_FILLER:
+  description:
+  - '&7Mengisi sut angkasa dengan oksigen'
+  name: '&fPengisi Oksigen'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Kelajuan: &b1.0x'
   type:
   - '&7&oMesin'
 OXYGEN_REGENERATOR:
+  name: '&bPenjana Semula Oksigen'
   type:
   - '&7&oKomponen'
 OXYGEN_SEALER:
+  description:
+  - '&7Mengisi kawasan tertutup dengan oksigen'
+  name: '&fPemeteri Oksigen'
+  stats:
+  - '&7Julat: 1000 blok'
   type:
   - '&7&oMesin'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Membolehkan anda menemui maklumat lanjutan'
+  - '&7tentang planet semasa'
+  name: '&fPenganalisis Planet'
   type:
   - '&7&oGajet'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Tambah pada sut angkasa anda untuk meningkatkan rintangan sinaran'
+  name: '&7Naik Taraf Rintangan Sinaran'
   type:
   - '&7&oKomponen'
 REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&fPeninggalan: Rotarenegortkele Yynmukav'
   type:
   - '&7&oPelbagai'
 REDSTONE_CIRCUIT:
+  name: '&7Litar Batu Merah'
   type:
   - '&7&oKomponen'
 REINFORCED_CHANNEL:
+  name: '&fSalur Diperkukuh'
   type:
   - '&7&oKomponen'
 ROCKET_ENGINE:
+  name: '&fEnjin Roket'
   type:
   - '&7&oKomponen'
 ROCKET_ENGINE_2:
+  name: '&fEnjin Roket Mk 2'
   type:
   - '&7&oKomponen'
 ROCKET_ENGINE_3:
+  name: '&fEnjin Roket Mk 3'
   type:
   - '&7&oKomponen'
 ROCKET_TIER_ONE:
+  name: '&4Roket Kimia Peringkat 1'
+  stats:
+  - '&7Kapasiti Bahan Api: 10'
+  - '&7Kapasiti Kargo: 9'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_THREE:
+  name: '&4Roket Kimia Peringkat 3'
+  stats:
+  - '&7Kapasiti Bahan Api: 500'
+  - '&7Kapasiti Kargo: 36'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_TWO:
+  name: '&4Roket Kimia Peringkat 2'
+  stats:
+  - '&7Kapasiti Bahan Api: 100'
+  - '&7Kapasiti Kargo: 18'
   type:
   - '&7&oMultiblok'
 SPACE_GRADE_PLATE:
+  name: '&fPlat Gred Angkasa'
   type:
   - '&7&oKomponen'
 SPACE_HEATER_1:
+  description:
+  - '&7Memanaskan kawasan sekeliling secara pasif, mengurangkan pendedahan sejuk semasa berkuasa'
+  name: '&6Pemanas Angkasa I'
+  stats:
+  - '&7Kesan: Sejuk'
+  - '&7Perlindungan: 2'
+  - '&7Julat: 1000 blok'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Penimbal'
   type:
   - '&7&oMesin'
 SPACE_HEATER_2:
+  description:
+  - '&7Memanaskan kawasan sekeliling secara pasif, mengurangkan pendedahan sejuk semasa berkuasa'
+  name: '&6Pemanas Angkasa II'
+  stats:
+  - '&7Kesan: Sejuk'
+  - '&7Perlindungan: 4'
+  - '&7Julat: 1500 blok'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Penimbal'
   type:
   - '&7&oMesin'
 SPACE_HEATER_3:
+  description:
+  - '&7Memanaskan kawasan sekeliling secara pasif, mengurangkan pendedahan sejuk semasa berkuasa'
+  name: '&6Pemanas Angkasa III'
+  stats:
+  - '&7Kesan: Sejuk'
+  - '&7Perlindungan: 6'
+  - '&7Julat: 2000 blok'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Penimbal'
   type:
   - '&7&oMesin'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Sepasang but sut angkasa asas'
+  name: '&fBut Sut Angkasa'
   type:
   - '&7&oPerisai'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Pelindung dada sut angkasa asas'
+  name: '&fPelindung Dada Sut Angkasa'
   type:
   - '&7&oPerisai'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Topi keledar sut angkasa asas'
+  name: '&fTopi Keledar Sut Angkasa'
   type:
   - '&7&oPerisai'
   usage:
   - '&eKlik Kanan&7 untuk menggunakannya'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Sepasang seluar sut angkasa asas'
+  name: '&fSeluar Sut Angkasa'
   type:
   - '&7&oPerisai'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Menambah naik taraf pada sut angkasa anda'
+  name: '&fPenaik Taraf Sut Angkasa'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Kelajuan: &b1.0x'
   type:
   - '&7&oMesin'
 SPARK_PLUG:
+  name: '&fPalam Pencucuh'
   type:
   - '&7&oKomponen'
 SPARK_PLUG_2:
+  name: '&fPalam Pencucuh Mk 2'
   type:
   - '&7&oKomponen'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Digunakan untuk mengawal pintu bintang'
+  name: '&9Pengawal Pintu Bintang'
   type:
   - '&7&oMultiblok'
 STARGATE_RING:
+  description:
+  - '&7Digunakan untuk membina pintu bintang'
+  name: '&9Cincin Pintu Bintang'
   type:
   - '&7&oMultiblok'
 SULFUR_BLOCK:
+  name: '&6Blok Sulfur'
   type:
   - '&7&oSumber'
 SUPER_FAN:
+  description:
+  - '&7Letak ini di sebelah blok yang memerlukan'
+  - '&7kawasan tertutup untuk memanjangkan julat sebanyak 15%'
+  name: '&7Kipas Super'
   type:
   - '&7&oPelbagai'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Menyelamatkan apa sahaja yang boleh diselamatkan daripada peninggalan'
+  name: '&fPenyelamat Teknologi'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7Penimbal 64 J'
   type:
   - '&7&oMesin'
 TUNGSTEN_CARBIDE:
+  name: '&7Tungsten Karbida'
   type:
   - '&7&oSumber'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Logam kuat yang diperoleh sama ada daripada'
+  - '&7memberi Marikhian plat diperkukuh atau'
+  - '&7daripada melebur meteor yang jatuh'
+  name: '&bJongkong Tungsten'
   type:
   - '&7&oSumber'
 ULTRA_DUTY_SHEET:
+  name: '&fKepingan Tugas Ultra'
   type:
   - '&7&oKomponen'
 VENTSTONE:
+  name: '&6Batu Lohong'
   type:
   - '&7&oSumber'
 VOLCANIC_INGOT:
+  description:
+  - '&7Ditempa di kedalaman tempat paling hampir'
+  - '&7dengan Neraka yang kami tahu, Jongkong Gunung Berapi'
+  - '&7ialah komoditi yang amat bernilai'
+  name: '&4Jongkong Gunung Berapi'
   type:
   - '&7&oSumber'
