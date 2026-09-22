@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Gevorderde Verwerkingseenheid'
   type:
   - '&7&oKomponent'
 AIR_FILTER:
+  name: '&fFilter'
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Jy sal nooit raai hoe lank dit ons geneem het'
+  - '&7om hierdie materiaal te noem nie'
+  name: '&fAluminiumkomposiet'
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAluminiumkomposietvel'
   type:
   - '&7&oKomponent'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Word gebruik om baie dinge te bou'
+  name: '&fMonteertafel'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Vervaardiging'
   type:
   - '&7&oMasjien'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmmoniakgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgongaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fKoolstofdioksiedgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHeliumgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fKoolwaterstofgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fWaterstofgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetaangaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fStikstofgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fSuurstofgaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fWatergaskanister'
   type:
   - '&7&oHulpbron'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Versamel gasse uit die atmosfeer'
+  name: '&fAtmosferiese Oesmasjien'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J Buffer'
   type:
   - '&7&oMasjien'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Plaas/verwyder outomaties die blokke binne-in'
+  - '&7wanneer jy na/weg van dit beweeg'
+  name: '&fOutomatiese Deur'
   type:
   - '&7&oMasjien'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Skroeiende Vulkaniese Staaf'
   type:
   - '&7&oHulpbron'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7Relikwie: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oAllerlei'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Laat chemikalieë saam reageer'
+  - '&7om nuwes te skep'
+  name: '&fChemiese Reaktor'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Buffer'
   type:
   - '&7&oMasjien'
 CIRCUIT_PRESS:
+  description:
+  - '&7Skep stroombane'
+  name: '&fStroombaanpers'
   stats:
   - '&8⇨ &e⚡ &7512 J Buffer'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMasjien'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Voeg by jou ruimtepak om koueweerstand te verhoog'
+  name: '&7Koueweerstandsopgradering'
   type:
   - '&7&oKomponent'
 COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&fRelikwie: Retuypmok Yyntnavk'
   type:
   - '&7&oAllerlei'
 COOLING_UNIT_1:
+  description:
+  - '&7Verkoel passief die omliggende gebied en verminder hitteblootstelling terwyl dit aangedryf word'
+  name: '&bVerkoelingseenheid I'
+  stats:
+  - '&7Effek: Hitte'
+  - '&7Beskerming: 2'
+  - '&7Bereik: 1000 blokke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Buffer'
   type:
   - '&7&oMasjien'
 COOLING_UNIT_2:
+  description:
+  - '&7Verkoel passief die omliggende gebied en verminder hitteblootstelling terwyl dit aangedryf word'
+  name: '&bVerkoelingseenheid II'
+  stats:
+  - '&7Effek: Hitte'
+  - '&7Beskerming: 4'
+  - '&7Bereik: 1500 blokke'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Buffer'
   type:
   - '&7&oMasjien'
 COOLING_UNIT_3:
+  description:
+  - '&7Verkoel passief die omliggende gebied en verminder hitteblootstelling terwyl dit aangedryf word'
+  name: '&bVerkoelingseenheid III'
+  stats:
+  - '&7Effek: Hitte'
+  - '&7Beskerming: 6'
+  - '&7Bereik: 2000 blokke'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Buffer'
   type:
   - '&7&oMasjien'
 DIAMOND_ANVIL:
+  description:
+  - '&7Pers materiaal so hard saam'
+  - '&7dat dit iets heeltemal anders word'
+  name: '&fDiamantaambeeld'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J Buffer'
   type:
   - '&7&oMasjien'
 DIAMOND_ANVIL_CELL:
+  name: '&bDiamantaambeeldsel'
   type:
   - '&7&oKomponent'
 DIAMOND_CIRCUIT:
+  name: '&7Diamantstroombaan'
   type:
   - '&7&oKomponent'
 DRY_ICE:
+  name: '&bDroë Ys'
   type:
   - '&7&oHulpbron'
 ELECTROLYZER:
+  description:
+  - '&7Gebruik elektrisiteit om'
+  - '&7chemikalieë in hul bestanddele te verdeel'
+  name: '&fElektroliseerder'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Buffer'
   type:
   - '&7&oMasjien'
 ENDER_BLOCK:
+  name: '&3Enderblok'
   type:
   - '&7&oKomponent'
 ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&fRelikwie: ''Letagivd Yynmukav'
   type:
   - '&7&oAllerlei'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Produseer ''n kragveld wat lug keer om'
+  - '&7deur te gaan, maar entiteite deurlaat'
+  name: '&fOmgewingskragveldgenerator'
   type:
   - '&7&oMasjien'
 FALLEN_METEOR:
+  description:
+  - '&7Hierdie meteore bevat Wolfram'
+  name: '&4Gevalle Meteoor'
   type:
   - '&7&oHulpbron'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7Relikwie: Kintups Yyhsdap'
   type:
   - '&7&oAllerlei'
 FAN_BLADE:
+  name: '&fWaaierlem'
   type:
   - '&7&oKomponent'
 FUEL_TANK:
+  name: '&6Brandstoftenk'
   type:
   - '&7&oKomponent'
 FUEL_TANK_2:
+  name: '&6Brandstoftenk Mk 2'
   type:
   - '&7&oKomponent'
 FUSION_PELLET:
+  name: '&fFusiekorrel'
   type:
   - '&7&oKomponent'
 FUSION_REACTOR:
+  description:
+  - '&7Gebruik lasers om Helium-3-korrels saam te smelt'
+  - '&7en wek sommer ''n walvis vol energie'
+  - '&7in die proses op'
+  name: '&fFusiereaktor'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J Buffer'
   type:
   - '&7&oKragopwekker'
 GLOWSTONE_CIRCUIT:
+  name: '&7Gloeiklipstroombaan'
   type:
   - '&7&oKomponent'
 GOLD_FOIL:
+  name: '&6Goudfoelie'
   type:
   - '&7&oKomponent'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Voeg by jou ruimtepak om hitteweerstand te verhoog'
+  name: '&7Hitteweerstandsopgradering'
   type:
   - '&7&oKomponent'
 HEAVY_DUTY_SHEET:
+  name: '&fSwaarwerkvel'
   type:
   - '&7&oKomponent'
 ION_DISPERSER_1:
+  description:
+  - '&7Verstrooi passief straling in die omliggende gebied terwyl dit aangedryf word'
+  name: '&fIoonverspreider I'
+  stats:
+  - '&7Effek: Straling'
+  - '&7Beskerming: 2'
+  - '&7Bereik: 1000 blokke'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Buffer'
   type:
   - '&7&oMasjien'
 ION_DISPERSER_2:
+  description:
+  - '&7Verstrooi passief straling in die omliggende gebied terwyl dit aangedryf word'
+  name: '&fIoonverspreider II'
+  stats:
+  - '&7Effek: Straling'
+  - '&7Beskerming: 4'
+  - '&7Bereik: 1500 blokke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Buffer'
   type:
   - '&7&oMasjien'
 ION_ENGINE:
+  name: '&bIoonenjin'
   type:
   - '&7&oKomponent'
 ION_ROCKET:
+  description:
+  - '&7Gebruik ''n gespesialiseerde enjin wat'
+  - '&7ione teen groot spoed uitstoot en so'
+  - '&7uiterste brandstofdoeltreffendheid gee'
+  name: '&bIoonvuurpyl'
+  stats:
+  - '&7Brandstofkapasiteit: 500'
+  - '&7Vragkapasiteit: 18'
   type:
   - '&7&oMultiblok'
 LANDING_HATCH:
+  description:
+  - '&7Vuurpyle ignoreer hierdie blok wanneer'
+  - '&7hulle land; hulle land op die'
+  - '&7hoogste blok daaronder. Dit word'
+  - '&7as ondeurdringbaar vir lug beskou'
+  - '&7en kan dus gebruik word om ruimtes te verseël'
+  name: '&fLandingsluik'
   type:
   - '&7&oAllerlei'
 LAPIS_CIRCUIT:
+  name: '&7Lapisstroombaan'
   type:
   - '&7&oKomponent'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oHulpbron'
 LASERITE_DUST:
+  description:
+  - '&7Ek raak sonder name'
+  name: '&cLaserite-stof'
   type:
   - '&7&oHulpbron'
 LASERITE_ORE:
+  name: '&cLaserite-erts'
   type:
   - '&7&oHulpbron'
 LAUNCH_PAD_CORE:
+  name: '&fLanseerplatformkern'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&7Omring met 8 &fLanseerplatformvloer&7e'
+  - '&7om te gebruik'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Word gebruik om die Lanseerplatform te bou'
+  name: '&fLanseerplatformvloer'
   type:
   - '&7&oMultiblok'
 LIFE_SUPPORT_MODULE:
+  name: '&4Lewensondersteuningsmodule'
   type:
   - '&7&oKomponent'
 LUNAR_GLASS:
+  description:
+  - '&7Om een of ander rede maak maanstof'
+  - '&7glas helderder...'
+  name: '&fMaanglas'
   type:
   - '&7&oKomponent'
 MARS_DUST:
+  name: '&cMarsstof'
   type:
   - '&7&oHulpbron'
 MARS_ROCK:
+  name: '&cMarsrots'
   type:
   - '&7&oHulpbron'
 METHANE_ICE:
+  name: '&bMetaanys'
   type:
   - '&7&oHulpbron'
 MOON_CHEESE:
+  description:
+  - '&7Sies'
+  name: '&6Maankaas'
+  stats:
+  - '&7Herstel &b2 &7Honger'
+  - '&7Herstel &b2.0 &7Versadiging'
   type:
   - '&7&oKos'
+  usage:
+  - '&7Plaas om te eet'
 MOON_DUST:
+  name: '&7Maanstof'
   type:
   - '&7&oHulpbron'
 MOON_ROCK:
+  name: '&7Maanrots'
   type:
   - '&7&oHulpbron'
 MUNPOWDER:
+  description:
+  - '&7Die buskruit van die maan'
+  name: '&7Munkruit'
   type:
   - '&7&oHulpbron'
 NOSE_CONE:
+  name: '&fNeuskeël'
   type:
   - '&7&oKomponent'
 NOZZLE:
+  name: '&fSpuitstuk'
   type:
   - '&7&oKomponent'
 OBSERVATORY:
+  description:
+  - '&7Laat jou toe om basiese inligting oor die'
+  - '&7wêreld op afstand te ontdek. Werk net op wêrelde'
+  - '&7nader as 0.25 ly (2,365,200,000,000 km)'
+  name: '&fSterrewag'
   type:
   - '&7&oToestel'
 OXYGEN_FILLER:
+  description:
+  - '&7Vul ruimtepakke met suurstof'
+  name: '&fSuurstofvuller'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Spoed: &b1.0x'
   type:
   - '&7&oMasjien'
 OXYGEN_REGENERATOR:
+  name: '&bSuurstofregenerator'
   type:
   - '&7&oKomponent'
 OXYGEN_SEALER:
+  description:
+  - '&7Vul ''n verseëlde gebied met suurstof'
+  name: '&fSuurstofverseëlaar'
+  stats:
+  - '&7Bereik: 1000 blokke'
   type:
   - '&7&oMasjien'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Laat jou toe om gevorderde inligting'
+  - '&7oor die huidige planeet te ontdek'
+  name: '&fPlanetêre Ontleder'
   type:
   - '&7&oToestel'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Voeg by jou ruimtepak om stralingsweerstand te verhoog'
+  name: '&7Stralingsweerstandsopgradering'
   type:
   - '&7&oKomponent'
 REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&fRelikwie: Rotarenegortkele Yynmukav'
   type:
   - '&7&oAllerlei'
 REDSTONE_CIRCUIT:
+  name: '&7Rooiklipstroombaan'
   type:
   - '&7&oKomponent'
 REINFORCED_CHANNEL:
+  name: '&fVersterkte Kanaal'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE:
+  name: '&fVuurpylenjin'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE_2:
+  name: '&fVuurpylenjin Mk 2'
   type:
   - '&7&oKomponent'
 ROCKET_ENGINE_3:
+  name: '&fVuurpylenjin Mk 3'
   type:
   - '&7&oKomponent'
 ROCKET_TIER_ONE:
+  name: '&4Chemiese Vuurpyl Vlak 1'
+  stats:
+  - '&7Brandstofkapasiteit: 10'
+  - '&7Vragkapasiteit: 9'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_THREE:
+  name: '&4Chemiese Vuurpyl Vlak 3'
+  stats:
+  - '&7Brandstofkapasiteit: 500'
+  - '&7Vragkapasiteit: 36'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_TWO:
+  name: '&4Chemiese Vuurpyl Vlak 2'
+  stats:
+  - '&7Brandstofkapasiteit: 100'
+  - '&7Vragkapasiteit: 18'
   type:
   - '&7&oMultiblok'
 SPACE_GRADE_PLATE:
+  name: '&fRuimtegraadplaat'
   type:
   - '&7&oKomponent'
 SPACE_HEATER_1:
+  description:
+  - '&7Verwarm passief die omliggende gebied en verminder koueblootstelling terwyl dit aangedryf word'
+  name: '&6Ruimteverwarmer I'
+  stats:
+  - '&7Effek: Koue'
+  - '&7Beskerming: 2'
+  - '&7Bereik: 1000 blokke'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Buffer'
   type:
   - '&7&oMasjien'
 SPACE_HEATER_2:
+  description:
+  - '&7Verwarm passief die omliggende gebied en verminder koueblootstelling terwyl dit aangedryf word'
+  name: '&6Ruimteverwarmer II'
+  stats:
+  - '&7Effek: Koue'
+  - '&7Beskerming: 4'
+  - '&7Bereik: 1500 blokke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Buffer'
   type:
   - '&7&oMasjien'
 SPACE_HEATER_3:
+  description:
+  - '&7Verwarm passief die omliggende gebied en verminder koueblootstelling terwyl dit aangedryf word'
+  name: '&6Ruimteverwarmer III'
+  stats:
+  - '&7Effek: Koue'
+  - '&7Beskerming: 6'
+  - '&7Bereik: 2000 blokke'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Buffer'
   type:
   - '&7&oMasjien'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Basiese paar ruimtepakstewels'
+  name: '&fRuimtepakstewels'
   type:
   - '&7&oWapenrusting'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Basiese ruimtepakbors'
+  name: '&fRuimtepakbors'
   type:
   - '&7&oWapenrusting'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Basiese ruimtepakhelm'
+  name: '&fRuimtepakhelm'
   type:
   - '&7&oWapenrusting'
   usage:
   - '&eRegskliek&7 om te gebruik'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Basiese paar ruimtepakbroeke'
+  name: '&fRuimtepakbroek'
   type:
   - '&7&oWapenrusting'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Voeg opgraderings by jou ruimtepak'
+  name: '&fRuimtepakopgradeerder'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Spoed: &b1.0x'
   type:
   - '&7&oMasjien'
 SPARK_PLUG:
+  name: '&fVonkprop'
   type:
   - '&7&oKomponent'
 SPARK_PLUG_2:
+  name: '&fVonkprop Mk 2'
   type:
   - '&7&oKomponent'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Word gebruik om ''n sterpoort te beheer'
+  name: '&9Sterpoortbeheerder'
   type:
   - '&7&oMultiblok'
 STARGATE_RING:
+  description:
+  - '&7Word gebruik om ''n sterpoort te bou'
+  name: '&9Sterpoortring'
   type:
   - '&7&oMultiblok'
 SULFUR_BLOCK:
+  name: '&6Swawelblok'
   type:
   - '&7&oHulpbron'
 SUPER_FAN:
+  description:
+  - '&7Plaas dit langs ''n blok wat ''n verseëlde'
+  - '&7gebied benodig om die bereik met 15% te verleng'
+  name: '&7Superwaaier'
   type:
   - '&7&oAllerlei'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Berg enigiets bergbaars uit relikwieë'
+  name: '&fTegnologiese Berger'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J Buffer'
   type:
   - '&7&oMasjien'
 TUNGSTEN_CARBIDE:
+  name: '&7Wolframkarbied'
   type:
   - '&7&oHulpbron'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Sterk metaal wat verkry word deur'
+  - '&7versterkte plate vir Marsbewoners te gee'
+  - '&7of deur gevalle meteore te smelt'
+  name: '&bWolframstaaf'
   type:
   - '&7&oHulpbron'
 ULTRA_DUTY_SHEET:
+  name: '&fUltrawerkvel'
   type:
   - '&7&oKomponent'
 VENTSTONE:
+  name: '&6Ventklip'
   type:
   - '&7&oHulpbron'
 VOLCANIC_INGOT:
+  description:
+  - '&7Gesmee in die dieptes van die naaste'
+  - '&7ding aan die Hel wat ons ken, is Vulkaniese Stawe'
+  - '&7uiters kosbare handelsware'
+  name: '&4Vulkaniese Staaf'
   type:
   - '&7&oHulpbron'
