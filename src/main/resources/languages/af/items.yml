@@ -87,8 +87,8 @@ BLISTERING_VOLCANIC_INGOT:
   - '&7&oHulpbron'
 BROKEN_SOLAR_PANEL_RELIC:
   description:
-  - '&7''Lenap ayanhcenlos ayarats ''nehco'
-  name: '&7Relikwie: ''Lenap Ayanhcenlos Ayanamolop'
+  - '&7Duo eiab si leenapnos eidreih'
+  name: '&7Relikwie: Leenapnos Etkeerbeg'
   type:
   - '&7&oAllerlei'
 CHEMICAL_REACTOR:
@@ -118,9 +118,9 @@ COLD_RESISTANCE_UPGRADE:
   - '&7&oKomponent'
 COMPUTER_RELIC:
   description:
-  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
-  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
-  name: '&fRelikwie: Retuypmok Yyntnavk'
+  - '&7Sraaneker enoweg sa neod reginniv'
+  - '&7eiab egninekereb nak sraanekermutnawk'
+  name: '&fRelikwie: Raanekermutnawk'
   type:
   - '&7&oAllerlei'
 COOLING_UNIT_1:
@@ -197,9 +197,9 @@ ENDER_BLOCK:
   - '&7&oKomponent'
 ENGINE_RELIC:
   description:
-  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
-  - '&7uyigrene teuz''lopsi ''letagivd tote'
-  name: '&fRelikwie: ''Letagivd Yynmukav'
+  - '&7Fyrd et eotnerov piks eid mo muukav'
+  - '&7eid nav eigrene eid kiurbeg nijne eidreih'
+  name: '&fRelikwie: Nijnemuukav'
   type:
   - '&7&oAllerlei'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
@@ -217,8 +217,8 @@ FALLEN_METEOR:
   - '&7&oHulpbron'
 FALLEN_SATELLITE_RELIC:
   description:
-  - '&7Aben s lapu yyrotok, kintups'
-  name: '&7Relikwie: Kintups Yyhsdap'
+  - '&7Laveg gul eid tiu teh teilletas eidreih'
+  name: '&7Relikwie: Teilletas Etrotsegreen'
   type:
   - '&7&oAllerlei'
 FAN_BLADE:
@@ -446,9 +446,9 @@ RADIATION_RESISTANCE_UPGRADE:
   - '&7&oKomponent'
 REACTOR_RELIC:
   description:
-  - '&7Ovehcin zi ''taribos onhzom uyigrene'
-  - '&7oths lamud otk?'
-  name: '&fRelikwie: Rotarenegortkele Yynmukav'
+  - '&7?Drow nak lemasegni skin tiu'
+  - '&7eigrene tad knid nok uos eiw'
+  name: '&fRelikwie: Rotarenegmuukav Eseirtkele'
   type:
   - '&7&oAllerlei'
 REDSTONE_CIRCUIT:

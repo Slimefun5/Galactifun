@@ -87,8 +87,8 @@ BLISTERING_VOLCANIC_INGOT:
   - '&7&oResurs'
 BROKEN_SOLAR_PANEL_RELIC:
   description:
-  - '&7''Lenap ayanhcenlos ayarats ''nehco'
-  name: '&7Relikvija: ''Lenap Ayanhcenlos Ayanamolop'
+  - '&7Acolp anralos arats olrv'
+  name: '&7Relikvija: Acolp Anralos Anejlmols'
   type:
   - '&7&oRazno'
 CHEMICAL_REACTOR:
@@ -118,9 +118,9 @@ COLD_RESISTANCE_UPGRADE:
   - '&7&oKomponenta'
 COMPUTER_RELIC:
   description:
-  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
-  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
-  name: '&fRelikvija: Retuypmok Yyntnavk'
+  - '&7Alanucar hincibo do ezrb ogonm'
+  - '&7enucarzi itajlvabo ugom alanucar antnavk'
+  name: '&fRelikvija: Olanucar Ontnavk'
   type:
   - '&7&oRazno'
 COOLING_UNIT_1:
@@ -197,9 +197,9 @@ ENDER_BLOCK:
   - '&7&oKomponenta'
 ENGINE_RELIC:
   description:
-  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
-  - '&7uyigrene teuz''lopsi ''letagivd tote'
-  name: '&fRelikvija: ''Letagivd Yynmukav'
+  - '&7Dejirpan dorb oaterkop ib okak'
+  - '&7amuukav ujigrene itsirok rotom javo'
+  name: '&fRelikvija: Rotom Iksmuukav'
   type:
   - '&7&oRazno'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
@@ -217,8 +217,8 @@ FALLEN_METEOR:
   - '&7&oResurs'
 FALLEN_SATELLITE_RELIC:
   description:
-  - '&7Aben s lapu yyrotok, kintups'
-  name: '&7Relikvija: Kintups Yyhsdap'
+  - '&7Aben s oap ej ijok tiletas'
+  name: '&7Relikvija: Tiletas Ilap'
   type:
   - '&7&oRazno'
 FAN_BLADE:
@@ -446,9 +446,9 @@ RADIATION_RESISTANCE_UPGRADE:
   - '&7&oKomponenta'
 REACTOR_RELIC:
   description:
-  - '&7Ovehcin zi ''taribos onhzom uyigrene'
-  - '&7oths lamud otk?'
-  name: '&fRelikvija: Rotarenegortkele Yynmukav'
+  - '&7?Agec zi in itipukirp ezom'
+  - '&7ajigrene es ad oaker ib okt'
+  name: '&fRelikvija: Rotareneg Incirtkele Iksmuukav'
   type:
   - '&7&oRazno'
 REDSTONE_CIRCUIT:

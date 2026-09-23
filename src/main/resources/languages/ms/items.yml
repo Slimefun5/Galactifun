@@ -87,8 +87,8 @@ BLISTERING_VOLCANIC_INGOT:
   - '&7&oSumber'
 BROKEN_SOLAR_PANEL_RELIC:
   description:
-  - '&7''Lenap ayanhcenlos ayarats ''nehco'
-  name: '&7Peninggalan: ''Lenap Ayanhcenlos Ayanamolop'
+  - '&7Amal tagnas gnay ralos lenap'
+  name: '&7Peninggalan: Kasor Ralos Lenap'
   type:
   - '&7&oPelbagai'
 CHEMICAL_REACTOR:
@@ -118,9 +118,9 @@ COLD_RESISTANCE_UPGRADE:
   - '&7&oKomponen'
 COMPUTER_RELIC:
   description:
-  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
-  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
-  name: '&fPeninggalan: Retuypmok Yyntnavk'
+  - '&7Asaib retupmok adapirad satnap hibel huaj'
+  - '&7naarignep taubmem helob mutnauk retupmok'
+  name: '&fPeninggalan: Mutnauk Retupmok'
   type:
   - '&7&oPelbagai'
 COOLING_UNIT_1:
@@ -197,9 +197,9 @@ ENDER_BLOCK:
   - '&7&oKomponen'
 ENGINE_RELIC:
   description:
-  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
-  - '&7uyigrene teuz''lopsi ''letagivd tote'
-  name: '&fPeninggalan: ''Letagivd Yynmukav'
+  - '&7Napadah ek lapak nakkareggnem kutnu'
+  - '&7mukav aganet nakanuggnem ini nijne'
+  name: '&fPeninggalan: Mukav Nijne'
   type:
   - '&7&oPelbagai'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
@@ -217,8 +217,8 @@ FALLEN_METEOR:
   - '&7&oSumber'
 FALLEN_SATELLITE_RELIC:
   description:
-  - '&7Aben s lapu yyrotok, kintups'
-  name: '&7Peninggalan: Kintups Yyhsdap'
+  - '&7Tignal irad hutaj gnay tiletas haubes'
+  name: '&7Peninggalan: Hutaj Tiletas'
   type:
   - '&7&oPelbagai'
 FAN_BLADE:
@@ -446,9 +446,9 @@ RADIATION_RESISTANCE_UPGRADE:
   - '&7&oKomponen'
 REACTOR_RELIC:
   description:
-  - '&7Ovehcin zi ''taribos onhzom uyigrene'
-  - '&7oths lamud otk?'
-  name: '&fPeninggalan: Rotarenegortkele Yynmukav'
+  - '&7?Naadaitek adapirad'
+  - '&7naklupmukid helob aganet akgnas apais'
+  name: '&fPeninggalan: Mukav Kirtkele Anajnep'
   type:
   - '&7&oPelbagai'
 REDSTONE_CIRCUIT:

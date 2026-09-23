@@ -87,8 +87,8 @@ BLISTERING_VOLCANIC_INGOT:
   - '&7&o資源'
 BROKEN_SOLAR_PANEL_RELIC:
   description:
-  - '&7''列納普 阿揚赫岑洛斯 阿亞拉茨 ''涅赫措'
-  name: '&7遺物: ''列納普 阿揚赫岑洛斯 阿揚阿莫洛普'
+  - '&7板能陽太的老古常非塊一'
+  name: '&7遺物: 板能陽太的壞損'
   type:
   - '&7&o雜項'
 CHEMICAL_REACTOR:
@@ -118,9 +118,9 @@ COLD_RESISTANCE_UPGRADE:
   - '&7&o元件'
 COMPUTER_RELIC:
   description:
-  - '&7阿列圖普莫茨 耶延赫奇博 梅赫奇 耶爾特西布 奧貢曼'
-  - '&7艾涅爾西赫查爾 ''塔列德 圖戈姆 阿列圖伊普莫克 延特納夫克'
-  name: '&f遺物: 列圖伊普莫克 因特納夫克'
+  - '&7多許上快腦電通普比遠度速算運的腦電子量'
+  - '&7'
+  name: '&f遺物: 腦電子量'
   type:
   - '&7&o雜項'
 COOLING_UNIT_1:
@@ -197,9 +197,9 @@ ENDER_BLOCK:
   - '&7&o元件'
 ENGINE_RELIC:
   description:
-  - '&7多列普夫 ''爾巴羅克 ''塔吉夫德 伊博茨 阿穆卡夫'
-  - '&7烏伊格列涅 特烏茲''洛普西 ''列塔吉夫德 托特'
-  name: '&f遺物: ''列塔吉夫德 因穆卡夫'
+  - '&7進前船飛動推量能的空真用利擎引具這'
+  - '&7'
+  name: '&f遺物: 擎引空真'
   type:
   - '&7&o雜項'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
@@ -217,8 +217,8 @@ FALLEN_METEOR:
   - '&7&o資源'
 FALLEN_SATELLITE_RELIC:
   description:
-  - '&7阿本 斯 拉普 伊羅托克, 金圖普斯'
-  name: '&7遺物: 金圖普斯 伊赫斯達普'
+  - '&7星衛的降而天從顆一'
+  name: '&7遺物: 星衛的落墜'
   type:
   - '&7&o雜項'
 FAN_BLADE:
@@ -446,9 +446,9 @@ RADIATION_RESISTANCE_UPGRADE:
   - '&7&o元件'
 REACTOR_RELIC:
   description:
-  - '&7奧維赫欽 濟 ''塔里博斯 翁若姆 烏伊格列涅'
-  - '&7奧茨 拉穆德 奧特克?'
-  name: '&f遺物: 羅塔列涅戈爾特克列 因穆卡夫'
+  - '&7？得取中之無虛從能竟量能到想會誰'
+  - '&7'
+  name: '&f遺物: 機電發空真'
   type:
   - '&7&o雜項'
 REDSTONE_CIRCUIT:
