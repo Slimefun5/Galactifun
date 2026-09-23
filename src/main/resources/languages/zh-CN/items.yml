@@ -7,6 +7,9 @@ AIR_FILTER:
   type:
   - '&7&o组件'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7你绝对猜不到我们给这种材料'
+  - '&7起名花了多久'
   name: '&f铝复合材料'
   type:
   - '&7&o组件'
@@ -15,7 +18,11 @@ ALUMINUM_COMPOSITE_SHEET:
   type:
   - '&7&o组件'
 ASSEMBLY_TABLE:
+  description:
+  - '&7用于组装许多东西'
   name: '&f组装台'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/次合成'
   type:
   - '&7&o机器'
 ATMOSPHERIC_GAS_AMMONIA:
@@ -59,6 +66,8 @@ ATMOSPHERIC_GAS_WATER:
   type:
   - '&7&o资源'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7从大气中收集气体'
   name: '&f大气采集器'
   stats:
   - '&8⇨ &e⚡ &764 J/秒'
@@ -66,6 +75,9 @@ ATMOSPHERIC_HARVESTER:
   type:
   - '&7&o机器'
 AUTOMATIC_DOOR:
+  description:
+  - '&7当你靠近或离开时, 自动放置/移除'
+  - '&7其内部的方块'
   name: '&f自动门'
   type:
   - '&7&o机器'
@@ -74,10 +86,15 @@ BLISTERING_VOLCANIC_INGOT:
   type:
   - '&7&o资源'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7板能阳太的老古常非'
   name: '&7遗物: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&o杂项'
 CHEMICAL_REACTOR:
+  description:
+  - '&7让化学品相互反应'
+  - '&7以生成新的化学品'
   name: '&f化学反应堆'
   stats:
   - '&8⇨ &e⚡ &7256 J/秒'
@@ -85,6 +102,8 @@ CHEMICAL_REACTOR:
   type:
   - '&7&o机器'
 CIRCUIT_PRESS:
+  description:
+  - '&7制造电路'
   name: '&f电路压制机'
   stats:
   - '&8⇨ &e⚡ &7512 J 缓冲'
@@ -92,26 +111,58 @@ CIRCUIT_PRESS:
   type:
   - '&7&o机器'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8加入太空服可提升抗寒能力'
   name: '&7耐寒升级'
   type:
   - '&7&o组件'
 COMPUTER_RELIC:
+  description:
+  - '&7多得快机算计通普比'
+  - '&7算运行进机算计子量'
   name: '&f遗物: Retuypmok Yyntnavk'
   type:
   - '&7&o杂项'
 COOLING_UNIT_1:
+  description:
+  - '&7通电时被动冷却周围区域, 减少热量暴露'
   name: '&b冷却单元 I'
+  stats:
+  - '&7效果: 热'
+  - '&7保护: 2'
+  - '&7范围: 1000 方块'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J 缓存'
   type:
   - '&7&o机器'
 COOLING_UNIT_2:
+  description:
+  - '&7通电时被动冷却周围区域, 减少热量暴露'
   name: '&b冷却单元 II'
+  stats:
+  - '&7效果: 热'
+  - '&7保护: 4'
+  - '&7范围: 1500 方块'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J 缓存'
   type:
   - '&7&o机器'
 COOLING_UNIT_3:
+  description:
+  - '&7通电时被动冷却周围区域, 减少热量暴露'
   name: '&b冷却单元 III'
+  stats:
+  - '&7效果: 热'
+  - '&7保护: 6'
+  - '&7范围: 2000 方块'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J 缓存'
   type:
   - '&7&o机器'
 DIAMOND_ANVIL:
+  description:
+  - '&7把材料压缩得如此之狠,'
+  - '&7以至于它彻底变成了别的东西'
   name: '&f金刚石压砧'
   stats:
   - '&8⇨ &e⚡ &71024 J/秒'
@@ -131,6 +182,9 @@ DRY_ICE:
   type:
   - '&7&o资源'
 ELECTROLYZER:
+  description:
+  - '&7利用电力把化学品'
+  - '&7分解为其组成成分'
   name: '&f电解器'
   stats:
   - '&8⇨ &e⚡ &7256 J/秒'
@@ -142,18 +196,28 @@ ENDER_BLOCK:
   type:
   - '&7&o组件'
 ENGINE_RELIC:
+  description:
+  - '&7进前船飞动推量能空真'
+  - '&7用利擎引台这'
   name: '&f遗物: ''Letagivd Yynmukav'
   type:
   - '&7&o杂项'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7产生一道力场, 阻止空气穿过,'
+  - '&7但允许实体通过'
   name: '&f环境力场发生器'
   type:
   - '&7&o机器'
 FALLEN_METEOR:
+  description:
+  - '&7这些陨石中含有钨'
   name: '&4坠落陨石'
   type:
   - '&7&o资源'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7落坠空天从，星卫'
   name: '&7遗物: Kintups Yyhsdap'
   type:
   - '&7&o杂项'
@@ -174,6 +238,10 @@ FUSION_PELLET:
   type:
   - '&7&o组件'
 FUSION_REACTOR:
+  description:
+  - '&7用激光聚变氦-3 燃料球,'
+  - '&7并产生鲸人数量的能量'
+  - '&7就在这个过程中'
   name: '&f聚变反应堆'
   stats:
   - '&8⇨ &e⚡ &765536 J/秒'
@@ -189,6 +257,8 @@ GOLD_FOIL:
   type:
   - '&7&o组件'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8加入太空服可提升耐热能力'
   name: '&7耐热升级'
   type:
   - '&7&o组件'
@@ -197,11 +267,27 @@ HEAVY_DUTY_SHEET:
   type:
   - '&7&o组件'
 ION_DISPERSER_1:
+  description:
+  - '&7通电时被动驱散周围区域的辐射'
   name: '&f离子驱散器 I'
+  stats:
+  - '&7效果: 辐射'
+  - '&7保护: 2'
+  - '&7范围: 1000 方块'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J 缓存'
   type:
   - '&7&o机器'
 ION_DISPERSER_2:
+  description:
+  - '&7通电时被动驱散周围区域的辐射'
   name: '&f离子驱散器 II'
+  stats:
+  - '&7效果: 辐射'
+  - '&7保护: 4'
+  - '&7范围: 1500 方块'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J 缓存'
   type:
   - '&7&o机器'
 ION_ENGINE:
@@ -209,10 +295,23 @@ ION_ENGINE:
   type:
   - '&7&o组件'
 ION_ROCKET:
+  description:
+  - '&7采用一种特制引擎,'
+  - '&7以极高速度喷射离子, 带来'
+  - '&7极高的燃料效率'
   name: '&b离子火箭'
+  stats:
+  - '&7燃料容量: 500'
+  - '&7货运容量: 18'
   type:
   - '&7&o多方块'
 LANDING_HATCH:
+  description:
+  - '&7火箭降落时会忽略此方块,'
+  - '&7它们会降落在其下方'
+  - '&7最高的方块上。它被'
+  - '&7视为空气无法通过,'
+  - '&7因此可用来密封空间'
   name: '&f着陆舱门'
   type:
   - '&7&o杂项'
@@ -225,6 +324,8 @@ LASERITE:
   type:
   - '&7&o资源'
 LASERITE_DUST:
+  description:
+  - '&7我快想不出名字了'
   name: '&c激光石粉'
   type:
   - '&7&o资源'
@@ -236,7 +337,12 @@ LAUNCH_PAD_CORE:
   name: '&f发射台核心'
   type:
   - '&7&o多方块'
+  usage:
+  - '&7用 8 块&f发射台底板&7围绕'
+  - '&7即可使用'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7用于建造发射台'
   name: '&f发射台地板'
   type:
   - '&7&o多方块'
@@ -245,6 +351,9 @@ LIFE_SUPPORT_MODULE:
   type:
   - '&7&o组件'
 LUNAR_GLASS:
+  description:
+  - '&7不知为何, 往玻璃里加入月尘'
+  - '&7会让它更加透明...'
   name: '&f月球玻璃'
   type:
   - '&7&o组件'
@@ -261,9 +370,16 @@ METHANE_ICE:
   type:
   - '&7&o资源'
 MOON_CHEESE:
+  description:
+  - '&7呕'
   name: '&6月球奶酪'
+  stats:
+  - '&7恢复 &b2 &7点饥饿值'
+  - '&7恢复 &b2.0 &7点饱和度'
   type:
   - '&7&o食物'
+  usage:
+  - '&7放置即可食用'
 MOON_DUST:
   name: '&7月球尘'
   type:
@@ -273,6 +389,8 @@ MOON_ROCK:
   type:
   - '&7&o资源'
 MUNPOWDER:
+  description:
+  - '&7来自月球的火药'
   name: '&7月尘火药'
   type:
   - '&7&o资源'
@@ -285,10 +403,16 @@ NOZZLE:
   type:
   - '&7&o组件'
 OBSERVATORY:
+  description:
+  - '&7允许你远程探知某个世界的'
+  - '&7基本信息。仅对距离小于'
+  - '&70.25 ly (2,365,200,000,000 km) 的世界有效'
   name: '&f天文台'
   type:
   - '&7&o装置'
 OXYGEN_FILLER:
+  description:
+  - '&7为太空服填充氧气'
   name: '&f氧气填充器'
   stats:
   - '&8⇨ &e⚡ &7100 J/秒'
@@ -300,18 +424,30 @@ OXYGEN_REGENERATOR:
   type:
   - '&7&o组件'
 OXYGEN_SEALER:
+  description:
+  - '&7为密封区域填充氧气'
   name: '&f氧气密封机'
+  stats:
+  - '&7范围: 1000 方块'
   type:
   - '&7&o机器'
 PLANETARY_ANALYZER:
+  description:
+  - '&7允许你探知当前星球的'
+  - '&7高级信息'
   name: '&f行星分析仪'
   type:
   - '&7&o装置'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8加入太空服可提升抗辐射能力'
   name: '&7抗辐射升级'
   type:
   - '&7&o组件'
 REACTOR_RELIC:
+  description:
+  - '&7集收空凭以可量能'
+  - '&7到想能谁？'
   name: '&f遗物: Rotarenegortkele Yynmukav'
   type:
   - '&7&o杂项'
@@ -337,14 +473,23 @@ ROCKET_ENGINE_3:
   - '&7&o组件'
 ROCKET_TIER_ONE:
   name: '&4化学火箭 1 级'
+  stats:
+  - '&7燃料容量: 10'
+  - '&7货运容量: 9'
   type:
   - '&7&o多方块'
 ROCKET_TIER_THREE:
   name: '&4化学火箭 3 级'
+  stats:
+  - '&7燃料容量: 500'
+  - '&7货运容量: 36'
   type:
   - '&7&o多方块'
 ROCKET_TIER_TWO:
   name: '&4化学火箭 2 级'
+  stats:
+  - '&7燃料容量: 100'
+  - '&7货运容量: 18'
   type:
   - '&7&o多方块'
 SPACE_GRADE_PLATE:
@@ -352,36 +497,70 @@ SPACE_GRADE_PLATE:
   type:
   - '&7&o组件'
 SPACE_HEATER_1:
+  description:
+  - '&7通电时被动加热周围区域, 减少寒冷暴露'
   name: '&6太空加热器 I'
+  stats:
+  - '&7效果: 寒冷'
+  - '&7保护: 2'
+  - '&7范围: 1000 方块'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J 缓存'
   type:
   - '&7&o机器'
 SPACE_HEATER_2:
+  description:
+  - '&7通电时被动加热周围区域, 减少寒冷暴露'
   name: '&6太空加热器 II'
+  stats:
+  - '&7效果: 寒冷'
+  - '&7保护: 4'
+  - '&7范围: 1500 方块'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J 缓存'
   type:
   - '&7&o机器'
 SPACE_HEATER_3:
+  description:
+  - '&7通电时被动加热周围区域, 减少寒冷暴露'
   name: '&6太空加热器 III'
+  stats:
+  - '&7效果: 寒冷'
+  - '&7保护: 6'
+  - '&7范围: 2000 方块'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J 缓存'
   type:
   - '&7&o机器'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7一双基础太空服靴子'
   name: '&f宇航服靴子'
   type:
   - '&7&o护甲'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7一件基础太空服胸甲'
   name: '&f宇航服胸甲'
   type:
   - '&7&o护甲'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7一顶基础太空服头盔'
   name: '&f宇航服头盔'
   type:
   - '&7&o护甲'
   usage:
   - '&e右键&7使用'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7一条基础太空服护腿'
   name: '&f宇航服护腿'
   type:
   - '&7&o护甲'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7为你的太空服添加升级'
   name: '&f宇航服升级器'
   stats:
   - '&8⇨ &e⚡ &7200 J/秒'
@@ -397,10 +576,14 @@ SPARK_PLUG_2:
   type:
   - '&7&o组件'
 STARGATE_CONTROLLER:
+  description:
+  - '&7用于控制星门'
   name: '&9Stargate 控制器'
   type:
   - '&7&o多方块'
 STARGATE_RING:
+  description:
+  - '&7用于建造星门'
   name: '&9Stargate 环'
   type:
   - '&7&o多方块'
@@ -409,10 +592,15 @@ SULFUR_BLOCK:
   type:
   - '&7&o资源'
 SUPER_FAN:
+  description:
+  - '&7把它放在需要密封区域的方块旁,'
+  - '&7即可将范围扩大 15%'
   name: '&7超级风扇'
   type:
   - '&7&o杂项'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7从遗物中回收一切可回收之物'
   name: '&f科技回收机'
   stats:
   - '&8⇨ &e⚡ &764 J/秒'
@@ -424,6 +612,10 @@ TUNGSTEN_CARBIDE:
   type:
   - '&7&o资源'
 TUNGSTEN_INGOT:
+  description:
+  - '&7一种坚固的金属, 可通过向火星人'
+  - '&7提供强化板, 或熔炼'
+  - '&7坠落的陨石来获得'
   name: '&b钨锭'
   type:
   - '&7&o资源'
@@ -436,6 +628,10 @@ VENTSTONE:
   type:
   - '&7&o资源'
 VOLCANIC_INGOT:
+  description:
+  - '&7锻造于我们所知最接近地狱之处的'
+  - '&7深处, 火山锭是一种'
+  - '&7珍贵的商品'
   name: '&4火山锭'
   type:
   - '&7&o资源'
