@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Gelişmiş İşlem Ünitesi'
   type:
   - '&7&oBileşen'
 AIR_FILTER:
+  name: '&fFiltre'
   type:
   - '&7&oBileşen'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Bu malzemeye isim bulmamızın ne kadar'
+  - '&7sürdüğünü asla tahmin edemezsin'
+  name: '&fAlüminyum Kompozit'
   type:
   - '&7&oBileşen'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAlüminyum Kompozit Levha'
   type:
   - '&7&oBileşen'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Pek çok şeyi yapmak için kullanılır'
+  name: '&fMontaj Tezgahı'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Üretim'
   type:
   - '&7&oMakine'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmonyak Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgon Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fKarbondioksit Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHelyum Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fHidrokarbon Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fHidrojen Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetan Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fAzot Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fOksijen Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fSu Gaz Tüpü'
   type:
   - '&7&oKaynak'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Atmosferden gaz toplar'
+  name: '&fAtmosferik Hasatçı'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J Tampon'
   type:
   - '&7&oMakine'
 AUTOMATIC_DOOR:
+  description:
+  - '&7İçerideki blokları otomatik olarak yerleştirir/kaldırır'
+  - '&7ona yaklaştığında/ondan uzaklaştığında'
+  name: '&fOtomatik Kapı'
   type:
   - '&7&oMakine'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Kavurucu Volkanik Külçe'
   type:
   - '&7&oKaynak'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7ilenap senug rib ikse koC'
+  name: '&7Kalıntı: ilenap senug kuzoB'
   type:
   - '&7&oÇeşitli'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Kimyasalları birbiriyle tepkimeye sokarak'
+  - '&7yenilerini oluşturur'
+  name: '&fKimyasal Reaktör'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMakine'
 CIRCUIT_PRESS:
+  description:
+  - '&7Devre üretir'
+  name: '&fDevre Presi'
   stats:
   - '&8⇨ &e⚡ &7512 J Tampon'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMakine'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Soğuk direncini artırmak için uzay kıyafetine ekle'
+  name: '&7Soğuk Direnci Yükseltmesi'
   type:
   - '&7&oBileşen'
 COMPUTER_RELIC:
+  description:
+  - '&7ilzih ahad koc nadralrayasiglib nadariS'
+  - '&7rilibapay amalpaseh iralrayasiglib mutnauK'
+  name: '&fKalıntı: irayasiglib mutnauK'
   type:
   - '&7&oÇeşitli'
 COOLING_UNIT_1:
+  description:
+  - '&7Güç verildiğinde çevredeki alanı pasif olarak soğutur ve ısı maruziyetini azaltır'
+  name: '&bSoğutma Ünitesi I'
+  stats:
+  - '&7Etki: Isı'
+  - '&7Koruma: 2'
+  - '&7Menzil: 1000 blok'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMakine'
 COOLING_UNIT_2:
+  description:
+  - '&7Güç verildiğinde çevredeki alanı pasif olarak soğutur ve ısı maruziyetini azaltır'
+  name: '&bSoğutma Ünitesi II'
+  stats:
+  - '&7Etki: Isı'
+  - '&7Koruma: 4'
+  - '&7Menzil: 1500 blok'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Tampon'
   type:
   - '&7&oMakine'
 COOLING_UNIT_3:
+  description:
+  - '&7Güç verildiğinde çevredeki alanı pasif olarak soğutur ve ısı maruziyetini azaltır'
+  name: '&bSoğutma Ünitesi III'
+  stats:
+  - '&7Etki: Isı'
+  - '&7Koruma: 6'
+  - '&7Menzil: 2000 blok'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Tampon'
   type:
   - '&7&oMakine'
 DIAMOND_ANVIL:
+  description:
+  - '&7Malzemeyi öyle sert sıkıştırır ki'
+  - '&7tamamen başka bir şeye dönüşür'
+  name: '&fElmas Örs'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMakine'
 DIAMOND_ANVIL_CELL:
+  name: '&bElmas Örs Hücresi'
   type:
   - '&7&oBileşen'
 DIAMOND_CIRCUIT:
+  name: '&7Elmas Devre'
   type:
   - '&7&oBileşen'
 DRY_ICE:
+  name: '&bKuru Buz'
   type:
   - '&7&oKaynak'
 ELECTROLYZER:
+  description:
+  - '&7Kimyasalları bileşenlerine ayırmak için'
+  - '&7elektrik kullanır'
+  name: '&fElektrolizör'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMakine'
 ENDER_BLOCK:
+  name: '&3Ender Bloğu'
   type:
   - '&7&oBileşen'
 ENGINE_RELIC:
+  description:
+  - '&7nici kemti ireli iyimeg numukaV'
+  - '&7rinalluk inisijrene rotom uB'
+  name: '&fKalıntı: urotom mukaV'
   type:
   - '&7&oÇeşitli'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Havanın geçmesini engelleyen ama varlıkların'
+  - '&7geçmesine izin veren bir güç alanı üretir'
+  name: '&fÇevresel Güç Alanı Jeneratörü'
   type:
   - '&7&oMakine'
 FALLEN_METEOR:
+  description:
+  - '&7Bu göktaşları Tungsten içerir'
+  name: '&4Düşmüş Göktaşı'
   type:
   - '&7&oKaynak'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7udyu rib nesud netkoG'
+  name: '&7Kalıntı: udyu sumsuD'
   type:
   - '&7&oÇeşitli'
 FAN_BLADE:
+  name: '&fFan Bıçağı'
   type:
   - '&7&oBileşen'
 FUEL_TANK:
+  name: '&6Yakıt Tankı'
   type:
   - '&7&oBileşen'
 FUEL_TANK_2:
+  name: '&6Yakıt Tankı Mk 2'
   type:
   - '&7&oBileşen'
 FUSION_PELLET:
+  name: '&fFüzyon Peleti'
   type:
   - '&7&oBileşen'
 FUSION_REACTOR:
+  description:
+  - '&7Helyum-3 peletlerini kaynaştırmak için lazer kullanır'
+  - '&7ve bu sırada devasa miktarda enerji'
+  - '&7üretir'
+  name: '&fFüzyon Reaktörü'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J Tampon'
   type:
   - '&7&oJeneratör'
 GLOWSTONE_CIRCUIT:
+  name: '&7Işıltaşı Devresi'
   type:
   - '&7&oBileşen'
 GOLD_FOIL:
+  name: '&6Altın Varak'
   type:
   - '&7&oBileşen'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Isı direncini artırmak için uzay kıyafetine ekle'
+  name: '&7Isı Direnci Yükseltmesi'
   type:
   - '&7&oBileşen'
 HEAVY_DUTY_SHEET:
+  name: '&fAğır Hizmet Levhası'
   type:
   - '&7&oBileşen'
 ION_DISPERSER_1:
+  description:
+  - '&7Güç verildiğinde çevredeki alandaki radyasyonu pasif olarak dağıtır'
+  name: '&fİyon Dağıtıcı I'
+  stats:
+  - '&7Etki: Radyasyon'
+  - '&7Koruma: 2'
+  - '&7Menzil: 1000 blok'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Tampon'
   type:
   - '&7&oMakine'
 ION_DISPERSER_2:
+  description:
+  - '&7Güç verildiğinde çevredeki alandaki radyasyonu pasif olarak dağıtır'
+  name: '&fİyon Dağıtıcı II'
+  stats:
+  - '&7Etki: Radyasyon'
+  - '&7Koruma: 4'
+  - '&7Menzil: 1500 blok'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMakine'
 ION_ENGINE:
+  name: '&bİyon Motoru'
   type:
   - '&7&oBileşen'
 ION_ROCKET:
+  description:
+  - '&7İyonları büyük hızla dışarı atan'
+  - '&7özel bir motor kullanır ve bu da ona'
+  - '&7olağanüstü yakıt verimliliği kazandırır'
+  name: '&bİyon Roketi'
+  stats:
+  - '&7Yakıt Kapasitesi: 500'
+  - '&7Kargo Kapasitesi: 18'
   type:
   - '&7&oYapı'
 LANDING_HATCH:
+  description:
+  - '&7Roketler bu bloğu iniş sırasında'
+  - '&7yok sayar; altındaki en yüksek'
+  - '&7bloğa inerler. Hava için geçilmez'
+  - '&7kabul edilir, bu yüzden alanları'
+  - '&7mühürlemek için kullanılabilir'
+  name: '&fİniş Kapağı'
   type:
   - '&7&oÇeşitli'
 LAPIS_CIRCUIT:
+  name: '&7Lapis Devresi'
   type:
   - '&7&oBileşen'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oKaynak'
 LASERITE_DUST:
+  description:
+  - '&7Artık isim bulamıyorum'
+  name: '&cLaserite Tozu'
   type:
   - '&7&oKaynak'
 LASERITE_ORE:
+  name: '&cLaserite Cevheri'
   type:
   - '&7&oKaynak'
 LAUNCH_PAD_CORE:
+  name: '&fFırlatma Pedi Çekirdeği'
   type:
   - '&7&oYapı'
+  usage:
+  - '&7Etrafını 8 &fFırlatma Pedi Zemini&7 ile'
+  - '&7çevreleyerek kullan'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Fırlatma Pedi yapımında kullanılır'
+  name: '&fFırlatma Pedi Zemini'
   type:
   - '&7&oYapı'
 LIFE_SUPPORT_MODULE:
+  name: '&4Yaşam Destek Modülü'
   type:
   - '&7&oBileşen'
 LUNAR_GLASS:
+  description:
+  - '&7Nedense cama ay tozu eklemek'
+  - '&7onu daha berrak yapıyor...'
+  name: '&fAy Camı'
   type:
   - '&7&oBileşen'
 MARS_DUST:
+  name: '&cMars Tozu'
   type:
   - '&7&oKaynak'
 MARS_ROCK:
+  name: '&cMars Kayası'
   type:
   - '&7&oKaynak'
 METHANE_ICE:
+  name: '&bMetan Buzu'
   type:
   - '&7&oKaynak'
 MOON_CHEESE:
+  description:
+  - '&7İğrenç'
+  name: '&6Ay Peyniri'
+  stats:
+  - '&7Yeniler: &b2 &7Açlık'
+  - '&7Yeniler: &b2.0 &7Doygunluk'
   type:
   - '&7&oYiyecek'
+  usage:
+  - '&7Yemek için yerleştir'
 MOON_DUST:
+  name: '&7Ay Tozu'
   type:
   - '&7&oKaynak'
 MOON_ROCK:
+  name: '&7Ay Kayası'
   type:
   - '&7&oKaynak'
 MUNPOWDER:
+  description:
+  - '&7Ayın barutu'
+  name: '&7Ay Barutu'
   type:
   - '&7&oKaynak'
 NOSE_CONE:
+  name: '&fBurun Konisi'
   type:
   - '&7&oBileşen'
 NOZZLE:
+  name: '&fPüskürtme Memesi'
   type:
   - '&7&oBileşen'
 OBSERVATORY:
+  description:
+  - '&7Bir dünya hakkında uzaktan temel bilgi'
+  - '&7keşfetmeni sağlar. Yalnızca şundan daha'
+  - '&7yakın dünyalarda çalışır: 0.25 ly (2,365,200,000,000 km)'
+  name: '&fGözlemevi'
   type:
   - '&7&oCihaz'
 OXYGEN_FILLER:
+  description:
+  - '&7Uzay kıyafetlerini oksijenle doldurur'
+  name: '&fOksijen Doldurucu'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Hız: &b1.0x'
   type:
   - '&7&oMakine'
 OXYGEN_REGENERATOR:
+  name: '&bOksijen Yenileyici'
   type:
   - '&7&oBileşen'
 OXYGEN_SEALER:
+  description:
+  - '&7Mühürlü bir alanı oksijenle doldurur'
+  name: '&fOksijen Mühürleyici'
+  stats:
+  - '&7Menzil: 1000 blok'
   type:
   - '&7&oMakine'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Bulunduğun gezegen hakkında gelişmiş'
+  - '&7bilgi keşfetmeni sağlar'
+  name: '&fGezegen Analizörü'
   type:
   - '&7&oCihaz'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Radyasyon direncini artırmak için uzay kıyafetine ekle'
+  name: '&7Radyasyon Direnci Yükseltmesi'
   type:
   - '&7&oBileşen'
 REACTOR_RELIC:
+  description:
+  - '&7rilibanalpot netcih ijrenE'
+  - '&7?ik udrunusud miK'
+  name: '&fKalıntı: urotarenej mukaV'
   type:
   - '&7&oÇeşitli'
 REDSTONE_CIRCUIT:
+  name: '&7Kızıltaş Devresi'
   type:
   - '&7&oBileşen'
 REINFORCED_CHANNEL:
+  name: '&fTakviyeli Kanal'
   type:
   - '&7&oBileşen'
 ROCKET_ENGINE:
+  name: '&fRoket Motoru'
   type:
   - '&7&oBileşen'
 ROCKET_ENGINE_2:
+  name: '&fRoket Motoru Mk 2'
   type:
   - '&7&oBileşen'
 ROCKET_ENGINE_3:
+  name: '&fRoket Motoru Mk 3'
   type:
   - '&7&oBileşen'
 ROCKET_TIER_ONE:
+  name: '&4Kimyasal Roket Kademe 1'
+  stats:
+  - '&7Yakıt Kapasitesi: 10'
+  - '&7Kargo Kapasitesi: 9'
   type:
   - '&7&oYapı'
 ROCKET_TIER_THREE:
+  name: '&4Kimyasal Roket Kademe 3'
+  stats:
+  - '&7Yakıt Kapasitesi: 500'
+  - '&7Kargo Kapasitesi: 36'
   type:
   - '&7&oYapı'
 ROCKET_TIER_TWO:
+  name: '&4Kimyasal Roket Kademe 2'
+  stats:
+  - '&7Yakıt Kapasitesi: 100'
+  - '&7Kargo Kapasitesi: 18'
   type:
   - '&7&oYapı'
 SPACE_GRADE_PLATE:
+  name: '&fUzay Sınıfı Plaka'
   type:
   - '&7&oBileşen'
 SPACE_HEATER_1:
+  description:
+  - '&7Güç verildiğinde çevredeki alanı pasif olarak ısıtır ve soğuk maruziyetini azaltır'
+  name: '&6Uzay Isıtıcısı I'
+  stats:
+  - '&7Etki: Soğuk'
+  - '&7Koruma: 2'
+  - '&7Menzil: 1000 blok'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Tampon'
   type:
   - '&7&oMakine'
 SPACE_HEATER_2:
+  description:
+  - '&7Güç verildiğinde çevredeki alanı pasif olarak ısıtır ve soğuk maruziyetini azaltır'
+  name: '&6Uzay Isıtıcısı II'
+  stats:
+  - '&7Etki: Soğuk'
+  - '&7Koruma: 4'
+  - '&7Menzil: 1500 blok'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMakine'
 SPACE_HEATER_3:
+  description:
+  - '&7Güç verildiğinde çevredeki alanı pasif olarak ısıtır ve soğuk maruziyetini azaltır'
+  name: '&6Uzay Isıtıcısı III'
+  stats:
+  - '&7Etki: Soğuk'
+  - '&7Koruma: 6'
+  - '&7Menzil: 2000 blok'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Tampon'
   type:
   - '&7&oMakine'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Temel bir uzay kıyafeti botu'
+  name: '&fUzay Kıyafeti Botları'
   type:
   - '&7&oZırh'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Temel bir uzay kıyafeti göğüslüğü'
+  name: '&fUzay Kıyafeti Göğüslüğü'
   type:
   - '&7&oZırh'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Temel bir uzay kıyafeti kaskı'
+  name: '&fUzay Kıyafeti Kaskı'
   type:
   - '&7&oZırh'
   usage:
   - '&eSağ Tıklama&7 ile kullanın'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Temel bir uzay kıyafeti pantolonu'
+  name: '&fUzay Kıyafeti Pantolonu'
   type:
   - '&7&oZırh'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Uzay kıyafetine yükseltme ekler'
+  name: '&fUzay Kıyafeti Yükselticisi'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Hız: &b1.0x'
   type:
   - '&7&oMakine'
 SPARK_PLUG:
+  name: '&fBuji'
   type:
   - '&7&oBileşen'
 SPARK_PLUG_2:
+  name: '&fBuji Mk 2'
   type:
   - '&7&oBileşen'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Yıldız geçidini yönetmek için kullanılır'
+  name: '&9Yıldız Geçidi Kontrolcüsü'
   type:
   - '&7&oYapı'
 STARGATE_RING:
+  description:
+  - '&7Yıldız geçidi kurmak için kullanılır'
+  name: '&9Yıldız Geçidi Halkası'
   type:
   - '&7&oYapı'
 SULFUR_BLOCK:
+  name: '&6Kükürt Bloğu'
   type:
   - '&7&oKaynak'
 SUPER_FAN:
+  description:
+  - '&7Bunu, mühürlü alana ihtiyaç duyan bir'
+  - '&7bloğun yanına koy; menzil %15 artsın'
+  name: '&7Süper Fan'
   type:
   - '&7&oÇeşitli'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Kalıntılardan kurtarılabilecek her şeyi kurtarır'
+  name: '&fTeknolojik Kurtarıcı'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oMakine'
 TUNGSTEN_CARBIDE:
+  name: '&7Tungsten Karbür'
   type:
   - '&7&oKaynak'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Marslılara takviyeli plaka vererek ya da'
+  - '&7düşen göktaşlarını eriterek elde edilen'
+  - '&7güçlü bir metal'
+  name: '&bTungsten Külçesi'
   type:
   - '&7&oKaynak'
 ULTRA_DUTY_SHEET:
+  name: '&fUltra Hizmet Levhası'
   type:
   - '&7&oBileşen'
 VENTSTONE:
+  name: '&6Baca Taşı'
   type:
   - '&7&oKaynak'
 VOLCANIC_INGOT:
+  description:
+  - '&7Cehenneme en yakın bildiğimiz yerin'
+  - '&7derinliklerinde dövülen Volkanik Külçeler'
+  - '&7değerli bir maldır'
+  name: '&4Volkanik Külçe'
   type:
   - '&7&oKaynak'
