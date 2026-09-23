@@ -7,6 +7,9 @@ AIR_FILTER:
   type:
   - '&7&oComposant'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Vous ne devinerez jamais combien de temps il nous a fallu'
+  - '&7pour nommer ce matériau'
   name: '&fComposite d''aluminium'
   type:
   - '&7&oComposant'
@@ -15,7 +18,11 @@ ALUMINUM_COMPOSITE_SHEET:
   type:
   - '&7&oComposant'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Utilisée pour construire beaucoup de choses'
   name: '&fTable d''assemblage'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/fabrication'
   type:
   - '&7&oMachine'
 ATMOSPHERIC_GAS_AMMONIA:
@@ -59,6 +66,8 @@ ATMOSPHERIC_GAS_WATER:
   type:
   - '&7&oRessource'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Collecte les gaz de l''atmosphère'
   name: '&fCollecteur atmospherique'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
@@ -66,6 +75,9 @@ ATMOSPHERIC_HARVESTER:
   type:
   - '&7&oMachine'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Place/retire automatiquement les blocs à l''intérieur'
+  - '&7quand vous vous en approchez ou vous en éloignez'
   name: '&fPorte automatique'
   type:
   - '&7&oMachine'
@@ -74,10 +86,15 @@ BLISTERING_VOLCANIC_INGOT:
   type:
   - '&7&oRessource'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7Erialos uaennap xueiv sert nu'
   name: '&7Relique: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oDivers'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Fait réagir des produits chimiques'
+  - '&7pour en créer de nouveaux'
   name: '&fReacteur chimique'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
@@ -85,6 +102,8 @@ CHEMICAL_REACTOR:
   type:
   - '&7&oMachine'
 CIRCUIT_PRESS:
+  description:
+  - '&7Crée des circuits'
   name: '&fPresse a circuits'
   stats:
   - '&8⇨ &e⚡ &7512 J Tampon'
@@ -92,26 +111,58 @@ CIRCUIT_PRESS:
   type:
   - '&7&oMachine'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8À ajouter à votre combinaison spatiale pour augmenter la résistance au froid'
   name: '&7Amelioration de resistance au froid'
   type:
   - '&7&oComposant'
 COMPUTER_RELIC:
+  description:
+  - '&7Serianidro sruetanidro sel euq etiv sulp neib'
+  - '&7sluclac sed eriaf tnevuep seuqitnauq sruetanidro sel'
   name: '&fRelique: Retuypmok Yyntnavk'
   type:
   - '&7&oDivers'
 COOLING_UNIT_1:
+  description:
+  - '&7Refroidit passivement la zone environnante, réduisant l''exposition à la chaleur tant qu''il est alimenté'
   name: '&bUnite de refroidissement I'
+  stats:
+  - '&7Effet : Chaleur'
+  - '&7Protection : 2'
+  - '&7Portée : 1000 blocs'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J de tampon'
   type:
   - '&7&oMachine'
 COOLING_UNIT_2:
+  description:
+  - '&7Refroidit passivement la zone environnante, réduisant l''exposition à la chaleur tant qu''il est alimenté'
   name: '&bUnite de refroidissement II'
+  stats:
+  - '&7Effet : Chaleur'
+  - '&7Protection : 4'
+  - '&7Portée : 1500 blocs'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J de tampon'
   type:
   - '&7&oMachine'
 COOLING_UNIT_3:
+  description:
+  - '&7Refroidit passivement la zone environnante, réduisant l''exposition à la chaleur tant qu''il est alimenté'
   name: '&bUnite de refroidissement III'
+  stats:
+  - '&7Effet : Chaleur'
+  - '&7Protection : 6'
+  - '&7Portée : 2000 blocs'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J de tampon'
   type:
   - '&7&oMachine'
 DIAMOND_ANVIL:
+  description:
+  - '&7Compresse la matière si fort'
+  - '&7qu''elle devient tout autre chose'
   name: '&fEnclume de diamant'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
@@ -131,6 +182,9 @@ DRY_ICE:
   type:
   - '&7&oRessource'
 ELECTROLYZER:
+  description:
+  - '&7Utilise l''électricité pour séparer'
+  - '&7les produits chimiques en leurs constituants'
   name: '&fElectrolyseur'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
@@ -142,18 +196,28 @@ ENDER_BLOCK:
   type:
   - '&7&oComposant'
 ENGINE_RELIC:
+  description:
+  - '&7Tnava''l srev uaessiav el resluporp ruop ediv ud'
+  - '&7eigrene''l esilitu ruetom ec'
   name: '&fRelique: ''Letagivd Yynmukav'
   type:
   - '&7&oDivers'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Produit un champ de force qui empêche l''air'
+  - '&7de passer, mais laisse passer les entités'
   name: '&fGenerateur de champ de force environnemental'
   type:
   - '&7&oMachine'
 FALLEN_METEOR:
+  description:
+  - '&7Ces météores contiennent du Tungstène'
   name: '&4Meteore tombe'
   type:
   - '&7&oRessource'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Leic ud ebmot tse iuq, etilletas nu'
   name: '&7Relique: Kintups Yyhsdap'
   type:
   - '&7&oDivers'
@@ -174,6 +238,10 @@ FUSION_PELLET:
   type:
   - '&7&oComposant'
 FUSION_REACTOR:
+  description:
+  - '&7Utilise des lasers pour fusionner des pastilles d''Hélium-3'
+  - '&7et générer une baleine d''énergie'
+  - '&7au passage'
   name: '&fReacteur a fusion'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
@@ -189,6 +257,8 @@ GOLD_FOIL:
   type:
   - '&7&oComposant'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8À ajouter à votre combinaison spatiale pour augmenter la résistance à la chaleur'
   name: '&7Amelioration de resistance a la chaleur'
   type:
   - '&7&oComposant'
@@ -197,11 +267,27 @@ HEAVY_DUTY_SHEET:
   type:
   - '&7&oComposant'
 ION_DISPERSER_1:
+  description:
+  - '&7Disperse passivement les radiations dans la zone environnante tant qu''il est alimenté'
   name: '&fDisperseur d''ions I'
+  stats:
+  - '&7Effet : Radiation'
+  - '&7Protection : 2'
+  - '&7Portée : 1000 blocs'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J de tampon'
   type:
   - '&7&oMachine'
 ION_DISPERSER_2:
+  description:
+  - '&7Disperse passivement les radiations dans la zone environnante tant qu''il est alimenté'
   name: '&fDisperseur d''ions II'
+  stats:
+  - '&7Effet : Radiation'
+  - '&7Protection : 4'
+  - '&7Portée : 1500 blocs'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J de tampon'
   type:
   - '&7&oMachine'
 ION_ENGINE:
@@ -209,10 +295,23 @@ ION_ENGINE:
   type:
   - '&7&oComposant'
 ION_ROCKET:
+  description:
+  - '&7Utilise un moteur spécialisé qui'
+  - '&7expulse des ions à grande vitesse, offrant'
+  - '&7une efficacité de carburant extrême'
   name: '&bFusee ionique'
+  stats:
+  - '&7Capacité de carburant : 500'
+  - '&7Capacité de cargo : 18'
   type:
   - '&7&oMultibloc'
 LANDING_HATCH:
+  description:
+  - '&7Les fusées ignorent ce bloc à'
+  - '&7l''atterrissage ; elles se posent sur le'
+  - '&7bloc le plus haut en dessous. Il est'
+  - '&7considéré comme infranchissable par l''air'
+  - '&7et peut donc servir à rendre des espaces hermétiques'
   name: '&fTrappe d''atterrissage'
   type:
   - '&7&oDivers'
@@ -225,6 +324,8 @@ LASERITE:
   type:
   - '&7&oRessource'
 LASERITE_DUST:
+  description:
+  - '&7Je suis à court de noms'
   name: '&cPoudre de laserite'
   type:
   - '&7&oRessource'
@@ -236,7 +337,12 @@ LAUNCH_PAD_CORE:
   name: '&fNoyau de pas de tir'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&7Entourez-le de 8 &fSols de plateforme de lancement&7'
+  - '&7pour l''utiliser'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Utilisé pour construire la Plateforme de lancement'
   name: '&fPlancher de pas de tir'
   type:
   - '&7&oMultibloc'
@@ -245,6 +351,9 @@ LIFE_SUPPORT_MODULE:
   type:
   - '&7&oComposant'
 LUNAR_GLASS:
+  description:
+  - '&7Pour une raison inconnue, ajouter de la poudre de lune'
+  - '&7au verre le rend plus clair...'
   name: '&fVerre lunaire'
   type:
   - '&7&oComposant'
@@ -261,9 +370,16 @@ METHANE_ICE:
   type:
   - '&7&oRessource'
 MOON_CHEESE:
+  description:
+  - '&7Beurk'
   name: '&6Fromage lunaire'
+  stats:
+  - '&7Restaure &b2 &7de faim'
+  - '&7Restaure &b2.0 &7de saturation'
   type:
   - '&7&oNourriture'
+  usage:
+  - '&7Placez-le pour le manger'
 MOON_DUST:
   name: '&7Poussiere lunaire'
   type:
@@ -273,6 +389,8 @@ MOON_ROCK:
   type:
   - '&7&oRessource'
 MUNPOWDER:
+  description:
+  - '&7La poudre à canon de la lune'
   name: '&7Poudre lunaire'
   type:
   - '&7&oRessource'
@@ -285,10 +403,16 @@ NOZZLE:
   type:
   - '&7&oComposant'
 OBSERVATORY:
+  description:
+  - '&7Vous permet de découvrir des informations basiques'
+  - '&7sur un monde à distance. Ne marche que sur les mondes'
+  - '&7à moins de 0.25 ly (2,365,200,000,000 km)'
   name: '&fObservatoire'
   type:
   - '&7&oGadget'
 OXYGEN_FILLER:
+  description:
+  - '&7Remplit les combinaisons spatiales d''oxygène'
   name: '&fRemplisseur d''oxygene'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
@@ -300,18 +424,30 @@ OXYGEN_REGENERATOR:
   type:
   - '&7&oComposant'
 OXYGEN_SEALER:
+  description:
+  - '&7Remplit une zone hermétique d''oxygène'
   name: '&fScelleur d''oxygene'
+  stats:
+  - '&7Portée : 1000 blocs'
   type:
   - '&7&oMachine'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Vous permet de découvrir des informations avancées'
+  - '&7sur la planète actuelle'
   name: '&fAnalyseur planetaire'
   type:
   - '&7&oGadget'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8À ajouter à votre combinaison spatiale pour augmenter la résistance aux radiations'
   name: '&7Amelioration de resistance aux radiations'
   type:
   - '&7&oComposant'
 REACTOR_RELIC:
+  description:
+  - '&7Neir ed ritrap a retlocer es tuep eigrene''l'
+  - '&7euq urc tiarua iuq?'
   name: '&fRelique: Rotarenegortkele Yynmukav'
   type:
   - '&7&oDivers'
@@ -337,14 +473,23 @@ ROCKET_ENGINE_3:
   - '&7&oComposant'
 ROCKET_TIER_ONE:
   name: '&4Fusee chimique niveau 1'
+  stats:
+  - '&7Capacité de carburant : 10'
+  - '&7Capacité de cargo : 9'
   type:
   - '&7&oMultibloc'
 ROCKET_TIER_THREE:
   name: '&4Fusee chimique niveau 3'
+  stats:
+  - '&7Capacité de carburant : 500'
+  - '&7Capacité de cargo : 36'
   type:
   - '&7&oMultibloc'
 ROCKET_TIER_TWO:
   name: '&4Fusee chimique niveau 2'
+  stats:
+  - '&7Capacité de carburant : 100'
+  - '&7Capacité de cargo : 18'
   type:
   - '&7&oMultibloc'
 SPACE_GRADE_PLATE:
@@ -352,36 +497,70 @@ SPACE_GRADE_PLATE:
   type:
   - '&7&oComposant'
 SPACE_HEATER_1:
+  description:
+  - '&7Réchauffe passivement la zone environnante, réduisant l''exposition au froid tant qu''il est alimenté'
   name: '&6Chauffage spatial I'
+  stats:
+  - '&7Effet : Froid'
+  - '&7Protection : 2'
+  - '&7Portée : 1000 blocs'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J de tampon'
   type:
   - '&7&oMachine'
 SPACE_HEATER_2:
+  description:
+  - '&7Réchauffe passivement la zone environnante, réduisant l''exposition au froid tant qu''il est alimenté'
   name: '&6Chauffage spatial II'
+  stats:
+  - '&7Effet : Froid'
+  - '&7Protection : 4'
+  - '&7Portée : 1500 blocs'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J de tampon'
   type:
   - '&7&oMachine'
 SPACE_HEATER_3:
+  description:
+  - '&7Réchauffe passivement la zone environnante, réduisant l''exposition au froid tant qu''il est alimenté'
   name: '&6Chauffage spatial III'
+  stats:
+  - '&7Effet : Froid'
+  - '&7Protection : 6'
+  - '&7Portée : 2000 blocs'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J de tampon'
   type:
   - '&7&oMachine'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Paire basique de bottes de combinaison spatiale'
   name: '&fBottes de combinaison spatiale'
   type:
   - '&7&oArmure'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Un plastron de combinaison spatiale basique'
   name: '&fPlastron de combinaison spatiale'
   type:
   - '&7&oArmure'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Un casque de combinaison spatiale basique'
   name: '&fCasque de combinaison spatiale'
   type:
   - '&7&oArmure'
   usage:
   - '&eClic droit&7 pour utiliser'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Paire basique de jambières de combinaison spatiale'
   name: '&fPantalon de combinaison spatiale'
   type:
   - '&7&oArmure'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Ajoute des améliorations à votre combinaison spatiale'
   name: '&fAmeliorateur de combinaison spatiale'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
@@ -397,10 +576,14 @@ SPARK_PLUG_2:
   type:
   - '&7&oComposant'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Utilisé pour contrôler une porte des étoiles'
   name: '&9Controleur de Stargate'
   type:
   - '&7&oMultibloc'
 STARGATE_RING:
+  description:
+  - '&7Utilisé pour construire une porte des étoiles'
   name: '&9Anneau de Stargate'
   type:
   - '&7&oMultibloc'
@@ -409,10 +592,15 @@ SULFUR_BLOCK:
   type:
   - '&7&oRessource'
 SUPER_FAN:
+  description:
+  - '&7Placez-le à côté d''un bloc qui nécessite'
+  - '&7une zone hermétique pour étendre la portée de 15%'
   name: '&7Super ventilateur'
   type:
   - '&7&oDivers'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Récupère tout ce qui est récupérable dans les reliques'
   name: '&fRecuperateur technologique'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
@@ -424,6 +612,10 @@ TUNGSTEN_CARBIDE:
   type:
   - '&7&oRessource'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Un métal solide obtenu soit en'
+  - '&7donnant des plaques renforcées aux Martiens, soit'
+  - '&7en faisant fondre des météores tombés'
   name: '&bLingot de tungstene'
   type:
   - '&7&oRessource'
@@ -436,6 +628,10 @@ VENTSTONE:
   type:
   - '&7&oRessource'
 VOLCANIC_INGOT:
+  description:
+  - '&7Forgés dans les profondeurs de ce qui ressemble'
+  - '&7le plus à l''Enfer, les Lingots volcaniques'
+  - '&7sont une marchandise précieuse'
   name: '&4Lingot volcanique'
   type:
   - '&7&oRessource'
