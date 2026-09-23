@@ -7,6 +7,9 @@ AIR_FILTER:
   type:
   - '&7&oKomponent'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Nie zgadniesz, ile czasu zajęło nam'
+  - '&7nazwanie tego materiału'
   name: '&fKompozyt aluminiowy'
   type:
   - '&7&oKomponent'
@@ -15,7 +18,11 @@ ALUMINUM_COMPOSITE_SHEET:
   type:
   - '&7&oKomponent'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Służy do budowania wielu rzeczy'
   name: '&fStol montazowy'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/wytworzenie'
   type:
   - '&7&oMaszyna'
 ATMOSPHERIC_GAS_AMMONIA:
@@ -59,6 +66,8 @@ ATMOSPHERIC_GAS_WATER:
   type:
   - '&7&oSurowiec'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Zbiera gazy z atmosfery'
   name: '&fKolektor atmosferyczny'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
@@ -66,6 +75,9 @@ ATMOSPHERIC_HARVESTER:
   type:
   - '&7&oMaszyna'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Automatycznie stawia i usuwa bloki w środku,'
+  - '&7gdy podchodzisz do niego lub odchodzisz'
   name: '&fAutomatyczne drzwi'
   type:
   - '&7&oMaszyna'
@@ -74,10 +86,15 @@ BLISTERING_VOLCANIC_INGOT:
   type:
   - '&7&oSurowiec'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7Ynzcenols lenap yrats ozdrab'
   name: '&7Relikt: ''Lenap Ayanhcenlos Ayanamolop'
   type:
   - '&7&oRóżne'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Łączy chemikalia w reakcji,'
+  - '&7by tworzyć nowe'
   name: '&fReaktor chemiczny'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
@@ -85,6 +102,8 @@ CHEMICAL_REACTOR:
   type:
   - '&7&oMaszyna'
 CIRCUIT_PRESS:
+  description:
+  - '&7Tworzy obwody'
   name: '&fPrasa do obwodow'
   stats:
   - '&8⇨ &e⚡ &7512 J Bufora'
@@ -92,26 +111,58 @@ CIRCUIT_PRESS:
   type:
   - '&7&oMaszyna'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Dodaj do skafandra kosmicznego, by zwiększyć odporność na zimno'
   name: '&7Ulepszenie odpornosci na zimno'
   type:
   - '&7&oKomponent'
 COMPUTER_RELIC:
+  description:
+  - '&7Yretupmok elkywz zin jeicbyzs einzcanz'
+  - '&7ainezcilbo cawynokyw aifartop ewotnawk yretupmok'
   name: '&fRelikt: Retuypmok Yyntnavk'
   type:
   - '&7&oRóżne'
 COOLING_UNIT_1:
+  description:
+  - '&7Pasywnie chłodzi otaczający obszar, zmniejszając narażenie na ciepło, gdy jest zasilany'
   name: '&bJednostka chlodzaca I'
+  stats:
+  - '&7Efekt: Ciepło'
+  - '&7Ochrona: 2'
+  - '&7Zasięg: 1000 bloków'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bufor'
   type:
   - '&7&oMaszyna'
 COOLING_UNIT_2:
+  description:
+  - '&7Pasywnie chłodzi otaczający obszar, zmniejszając narażenie na ciepło, gdy jest zasilany'
   name: '&bJednostka chlodzaca II'
+  stats:
+  - '&7Efekt: Ciepło'
+  - '&7Ochrona: 4'
+  - '&7Zasięg: 1500 bloków'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J bufora'
   type:
   - '&7&oMaszyna'
 COOLING_UNIT_3:
+  description:
+  - '&7Pasywnie chłodzi otaczający obszar, zmniejszając narażenie na ciepło, gdy jest zasilany'
   name: '&bJednostka chlodzaca III'
+  stats:
+  - '&7Efekt: Ciepło'
+  - '&7Ochrona: 6'
+  - '&7Zasięg: 2000 bloków'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J bufora'
   type:
   - '&7&oMaszyna'
 DIAMOND_ANVIL:
+  description:
+  - '&7Ściska materiał tak mocno,'
+  - '&7że staje się czymś zupełnie innym'
   name: '&fDiamentowe kowadlo'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
@@ -131,6 +182,9 @@ DRY_ICE:
   type:
   - '&7&oSurowiec'
 ELECTROLYZER:
+  description:
+  - '&7Używa prądu, by rozdzielać'
+  - '&7chemikalia na ich składniki'
   name: '&fElektrolizer'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
@@ -142,18 +196,28 @@ ENDER_BLOCK:
   type:
   - '&7&oKomponent'
 ENGINE_RELIC:
+  description:
+  - '&7Udozrp od ketats cazsurop yba ,inzorp'
+  - '&7eigrene ejutsyzrokyw kinlis net'
   name: '&fRelikt: ''Letagivd Yynmukav'
   type:
   - '&7&oRóżne'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Wytwarza pole siłowe, które nie przepuszcza'
+  - '&7powietrza, lecz przepuszcza istoty'
   name: '&fGenerator pola silowego srodowiska'
   type:
   - '&7&oMaszyna'
 FALLEN_METEOR:
+  description:
+  - '&7Te meteory zawierają Wolfram'
   name: '&4Spadly meteor'
   type:
   - '&7&oSurowiec'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Abein z ldaps yrotk ,atiletas'
   name: '&7Relikt: Kintups Yyhsdap'
   type:
   - '&7&oRóżne'
@@ -174,6 +238,10 @@ FUSION_PELLET:
   type:
   - '&7&oKomponent'
 FUSION_REACTOR:
+  description:
+  - '&7Używa laserów do fuzji granulek Helu-3'
+  - '&7i wytwarza wielorybio dużo energii'
+  - '&7przy okazji'
   name: '&fReaktor fuzyjny'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
@@ -189,6 +257,8 @@ GOLD_FOIL:
   type:
   - '&7&oKomponent'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Dodaj do skafandra kosmicznego, by zwiększyć odporność na ciepło'
   name: '&7Ulepszenie odpornosci na cieplo'
   type:
   - '&7&oKomponent'
@@ -197,11 +267,27 @@ HEAVY_DUTY_SHEET:
   type:
   - '&7&oKomponent'
 ION_DISPERSER_1:
+  description:
+  - '&7Pasywnie rozprasza promieniowanie w otaczającym obszarze, gdy jest zasilany'
   name: '&fDyspergator jonow I'
+  stats:
+  - '&7Efekt: Promieniowanie'
+  - '&7Ochrona: 2'
+  - '&7Zasięg: 1000 bloków'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Bufor'
   type:
   - '&7&oMaszyna'
 ION_DISPERSER_2:
+  description:
+  - '&7Pasywnie rozprasza promieniowanie w otaczającym obszarze, gdy jest zasilany'
   name: '&fDyspergator jonow II'
+  stats:
+  - '&7Efekt: Promieniowanie'
+  - '&7Ochrona: 4'
+  - '&7Zasięg: 1500 bloków'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bufor'
   type:
   - '&7&oMaszyna'
 ION_ENGINE:
@@ -209,10 +295,23 @@ ION_ENGINE:
   type:
   - '&7&oKomponent'
 ION_ROCKET:
+  description:
+  - '&7Używa wyspecjalizowanego silnika, który'
+  - '&7wyrzuca jony z ogromną prędkością, dając'
+  - '&7skrajną oszczędność paliwa'
   name: '&bRakieta jonowa'
+  stats:
+  - '&7Pojemność paliwa: 500'
+  - '&7Pojemność ładunku: 18'
   type:
   - '&7&oMultiblok'
 LANDING_HATCH:
+  description:
+  - '&7Rakiety ignorują ten blok przy'
+  - '&7lądowaniu; wylądują na'
+  - '&7najwyższym bloku pod nim. Jest'
+  - '&7uznawany za nieprzepuszczalny dla powietrza,'
+  - '&7więc można nim uszczelniać pomieszczenia'
   name: '&fWlaz ladowania'
   type:
   - '&7&oRóżne'
@@ -225,6 +324,8 @@ LASERITE:
   type:
   - '&7&oSurowiec'
 LASERITE_DUST:
+  description:
+  - '&7Kończą mi się nazwy'
   name: '&cPyl laserytu'
   type:
   - '&7&oSurowiec'
@@ -236,7 +337,12 @@ LAUNCH_PAD_CORE:
   name: '&fRdzen wyrzutni'
   type:
   - '&7&oMultiblok'
+  usage:
+  - '&7Otocz 8 &fpodłogami platformy startowej&7,'
+  - '&7aby użyć'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Używana przy budowie Platformy startowej'
   name: '&fPodloga wyrzutni'
   type:
   - '&7&oMultiblok'
@@ -245,6 +351,9 @@ LIFE_SUPPORT_MODULE:
   type:
   - '&7&oKomponent'
 LUNAR_GLASS:
+  description:
+  - '&7Z jakiegoś powodu dodanie pyłu księżycowego do'
+  - '&7szkła czyni je przejrzystszym...'
   name: '&fSzklo ksiezycowe'
   type:
   - '&7&oKomponent'
@@ -261,9 +370,16 @@ METHANE_ICE:
   type:
   - '&7&oSurowiec'
 MOON_CHEESE:
+  description:
+  - '&7Fuj'
   name: '&6Ser ksiezycowy'
+  stats:
+  - '&7Przywraca &b2 &7głodu'
+  - '&7Przywraca &b2.0 &7nasycenia'
   type:
   - '&7&oJedzenie'
+  usage:
+  - '&7Umieść, aby zjeść'
 MOON_DUST:
   name: '&7Pyl ksiezycowy'
   type:
@@ -273,6 +389,8 @@ MOON_ROCK:
   type:
   - '&7&oSurowiec'
 MUNPOWDER:
+  description:
+  - '&7Proch strzelniczy z księżyca'
   name: '&7Proch ksiezycowy'
   type:
   - '&7&oSurowiec'
@@ -285,10 +403,16 @@ NOZZLE:
   type:
   - '&7&oKomponent'
 OBSERVATORY:
+  description:
+  - '&7Pozwala poznać podstawowe informacje o'
+  - '&7świecie zdalnie. Działa tylko dla światów'
+  - '&7bliższych niż 0.25 ly (2,365,200,000,000 km)'
   name: '&fObserwatorium'
   type:
   - '&7&oGadżet'
 OXYGEN_FILLER:
+  description:
+  - '&7Napełnia skafandry kosmiczne tlenem'
   name: '&fNapelniacz tlenu'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
@@ -300,18 +424,30 @@ OXYGEN_REGENERATOR:
   type:
   - '&7&oKomponent'
 OXYGEN_SEALER:
+  description:
+  - '&7Napełnia zamknięty obszar tlenem'
   name: '&fUszczelniacz tlenu'
+  stats:
+  - '&7Zasięg: 1000 bloków'
   type:
   - '&7&oMaszyna'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Pozwala poznać zaawansowane informacje'
+  - '&7o obecnej planecie'
   name: '&fAnalizator planetarny'
   type:
   - '&7&oGadżet'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Dodaj do skafandra kosmicznego, by zwiększyć odporność na promieniowanie'
   name: '&7Ulepszenie odpornosci na promieniowanie'
   type:
   - '&7&oKomponent'
 REACTOR_RELIC:
+  description:
+  - '&7Ogezcin z careibz anzom eigrene'
+  - '&7ez ,lalsymop yb otk?'
   name: '&fRelikt: Rotarenegortkele Yynmukav'
   type:
   - '&7&oRóżne'
@@ -337,14 +473,23 @@ ROCKET_ENGINE_3:
   - '&7&oKomponent'
 ROCKET_TIER_ONE:
   name: '&4Rakieta chemiczna poziom 1'
+  stats:
+  - '&7Pojemność paliwa: 10'
+  - '&7Pojemność ładunku: 9'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_THREE:
   name: '&4Rakieta chemiczna poziom 3'
+  stats:
+  - '&7Pojemność paliwa: 500'
+  - '&7Pojemność ładunku: 36'
   type:
   - '&7&oMultiblok'
 ROCKET_TIER_TWO:
   name: '&4Rakieta chemiczna poziom 2'
+  stats:
+  - '&7Pojemność paliwa: 100'
+  - '&7Pojemność ładunku: 18'
   type:
   - '&7&oMultiblok'
 SPACE_GRADE_PLATE:
@@ -352,36 +497,70 @@ SPACE_GRADE_PLATE:
   type:
   - '&7&oKomponent'
 SPACE_HEATER_1:
+  description:
+  - '&7Pasywnie ogrzewa otaczający obszar, zmniejszając narażenie na zimno, gdy jest zasilany'
   name: '&6Grzejnik kosmiczny I'
+  stats:
+  - '&7Efekt: Zimno'
+  - '&7Ochrona: 2'
+  - '&7Zasięg: 1000 bloków'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Bufor'
   type:
   - '&7&oMaszyna'
 SPACE_HEATER_2:
+  description:
+  - '&7Pasywnie ogrzewa otaczający obszar, zmniejszając narażenie na zimno, gdy jest zasilany'
   name: '&6Grzejnik kosmiczny II'
+  stats:
+  - '&7Efekt: Zimno'
+  - '&7Ochrona: 4'
+  - '&7Zasięg: 1500 bloków'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bufor'
   type:
   - '&7&oMaszyna'
 SPACE_HEATER_3:
+  description:
+  - '&7Pasywnie ogrzewa otaczający obszar, zmniejszając narażenie na zimno, gdy jest zasilany'
   name: '&6Grzejnik kosmiczny III'
+  stats:
+  - '&7Efekt: Zimno'
+  - '&7Ochrona: 6'
+  - '&7Zasięg: 2000 bloków'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J bufora'
   type:
   - '&7&oMaszyna'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Podstawowa para butów skafandra kosmicznego'
   name: '&fButy skafandra'
   type:
   - '&7&oZbroja'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Podstawowy napierśnik skafandra kosmicznego'
   name: '&fNapiersnik skafandra'
   type:
   - '&7&oZbroja'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Podstawowy hełm skafandra kosmicznego'
   name: '&fHelm skafandra'
   type:
   - '&7&oZbroja'
   usage:
   - '&ePrawy przycisk&7, aby użyć'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Podstawowa para spodni skafandra kosmicznego'
   name: '&fSpodnie skafandra'
   type:
   - '&7&oZbroja'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Dodaje ulepszenia do twojego skafandra kosmicznego'
   name: '&fUlepszacz skafandra'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
@@ -397,10 +576,14 @@ SPARK_PLUG_2:
   type:
   - '&7&oKomponent'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Służy do sterowania gwiezdnymi wrotami'
   name: '&9Kontroler Stargate'
   type:
   - '&7&oMultiblok'
 STARGATE_RING:
+  description:
+  - '&7Służy do zbudowania gwiezdnych wrót'
   name: '&9Pierscien Stargate'
   type:
   - '&7&oMultiblok'
@@ -409,10 +592,15 @@ SULFUR_BLOCK:
   type:
   - '&7&oSurowiec'
 SUPER_FAN:
+  description:
+  - '&7Umieść to obok bloku, który potrzebuje'
+  - '&7zamkniętego obszaru, by zwiększyć zasięg o 15%'
   name: '&7Superwentylator'
   type:
   - '&7&oRóżne'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Odzyskuje z reliktów wszystko, co da się odzyskać'
   name: '&fOdzyskiwacz technologii'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
@@ -424,6 +612,10 @@ TUNGSTEN_CARBIDE:
   type:
   - '&7&oSurowiec'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Mocny metal zdobywany albo przez'
+  - '&7dawanie Marsjanom wzmocnionych płyt, albo'
+  - '&7przez wytapianie spadłych meteorów'
   name: '&bSztabka wolframu'
   type:
   - '&7&oSurowiec'
@@ -436,6 +628,10 @@ VENTSTONE:
   type:
   - '&7&oSurowiec'
 VOLCANIC_INGOT:
+  description:
+  - '&7Wykute w głębinach najbliższej'
+  - '&7znanej nam rzeczy do Piekła, Wulkaniczne sztabki'
+  - '&7są cennym towarem'
   name: '&4Sztabka wulkaniczna'
   type:
   - '&7&oSurowiec'
