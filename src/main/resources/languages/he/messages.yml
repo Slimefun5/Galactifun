@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "הרקטה משוגרת כרגע!"
+  already-launching: "הרקטה כבר משוגרת!"
+  not-from-this-world: "אינך יכול לנסוע לחלל מהעולם הזה!"
+  no-fuel: "לרקטה אין דלק!"
+  enter-coordinates: "הזן את קואורדינטות היעד בצורה <x> <z> (למשל -123 456) או כתוב משהו אחר כדי לבטל:"
+  outside-world-border: "היעד נמצא מחוץ לגבול העולם"
+  no-landing-permission: "אין לך הרשאה לנחות שם"
+  launch-cancelled: "השיגור בוטל"
+  verifying-blast: "מאמת כמה מרהיב השיגור..."
+  launch-messages:
+    - "שוכחים את המצנחים"
+    - "מחדשים את מלאי החטיפים"
+    - "מיישרים את הכוכבים"
+    - "מדליקים את השמש"
+    - "ממציאים הודעות שיגור מצחיקות"
+    - "מודים ל TheBusyBiscuit"
+    - "מביימים את הנחיתות על הירח"
+    - "עושים צעד קטן אחד"
+    - "הופכים לבומר"
+    - "לא חוזרים הביתה"
+
+launch-pad:
+  rocket-launching: "אינך יכול לשבור את משטח השיגור בזמן ששוגרת ממנו רקטה!"
+  needs-floors: "הקף את הבלוק הזה ב-8 רצפות משטח שיגור לפני שתנסה להשתמש בו"
+
+atmosphere:
+  exposed: "נחשפת ל %effect%!"
+
+effect:
+  radiation: "קרינה"
+  heat: "חום"
+  cold: "קור"
+
+assembly-table:
+  not-enough-energy: "אין מספיק אנרגיה!"
+  charge: "טעינה: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "עליך להיות על כוכב לכת כדי להשתמש בזה!"
+  already-observing: "התצפית כבר מתבצעת!"
+  observing: "מתבצעת תצפית על הכוכב %planet%"
+  already-analyzing: "הניתוח כבר מתבצע!"
+  analyzing: "מתבצע ניתוח של הכוכב %planet%"
+
+forcefield:
+  activated: "הופעל"
+  deactivated: "כובה"
+
+stargate:
+  deactivate-first: "כבה את שער הכוכבים לפני שתהרוס אותו"
+  not-assembled: "שער הכוכבים אינו מורכב!"
+  activated: "שער הכוכבים הופעל!"
+  address: "כתובת (לחץ להעתקה): %address%"
+  enter-destination: "כתוב את כתובת היעד"
+  no-destination: "לא נמצא יעד!"
+  not-lit: "שער הכוכבים אינו דולק מסיבה כלשהי..."
+  destination-set: "יעד שער הכוכבים הוגדר ל %x% %y% %z% בעולם %world%"
+  destination-not-activated: "שער הכוכבים ביעד אינו מופעל"
+  destination-blocked: "היעד חסום"
+
+commands:
+  invalid-uuid: "UUID לא חוקי!"
+  invalid-world: "עולם לא חוקי!"
+  not-in-galactifun-world: "עליך להיות בעולם Galactifun כדי להריץ את הפקודה הזו"
+  effect-level: "אפקט: %effect%, דרגה: %level%"
+
+sealed:
+  usage: "שימוש: /galactifun sealed <טווח>"
+  range-out-of-bounds: "הטווח חייב להיות מספר שלם בין 1 ל %max%"
+  sealed: "אטום"
+  not-sealed: "לא אטום"
+
+structure:
+  save-usage: "שימוש: /galactifun save <שם>"
+  pos1-not-set: "pos1 לא הוגדר!"
+  pos2-not-set: "pos2 לא הוגדר!"
+  saved: "נשמר בשם '%name%'!"
+  save-failed: "שגיאה בשמירת הקובץ! בדוק את המסוף!"
+  must-target-block: "עליך לכוון לבלוק!"
+  position: "%coords% בעולם %world%"
+  pos1-set: "pos1 הוגדר ל %position%"
+  pos2-set: "pos2 הוגדר ל %position%"
+  paste-usage: "שימוש: /galactifun paste <שם>"
+  unknown: "מבנה לא מוכר '%name%'!"
+  pasted: "הודבק!"
+
+world:
+  out-of-oxygen: "נגמר לך החמצן!"
+  respawn-point-set: "נקודת ההתחייה הוגדרה"
+  respawn-loop-detected: "זוהה לופ התחייה אפשרי!"
+  respawn-loop-question: "האם ברצונך לחזור לכדור הארץ? (%yes%/%no%)"
+  affirmative: "כן"
+  negative: "לא"

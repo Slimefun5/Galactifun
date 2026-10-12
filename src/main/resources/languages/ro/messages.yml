@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Racheta este în curs de lansare!"
+  already-launching: "Racheta se lansează deja!"
+  not-from-this-world: "Nu poți călători în spațiu din această lume!"
+  no-fuel: "Racheta nu are combustibil!"
+  enter-coordinates: "Introdu coordonatele destinației în forma <x> <z> (de exemplu -123 456) sau scrie orice altceva pentru a anula:"
+  outside-world-border: "Destinația este în afara limitei lumii"
+  no-landing-permission: "Nu ai permisiunea să aterizezi acolo"
+  launch-cancelled: "Lansare anulată"
+  verifying-blast: "Se verifică spectaculozitatea lansării..."
+  launch-messages:
+    - "Se uită parașutele"
+    - "Se reface rezerva de gustări"
+    - "Se aliniază planetele"
+    - "Se aprinde soarele"
+    - "Se inventează mesaje de lansare amuzante"
+    - "Se mulțumește lui TheBusyBiscuit"
+    - "Se truchează aterizările pe Lună"
+    - "Se face un pas mic"
+    - "Se devine boomer"
+    - "Nu se mai merge acasă"
+
+launch-pad:
+  rocket-launching: "Nu poți distruge platforma de lansare în timp ce o rachetă se lansează de pe ea!"
+  needs-floors: "Înconjoară acest bloc cu 8 podele de platformă de lansare înainte să încerci să îl folosești"
+
+atmosphere:
+  exposed: "Ai fost expus la %effect%!"
+
+effect:
+  radiation: "Radiație"
+  heat: "Căldură"
+  cold: "Frig"
+
+assembly-table:
+  not-enough-energy: "Energie insuficientă!"
+  charge: "Încărcare: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Trebuie să fii pe o planetă pentru a folosi asta!"
+  already-observing: "Se observă deja!"
+  observing: "Se observă planeta %planet%"
+  already-analyzing: "Se analizează deja!"
+  analyzing: "Se analizează planeta %planet%"
+
+forcefield:
+  activated: "Activat"
+  deactivated: "Dezactivat"
+
+stargate:
+  deactivate-first: "Dezactivează poarta stelară înainte să o distrugi"
+  not-assembled: "Poarta stelară nu este asamblată!"
+  activated: "Poarta stelară a fost activată!"
+  address: "Adresă (dă clic pentru a copia): %address%"
+  enter-destination: "Scrie adresa destinației"
+  no-destination: "Nu a fost găsită nicio destinație!"
+  not-lit: "Din cine știe ce motiv poarta stelară nu este aprinsă..."
+  destination-set: "Destinația porții stelare a fost setată la %x% %y% %z% în %world%"
+  destination-not-activated: "Poarta stelară de destinație nu este activată"
+  destination-blocked: "Destinația este blocată"
+
+commands:
+  invalid-uuid: "UUID invalid!"
+  invalid-world: "Lume invalidă!"
+  not-in-galactifun-world: "Trebuie să fii într-o lume Galactifun pentru a executa această comandă"
+  effect-level: "Efect: %effect%, Nivel: %level%"
+
+sealed:
+  usage: "Utilizare: /galactifun sealed <rază>"
+  range-out-of-bounds: "Raza trebuie să fie un număr întreg între 1 și %max%"
+  sealed: "Sigilat"
+  not-sealed: "Nesigilat"
+
+structure:
+  save-usage: "Utilizare: /galactifun save <nume>"
+  pos1-not-set: "pos1 nu este setată!"
+  pos2-not-set: "pos2 nu este setată!"
+  saved: "Salvat ca '%name%'!"
+  save-failed: "Eroare la salvarea fișierului! Verifică consola!"
+  must-target-block: "Trebuie să țintești un bloc!"
+  position: "%coords% în %world%"
+  pos1-set: "pos1 setată la %position%"
+  pos2-set: "pos2 setată la %position%"
+  paste-usage: "Utilizare: /galactifun paste <nume>"
+  unknown: "Structură necunoscută '%name%'!"
+  pasted: "Lipit!"
+
+world:
+  out-of-oxygen: "Ai rămas fără oxigen!"
+  respawn-point-set: "Punct de reapariție setat"
+  respawn-loop-detected: "A fost detectată o posibilă buclă de reapariție!"
+  respawn-loop-question: "Vrei să te întorci pe Pământ? (%yes%/%no%)"
+  affirmative: "da"
+  negative: "nu"

@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "De raket is aan het lanceren!"
+  already-launching: "De raket is al aan het lanceren!"
+  not-from-this-world: "Je kunt vanuit deze wereld niet naar de ruimte reizen!"
+  no-fuel: "De raket heeft geen brandstof!"
+  enter-coordinates: "Voer de bestemmingscoördinaten in de vorm <x> <z> in (bijvoorbeeld -123 456) of typ iets anders om te annuleren:"
+  outside-world-border: "De bestemming ligt buiten de wereldgrens"
+  no-landing-permission: "Je hebt geen toestemming om daar te landen"
+  launch-cancelled: "Lancering geannuleerd"
+  verifying-blast: "Spectaculariteit van de lancering controleren..."
+  launch-messages:
+    - "Parachutes vergeten"
+    - "Snackkast bijvullen"
+    - "Planeten uitlijnen"
+    - "Zon aansteken"
+    - "Grappige lanceerberichten verzinnen"
+    - "TheBusyBiscuit bedanken"
+    - "Maanlandingen in scène zetten"
+    - "Een kleine stap zetten"
+    - "Boomer worden"
+    - "Niet naar huis gaan"
+
+launch-pad:
+  rocket-launching: "Je kunt het lanceerplatform niet slopen terwijl er een raket op lanceert!"
+  needs-floors: "Omring dit blok met 8 lanceerplatform-vloeren voordat je het gebruikt"
+
+atmosphere:
+  exposed: "Je bent blootgesteld aan %effect%!"
+
+effect:
+  radiation: "Straling"
+  heat: "Hitte"
+  cold: "Kou"
+
+assembly-table:
+  not-enough-energy: "Niet genoeg energie!"
+  charge: "Lading: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Je moet op een planeet zijn om dit te gebruiken!"
+  already-observing: "Al aan het observeren!"
+  observing: "Planeet %planet% observeren"
+  already-analyzing: "Al aan het analyseren!"
+  analyzing: "Planeet %planet% analyseren"
+
+forcefield:
+  activated: "Geactiveerd"
+  deactivated: "Gedeactiveerd"
+
+stargate:
+  deactivate-first: "Deactiveer de Stargate voordat je hem sloopt"
+  not-assembled: "De Stargate is niet samengebouwd!"
+  activated: "Stargate geactiveerd!"
+  address: "Adres (klik om te kopiëren): %address%"
+  enter-destination: "Typ het bestemmingsadres"
+  no-destination: "Geen bestemming gevonden!"
+  not-lit: "De Stargate licht om een of andere reden niet op..."
+  destination-set: "Stargate-bestemming ingesteld op %x% %y% %z% in %world%"
+  destination-not-activated: "De Stargate op de bestemming is niet geactiveerd"
+  destination-blocked: "De bestemming is geblokkeerd"
+
+commands:
+  invalid-uuid: "Ongeldige UUID!"
+  invalid-world: "Ongeldige wereld!"
+  not-in-galactifun-world: "Je moet in een Galactifun-wereld zijn om dit commando uit te voeren"
+  effect-level: "Effect: %effect%, Niveau: %level%"
+
+sealed:
+  usage: "Gebruik, zoals: /galactifun sealed <bereik>"
+  range-out-of-bounds: "Het bereik moet een heel getal tussen 1 en %max% zijn"
+  sealed: "Afgedicht"
+  not-sealed: "Niet afgedicht"
+
+structure:
+  save-usage: "Gebruik, zoals: /galactifun save <naam>"
+  pos1-not-set: "pos1 is niet ingesteld!"
+  pos2-not-set: "pos2 is niet ingesteld!"
+  saved: "Opgeslagen als '%name%'!"
+  save-failed: "Fout bij het opslaan van het bestand! Controleer de console!"
+  must-target-block: "Je moet een blok aanwijzen!"
+  position: "%coords% in %world%"
+  pos1-set: "pos1 ingesteld op %position%"
+  pos2-set: "pos2 ingesteld op %position%"
+  paste-usage: "Gebruik, zoals: /galactifun paste <naam>"
+  unknown: "Onbekende structuur '%name%'!"
+  pasted: "Geplakt!"
+
+world:
+  out-of-oxygen: "Je zuurstof is op!"
+  respawn-point-set: "Respawnpunt ingesteld"
+  respawn-loop-detected: "Een mogelijke respawn-lus is gedetecteerd!"
+  respawn-loop-question: "Wil je terug naar de Aarde? (%yes%/%no%)"
+  affirmative: "ja"
+  negative: "nee"

@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Die Rakete startet gerade!"
+  already-launching: "Die Rakete startet bereits!"
+  not-from-this-world: "Von dieser Welt aus kannst du nicht ins All reisen!"
+  no-fuel: "Die Rakete hat keinen Treibstoff!"
+  enter-coordinates: "Bitte gib die Zielkoordinaten in der Form <x> <z> ein (z. B. -123 456) oder schreibe etwas anderes, um abzubrechen:"
+  outside-world-border: "Das Ziel liegt außerhalb der Weltgrenze"
+  no-landing-permission: "Du hast nicht die benötigten Rechte, um dort zu landen"
+  launch-cancelled: "Start abgebrochen"
+  verifying-blast: "Prüfe die Grandiosität des Starts..."
+  launch-messages:
+    - "Fallschirme vergessen"
+    - "Snackfach auffüllen"
+    - "Planeten ausrichten"
+    - "Sonne entzünden"
+    - "Lustige Startmeldungen erfinden"
+    - "TheBusyBiscuit danken"
+    - "Mondlandungen vortäuschen"
+    - "Einen kleinen Schritt machen"
+    - "Boomer werden"
+    - "Nicht nach Hause fliegen"
+
+launch-pad:
+  rocket-launching: "Du kannst die Startrampe nicht abbauen, während eine Rakete darauf startet!"
+  needs-floors: "Umgib diesen Block mit 8 Startrampen-Böden, bevor du ihn benutzt"
+
+atmosphere:
+  exposed: "Du wurdest %effect% ausgesetzt!"
+
+effect:
+  radiation: "Strahlung"
+  heat: "Hitze"
+  cold: "Kälte"
+
+assembly-table:
+  not-enough-energy: "Nicht genug Energie!"
+  charge: "Ladung: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Du musst auf einem Planeten sein, um das zu benutzen!"
+  already-observing: "Wird bereits beobachtet!"
+  observing: "Beobachte Planet %planet%"
+  already-analyzing: "Wird bereits analysiert!"
+  analyzing: "Analysiere Planet %planet%"
+
+forcefield:
+  activated: "Aktiviert"
+  deactivated: "Deaktiviert"
+
+stargate:
+  deactivate-first: "Deaktiviere das Sternentor, bevor du es zerstörst"
+  not-assembled: "Das Sternentor ist nicht zusammengebaut!"
+  activated: "Sternentor aktiviert!"
+  address: "Adresse (zum Kopieren anklicken): %address%"
+  enter-destination: "Gib die Zieladresse ein"
+  no-destination: "Kein Ziel gefunden!"
+  not-lit: "Das Sternentor leuchtet aus irgendeinem Grund nicht..."
+  destination-set: "Sternentor-Ziel auf %x% %y% %z% in %world% gesetzt"
+  destination-not-activated: "Das Ziel-Sternentor ist nicht aktiviert"
+  destination-blocked: "Das Ziel ist blockiert"
+
+commands:
+  invalid-uuid: "Ungültige UUID!"
+  invalid-world: "Ungültige Welt!"
+  not-in-galactifun-world: "Du musst in einer Galactifun-Welt sein, um diesen Befehl auszuführen"
+  effect-level: "Effekt: %effect%, Stufe: %level%"
+
+sealed:
+  usage: "Korrekte Schreibweise: /galactifun sealed <Reichweite>"
+  range-out-of-bounds: "Die Reichweite muss eine ganze Zahl zwischen 1 und %max% sein"
+  sealed: "Abgedichtet"
+  not-sealed: "Nicht abgedichtet"
+
+structure:
+  save-usage: "Korrekte Schreibweise: /galactifun save <Name>"
+  pos1-not-set: "pos1 ist nicht gesetzt!"
+  pos2-not-set: "pos2 ist nicht gesetzt!"
+  saved: "Als '%name%' gespeichert!"
+  save-failed: "Fehler beim Speichern der Datei! Prüfe die Konsole!"
+  must-target-block: "Du musst einen Block anvisieren!"
+  position: "%coords% in %world%"
+  pos1-set: "pos1 auf %position% gesetzt"
+  pos2-set: "pos2 auf %position% gesetzt"
+  paste-usage: "Korrekte Schreibweise: /galactifun paste <Name>"
+  unknown: "Unbekannte Struktur '%name%'!"
+  pasted: "Eingefügt!"
+
+world:
+  out-of-oxygen: "Dir ist der Sauerstoff ausgegangen!"
+  respawn-point-set: "Respawn-Punkt gesetzt"
+  respawn-loop-detected: "Eine mögliche Respawn-Schleife wurde erkannt!"
+  respawn-loop-question: "Möchtest du zur Erde zurückkehren? (%yes%/%no%)"
+  affirmative: "ja"
+  negative: "nein"

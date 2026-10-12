@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Die vuurpyl is tans aan die lanseer!"
+  already-launching: "Die vuurpyl is reeds aan die lanseer!"
+  not-from-this-world: "Jy kan nie vanuit hierdie wêreld na die ruimte reis nie!"
+  no-fuel: "Die vuurpyl het geen brandstof nie!"
+  enter-coordinates: "Voer die bestemming se koördinate in die vorm <x> <z> in (byvoorbeeld -123 456) of tik iets anders om te kanselleer:"
+  outside-world-border: "Die bestemming is buite die wêreldgrens"
+  no-landing-permission: "Jy het nie toestemming om daar te land nie"
+  launch-cancelled: "Lansering gekanselleer"
+  verifying-blast: "Verifieer hoe indrukwekkend die lansering is..."
+  launch-messages:
+    - "Vergeet die valskerms"
+    - "Vul die peuselkas aan"
+    - "Lyn die planete op"
+    - "Steek die son aan"
+    - "Dink snaakse lanseerboodskappe uit"
+    - "Bedank TheBusyBiscuit"
+    - "Vals die maanlandings"
+    - "Gee een klein stappie"
+    - "Word 'n boomer"
+    - "Gaan nie huis toe nie"
+
+launch-pad:
+  rocket-launching: "Jy kan nie die lanseerplatform breek terwyl 'n vuurpyl daarop lanseer nie!"
+  needs-floors: "Omring hierdie blok met 8 lanseerplatformvloere voordat jy dit probeer gebruik"
+
+atmosphere:
+  exposed: "Jy is blootgestel aan %effect%!"
+
+effect:
+  radiation: "Bestraling"
+  heat: "Hitte"
+  cold: "Koue"
+
+assembly-table:
+  not-enough-energy: "Nie genoeg energie nie!"
+  charge: "Lading: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Jy moet op 'n planeet wees om dit te gebruik!"
+  already-observing: "Reeds aan die waarneem!"
+  observing: "Neem planeet %planet% waar"
+  already-analyzing: "Reeds aan die ontleed!"
+  analyzing: "Ontleed planeet %planet%"
+
+forcefield:
+  activated: "Geaktiveer"
+  deactivated: "Gedeaktiveer"
+
+stargate:
+  deactivate-first: "Deaktiveer die sterpoort voordat jy dit vernietig"
+  not-assembled: "Die sterpoort is nie saamgestel nie!"
+  activated: "Sterpoort geaktiveer!"
+  address: "Adres (klik om te kopieer): %address%"
+  enter-destination: "Tik die bestemmingsadres"
+  no-destination: "Geen bestemming gevind nie!"
+  not-lit: "Die sterpoort is om een of ander rede nie aan nie..."
+  destination-set: "Sterpoort se bestemming gestel op %x% %y% %z% in %world%"
+  destination-not-activated: "Die bestemming se sterpoort is nie geaktiveer nie"
+  destination-blocked: "Die bestemming is versper"
+
+commands:
+  invalid-uuid: "Ongeldige UUID!"
+  invalid-world: "Ongeldige wêreld!"
+  not-in-galactifun-world: "Jy moet in 'n Galactifun-wêreld wees om hierdie bevel uit te voer"
+  effect-level: "Effek: %effect%, Vlak: %level%"
+
+sealed:
+  usage: "Gebruik: /galactifun sealed <bereik>"
+  range-out-of-bounds: "Die bereik moet 'n heelgetal tussen 1 en %max% wees"
+  sealed: "Verseël"
+  not-sealed: "Nie verseël nie"
+
+structure:
+  save-usage: "Gebruik: /galactifun save <naam>"
+  pos1-not-set: "pos1 is nie gestel nie!"
+  pos2-not-set: "pos2 is nie gestel nie!"
+  saved: "Gestoor as '%name%'!"
+  save-failed: "Fout met die stoor van die lêer! Kyk na die konsole!"
+  must-target-block: "Jy moet op 'n blok mik!"
+  position: "%coords% in %world%"
+  pos1-set: "pos1 gestel op %position%"
+  pos2-set: "pos2 gestel op %position%"
+  paste-usage: "Gebruik: /galactifun paste <naam>"
+  unknown: "Onbekende struktuur '%name%'!"
+  pasted: "Geplak!"
+
+world:
+  out-of-oxygen: "Jou suurstof is uitgeput!"
+  respawn-point-set: "Herlewingspunt gestel"
+  respawn-loop-detected: "'n Moontlike herlewingslus is opgespoor!"
+  respawn-loop-question: "Wil jy terug na die Aarde gaan? (%yes%/%no%)"
+  affirmative: "ja"
+  negative: "nee"

@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Ракетата се изстрелва в момента!"
+  already-launching: "Ракетата вече се изстрелва!"
+  not-from-this-world: "Не можете да пътувате в космоса от този свят!"
+  no-fuel: "Ракетата няма гориво!"
+  enter-coordinates: "Въведете координатите на целта във вида <x> <z> (например -123 456) или напишете нещо друго, за да отмените:"
+  outside-world-border: "Целта е извън границата на света"
+  no-landing-permission: "Нямате право да кацнете там"
+  launch-cancelled: "Изстрелването е отменено"
+  verifying-blast: "Проверка на зрелищността на изстрелването..."
+  launch-messages:
+    - "Забравяне на парашутите"
+    - "Попълване на запаса от закуски"
+    - "Подреждане на планетите"
+    - "Запалване на слънцето"
+    - "Измисляне на забавни съобщения при изстрелване"
+    - "Благодарност към TheBusyBiscuit"
+    - "Фалшифициране на кацанията на Луната"
+    - "Правене на една малка стъпка"
+    - "Превръщане в бумър"
+    - "Невръщане вкъщи"
+
+launch-pad:
+  rocket-launching: "Не можете да разрушите площадката за изстрелване, докато от нея се изстрелва ракета!"
+  needs-floors: "Обградете този блок с 8 пода на площадка за изстрелване, преди да го използвате"
+
+atmosphere:
+  exposed: "Бяхте изложени на: %effect%!"
+
+effect:
+  radiation: "Радиация"
+  heat: "Жега"
+  cold: "Студ"
+
+assembly-table:
+  not-enough-energy: "Недостатъчно енергия!"
+  charge: "Заряд: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Трябва да сте на планета, за да използвате това!"
+  already-observing: "Наблюдението вече е в ход!"
+  observing: "Наблюдение на планетата %planet%"
+  already-analyzing: "Анализът вече е в ход!"
+  analyzing: "Анализ на планетата %planet%"
+
+forcefield:
+  activated: "Активирано"
+  deactivated: "Деактивирано"
+
+stargate:
+  deactivate-first: "Деактивирайте звездната врата, преди да я разрушите"
+  not-assembled: "Звездната врата не е сглобена!"
+  activated: "Звездната врата е активирана!"
+  address: "Адрес (щракнете, за да копирате): %address%"
+  enter-destination: "Въведете адреса на целта"
+  no-destination: "Не е намерена цел!"
+  not-lit: "Звездната врата по някаква причина не свети..."
+  destination-set: "Целта на звездната врата е зададена на %x% %y% %z% в %world%"
+  destination-not-activated: "Звездната врата на целта не е активирана"
+  destination-blocked: "Целта е блокирана"
+
+commands:
+  invalid-uuid: "Невалиден UUID!"
+  invalid-world: "Невалиден свят!"
+  not-in-galactifun-world: "Трябва да сте в свят на Galactifun, за да изпълните тази команда"
+  effect-level: "Ефект: %effect%, Ниво: %level%"
+
+sealed:
+  usage: "Употреба: /galactifun sealed <обхват>"
+  range-out-of-bounds: "Обхватът трябва да е цяло число между 1 и %max%"
+  sealed: "Уплътнено"
+  not-sealed: "Неуплътнено"
+
+structure:
+  save-usage: "Употреба: /galactifun save <име>"
+  pos1-not-set: "pos1 не е зададена!"
+  pos2-not-set: "pos2 не е зададена!"
+  saved: "Запазено като '%name%'!"
+  save-failed: "Грешка при запазване на файла! Проверете конзолата!"
+  must-target-block: "Трябва да се прицелите в блок!"
+  position: "%coords% в %world%"
+  pos1-set: "pos1 е зададена на %position%"
+  pos2-set: "pos2 е зададена на %position%"
+  paste-usage: "Употреба: /galactifun paste <име>"
+  unknown: "Непозната структура '%name%'!"
+  pasted: "Поставено!"
+
+world:
+  out-of-oxygen: "Кислородът ви свърши!"
+  respawn-point-set: "Точката на възраждане е зададена"
+  respawn-loop-detected: "Открит е възможен цикъл на възраждане!"
+  respawn-loop-question: "Искате ли да се върнете на Земята? (%yes%/%no%)"
+  affirmative: "да"
+  negative: "не"

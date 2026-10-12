@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raketa práve štartuje!"
+  already-launching: "Raketa už štartuje!"
+  not-from-this-world: "Z tohto sveta nemôžeš cestovať do vesmíru!"
+  no-fuel: "Raketa nemá palivo!"
+  enter-coordinates: "Napíš cieľové súradnice v tvare <x> <z> (napríklad -123 456) alebo napíš čokoľvek iné na zrušenie:"
+  outside-world-border: "Cieľ je za hranicou sveta"
+  no-landing-permission: "Nemáš oprávnenie tam pristáť"
+  launch-cancelled: "Štart zrušený"
+  verifying-blast: "Kontroluje sa veľkoleposť štartu..."
+  launch-messages:
+    - "Zabúdanie padákov"
+    - "Dopĺňanie zásoby pochutín"
+    - "Zarovnávanie planét"
+    - "Zapaľovanie slnka"
+    - "Vymýšľanie vtipných štartovacích správ"
+    - "Ďakovanie TheBusyBiscuit"
+    - "Predstieranie pristátí na Mesiaci"
+    - "Urobenie jedného malého kroku"
+    - "Stávanie sa boomerom"
+    - "Nevracanie sa domov"
+
+launch-pad:
+  rocket-launching: "Nemôžeš zničiť štartovaciu plošinu, keď z nej štartuje raketa!"
+  needs-floors: "Obklop tento blok 8 podlahami štartovacej plošiny, než ho použiješ"
+
+atmosphere:
+  exposed: "Bol si vystavený %effect%!"
+
+effect:
+  radiation: "Radiácia"
+  heat: "Horúco"
+  cold: "Chlad"
+
+assembly-table:
+  not-enough-energy: "Nedostatok energie!"
+  charge: "Náboj: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Musíš byť na planéte, aby si to mohol použiť!"
+  already-observing: "Už prebieha pozorovanie!"
+  observing: "Pozorovanie planéty %planet%"
+  already-analyzing: "Už prebieha analýza!"
+  analyzing: "Analýza planéty %planet%"
+
+forcefield:
+  activated: "Aktivované"
+  deactivated: "Deaktivované"
+
+stargate:
+  deactivate-first: "Deaktivuj hviezdnu bránu, než ju zničíš"
+  not-assembled: "Hviezdna brána nie je zostavená!"
+  activated: "Hviezdna brána aktivovaná!"
+  address: "Adresa (klikni na skopírovanie): %address%"
+  enter-destination: "Napíš cieľovú adresu"
+  no-destination: "Nenašiel sa žiadny cieľ!"
+  not-lit: "Hviezdna brána z nejakého dôvodu nesvieti..."
+  destination-set: "Cieľ hviezdnej brány nastavený na %x% %y% %z% vo svete %world%"
+  destination-not-activated: "Cieľová hviezdna brána nie je aktivovaná"
+  destination-blocked: "Cieľ je zablokovaný"
+
+commands:
+  invalid-uuid: "Neplatné UUID!"
+  invalid-world: "Neplatný svet!"
+  not-in-galactifun-world: "Musíš byť vo svete Galactifun, aby si mohol spustiť tento príkaz"
+  effect-level: "Efekt: %effect%, Úroveň: %level%"
+
+sealed:
+  usage: "Použitie: /galactifun sealed <rozsah>"
+  range-out-of-bounds: "Rozsah musí byť celé číslo medzi 1 a %max%"
+  sealed: "Utesnené"
+  not-sealed: "Neutesnené"
+
+structure:
+  save-usage: "Použitie: /galactifun save <názov>"
+  pos1-not-set: "pos1 nie je nastavená!"
+  pos2-not-set: "pos2 nie je nastavená!"
+  saved: "Uložené ako '%name%'!"
+  save-failed: "Chyba pri ukladaní súboru! Skontroluj konzolu!"
+  must-target-block: "Musíš mieriť na blok!"
+  position: "%coords% vo svete %world%"
+  pos1-set: "pos1 nastavená na %position%"
+  pos2-set: "pos2 nastavená na %position%"
+  paste-usage: "Použitie: /galactifun paste <názov>"
+  unknown: "Neznáma štruktúra '%name%'!"
+  pasted: "Vložené!"
+
+world:
+  out-of-oxygen: "Došiel ti kyslík!"
+  respawn-point-set: "Bod oživenia nastavený"
+  respawn-loop-detected: "Bola zistená možná slučka oživenia!"
+  respawn-loop-question: "Chceš sa vrátiť na Zem? (%yes%/%no%)"
+  affirmative: "áno"
+  negative: "nie"

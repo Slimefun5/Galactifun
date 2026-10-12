@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "จรวดกำลังปล่อยอยู่!"
+  already-launching: "จรวดกำลังปล่อยอยู่แล้ว!"
+  not-from-this-world: "คุณไม่สามารถเดินทางไปอวกาศจากโลกนี้ได้!"
+  no-fuel: "จรวดไม่มีเชื้อเพลิง!"
+  enter-coordinates: "กรุณาป้อนพิกัดจุดหมายในรูปแบบ <x> <z> (ตัวอย่าง -123 456) หรือพิมพ์อย่างอื่นเพื่อยกเลิก:"
+  outside-world-border: "จุดหมายอยู่นอกขอบเขตของโลก"
+  no-landing-permission: "คุณไม่มีสิทธิ์ลงจอดที่นั่น"
+  launch-cancelled: "ยกเลิกการปล่อยจรวดแล้ว"
+  verifying-blast: "กำลังตรวจสอบความอลังการของการปล่อยจรวด..."
+  launch-messages:
+    - "ลืมร่มชูชีพ"
+    - "เติมตู้ขนม"
+    - "จัดเรียงดาวเคราะห์"
+    - "จุดดวงอาทิตย์"
+    - "คิดข้อความปล่อยจรวดตลก ๆ"
+    - "ขอบคุณ TheBusyBiscuit"
+    - "จัดฉากการลงจอดบนดวงจันทร์"
+    - "ก้าวเล็ก ๆ หนึ่งก้าว"
+    - "กลายเป็นบูมเมอร์"
+    - "ไม่กลับบ้าน"
+
+launch-pad:
+  rocket-launching: "คุณไม่สามารถทำลายแท่นปล่อยจรวดขณะที่มีจรวดกำลังปล่อยอยู่บนนั้นได้!"
+  needs-floors: "ล้อมบล็อกนี้ด้วยพื้นแท่นปล่อยจรวด 8 ชิ้นก่อนที่จะใช้งาน"
+
+atmosphere:
+  exposed: "คุณได้รับผลกระทบจาก %effect%!"
+
+effect:
+  radiation: "รังสี"
+  heat: "ความร้อน"
+  cold: "ความเย็น"
+
+assembly-table:
+  not-enough-energy: "พลังงานไม่เพียงพอ!"
+  charge: "ประจุ: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "คุณต้องอยู่บนดาวเคราะห์เพื่อใช้สิ่งนี้!"
+  already-observing: "กำลังสังเกตการณ์อยู่แล้ว!"
+  observing: "กำลังสังเกตการณ์ดาวเคราะห์ %planet%"
+  already-analyzing: "กำลังวิเคราะห์อยู่แล้ว!"
+  analyzing: "กำลังวิเคราะห์ดาวเคราะห์ %planet%"
+
+forcefield:
+  activated: "เปิดใช้งานแล้ว"
+  deactivated: "ปิดใช้งานแล้ว"
+
+stargate:
+  deactivate-first: "ปิดใช้งานประตูดาวก่อนที่จะทำลายมัน"
+  not-assembled: "ประตูดาวยังไม่ได้ประกอบ!"
+  activated: "เปิดใช้งานประตูดาวแล้ว!"
+  address: "ที่อยู่ (คลิกเพื่อคัดลอก): %address%"
+  enter-destination: "พิมพ์ที่อยู่จุดหมาย"
+  no-destination: "ไม่พบจุดหมาย!"
+  not-lit: "ประตูดาวไม่สว่างด้วยเหตุผลบางอย่าง..."
+  destination-set: "ตั้งจุดหมายของประตูดาวเป็น %x% %y% %z% ในโลก %world%"
+  destination-not-activated: "ประตูดาวที่จุดหมายยังไม่เปิดใช้งาน"
+  destination-blocked: "จุดหมายถูกปิดกั้น"
+
+commands:
+  invalid-uuid: "UUID ไม่ถูกต้อง!"
+  invalid-world: "โลกไม่ถูกต้อง!"
+  not-in-galactifun-world: "คุณต้องอยู่ในโลกของ Galactifun เพื่อใช้คำสั่งนี้"
+  effect-level: "ผล: %effect%, ระดับ: %level%"
+
+sealed:
+  usage: "วิธีใช้: /galactifun sealed <ระยะ>"
+  range-out-of-bounds: "ระยะต้องเป็นจำนวนเต็มระหว่าง 1 ถึง %max%"
+  sealed: "ผนึกแล้ว"
+  not-sealed: "ยังไม่ผนึก"
+
+structure:
+  save-usage: "วิธีใช้: /galactifun save <ชื่อ>"
+  pos1-not-set: "ยังไม่ได้ตั้ง pos1!"
+  pos2-not-set: "ยังไม่ได้ตั้ง pos2!"
+  saved: "บันทึกเป็น '%name%' แล้ว!"
+  save-failed: "เกิดข้อผิดพลาดในการบันทึกไฟล์! กรุณาตรวจสอบคอนโซล!"
+  must-target-block: "คุณต้องเล็งไปที่บล็อก!"
+  position: "%coords% ในโลก %world%"
+  pos1-set: "ตั้ง pos1 เป็น %position%"
+  pos2-set: "ตั้ง pos2 เป็น %position%"
+  paste-usage: "วิธีใช้: /galactifun paste <ชื่อ>"
+  unknown: "ไม่รู้จักโครงสร้าง '%name%'!"
+  pasted: "วางแล้ว!"
+
+world:
+  out-of-oxygen: "ออกซิเจนของคุณหมดแล้ว!"
+  respawn-point-set: "ตั้งจุดเกิดใหม่แล้ว"
+  respawn-loop-detected: "ตรวจพบการเกิดใหม่ซ้ำ ๆ ที่อาจเกิดขึ้น!"
+  respawn-loop-question: "คุณต้องการกลับไปยังโลกหรือไม่? (%yes%/%no%)"
+  affirmative: "ใช่"
+  negative: "ไม่"

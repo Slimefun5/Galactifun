@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raketa šiuo metu kyla!"
+  already-launching: "Raketa jau kyla!"
+  not-from-this-world: "Iš šio pasaulio negalite keliauti į kosmosą!"
+  no-fuel: "Raketa neturi degalų!"
+  enter-coordinates: "Įveskite tikslo koordinates formatu <x> <z> (pavyzdžiui, -123 456) arba įveskite ką nors kita, kad atšauktumėte:"
+  outside-world-border: "Tikslas yra už pasaulio ribos"
+  no-landing-permission: "Neturite leidimo ten nusileisti"
+  launch-cancelled: "Startas atšauktas"
+  verifying-blast: "Tikrinama, kiek įspūdingas startas..."
+  launch-messages:
+    - "Užmirštami parašiutai"
+    - "Papildomas užkandžių sandėlis"
+    - "Lygiuojamos planetos"
+    - "Užkuriama saulė"
+    - "Sugalvojami juokingi starto pranešimai"
+    - "Dėkojama TheBusyBiscuit"
+    - "Fabrikuojami nusileidimai Mėnulyje"
+    - "Žengiamas vienas mažas žingsnis"
+    - "Tampama bumeriu"
+    - "Negrįžtama namo"
+
+launch-pad:
+  rocket-launching: "Negalite sulaužyti starto aikštelės, kol iš jos kyla raketa!"
+  needs-floors: "Apjuoskite šį bloką 8 starto aikštelės grindimis prieš bandydami jį naudoti"
+
+atmosphere:
+  exposed: "Buvote paveikti: %effect%!"
+
+effect:
+  radiation: "Radiacija"
+  heat: "Kaitra"
+  cold: "Šaltis"
+
+assembly-table:
+  not-enough-energy: "Nepakanka energijos!"
+  charge: "Įkrova: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Norėdami tai naudoti, turite būti planetoje!"
+  already-observing: "Stebėjimas jau vyksta!"
+  observing: "Stebima planeta %planet%"
+  already-analyzing: "Analizė jau vyksta!"
+  analyzing: "Analizuojama planeta %planet%"
+
+forcefield:
+  activated: "Aktyvuota"
+  deactivated: "Deaktyvuota"
+
+stargate:
+  deactivate-first: "Deaktyvuokite žvaigždžių vartus prieš juos sunaikindami"
+  not-assembled: "Žvaigždžių vartai nesurinkti!"
+  activated: "Žvaigždžių vartai aktyvuoti!"
+  address: "Adresas (spustelėkite, kad nukopijuotumėte): %address%"
+  enter-destination: "Įveskite tikslo adresą"
+  no-destination: "Tikslas nerastas!"
+  not-lit: "Žvaigždžių vartai kažkodėl nešviečia..."
+  destination-set: "Žvaigždžių vartų tikslas nustatytas į %x% %y% %z% pasaulyje %world%"
+  destination-not-activated: "Tikslo žvaigždžių vartai neaktyvuoti"
+  destination-blocked: "Tikslas užblokuotas"
+
+commands:
+  invalid-uuid: "Neteisingas UUID!"
+  invalid-world: "Neteisingas pasaulis!"
+  not-in-galactifun-world: "Norėdami vykdyti šią komandą, turite būti Galactifun pasaulyje"
+  effect-level: "Efektas: %effect%, Lygis: %level%"
+
+sealed:
+  usage: "Naudojimas: /galactifun sealed <nuotolis>"
+  range-out-of-bounds: "Nuotolis turi būti sveikasis skaičius nuo 1 iki %max%"
+  sealed: "Hermetiška"
+  not-sealed: "Nehermetiška"
+
+structure:
+  save-usage: "Naudojimas: /galactifun save <pavadinimas>"
+  pos1-not-set: "pos1 nenustatyta!"
+  pos2-not-set: "pos2 nenustatyta!"
+  saved: "Išsaugota kaip '%name%'!"
+  save-failed: "Klaida saugant failą! Patikrinkite konsolę!"
+  must-target-block: "Turite nukreipti žvilgsnį į bloką!"
+  position: "%coords% pasaulyje %world%"
+  pos1-set: "pos1 nustatyta į %position%"
+  pos2-set: "pos2 nustatyta į %position%"
+  paste-usage: "Naudojimas: /galactifun paste <pavadinimas>"
+  unknown: "Nežinoma struktūra '%name%'!"
+  pasted: "Įklijuota!"
+
+world:
+  out-of-oxygen: "Jums pasibaigė deguonis!"
+  respawn-point-set: "Atgimimo vieta nustatyta"
+  respawn-loop-detected: "Aptiktas galimas atgimimo ciklas!"
+  respawn-loop-question: "Ar norite grįžti į Žemę? (%yes%/%no%)"
+  affirmative: "taip"
+  negative: "ne"

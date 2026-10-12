@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raketti on laukaisemassa!"
+  already-launching: "Raketti on jo laukaisemassa!"
+  not-from-this-world: "Tästä maailmasta ei voi matkustaa avaruuteen!"
+  no-fuel: "Raketissa ei ole polttoainetta!"
+  enter-coordinates: "Kirjoita määränpään koordinaatit muodossa <x> <z> (esimerkiksi -123 456) tai kirjoita jotain muuta peruuttaaksesi:"
+  outside-world-border: "Määränpää on maailman rajan ulkopuolella"
+  no-landing-permission: "Sinulla ei ole lupaa laskeutua sinne"
+  launch-cancelled: "Laukaisu peruttu"
+  verifying-blast: "Tarkistetaan laukaisun näyttävyyttä..."
+  launch-messages:
+    - "Unohdetaan laskuvarjot"
+    - "Täytetään välipalakaappi"
+    - "Kohdistetaan planeetat"
+    - "Sytytetään aurinko"
+    - "Keksitään hauskoja laukaisuviestejä"
+    - "Kiitetään TheBusyBiscuitia"
+    - "Lavastetaan kuulaskeutumiset"
+    - "Otetaan yksi pieni askel"
+    - "Muututaan boomeriksi"
+    - "Ei palata kotiin"
+
+launch-pad:
+  rocket-launching: "Et voi rikkoa laukaisualustaa, kun raketti on laukaisemassa siltä!"
+  needs-floors: "Ympäröi tämä lohko 8 laukaisualustan lattialla ennen kuin yrität käyttää sitä"
+
+atmosphere:
+  exposed: "Olet altistunut: %effect%!"
+
+effect:
+  radiation: "Säteily"
+  heat: "Kuumuus"
+  cold: "Kylmyys"
+
+assembly-table:
+  not-enough-energy: "Ei tarpeeksi energiaa!"
+  charge: "Lataus: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Sinun on oltava planeetalla käyttääksesi tätä!"
+  already-observing: "Havainnointi on jo käynnissä!"
+  observing: "Havainnoidaan planeettaa %planet%"
+  already-analyzing: "Analysointi on jo käynnissä!"
+  analyzing: "Analysoidaan planeettaa %planet%"
+
+forcefield:
+  activated: "Aktivoitu"
+  deactivated: "Poistettu käytöstä"
+
+stargate:
+  deactivate-first: "Poista tähtiportti käytöstä ennen kuin tuhoat sen"
+  not-assembled: "Tähtiporttia ei ole koottu!"
+  activated: "Tähtiportti aktivoitu!"
+  address: "Osoite (napsauta kopioidaksesi): %address%"
+  enter-destination: "Kirjoita määränpään osoite"
+  no-destination: "Määränpäätä ei löytynyt!"
+  not-lit: "Tähtiportti ei jostain syystä hehku..."
+  destination-set: "Tähtiportin määränpää asetettu kohtaan %x% %y% %z% maailmassa %world%"
+  destination-not-activated: "Määränpään tähtiporttia ei ole aktivoitu"
+  destination-blocked: "Määränpää on tukossa"
+
+commands:
+  invalid-uuid: "Virheellinen UUID!"
+  invalid-world: "Virheellinen maailma!"
+  not-in-galactifun-world: "Sinun on oltava Galactifun-maailmassa suorittaaksesi tämän komennon"
+  effect-level: "Vaikutus: %effect%, Taso: %level%"
+
+sealed:
+  usage: "Käyttö: /galactifun sealed <kantama>"
+  range-out-of-bounds: "Kantaman on oltava kokonaisluku väliltä 1 ja %max%"
+  sealed: "Tiivis"
+  not-sealed: "Ei tiivis"
+
+structure:
+  save-usage: "Käyttö: /galactifun save <nimi>"
+  pos1-not-set: "pos1 ei ole asetettu!"
+  pos2-not-set: "pos2 ei ole asetettu!"
+  saved: "Tallennettu nimellä '%name%'!"
+  save-failed: "Virhe tiedoston tallennuksessa! Tarkista konsoli!"
+  must-target-block: "Sinun on tähdättävä lohkoon!"
+  position: "%coords% maailmassa %world%"
+  pos1-set: "pos1 asetettu kohtaan %position%"
+  pos2-set: "pos2 asetettu kohtaan %position%"
+  paste-usage: "Käyttö: /galactifun paste <nimi>"
+  unknown: "Tuntematon rakenne '%name%'!"
+  pasted: "Liitetty!"
+
+world:
+  out-of-oxygen: "Happesi loppui!"
+  respawn-point-set: "Uudelleensyntymispiste asetettu"
+  respawn-loop-detected: "Mahdollinen uudelleensyntymissilmukka havaittu!"
+  respawn-loop-question: "Haluatko palata Maahan? (%yes%/%no%)"
+  affirmative: "kyllä"
+  negative: "ei"

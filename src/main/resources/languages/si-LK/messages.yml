@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "රොකට්ටුව දැන් නැංවෙමින් පවතී!"
+  already-launching: "රොකට්ටුව දැනටමත් නැංවෙමින් පවතී!"
+  not-from-this-world: "මෙම ලෝකයෙන් අභ්‍යවකාශයට යා නොහැක!"
+  no-fuel: "රොකට්ටුවේ ඉන්ධන නැත!"
+  enter-coordinates: "ගමනාන්තයේ ඛණ්ඩාංක <x> <z> ආකාරයෙන් ඇතුළු කරන්න (උදාහරණයක් ලෙස -123 456) නැතහොත් අවලංගු කිරීමට වෙනත් යමක් ටයිප් කරන්න:"
+  outside-world-border: "ගමනාන්තය ලෝක මායිමෙන් පිටතයි"
+  no-landing-permission: "එහි ගොඩබෑමට ඔබට අවසර නැත"
+  launch-cancelled: "නැංවීම අවලංගු කළා"
+  verifying-blast: "නැංවීම කෙතරම් විශිෂ්ට දැයි පරීක්ෂා කරමින්..."
+  launch-messages:
+    - "පැරෂුට් අමතක කරමින්"
+    - "කෙටි කෑම අල්මාරිය නැවත පුරවමින්"
+    - "ග්‍රහලෝක පෙළගස්වමින්"
+    - "හිරු දල්වමින්"
+    - "විනෝදජනක නැංවීම් පණිවිඩ නිර්මාණය කරමින්"
+    - "TheBusyBiscuit ට ස්තූති කරමින්"
+    - "සඳ ගොඩබෑම් ව්‍යාජ ලෙස සකසමින්"
+    - "එක් කුඩා පියවරක් තබමින්"
+    - "බූමර් වෙමින්"
+    - "ගෙදර නොයමින්"
+
+launch-pad:
+  rocket-launching: "රොකට්ටුවක් නැංවෙමින් සිටින නැංවීම් පෑඩ බිඳ දැමිය නොහැක!"
+  needs-floors: "මෙම කොටස භාවිතා කිරීමට පෙර එය නැංවීම් පෑඩ බිම් 8 කින් වටලන්න"
+
+atmosphere:
+  exposed: "ඔබ %effect% වලට නිරාවරණය විය!"
+
+effect:
+  radiation: "විකිරණ"
+  heat: "තාපය"
+  cold: "සීතල"
+
+assembly-table:
+  not-enough-energy: "ප්‍රමාණවත් ශක්තියක් නැත!"
+  charge: "ආරෝපණය: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "මෙය භාවිතා කිරීමට ඔබ ග්‍රහලෝකයක සිටිය යුතුය!"
+  already-observing: "දැනටමත් නිරීක්ෂණය කරමින්!"
+  observing: "%planet% ග්‍රහලෝකය නිරීක්ෂණය කරමින්"
+  already-analyzing: "දැනටමත් විශ්ලේෂණය කරමින්!"
+  analyzing: "%planet% ග්‍රහලෝකය විශ්ලේෂණය කරමින්"
+
+forcefield:
+  activated: "ක්‍රියාත්මක කළා"
+  deactivated: "අක්‍රිය කළා"
+
+stargate:
+  deactivate-first: "තරු දොරටුව විනාශ කිරීමට පෙර එය අක්‍රිය කරන්න"
+  not-assembled: "තරු දොරටුව එකලස් කර නැත!"
+  activated: "තරු දොරටුව ක්‍රියාත්මක කළා!"
+  address: "ලිපිනය (පිටපත් කිරීමට ක්ලික් කරන්න): %address%"
+  enter-destination: "ගමනාන්තයේ ලිපිනය ටයිප් කරන්න"
+  no-destination: "ගමනාන්තයක් හමු නොවිණි!"
+  not-lit: "කිසියම් හේතුවක් නිසා තරු දොරටුව දැල්වී නැත..."
+  destination-set: "තරු දොරටුවේ ගමනාන්තය %world% තුළ %x% %y% %z% ලෙස සකසා ඇත"
+  destination-not-activated: "ගමනාන්තයේ තරු දොරටුව ක්‍රියාත්මක කර නැත"
+  destination-blocked: "ගමනාන්තය අවහිර වී ඇත"
+
+commands:
+  invalid-uuid: "වලංගු නොවන UUID!"
+  invalid-world: "වලංගු නොවන ලෝකයක්!"
+  not-in-galactifun-world: "මෙම විධානය ක්‍රියාත්මක කිරීමට ඔබ Galactifun ලෝකයක සිටිය යුතුය"
+  effect-level: "බලපෑම: %effect%, මට්ටම: %level%"
+
+sealed:
+  usage: "භාවිතය: /galactifun sealed <පරාසය>"
+  range-out-of-bounds: "පරාසය 1 සහ %max% අතර නිඛිලයක් විය යුතුය"
+  sealed: "මුද්‍රා තබා ඇත"
+  not-sealed: "මුද්‍රා තබා නැත"
+
+structure:
+  save-usage: "භාවිතය: /galactifun save <නම>"
+  pos1-not-set: "pos1 සකසා නැත!"
+  pos2-not-set: "pos2 සකසා නැත!"
+  saved: "'%name%' ලෙස සුරැකියා!"
+  save-failed: "ගොනුව සුරැකීමේ දෝෂයක්! කොන්සෝලය පරීක්ෂා කරන්න!"
+  must-target-block: "ඔබ කොටසක් ඉලක්ක කළ යුතුය!"
+  position: "%world% තුළ %coords%"
+  pos1-set: "pos1 %position% ලෙස සකසා ඇත"
+  pos2-set: "pos2 %position% ලෙස සකසා ඇත"
+  paste-usage: "භාවිතය: /galactifun paste <නම>"
+  unknown: "නොදන්නා ව්‍යුහයක් '%name%'!"
+  pasted: "අලවා ඇත!"
+
+world:
+  out-of-oxygen: "ඔබේ ඔක්සිජන් අවසන් විය!"
+  respawn-point-set: "නැවත ඉපදීමේ ස්ථානය සකසා ඇත"
+  respawn-loop-detected: "විය හැකි නැවත ඉපදීමේ චක්‍රයක් හඳුනාගත්තා!"
+  respawn-loop-question: "ඔබට පෘථිවියට නැවත යාමට අවශ්‍යද? (%yes%/%no%)"
+  affirmative: "ඔව්"
+  negative: "නැහැ"

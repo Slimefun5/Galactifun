@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Η ρουκέτα εκτοξεύεται αυτή τη στιγμή!"
+  already-launching: "Η ρουκέτα εκτοξεύεται ήδη!"
+  not-from-this-world: "Δεν μπορείτε να ταξιδέψετε στο διάστημα από αυτόν τον κόσμο!"
+  no-fuel: "Η ρουκέτα δεν έχει καύσιμα!"
+  enter-coordinates: "Εισάγετε τις συντεταγμένες προορισμού στη μορφή <x> <z> (για παράδειγμα -123 456) ή γράψτε οτιδήποτε άλλο για ακύρωση:"
+  outside-world-border: "Ο προορισμός είναι έξω από το όριο του κόσμου"
+  no-landing-permission: "Δεν έχετε άδεια να προσγειωθείτε εκεί"
+  launch-cancelled: "Η εκτόξευση ακυρώθηκε"
+  verifying-blast: "Έλεγχος του πόσο εντυπωσιακή είναι η εκτόξευση..."
+  launch-messages:
+    - "Ξεχνάμε τα αλεξίπτωτα"
+    - "Ανεφοδιάζουμε το ντουλάπι με σνακ"
+    - "Ευθυγραμμίζουμε τους πλανήτες"
+    - "Ανάβουμε τον ήλιο"
+    - "Εφευρίσκουμε αστεία μηνύματα εκτόξευσης"
+    - "Ευχαριστούμε τον TheBusyBiscuit"
+    - "Σκηνοθετούμε τις προσεληνώσεις"
+    - "Κάνουμε ένα μικρό βήμα"
+    - "Γινόμαστε μπούμερ"
+    - "Δεν γυρίζουμε σπίτι"
+
+launch-pad:
+  rocket-launching: "Δεν μπορείτε να σπάσετε την πλατφόρμα εκτόξευσης όσο εκτοξεύεται ρουκέτα από αυτήν!"
+  needs-floors: "Περιβάλετε αυτό το μπλοκ με 8 δάπεδα πλατφόρμας εκτόξευσης πριν προσπαθήσετε να το χρησιμοποιήσετε"
+
+atmosphere:
+  exposed: "Εκτεθήκατε σε: %effect%!"
+
+effect:
+  radiation: "Ραδιενέργεια"
+  heat: "Ζέστη"
+  cold: "Ψύχος"
+
+assembly-table:
+  not-enough-energy: "Δεν υπάρχει αρκετή ενέργεια!"
+  charge: "Φόρτιση: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Πρέπει να βρίσκεστε σε πλανήτη για να το χρησιμοποιήσετε!"
+  already-observing: "Η παρατήρηση είναι ήδη σε εξέλιξη!"
+  observing: "Παρατήρηση του πλανήτη %planet%"
+  already-analyzing: "Η ανάλυση είναι ήδη σε εξέλιξη!"
+  analyzing: "Ανάλυση του πλανήτη %planet%"
+
+forcefield:
+  activated: "Ενεργοποιήθηκε"
+  deactivated: "Απενεργοποιήθηκε"
+
+stargate:
+  deactivate-first: "Απενεργοποιήστε την Αστρόπυλη πριν την καταστρέψετε"
+  not-assembled: "Η Αστρόπυλη δεν είναι συναρμολογημένη!"
+  activated: "Η Αστρόπυλη ενεργοποιήθηκε!"
+  address: "Διεύθυνση (κάντε κλικ για αντιγραφή): %address%"
+  enter-destination: "Γράψτε τη διεύθυνση προορισμού"
+  no-destination: "Δεν βρέθηκε προορισμός!"
+  not-lit: "Η Αστρόπυλη για κάποιον λόγο δεν φωτίζεται..."
+  destination-set: "Ο προορισμός της Αστρόπυλης ορίστηκε στο %x% %y% %z% στον κόσμο %world%"
+  destination-not-activated: "Η Αστρόπυλη του προορισμού δεν είναι ενεργοποιημένη"
+  destination-blocked: "Ο προορισμός είναι μπλοκαρισμένος"
+
+commands:
+  invalid-uuid: "Μη έγκυρο UUID!"
+  invalid-world: "Μη έγκυρος κόσμος!"
+  not-in-galactifun-world: "Πρέπει να βρίσκεστε σε κόσμο του Galactifun για να εκτελέσετε αυτήν την εντολή"
+  effect-level: "Επίδραση: %effect%, Επίπεδο: %level%"
+
+sealed:
+  usage: "Χρήση: /galactifun sealed <εμβέλεια>"
+  range-out-of-bounds: "Η εμβέλεια πρέπει να είναι ακέραιος αριθμός μεταξύ 1 και %max%"
+  sealed: "Σφραγισμένο"
+  not-sealed: "Μη σφραγισμένο"
+
+structure:
+  save-usage: "Χρήση: /galactifun save <όνομα>"
+  pos1-not-set: "το pos1 δεν έχει οριστεί!"
+  pos2-not-set: "το pos2 δεν έχει οριστεί!"
+  saved: "Αποθηκεύτηκε ως '%name%'!"
+  save-failed: "Σφάλμα κατά την αποθήκευση του αρχείου! Ελέγξτε την κονσόλα!"
+  must-target-block: "Πρέπει να στοχεύσετε ένα μπλοκ!"
+  position: "%coords% στον κόσμο %world%"
+  pos1-set: "το pos1 ορίστηκε στο %position%"
+  pos2-set: "το pos2 ορίστηκε στο %position%"
+  paste-usage: "Χρήση: /galactifun paste <όνομα>"
+  unknown: "Άγνωστη δομή '%name%'!"
+  pasted: "Επικολλήθηκε!"
+
+world:
+  out-of-oxygen: "Σας τελείωσε το οξυγόνο!"
+  respawn-point-set: "Το σημείο αναγέννησης ορίστηκε"
+  respawn-loop-detected: "Εντοπίστηκε πιθανός βρόχος αναγέννησης!"
+  respawn-loop-question: "Θέλετε να επιστρέψετε στη Γη; (%yes%/%no%)"
+  affirmative: "ναι"
+  negative: "όχι"

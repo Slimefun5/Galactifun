@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Ракетата моментално се лансира!"
+  already-launching: "Ракетата веќе се лансира!"
+  not-from-this-world: "Од овој свет не можеш да патуваш во вселената!"
+  no-fuel: "Ракетата нема гориво!"
+  enter-coordinates: "Внеси ги координатите на одредиштето во форма <x> <z> (на пример -123 456) или внеси нешто друго за да откажеш:"
+  outside-world-border: "Одредиштето е надвор од границата на светот"
+  no-landing-permission: "Немаш дозвола да слеташ таму"
+  launch-cancelled: "Лансирањето е откажано"
+  verifying-blast: "Се проверува спектакуларноста на лансирањето..."
+  launch-messages:
+    - "Заборавање на падобраните"
+    - "Дополнување на залихите со грицки"
+    - "Порамнување на планетите"
+    - "Потпалување на сонцето"
+    - "Измислување смешни пораки за лансирање"
+    - "Благодарност до TheBusyBiscuit"
+    - "Фингирање на слетувањата на Месечината"
+    - "Правење на еден мал чекор"
+    - "Станување бумер"
+    - "Невраќање дома"
+
+launch-pad:
+  rocket-launching: "Не можеш да ја уништиш лансирната платформа додека од неа се лансира ракета!"
+  needs-floors: "Опколи го овој блок со 8 подови за лансирна платформа пред да го употребиш"
+
+atmosphere:
+  exposed: "Изложен си на: %effect%!"
+
+effect:
+  radiation: "Радијација"
+  heat: "Жега"
+  cold: "Студ"
+
+assembly-table:
+  not-enough-energy: "Недоволно енергија!"
+  charge: "Полнење: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Мораш да бидеш на планета за да го користиш ова!"
+  already-observing: "Набљудувањето е веќе во тек!"
+  observing: "Набљудување на планетата %planet%"
+  already-analyzing: "Анализата е веќе во тек!"
+  analyzing: "Анализа на планетата %planet%"
+
+forcefield:
+  activated: "Активирано"
+  deactivated: "Деактивирано"
+
+stargate:
+  deactivate-first: "Деактивирај ја ѕвездената порта пред да ја уништиш"
+  not-assembled: "Ѕвездената порта не е склопена!"
+  activated: "Ѕвездената порта е активирана!"
+  address: "Адреса (кликни за копирање): %address%"
+  enter-destination: "Внеси адресата на одредиштето"
+  no-destination: "Не е најдено одредиште!"
+  not-lit: "Ѕвездената порта поради некоја причина не свети..."
+  destination-set: "Одредиштето на ѕвездената порта е поставено на %x% %y% %z% во %world%"
+  destination-not-activated: "Ѕвездената порта на одредиштето не е активирана"
+  destination-blocked: "Одредиштето е блокирано"
+
+commands:
+  invalid-uuid: "Неважечки UUID!"
+  invalid-world: "Неважечки свет!"
+  not-in-galactifun-world: "Мораш да бидеш во свет на Galactifun за да ја извршиш оваа команда"
+  effect-level: "Ефект: %effect%, Ниво: %level%"
+
+sealed:
+  usage: "Употреба: /galactifun sealed <опсег>"
+  range-out-of-bounds: "Опсегот мора да биде цел број помеѓу 1 и %max%"
+  sealed: "Заптивено"
+  not-sealed: "Не е заптивено"
+
+structure:
+  save-usage: "Употреба: /galactifun save <име>"
+  pos1-not-set: "pos1 не е поставена!"
+  pos2-not-set: "pos2 не е поставена!"
+  saved: "Зачувано како '%name%'!"
+  save-failed: "Грешка при зачувување на датотеката! Провери ја конзолата!"
+  must-target-block: "Мораш да нанишаниш блок!"
+  position: "%coords% во %world%"
+  pos1-set: "pos1 е поставена на %position%"
+  pos2-set: "pos2 е поставена на %position%"
+  paste-usage: "Употреба: /galactifun paste <име>"
+  unknown: "Непозната структура '%name%'!"
+  pasted: "Залепено!"
+
+world:
+  out-of-oxygen: "Ти се потроши кислородот!"
+  respawn-point-set: "Точката на оживување е поставена"
+  respawn-loop-detected: "Откриена е можна петелка на оживување!"
+  respawn-loop-question: "Дали сакаш да се вратиш на Земјата? (%yes%/%no%)"
+  affirmative: "да"
+  negative: "не"

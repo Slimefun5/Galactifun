@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raķete pašlaik tiek palaista!"
+  already-launching: "Raķete jau tiek palaista!"
+  not-from-this-world: "No šīs pasaules nevari ceļot kosmosā!"
+  no-fuel: "Raķetei nav degvielas!"
+  enter-coordinates: "Ievadi mērķa koordinātas formā <x> <z> (piemēram, -123 456) vai ieraksti jebko citu, lai atceltu:"
+  outside-world-border: "Mērķis ir ārpus pasaules robežas"
+  no-landing-permission: "Tev nav atļaujas tur nolaisties"
+  launch-cancelled: "Palaišana atcelta"
+  verifying-blast: "Tiek pārbaudīts, cik iespaidīga ir palaišana..."
+  launch-messages:
+    - "Tiek aizmirstas izpletņi"
+    - "Tiek papildināts uzkodu krājums"
+    - "Tiek sakārtotas planētas"
+    - "Tiek iekurta saule"
+    - "Tiek izdomāti smieklīgi palaišanas ziņojumi"
+    - "Tiek pateikts paldies TheBusyBiscuit"
+    - "Tiek safabricētas nolaišanās uz Mēness"
+    - "Tiek sperts viens mazs solis"
+    - "Tiek kļūts par bumeri"
+    - "Netiek dots ceļš mājup"
+
+launch-pad:
+  rocket-launching: "Nevari salauzt palaišanas platformu, kamēr no tās tiek palaista raķete!"
+  needs-floors: "Apjož šo bloku ar 8 palaišanas platformas grīdām, pirms mēģini to izmantot"
+
+atmosphere:
+  exposed: "Tu tiki pakļauts: %effect%!"
+
+effect:
+  radiation: "Radiācija"
+  heat: "Karstums"
+  cold: "Aukstums"
+
+assembly-table:
+  not-enough-energy: "Nepietiek enerģijas!"
+  charge: "Uzlāde: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Lai to izmantotu, tev jābūt uz planētas!"
+  already-observing: "Novērošana jau notiek!"
+  observing: "Tiek novērota planēta %planet%"
+  already-analyzing: "Analīze jau notiek!"
+  analyzing: "Tiek analizēta planēta %planet%"
+
+forcefield:
+  activated: "Aktivizēts"
+  deactivated: "Deaktivizēts"
+
+stargate:
+  deactivate-first: "Deaktivizē zvaigžņu vārtus, pirms tos sagrauj"
+  not-assembled: "Zvaigžņu vārti nav samontēti!"
+  activated: "Zvaigžņu vārti aktivizēti!"
+  address: "Adrese (noklikšķini, lai kopētu): %address%"
+  enter-destination: "Ieraksti mērķa adresi"
+  no-destination: "Mērķis nav atrasts!"
+  not-lit: "Zvaigžņu vārti kādu iemeslu dēļ nespīd..."
+  destination-set: "Zvaigžņu vārtu mērķis iestatīts uz %x% %y% %z% pasaulē %world%"
+  destination-not-activated: "Mērķa zvaigžņu vārti nav aktivizēti"
+  destination-blocked: "Mērķis ir aizsprostots"
+
+commands:
+  invalid-uuid: "Nederīgs UUID!"
+  invalid-world: "Nederīga pasaule!"
+  not-in-galactifun-world: "Lai izpildītu šo komandu, tev jābūt Galactifun pasaulē"
+  effect-level: "Efekts: %effect%, Līmenis: %level%"
+
+sealed:
+  usage: "Pamācība: /galactifun sealed <attālums>"
+  range-out-of-bounds: "Attālumam jābūt veselam skaitlim no 1 līdz %max%"
+  sealed: "Hermētisks"
+  not-sealed: "Nav hermētisks"
+
+structure:
+  save-usage: "Pamācība: /galactifun save <nosaukums>"
+  pos1-not-set: "pos1 nav iestatīts!"
+  pos2-not-set: "pos2 nav iestatīts!"
+  saved: "Saglabāts kā '%name%'!"
+  save-failed: "Kļūda, saglabājot failu! Pārbaudi konsoli!"
+  must-target-block: "Tev jātēmē uz bloku!"
+  position: "%coords% pasaulē %world%"
+  pos1-set: "pos1 iestatīts uz %position%"
+  pos2-set: "pos2 iestatīts uz %position%"
+  paste-usage: "Pamācība: /galactifun paste <nosaukums>"
+  unknown: "Nezināma struktūra '%name%'!"
+  pasted: "Ielīmēts!"
+
+world:
+  out-of-oxygen: "Tev beidzās skābeklis!"
+  respawn-point-set: "Atdzimšanas punkts iestatīts"
+  respawn-loop-detected: "Atklāts iespējams atdzimšanas cikls!"
+  respawn-loop-question: "Vai vēlies atgriezties uz Zemi? (%yes%/%no%)"
+  affirmative: "jā"
+  negative: "nē"

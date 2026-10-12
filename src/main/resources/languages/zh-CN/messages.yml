@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "火箭正在发射！"
+  already-launching: "火箭已经在发射了！"
+  not-from-this-world: "你无法从这个世界前往太空！"
+  no-fuel: "火箭没有燃料！"
+  enter-coordinates: "请以 <x> <z> 的形式输入目的地坐标（例如 -123 456），或输入其他任何内容以取消："
+  outside-world-border: "目的地在世界边界之外"
+  no-landing-permission: "你没有权限在那里降落"
+  launch-cancelled: "发射已取消"
+  verifying-blast: "正在验证发射的壮观程度……"
+  launch-messages:
+    - "忘记带降落伞"
+    - "补充零食柜"
+    - "对齐行星"
+    - "点燃太阳"
+    - "想出好笑的发射信息"
+    - "感谢 TheBusyBiscuit"
+    - "伪造登月"
+    - "迈出一小步"
+    - "变成老古董"
+    - "不回家了"
+
+launch-pad:
+  rocket-launching: "有火箭正在发射台上发射时，你不能破坏它！"
+  needs-floors: "使用这个方块前，请用 8 块发射台地板将它围起来"
+
+atmosphere:
+  exposed: "你受到了%effect%的影响！"
+
+effect:
+  radiation: "辐射"
+  heat: "高温"
+  cold: "寒冷"
+
+assembly-table:
+  not-enough-energy: "能量不足！"
+  charge: "电量: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "你必须在行星上才能使用这个！"
+  already-observing: "已经在观测了！"
+  observing: "正在观测行星 %planet%"
+  already-analyzing: "已经在分析了！"
+  analyzing: "正在分析行星 %planet%"
+
+forcefield:
+  activated: "已启用"
+  deactivated: "已停用"
+
+stargate:
+  deactivate-first: "摧毁星际之门前请先将其停用"
+  not-assembled: "星际之门尚未组装！"
+  activated: "星际之门已启用！"
+  address: "地址（点击复制）: %address%"
+  enter-destination: "请输入目的地地址"
+  no-destination: "未找到目的地！"
+  not-lit: "不知为何星际之门没有亮起……"
+  destination-set: "星际之门的目的地已设为 %world% 中的 %x% %y% %z%"
+  destination-not-activated: "目的地的星际之门尚未启用"
+  destination-blocked: "目的地被堵住了"
+
+commands:
+  invalid-uuid: "无效的 UUID！"
+  invalid-world: "无效的世界！"
+  not-in-galactifun-world: "你必须在 Galactifun 世界中才能执行此命令"
+  effect-level: "效果: %effect%, 等级: %level%"
+
+sealed:
+  usage: "用法: /galactifun sealed <范围>"
+  range-out-of-bounds: "范围必须是 1 到 %max% 之间的整数"
+  sealed: "密封"
+  not-sealed: "未密封"
+
+structure:
+  save-usage: "用法: /galactifun save <名称>"
+  pos1-not-set: "pos1 未设置！"
+  pos2-not-set: "pos2 未设置！"
+  saved: "已保存为 '%name%'！"
+  save-failed: "保存文件时出错！请检查控制台！"
+  must-target-block: "你必须瞄准一个方块！"
+  position: "%world% 中的 %coords%"
+  pos1-set: "pos1 已设为 %position%"
+  pos2-set: "pos2 已设为 %position%"
+  paste-usage: "用法: /galactifun paste <名称>"
+  unknown: "未知结构 '%name%'！"
+  pasted: "已粘贴！"
+
+world:
+  out-of-oxygen: "你的氧气用完了！"
+  respawn-point-set: "重生点已设置"
+  respawn-loop-detected: "检测到可能的重生循环！"
+  respawn-loop-question: "你想回到地球吗？(%yes%/%no%)"
+  affirmative: "是"
+  negative: "否"

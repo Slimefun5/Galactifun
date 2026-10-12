@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Roket sedang dilancarkan!"
+  already-launching: "Roket sudah pun dilancarkan!"
+  not-from-this-world: "Anda tidak boleh mengembara ke angkasa dari dunia ini!"
+  no-fuel: "Roket tiada bahan api!"
+  enter-coordinates: "Masukkan koordinat destinasi dalam bentuk <x> <z> (contohnya -123 456) atau taip apa-apa yang lain untuk membatalkan:"
+  outside-world-border: "Destinasi berada di luar sempadan dunia"
+  no-landing-permission: "Anda tidak mempunyai kebenaran untuk mendarat di sana"
+  launch-cancelled: "Pelancaran dibatalkan"
+  verifying-blast: "Mengesahkan kehebatan pelancaran..."
+  launch-messages:
+    - "Melupakan payung terjun"
+    - "Mengisi semula kabinet snek"
+    - "Menjajarkan planet"
+    - "Menyalakan matahari"
+    - "Mencipta mesej pelancaran yang lucu"
+    - "Mengucapkan terima kasih kepada TheBusyBiscuit"
+    - "Memalsukan pendaratan di Bulan"
+    - "Mengambil satu langkah kecil"
+    - "Menjadi boomer"
+    - "Tidak pulang ke rumah"
+
+launch-pad:
+  rocket-launching: "Anda tidak boleh memecahkan pad pelancaran sementara sebuah roket dilancarkan di atasnya!"
+  needs-floors: "Kelilingi blok ini dengan 8 lantai pad pelancaran sebelum cuba menggunakannya"
+
+atmosphere:
+  exposed: "Anda telah terdedah kepada %effect%!"
+
+effect:
+  radiation: "Radiasi"
+  heat: "Panas"
+  cold: "Sejuk"
+
+assembly-table:
+  not-enough-energy: "Tenaga tidak cukup!"
+  charge: "Cas: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Anda perlu berada di sebuah planet untuk menggunakan ini!"
+  already-observing: "Sudah memerhati!"
+  observing: "Memerhati planet %planet%"
+  already-analyzing: "Sudah menganalisis!"
+  analyzing: "Menganalisis planet %planet%"
+
+forcefield:
+  activated: "Diaktifkan"
+  deactivated: "Dimatikan"
+
+stargate:
+  deactivate-first: "Matikan Pintu Bintang sebelum memusnahkannya"
+  not-assembled: "Pintu Bintang belum dipasang!"
+  activated: "Pintu Bintang diaktifkan!"
+  address: "Alamat (klik untuk menyalin): %address%"
+  enter-destination: "Taip alamat destinasi"
+  no-destination: "Tiada destinasi dijumpai!"
+  not-lit: "Entah mengapa Pintu Bintang tidak menyala..."
+  destination-set: "Destinasi Pintu Bintang ditetapkan ke %x% %y% %z% di %world%"
+  destination-not-activated: "Pintu Bintang destinasi belum diaktifkan"
+  destination-blocked: "Destinasi terhalang"
+
+commands:
+  invalid-uuid: "UUID tidak sah!"
+  invalid-world: "Dunia tidak sah!"
+  not-in-galactifun-world: "Anda perlu berada di dunia Galactifun untuk melaksanakan arahan ini"
+  effect-level: "Kesan: %effect%, Tahap: %level%"
+
+sealed:
+  usage: "Penggunaan: /galactifun sealed <jarak>"
+  range-out-of-bounds: "Jarak mestilah nombor bulat antara 1 dan %max%"
+  sealed: "Termeteri"
+  not-sealed: "Tidak termeteri"
+
+structure:
+  save-usage: "Penggunaan: /galactifun save <nama>"
+  pos1-not-set: "pos1 belum ditetapkan!"
+  pos2-not-set: "pos2 belum ditetapkan!"
+  saved: "Disimpan sebagai '%name%'!"
+  save-failed: "Ralat semasa menyimpan fail! Periksa konsol!"
+  must-target-block: "Anda perlu menyasarkan sebuah blok!"
+  position: "%coords% di %world%"
+  pos1-set: "pos1 ditetapkan ke %position%"
+  pos2-set: "pos2 ditetapkan ke %position%"
+  paste-usage: "Penggunaan: /galactifun paste <nama>"
+  unknown: "Struktur tidak dikenali '%name%'!"
+  pasted: "Ditampal!"
+
+world:
+  out-of-oxygen: "Oksigen anda telah habis!"
+  respawn-point-set: "Titik kemunculan ditetapkan"
+  respawn-loop-detected: "Kemungkinan gelung kemunculan dikesan!"
+  respawn-loop-question: "Adakah anda mahu kembali ke Bumi? (%yes%/%no%)"
+  affirmative: "ya"
+  negative: "tidak"

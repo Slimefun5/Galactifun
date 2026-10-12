@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Ракета зараз запускаецца!"
+  already-launching: "Ракета ўжо запускаецца!"
+  not-from-this-world: "З гэтага свету нельга падарожнічаць у космас!"
+  no-fuel: "У ракеце няма паліва!"
+  enter-coordinates: "Увядзіце каардынаты прызначэння ў выглядзе <x> <z> (напрыклад, -123 456) або ўвядзіце што-небудзь іншае, каб скасаваць:"
+  outside-world-border: "Прызначэнне знаходзіцца за межамі свету"
+  no-landing-permission: "У вас няма дазволу садзіцца там"
+  launch-cancelled: "Запуск скасаваны"
+  verifying-blast: "Праверка відовішчнасці запуску..."
+  launch-messages:
+    - "Забываем парашуты"
+    - "Папаўняем запас перакусак"
+    - "Выраўноўваем планеты"
+    - "Запальваем сонца"
+    - "Выдумляем смешныя паведамленні пра запуск"
+    - "Дзякуем TheBusyBiscuit"
+    - "Падрабляем высадкі на Месяц"
+    - "Робім адзін маленькі крок"
+    - "Становімся бумерам"
+    - "Не вяртаемся дадому"
+
+launch-pad:
+  rocket-launching: "Нельга зламаць стартавую пляцоўку, пакуль з яе запускаецца ракета!"
+  needs-floors: "Абкружыце гэты блок 8 падлогамі стартавай пляцоўкі, перш чым выкарыстоўваць яго"
+
+atmosphere:
+  exposed: "Вы падвергліся ўздзеянню: %effect%!"
+
+effect:
+  radiation: "Радыяцыя"
+  heat: "Спякота"
+  cold: "Холад"
+
+assembly-table:
+  not-enough-energy: "Недастаткова энергіі!"
+  charge: "Зарад: %charge%/%required% Дж"
+
+knowledge:
+  must-be-on-planet: "Вы павінны быць на планеце, каб выкарыстаць гэта!"
+  already-observing: "Назіранне ўжо ідзе!"
+  observing: "Назіранне за планетай %planet%"
+  already-analyzing: "Аналіз ужо ідзе!"
+  analyzing: "Аналіз планеты %planet%"
+
+forcefield:
+  activated: "Актывавана"
+  deactivated: "Дэактывавана"
+
+stargate:
+  deactivate-first: "Дэактывуйце зорную браму, перш чым яе руйнаваць"
+  not-assembled: "Зорная брама не сабрана!"
+  activated: "Зорная брама актывавана!"
+  address: "Адрас (націсніце, каб скапіяваць): %address%"
+  enter-destination: "Увядзіце адрас прызначэння"
+  no-destination: "Прызначэнне не знойдзена!"
+  not-lit: "Зорная брама чамусьці не свеціцца..."
+  destination-set: "Прызначэнне зорнай брамы ўстаноўлена на %x% %y% %z% у %world%"
+  destination-not-activated: "Зорная брама прызначэння не актывавана"
+  destination-blocked: "Прызначэнне заблакавана"
+
+commands:
+  invalid-uuid: "Недапушчальны UUID!"
+  invalid-world: "Недапушчальны свет!"
+  not-in-galactifun-world: "Вы павінны быць у свеце Galactifun, каб выканаць гэтую каманду"
+  effect-level: "Эфект: %effect%, Узровень: %level%"
+
+sealed:
+  usage: "Выкарыстанне: /galactifun sealed <радыус>"
+  range-out-of-bounds: "Радыус павінен быць цэлым лікам ад 1 да %max%"
+  sealed: "Герметычна"
+  not-sealed: "Негерметычна"
+
+structure:
+  save-usage: "Выкарыстанне: /galactifun save <імя>"
+  pos1-not-set: "pos1 не зададзена!"
+  pos2-not-set: "pos2 не зададзена!"
+  saved: "Захавана як '%name%'!"
+  save-failed: "Памылка пры захаванні файла! Праверце кансоль!"
+  must-target-block: "Вы павінны прыцэліцца ў блок!"
+  position: "%coords% у %world%"
+  pos1-set: "pos1 зададзена на %position%"
+  pos2-set: "pos2 зададзена на %position%"
+  paste-usage: "Выкарыстанне: /galactifun paste <імя>"
+  unknown: "Невядомая структура '%name%'!"
+  pasted: "Устаўлена!"
+
+world:
+  out-of-oxygen: "У вас закончыўся кісларод!"
+  respawn-point-set: "Пункт адраджэння ўстаноўлены"
+  respawn-loop-detected: "Выяўлены магчымы цыкл адраджэння!"
+  respawn-loop-question: "Хочаце вярнуцца на Зямлю? (%yes%/%no%)"
+  affirmative: "так"
+  negative: "не"

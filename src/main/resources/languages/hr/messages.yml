@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raketa se trenutno lansira!"
+  already-launching: "Raketa se već lansira!"
+  not-from-this-world: "Iz ovog svijeta ne možeš putovati u svemir!"
+  no-fuel: "Raketa nema goriva!"
+  enter-coordinates: "Unesi koordinate odredišta u obliku <x> <z> (na primjer -123 456) ili unesi bilo što drugo za odustajanje:"
+  outside-world-border: "Odredište je izvan granice svijeta"
+  no-landing-permission: "Nemaš dopuštenje za slijetanje tamo"
+  launch-cancelled: "Lansiranje otkazano"
+  verifying-blast: "Provjera spektakularnosti lansiranja..."
+  launch-messages:
+    - "Zaboravljanje padobrana"
+    - "Dopunjavanje zaliha grickalica"
+    - "Poravnavanje planeta"
+    - "Potpaljivanje sunca"
+    - "Izmišljanje smiješnih poruka o lansiranju"
+    - "Zahvaljivanje TheBusyBiscuitu"
+    - "Insceniranje slijetanja na Mjesec"
+    - "Pravljenje jednog malog koraka"
+    - "Postajanje boomerom"
+    - "Nevraćanje kući"
+
+launch-pad:
+  rocket-launching: "Ne možeš uništiti lansirnu podlogu dok se s nje lansira raketa!"
+  needs-floors: "Okruži ovaj blok s 8 podova lansirne podloge prije nego što ga pokušaš koristiti"
+
+atmosphere:
+  exposed: "Izložen si: %effect%!"
+
+effect:
+  radiation: "Radijacija"
+  heat: "Vrelina"
+  cold: "Hladnoća"
+
+assembly-table:
+  not-enough-energy: "Nedovoljno energije!"
+  charge: "Napunjenost: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Moraš biti na planetu da bi ovo koristio!"
+  already-observing: "Promatranje je već u tijeku!"
+  observing: "Promatranje planeta %planet%"
+  already-analyzing: "Analiza je već u tijeku!"
+  analyzing: "Analiza planeta %planet%"
+
+forcefield:
+  activated: "Aktivirano"
+  deactivated: "Deaktivirano"
+
+stargate:
+  deactivate-first: "Deaktiviraj zvjezdana vrata prije nego što ih uništiš"
+  not-assembled: "Zvjezdana vrata nisu sastavljena!"
+  activated: "Zvjezdana vrata su aktivirana!"
+  address: "Adresa (klikni za kopiranje): %address%"
+  enter-destination: "Unesi adresu odredišta"
+  no-destination: "Odredište nije nađeno!"
+  not-lit: "Zvjezdana vrata iz nekog razloga ne svijetle..."
+  destination-set: "Odredište zvjezdanih vrata postavljeno na %x% %y% %z% u %world%"
+  destination-not-activated: "Zvjezdana vrata na odredištu nisu aktivirana"
+  destination-blocked: "Odredište je blokirano"
+
+commands:
+  invalid-uuid: "Nevažeći UUID!"
+  invalid-world: "Nevažeći svijet!"
+  not-in-galactifun-world: "Moraš biti u Galactifun svijetu da izvršiš ovu naredbu"
+  effect-level: "Efekt: %effect%, Razina: %level%"
+
+sealed:
+  usage: "Uporaba: /galactifun sealed <domet>"
+  range-out-of-bounds: "Domet mora biti cijeli broj između 1 i %max%"
+  sealed: "Zabrtvljeno"
+  not-sealed: "Nije zabrtvljeno"
+
+structure:
+  save-usage: "Uporaba: /galactifun save <ime>"
+  pos1-not-set: "pos1 nije postavljena!"
+  pos2-not-set: "pos2 nije postavljena!"
+  saved: "Spremljeno kao '%name%'!"
+  save-failed: "Greška pri spremanju datoteke! Provjeri konzolu!"
+  must-target-block: "Moraš nanišaniti blok!"
+  position: "%coords% u %world%"
+  pos1-set: "pos1 postavljena na %position%"
+  pos2-set: "pos2 postavljena na %position%"
+  paste-usage: "Uporaba: /galactifun paste <ime>"
+  unknown: "Nepoznata struktura '%name%'!"
+  pasted: "Zalijepljeno!"
+
+world:
+  out-of-oxygen: "Ostao si bez kisika!"
+  respawn-point-set: "Točka oživljavanja postavljena"
+  respawn-loop-detected: "Otkrivena je moguća petlja oživljavanja!"
+  respawn-loop-question: "Želiš li se vratiti na Zemlju? (%yes%/%no%)"
+  affirmative: "da"
+  negative: "ne"

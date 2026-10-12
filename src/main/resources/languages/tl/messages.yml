@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Kasalukuyang lumulunsad ang rakete!"
+  already-launching: "Lumulunsad na ang rakete!"
+  not-from-this-world: "Hindi ka makakalakbay sa kalawakan mula sa mundong ito!"
+  no-fuel: "Walang gasolina ang rakete!"
+  enter-coordinates: "Ilagay ang mga koordinada ng patutunguhan sa anyong <x> <z> (halimbawa -123 456) o mag-type ng kahit ano pa upang kanselahin:"
+  outside-world-border: "Ang patutunguhan ay nasa labas ng hangganan ng mundo"
+  no-landing-permission: "Wala kang pahintulot na lumapag doon"
+  launch-cancelled: "Kinansela ang paglunsad"
+  verifying-blast: "Sinusuri kung gaano kaganda ang paglunsad..."
+  launch-messages:
+    - "Nakakalimutan ang mga parasyut"
+    - "Nilalagyan muli ang lalagyan ng meryenda"
+    - "Pinapantay ang mga planeta"
+    - "Sinisindihan ang araw"
+    - "Gumagawa ng mga nakakatuwang mensahe sa paglunsad"
+    - "Nagpapasalamat kay TheBusyBiscuit"
+    - "Pinepeke ang mga paglapag sa Buwan"
+    - "Gumagawa ng isang maliit na hakbang"
+    - "Nagiging boomer"
+    - "Hindi na umuuwi"
+
+launch-pad:
+  rocket-launching: "Hindi mo masisira ang plataporma ng paglunsad habang may raketeng lumulunsad dito!"
+  needs-floors: "Palibutan ang bloke na ito ng 8 sahig ng plataporma ng paglunsad bago subukang gamitin"
+
+atmosphere:
+  exposed: "Nalantad ka sa %effect%!"
+
+effect:
+  radiation: "Radyasyon"
+  heat: "Init"
+  cold: "Lamig"
+
+assembly-table:
+  not-enough-energy: "Kulang ang enerhiya!"
+  charge: "Karga: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Kailangan mong nasa isang planeta upang gamitin ito!"
+  already-observing: "Nag-oobserba na!"
+  observing: "Inoobserba ang planetang %planet%"
+  already-analyzing: "Nag-aanalisa na!"
+  analyzing: "Inaanalisa ang planetang %planet%"
+
+forcefield:
+  activated: "Naka-aktibo"
+  deactivated: "Hindi naka-aktibo"
+
+stargate:
+  deactivate-first: "I-deactivate ang Pintuang-Bituin bago ito sirain"
+  not-assembled: "Hindi pa nabubuo ang Pintuang-Bituin!"
+  activated: "Naka-aktibo na ang Pintuang-Bituin!"
+  address: "Address (i-click upang kopyahin): %address%"
+  enter-destination: "I-type ang address ng patutunguhan"
+  no-destination: "Walang natagpuang patutunguhan!"
+  not-lit: "Sa hindi malamang dahilan ay hindi umiilaw ang Pintuang-Bituin..."
+  destination-set: "Itinakda ang patutunguhan ng Pintuang-Bituin sa %x% %y% %z% sa %world%"
+  destination-not-activated: "Hindi naka-aktibo ang Pintuang-Bituin sa patutunguhan"
+  destination-blocked: "Nabara ang patutunguhan"
+
+commands:
+  invalid-uuid: "Hindi tamang UUID!"
+  invalid-world: "Hindi tamang mundo!"
+  not-in-galactifun-world: "Kailangan mong nasa isang mundo ng Galactifun upang patakbuhin ang utos na ito"
+  effect-level: "Epekto: %effect%, Antas: %level%"
+
+sealed:
+  usage: "Paggamit: /galactifun sealed <abot>"
+  range-out-of-bounds: "Ang abot ay kailangang buong bilang sa pagitan ng 1 at %max%"
+  sealed: "Sarado"
+  not-sealed: "Hindi sarado"
+
+structure:
+  save-usage: "Paggamit: /galactifun save <pangalan>"
+  pos1-not-set: "hindi pa nakatakda ang pos1!"
+  pos2-not-set: "hindi pa nakatakda ang pos2!"
+  saved: "Nai-save bilang '%name%'!"
+  save-failed: "Nagkamali sa pag-save ng file! Tingnan ang console!"
+  must-target-block: "Kailangan mong tumutok sa isang bloke!"
+  position: "%coords% sa %world%"
+  pos1-set: "Itinakda ang pos1 sa %position%"
+  pos2-set: "Itinakda ang pos2 sa %position%"
+  paste-usage: "Paggamit: /galactifun paste <pangalan>"
+  unknown: "Hindi kilalang istraktura '%name%'!"
+  pasted: "Nai-paste!"
+
+world:
+  out-of-oxygen: "Naubusan ka ng oksiheno!"
+  respawn-point-set: "Itinakda ang puntong muling pagsilang"
+  respawn-loop-detected: "Natukoy ang posibleng paulit-ulit na muling pagsilang!"
+  respawn-loop-question: "Gusto mo bang bumalik sa Mundo? (%yes%/%no%)"
+  affirmative: "oo"
+  negative: "hindi"

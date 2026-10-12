@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Il razzo è in fase di lancio!"
+  already-launching: "Il razzo è già in fase di lancio!"
+  not-from-this-world: "Non puoi viaggiare nello spazio da questo mondo!"
+  no-fuel: "Il razzo non ha carburante!"
+  enter-coordinates: "Inserisci le coordinate di destinazione nella forma <x> <z> (ad esempio -123 456) oppure scrivi qualcos'altro per annullare:"
+  outside-world-border: "La destinazione è oltre il confine del mondo"
+  no-landing-permission: "Non hai il permesso di atterrare lì"
+  launch-cancelled: "Lancio annullato"
+  verifying-blast: "Verifica della spettacolarità del lancio..."
+  launch-messages:
+    - "Dimenticare i paracadute"
+    - "Rifornire la dispensa degli snack"
+    - "Allineare i pianeti"
+    - "Accendere il sole"
+    - "Inventare messaggi di lancio divertenti"
+    - "Ringraziare TheBusyBiscuit"
+    - "Simulare gli sbarchi sulla Luna"
+    - "Fare un piccolo passo"
+    - "Diventare boomer"
+    - "Non tornare a casa"
+
+launch-pad:
+  rocket-launching: "Non puoi rompere la rampa di lancio mentre un razzo ci sta decollando!"
+  needs-floors: "Circonda questo blocco con 8 pavimenti della rampa di lancio prima di usarlo"
+
+atmosphere:
+  exposed: "Sei stato esposto a %effect%!"
+
+effect:
+  radiation: "Radiazione"
+  heat: "Calore"
+  cold: "Freddo"
+
+assembly-table:
+  not-enough-energy: "Energia insufficiente!"
+  charge: "Carica: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Devi essere su un pianeta per usarlo!"
+  already-observing: "Osservazione già in corso!"
+  observing: "Osservazione del pianeta %planet%"
+  already-analyzing: "Analisi già in corso!"
+  analyzing: "Analisi del pianeta %planet%"
+
+forcefield:
+  activated: "Attivato"
+  deactivated: "Disattivato"
+
+stargate:
+  deactivate-first: "Disattiva lo Stargate prima di distruggerlo"
+  not-assembled: "Lo Stargate non è assemblato!"
+  activated: "Stargate attivato!"
+  address: "Indirizzo (clicca per copiare): %address%"
+  enter-destination: "Scrivi l'indirizzo di destinazione"
+  no-destination: "Nessuna destinazione trovata!"
+  not-lit: "Per qualche motivo lo Stargate non è illuminato..."
+  destination-set: "Destinazione dello Stargate impostata su %x% %y% %z% in %world%"
+  destination-not-activated: "Lo Stargate di destinazione non è attivo"
+  destination-blocked: "La destinazione è bloccata"
+
+commands:
+  invalid-uuid: "UUID non valido!"
+  invalid-world: "Mondo non valido!"
+  not-in-galactifun-world: "Devi essere in un mondo di Galactifun per eseguire questo comando"
+  effect-level: "Effetto: %effect%, Livello: %level%"
+
+sealed:
+  usage: "Utilizzo: /galactifun sealed <portata>"
+  range-out-of-bounds: "La portata deve essere un numero intero tra 1 e %max%"
+  sealed: "Sigillato"
+  not-sealed: "Non sigillato"
+
+structure:
+  save-usage: "Utilizzo: /galactifun save <nome>"
+  pos1-not-set: "pos1 non è impostata!"
+  pos2-not-set: "pos2 non è impostata!"
+  saved: "Salvato come '%name%'!"
+  save-failed: "Errore nel salvataggio del file! Controlla la console!"
+  must-target-block: "Devi mirare a un blocco!"
+  position: "%coords% in %world%"
+  pos1-set: "pos1 impostata su %position%"
+  pos2-set: "pos2 impostata su %position%"
+  paste-usage: "Utilizzo: /galactifun paste <nome>"
+  unknown: "Struttura sconosciuta '%name%'!"
+  pasted: "Incollato!"
+
+world:
+  out-of-oxygen: "Hai finito l'ossigeno!"
+  respawn-point-set: "Punto di rinascita impostato"
+  respawn-loop-detected: "È stato rilevato un possibile ciclo di rinascita!"
+  respawn-loop-question: "Vuoi tornare sulla Terra? (%yes%/%no%)"
+  affirmative: "sì"
+  negative: "no"

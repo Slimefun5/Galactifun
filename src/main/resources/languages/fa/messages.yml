@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "راکت در حال پرتاب است!"
+  already-launching: "راکت از قبل در حال پرتاب است!"
+  not-from-this-world: "از این جهان نمی‌توانید به فضا سفر کنید!"
+  no-fuel: "راکت سوخت ندارد!"
+  enter-coordinates: "مختصات مقصد را به شکل <x> <z> وارد کنید (برای مثال -123 456) یا هر چیز دیگری بنویسید تا لغو شود:"
+  outside-world-border: "مقصد بیرون از مرز جهان است"
+  no-landing-permission: "اجازه فرود در آنجا را ندارید"
+  launch-cancelled: "پرتاب لغو شد"
+  verifying-blast: "در حال بررسی باشکوه بودن پرتاب..."
+  launch-messages:
+    - "فراموش کردن چترهای نجات"
+    - "پر کردن دوباره قفسه تنقلات"
+    - "هم‌راستا کردن سیاره‌ها"
+    - "روشن کردن خورشید"
+    - "ساختن پیام‌های خنده‌دار پرتاب"
+    - "تشکر از TheBusyBiscuit"
+    - "جعل کردن فرودهای ماه"
+    - "برداشتن یک قدم کوچک"
+    - "بومر شدن"
+    - "به خانه برنگشتن"
+
+launch-pad:
+  rocket-launching: "نمی‌توانید سکوی پرتاب را بشکنید در حالی که راکتی از آن پرتاب می‌شود!"
+  needs-floors: "پیش از استفاده، این بلوک را با 8 کفپوش سکوی پرتاب احاطه کنید"
+
+atmosphere:
+  exposed: "در معرض %effect% قرار گرفتید!"
+
+effect:
+  radiation: "تشعشع"
+  heat: "گرما"
+  cold: "سرما"
+
+assembly-table:
+  not-enough-energy: "انرژی کافی نیست!"
+  charge: "شارژ: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "برای استفاده از این باید روی یک سیاره باشید!"
+  already-observing: "رصد از قبل در جریان است!"
+  observing: "رصد سیاره %planet%"
+  already-analyzing: "تحلیل از قبل در جریان است!"
+  analyzing: "تحلیل سیاره %planet%"
+
+forcefield:
+  activated: "فعال شد"
+  deactivated: "غیرفعال شد"
+
+stargate:
+  deactivate-first: "پیش از تخریب دروازه ستاره‌ای، آن را غیرفعال کنید"
+  not-assembled: "دروازه ستاره‌ای مونتاژ نشده است!"
+  activated: "دروازه ستاره‌ای فعال شد!"
+  address: "نشانی (برای کپی کلیک کنید): %address%"
+  enter-destination: "نشانی مقصد را بنویسید"
+  no-destination: "مقصدی یافت نشد!"
+  not-lit: "دروازه ستاره‌ای به دلیلی روشن نیست..."
+  destination-set: "مقصد دروازه ستاره‌ای روی %x% %y% %z% در %world% تنظیم شد"
+  destination-not-activated: "دروازه ستاره‌ای مقصد فعال نیست"
+  destination-blocked: "مقصد مسدود است"
+
+commands:
+  invalid-uuid: "UUID نامعتبر!"
+  invalid-world: "جهان نامعتبر!"
+  not-in-galactifun-world: "برای اجرای این فرمان باید در جهان Galactifun باشید"
+  effect-level: "اثر: %effect%، سطح: %level%"
+
+sealed:
+  usage: "طرز استفاده: /galactifun sealed <محدوده>"
+  range-out-of-bounds: "محدوده باید عددی صحیح بین 1 و %max% باشد"
+  sealed: "مهر و موم شده"
+  not-sealed: "مهر و موم نشده"
+
+structure:
+  save-usage: "طرز استفاده: /galactifun save <نام>"
+  pos1-not-set: "pos1 تنظیم نشده است!"
+  pos2-not-set: "pos2 تنظیم نشده است!"
+  saved: "با نام '%name%' ذخیره شد!"
+  save-failed: "خطا در ذخیره فایل! کنسول را بررسی کنید!"
+  must-target-block: "باید یک بلوک را هدف بگیرید!"
+  position: "%coords% در %world%"
+  pos1-set: "pos1 روی %position% تنظیم شد"
+  pos2-set: "pos2 روی %position% تنظیم شد"
+  paste-usage: "طرز استفاده: /galactifun paste <نام>"
+  unknown: "سازه ناشناخته '%name%'!"
+  pasted: "چسبانده شد!"
+
+world:
+  out-of-oxygen: "اکسیژن شما تمام شد!"
+  respawn-point-set: "نقطه تولد دوباره تنظیم شد"
+  respawn-loop-detected: "یک حلقه تولد دوباره احتمالی شناسایی شد!"
+  respawn-loop-question: "آیا می‌خواهید به زمین برگردید؟ (%yes%/%no%)"
+  affirmative: "بله"
+  negative: "خیر"

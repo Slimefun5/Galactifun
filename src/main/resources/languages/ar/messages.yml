@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "الصاروخ قيد الإطلاق حالياً!"
+  already-launching: "الصاروخ قيد الإطلاق بالفعل!"
+  not-from-this-world: "لا يمكنك السفر إلى الفضاء من هذا العالم!"
+  no-fuel: "الصاروخ لا يحتوي على وقود!"
+  enter-coordinates: "أدخل إحداثيات الوجهة بالشكل <x> <z> (مثال -123 456) أو اكتب أي شيء آخر للإلغاء:"
+  outside-world-border: "الوجهة خارج حدود العالم"
+  no-landing-permission: "لا تملك صلاحية الهبوط هناك"
+  launch-cancelled: "تم إلغاء الإطلاق"
+  verifying-blast: "جارٍ التحقق من مدى إثارة الإطلاق..."
+  launch-messages:
+    - "نسيان المظلات"
+    - "إعادة تعبئة خزانة الوجبات الخفيفة"
+    - "محاذاة الكواكب"
+    - "إشعال الشمس"
+    - "اختراع رسائل إطلاق مضحكة"
+    - "شكر TheBusyBiscuit"
+    - "تلفيق الهبوط على القمر"
+    - "اتخاذ خطوة صغيرة"
+    - "التحول إلى بومر"
+    - "عدم العودة إلى الديار"
+
+launch-pad:
+  rocket-launching: "لا يمكنك تحطيم منصة الإطلاق أثناء إطلاق صاروخ منها!"
+  needs-floors: "أحط هذه الكتلة بـ 8 من أرضيات منصة الإطلاق قبل محاولة استخدامها"
+
+atmosphere:
+  exposed: "لقد تعرضت لـ %effect%!"
+
+effect:
+  radiation: "إشعاع"
+  heat: "حرارة"
+  cold: "برد"
+
+assembly-table:
+  not-enough-energy: "لا توجد طاقة كافية!"
+  charge: "الشحن: %charge%/%required% ج"
+
+knowledge:
+  must-be-on-planet: "يجب أن تكون على كوكب لاستخدام هذا!"
+  already-observing: "المراقبة جارية بالفعل!"
+  observing: "مراقبة الكوكب %planet%"
+  already-analyzing: "التحليل جارٍ بالفعل!"
+  analyzing: "تحليل الكوكب %planet%"
+
+forcefield:
+  activated: "تم التنشيط"
+  deactivated: "تم إلغاء التنشيط"
+
+stargate:
+  deactivate-first: "ألغِ تنشيط بوابة النجوم قبل تدميرها"
+  not-assembled: "بوابة النجوم غير مُجمّعة!"
+  activated: "تم تنشيط بوابة النجوم!"
+  address: "العنوان (انقر للنسخ): %address%"
+  enter-destination: "اكتب عنوان الوجهة"
+  no-destination: "لم يتم العثور على وجهة!"
+  not-lit: "بوابة النجوم غير مضيئة لسبب ما..."
+  destination-set: "تم تعيين وجهة بوابة النجوم إلى %x% %y% %z% في %world%"
+  destination-not-activated: "بوابة النجوم في الوجهة غير مُنشّطة"
+  destination-blocked: "الوجهة مسدودة"
+
+commands:
+  invalid-uuid: "UUID غير صالح!"
+  invalid-world: "عالم غير صالح!"
+  not-in-galactifun-world: "يجب أن تكون في عالم Galactifun لتنفيذ هذا الأمر"
+  effect-level: "التأثير: %effect%، المستوى: %level%"
+
+sealed:
+  usage: "طريقة الإستعمال: /galactifun sealed <النطاق>"
+  range-out-of-bounds: "يجب أن يكون النطاق عدداً صحيحاً بين 1 و %max%"
+  sealed: "مُحكم الإغلاق"
+  not-sealed: "غير مُحكم الإغلاق"
+
+structure:
+  save-usage: "طريقة الإستعمال: /galactifun save <الاسم>"
+  pos1-not-set: "pos1 غير مُعيّن!"
+  pos2-not-set: "pos2 غير مُعيّن!"
+  saved: "تم الحفظ باسم '%name%'!"
+  save-failed: "خطأ في حفظ الملف! تحقق من وحدة التحكم!"
+  must-target-block: "يجب أن تستهدف كتلة!"
+  position: "%coords% في %world%"
+  pos1-set: "تم تعيين pos1 إلى %position%"
+  pos2-set: "تم تعيين pos2 إلى %position%"
+  paste-usage: "طريقة الإستعمال: /galactifun paste <الاسم>"
+  unknown: "بنية غير معروفة '%name%'!"
+  pasted: "تم اللصق!"
+
+world:
+  out-of-oxygen: "لقد نفد الأكسجين!"
+  respawn-point-set: "تم تعيين نقطة الإحياء"
+  respawn-loop-detected: "تم اكتشاف حلقة إحياء محتملة!"
+  respawn-loop-question: "هل تريد العودة إلى الأرض؟ (%yes%/%no%)"
+  affirmative: "نعم"
+  negative: "لا"

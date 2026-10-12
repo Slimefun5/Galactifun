@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Roket şu anda fırlatılıyor!"
+  already-launching: "Roket zaten fırlatılıyor!"
+  not-from-this-world: "Bu dünyadan uzaya seyahat edemezsin!"
+  no-fuel: "Roketin yakıtı yok!"
+  enter-coordinates: "Hedef koordinatlarını <x> <z> biçiminde gir (örneğin -123 456) ya da iptal etmek için başka bir şey yaz:"
+  outside-world-border: "Hedef, dünya sınırının dışında"
+  no-landing-permission: "Oraya inmek için izniniz yok"
+  launch-cancelled: "Fırlatma iptal edildi"
+  verifying-blast: "Fırlatmanın ne kadar görkemli olduğu doğrulanıyor..."
+  launch-messages:
+    - "Paraşütler unutuluyor"
+    - "Atıştırmalık dolabı dolduruluyor"
+    - "Gezegenler hizalanıyor"
+    - "Güneş yakılıyor"
+    - "Komik fırlatma mesajları uyduruluyor"
+    - "TheBusyBiscuit'e teşekkür ediliyor"
+    - "Ay'a inişler sahteleniyor"
+    - "Küçük bir adım atılıyor"
+    - "Boomer olunuyor"
+    - "Eve dönülmüyor"
+
+launch-pad:
+  rocket-launching: "Üzerinde bir roket fırlatılırken fırlatma pedini kıramazsın!"
+  needs-floors: "Bu bloğu kullanmayı denemeden önce etrafını 8 fırlatma pedi zeminiyle çevir"
+
+atmosphere:
+  exposed: "Şuna maruz kaldın: %effect%!"
+
+effect:
+  radiation: "Radyasyon"
+  heat: "Sıcaklık"
+  cold: "Soğuk"
+
+assembly-table:
+  not-enough-energy: "Yeterli enerji yok!"
+  charge: "Şarj: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Bunu kullanmak için bir gezegende olmalısın!"
+  already-observing: "Gözlem zaten sürüyor!"
+  observing: "%planet% gezegeni gözlemleniyor"
+  already-analyzing: "Analiz zaten sürüyor!"
+  analyzing: "%planet% gezegeni analiz ediliyor"
+
+forcefield:
+  activated: "Etkinleştirildi"
+  deactivated: "Devre dışı bırakıldı"
+
+stargate:
+  deactivate-first: "Yıldız geçidini yok etmeden önce devre dışı bırak"
+  not-assembled: "Yıldız geçidi kurulmamış!"
+  activated: "Yıldız geçidi etkinleştirildi!"
+  address: "Adres (kopyalamak için tıkla): %address%"
+  enter-destination: "Hedef adresi yaz"
+  no-destination: "Hedef bulunamadı!"
+  not-lit: "Yıldız geçidi bir şekilde yanmıyor..."
+  destination-set: "Yıldız geçidinin hedefi %world% dünyasındaki %x% %y% %z% olarak ayarlandı"
+  destination-not-activated: "Hedefteki yıldız geçidi etkin değil"
+  destination-blocked: "Hedef engellenmiş"
+
+commands:
+  invalid-uuid: "Geçersiz UUID!"
+  invalid-world: "Geçersiz dünya!"
+  not-in-galactifun-world: "Bu komutu çalıştırmak için bir Galactifun dünyasında olmalısın"
+  effect-level: "Etki: %effect%, Seviye: %level%"
+
+sealed:
+  usage: "Kullanış: /galactifun sealed <menzil>"
+  range-out-of-bounds: "Menzil 1 ile %max% arasında bir tam sayı olmalı"
+  sealed: "Sızdırmaz"
+  not-sealed: "Sızdırmaz değil"
+
+structure:
+  save-usage: "Kullanış: /galactifun save <ad>"
+  pos1-not-set: "pos1 ayarlanmamış!"
+  pos2-not-set: "pos2 ayarlanmamış!"
+  saved: "'%name%' olarak kaydedildi!"
+  save-failed: "Dosya kaydedilirken hata oluştu! Konsolu kontrol et!"
+  must-target-block: "Bir bloğu hedeflemelisin!"
+  position: "%world% dünyasında %coords%"
+  pos1-set: "pos1 şuraya ayarlandı: %position%"
+  pos2-set: "pos2 şuraya ayarlandı: %position%"
+  paste-usage: "Kullanış: /galactifun paste <ad>"
+  unknown: "Bilinmeyen yapı '%name%'!"
+  pasted: "Yapıştırıldı!"
+
+world:
+  out-of-oxygen: "Oksijenin tükendi!"
+  respawn-point-set: "Yeniden doğma noktası ayarlandı"
+  respawn-loop-detected: "Olası bir yeniden doğma döngüsü saptandı!"
+  respawn-loop-question: "Dünya'ya geri dönmek ister misin? (%yes%/%no%)"
+  affirmative: "evet"
+  negative: "hayır"

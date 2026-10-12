@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Tên lửa đang phóng!"
+  already-launching: "Tên lửa đã đang phóng rồi!"
+  not-from-this-world: "Bạn không thể du hành vào không gian từ thế giới này!"
+  no-fuel: "Tên lửa không có nhiên liệu!"
+  enter-coordinates: "Hãy nhập tọa độ điểm đến theo dạng <x> <z> (ví dụ -123 456) hoặc nhập bất cứ thứ gì khác để hủy:"
+  outside-world-border: "Điểm đến nằm ngoài biên giới thế giới"
+  no-landing-permission: "Bạn không có quyền hạ cánh ở đó"
+  launch-cancelled: "Đã hủy phóng"
+  verifying-blast: "Đang kiểm tra độ hoành tráng của vụ phóng..."
+  launch-messages:
+    - "Đang quên mang dù"
+    - "Đang nạp thêm tủ đồ ăn nhẹ"
+    - "Đang xếp thẳng các hành tinh"
+    - "Đang thắp sáng mặt trời"
+    - "Đang nghĩ ra những lời phóng hài hước"
+    - "Đang cảm ơn TheBusyBiscuit"
+    - "Đang dàn dựng các lần đổ bộ Mặt Trăng"
+    - "Đang bước một bước nhỏ"
+    - "Đang trở thành boomer"
+    - "Đang không về nhà"
+
+launch-pad:
+  rocket-launching: "Bạn không thể phá bệ phóng khi có tên lửa đang phóng trên đó!"
+  needs-floors: "Hãy bao quanh khối này bằng 8 sàn bệ phóng trước khi thử dùng nó"
+
+atmosphere:
+  exposed: "Bạn đã bị phơi nhiễm %effect%!"
+
+effect:
+  radiation: "Phóng xạ"
+  heat: "Nhiệt"
+  cold: "Lạnh"
+
+assembly-table:
+  not-enough-energy: "Không đủ năng lượng!"
+  charge: "Điện tích: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Bạn phải ở trên một hành tinh để dùng cái này!"
+  already-observing: "Đang quan sát rồi!"
+  observing: "Đang quan sát hành tinh %planet%"
+  already-analyzing: "Đang phân tích rồi!"
+  analyzing: "Đang phân tích hành tinh %planet%"
+
+forcefield:
+  activated: "Đã bật"
+  deactivated: "Đã tắt"
+
+stargate:
+  deactivate-first: "Hãy tắt Cổng sao trước khi phá nó"
+  not-assembled: "Cổng sao chưa được lắp đặt!"
+  activated: "Cổng sao đã được bật!"
+  address: "Địa chỉ (nhấp để sao chép): %address%"
+  enter-destination: "Hãy nhập địa chỉ điểm đến"
+  no-destination: "Không tìm thấy điểm đến!"
+  not-lit: "Vì lý do nào đó Cổng sao không sáng..."
+  destination-set: "Đã đặt điểm đến của Cổng sao thành %x% %y% %z% trong %world%"
+  destination-not-activated: "Cổng sao ở điểm đến chưa được bật"
+  destination-blocked: "Điểm đến bị chắn"
+
+commands:
+  invalid-uuid: "UUID không hợp lệ!"
+  invalid-world: "Thế giới không hợp lệ!"
+  not-in-galactifun-world: "Bạn phải ở trong một thế giới Galactifun để chạy lệnh này"
+  effect-level: "Hiệu ứng: %effect%, Cấp: %level%"
+
+sealed:
+  usage: "Cách sử dụng: /galactifun sealed <tầm>"
+  range-out-of-bounds: "Tầm phải là một số nguyên từ 1 đến %max%"
+  sealed: "Kín khí"
+  not-sealed: "Không kín khí"
+
+structure:
+  save-usage: "Cách sử dụng: /galactifun save <tên>"
+  pos1-not-set: "chưa đặt pos1!"
+  pos2-not-set: "chưa đặt pos2!"
+  saved: "Đã lưu thành '%name%'!"
+  save-failed: "Lỗi khi lưu tệp! Hãy kiểm tra bảng điều khiển!"
+  must-target-block: "Bạn phải nhắm vào một khối!"
+  position: "%coords% trong %world%"
+  pos1-set: "Đã đặt pos1 thành %position%"
+  pos2-set: "Đã đặt pos2 thành %position%"
+  paste-usage: "Cách sử dụng: /galactifun paste <tên>"
+  unknown: "Kiến trúc không rõ '%name%'!"
+  pasted: "Đã dán!"
+
+world:
+  out-of-oxygen: "Bạn đã hết oxy!"
+  respawn-point-set: "Đã đặt điểm hồi sinh"
+  respawn-loop-detected: "Đã phát hiện một vòng lặp hồi sinh có thể xảy ra!"
+  respawn-loop-question: "Bạn có muốn trở về Trái Đất không? (%yes%/%no%)"
+  affirmative: "có"
+  negative: "không"

@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "La fusée est en train de décoller !"
+  already-launching: "La fusée décolle déjà !"
+  not-from-this-world: "Vous ne pouvez pas partir dans l'espace depuis ce monde !"
+  no-fuel: "La fusée n'a pas de carburant !"
+  enter-coordinates: "Veuillez saisir les coordonnées de destination sous la forme <x> <z> (par exemple -123 456) ou tapez autre chose pour annuler :"
+  outside-world-border: "La destination est en dehors de la bordure du monde"
+  no-landing-permission: "Vous n'avez pas la permission d'atterrir là"
+  launch-cancelled: "Décollage annulé"
+  verifying-blast: "Vérification du spectacle du décollage..."
+  launch-messages:
+    - "Oubli des parachutes"
+    - "Réapprovisionnement du coffre à encas"
+    - "Alignement des planètes"
+    - "Allumage du soleil"
+    - "Invention de messages de décollage drôles"
+    - "Remerciements à TheBusyBiscuit"
+    - "Simulation des alunissages"
+    - "Un petit pas pour l'homme"
+    - "Passage en mode boomer"
+    - "On ne rentre pas à la maison"
+
+launch-pad:
+  rocket-launching: "Vous ne pouvez pas casser le pas de tir pendant qu'une fusée y décolle !"
+  needs-floors: "Entourez ce bloc de 8 planchers de pas de tir avant d'essayer de l'utiliser"
+
+atmosphere:
+  exposed: "Vous avez été exposé à %effect% !"
+
+effect:
+  radiation: "Radiation"
+  heat: "Chaleur"
+  cold: "Froid"
+
+assembly-table:
+  not-enough-energy: "Pas assez d'énergie !"
+  charge: "Charge : %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Vous devez être sur une planète pour utiliser ceci !"
+  already-observing: "Observation déjà en cours !"
+  observing: "Observation de la planète %planet%"
+  already-analyzing: "Analyse déjà en cours !"
+  analyzing: "Analyse de la planète %planet%"
+
+forcefield:
+  activated: "Activé"
+  deactivated: "Désactivé"
+
+stargate:
+  deactivate-first: "Désactivez le Stargate avant de le détruire"
+  not-assembled: "Le Stargate n'est pas assemblé !"
+  activated: "Stargate activé !"
+  address: "Adresse (cliquez pour copier) : %address%"
+  enter-destination: "Tapez l'adresse de destination"
+  no-destination: "Aucune destination trouvée !"
+  not-lit: "Le Stargate n'est pas allumé, pour une raison inconnue..."
+  destination-set: "Destination du Stargate définie sur %x% %y% %z% dans %world%"
+  destination-not-activated: "Le Stargate de destination n'est pas activé"
+  destination-blocked: "La destination est obstruée"
+
+commands:
+  invalid-uuid: "UUID invalide !"
+  invalid-world: "Monde invalide !"
+  not-in-galactifun-world: "Vous devez être dans un monde Galactifun pour exécuter cette commande"
+  effect-level: "Effet : %effect%, Niveau : %level%"
+
+sealed:
+  usage: "Utilisation : /galactifun sealed <portée>"
+  range-out-of-bounds: "La portée doit être un nombre entier entre 1 et %max%"
+  sealed: "Hermétique"
+  not-sealed: "Non hermétique"
+
+structure:
+  save-usage: "Utilisation : /galactifun save <nom>"
+  pos1-not-set: "pos1 n'est pas définie !"
+  pos2-not-set: "pos2 n'est pas définie !"
+  saved: "Enregistré sous '%name%' !"
+  save-failed: "Erreur lors de l'enregistrement du fichier ! Consultez la console !"
+  must-target-block: "Vous devez viser un bloc !"
+  position: "%coords% dans %world%"
+  pos1-set: "pos1 définie sur %position%"
+  pos2-set: "pos2 définie sur %position%"
+  paste-usage: "Utilisation : /galactifun paste <nom>"
+  unknown: "Structure inconnue '%name%' !"
+  pasted: "Collé !"
+
+world:
+  out-of-oxygen: "Vous n'avez plus d'oxygène !"
+  respawn-point-set: "Point de réapparition défini"
+  respawn-loop-detected: "Une possible boucle de réapparition a été détectée !"
+  respawn-loop-question: "Voulez-vous retourner sur Terre ? (%yes%/%no%)"
+  affirmative: "oui"
+  negative: "non"

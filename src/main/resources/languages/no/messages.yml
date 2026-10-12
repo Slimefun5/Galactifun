@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raketten skytes opp nå!"
+  already-launching: "Raketten skytes allerede opp!"
+  not-from-this-world: "Du kan ikke reise ut i rommet fra denne verdenen!"
+  no-fuel: "Raketten har ikke drivstoff!"
+  enter-coordinates: "Skriv inn destinasjonens koordinater i formen <x> <z> (for eksempel -123 456), eller skriv noe annet for å avbryte:"
+  outside-world-border: "Destinasjonen er utenfor verdensgrensen"
+  no-landing-permission: "Du har ikke tillatelse til å lande der"
+  launch-cancelled: "Oppskytning avbrutt"
+  verifying-blast: "Kontrollerer hvor imponerende oppskytningen er..."
+  launch-messages:
+    - "Glemmer fallskjermene"
+    - "Fyller opp snacksskapet"
+    - "Retter inn planetene"
+    - "Tenner sola"
+    - "Finner opp morsomme oppskytningsmeldinger"
+    - "Takker TheBusyBiscuit"
+    - "Fabrikkerer månelandingene"
+    - "Tar et lite skritt"
+    - "Blir boomer"
+    - "Drar ikke hjem"
+
+launch-pad:
+  rocket-launching: "Du kan ikke ødelegge oppskytningsplattformen mens en rakett skytes opp fra den!"
+  needs-floors: "Omgi denne blokken med 8 oppskytningsplattformgulv før du prøver å bruke den"
+
+atmosphere:
+  exposed: "Du har blitt utsatt for %effect%!"
+
+effect:
+  radiation: "Stråling"
+  heat: "Varme"
+  cold: "Kulde"
+
+assembly-table:
+  not-enough-energy: "Ikke nok energi!"
+  charge: "Lading: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Du må være på en planet for å bruke dette!"
+  already-observing: "Observerer allerede!"
+  observing: "Observerer planeten %planet%"
+  already-analyzing: "Analyserer allerede!"
+  analyzing: "Analyserer planeten %planet%"
+
+forcefield:
+  activated: "Aktivert"
+  deactivated: "Deaktivert"
+
+stargate:
+  deactivate-first: "Deaktiver stjerneporten før du ødelegger den"
+  not-assembled: "Stjerneporten er ikke satt sammen!"
+  activated: "Stjerneporten er aktivert!"
+  address: "Adresse (klikk for å kopiere): %address%"
+  enter-destination: "Skriv destinasjonsadressen"
+  no-destination: "Ingen destinasjon funnet!"
+  not-lit: "Stjerneporten lyser av en eller annen grunn ikke..."
+  destination-set: "Stjerneportens destinasjon satt til %x% %y% %z% i %world%"
+  destination-not-activated: "Destinasjonens stjerneport er ikke aktivert"
+  destination-blocked: "Destinasjonen er blokkert"
+
+commands:
+  invalid-uuid: "Ugyldig UUID!"
+  invalid-world: "Ugyldig verden!"
+  not-in-galactifun-world: "Du må være i en Galactifun-verden for å kjøre denne kommandoen"
+  effect-level: "Effekt: %effect%, Nivå: %level%"
+
+sealed:
+  usage: "Bruk: /galactifun sealed <rekkevidde>"
+  range-out-of-bounds: "Rekkevidden må være et heltall mellom 1 og %max%"
+  sealed: "Forseglet"
+  not-sealed: "Ikke forseglet"
+
+structure:
+  save-usage: "Bruk: /galactifun save <navn>"
+  pos1-not-set: "pos1 er ikke satt!"
+  pos2-not-set: "pos2 er ikke satt!"
+  saved: "Lagret som '%name%'!"
+  save-failed: "Feil ved lagring av filen! Sjekk konsollen!"
+  must-target-block: "Du må sikte på en blokk!"
+  position: "%coords% i %world%"
+  pos1-set: "pos1 satt til %position%"
+  pos2-set: "pos2 satt til %position%"
+  paste-usage: "Bruk: /galactifun paste <navn>"
+  unknown: "Ukjent struktur '%name%'!"
+  pasted: "Limt inn!"
+
+world:
+  out-of-oxygen: "Du har gått tom for oksygen!"
+  respawn-point-set: "Gjenoppstandelsespunkt satt"
+  respawn-loop-detected: "En mulig gjenoppstandelsesløkke er oppdaget!"
+  respawn-loop-question: "Vil du tilbake til Jorden? (%yes%/%no%)"
+  affirmative: "ja"
+  negative: "nei"

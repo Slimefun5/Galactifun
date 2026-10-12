@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "Raketen håller på att starta!"
+  already-launching: "Raketen startar redan!"
+  not-from-this-world: "Du kan inte resa till rymden från den här världen!"
+  no-fuel: "Raketen har inget bränsle!"
+  enter-coordinates: "Skriv destinationens koordinater i formen <x> <z> (till exempel -123 456) eller skriv något annat för att avbryta:"
+  outside-world-border: "Destinationen ligger utanför världsgränsen"
+  no-landing-permission: "Du har inte tillåtelse att landa där"
+  launch-cancelled: "Uppskjutningen avbröts"
+  verifying-blast: "Kontrollerar hur magnifik uppskjutningen är..."
+  launch-messages:
+    - "Glömmer fallskärmarna"
+    - "Fyller på snackslådan"
+    - "Riktar in planeterna"
+    - "Tänder solen"
+    - "Hittar på roliga uppskjutningsmeddelanden"
+    - "Tackar TheBusyBiscuit"
+    - "Fejkar månlandningarna"
+    - "Tar ett litet steg"
+    - "Blir boomer"
+    - "Åker inte hem"
+
+launch-pad:
+  rocket-launching: "Du kan inte förstöra startplattan medan en raket startar på den!"
+  needs-floors: "Omge det här blocket med 8 startplattsgolv innan du försöker använda det"
+
+atmosphere:
+  exposed: "Du har utsatts för %effect%!"
+
+effect:
+  radiation: "Strålning"
+  heat: "Hetta"
+  cold: "Kyla"
+
+assembly-table:
+  not-enough-energy: "Inte tillräckligt med energi!"
+  charge: "Laddning: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Du måste vara på en planet för att använda detta!"
+  already-observing: "Observerar redan!"
+  observing: "Observerar planeten %planet%"
+  already-analyzing: "Analyserar redan!"
+  analyzing: "Analyserar planeten %planet%"
+
+forcefield:
+  activated: "Aktiverad"
+  deactivated: "Avaktiverad"
+
+stargate:
+  deactivate-first: "Avaktivera stjärnporten innan du förstör den"
+  not-assembled: "Stjärnporten är inte sammansatt!"
+  activated: "Stjärnporten aktiverad!"
+  address: "Adress (klicka för att kopiera): %address%"
+  enter-destination: "Skriv destinationsadressen"
+  no-destination: "Ingen destination hittades!"
+  not-lit: "Stjärnporten lyser inte av någon anledning..."
+  destination-set: "Stjärnportens destination satt till %x% %y% %z% i %world%"
+  destination-not-activated: "Destinationens stjärnport är inte aktiverad"
+  destination-blocked: "Destinationen är blockerad"
+
+commands:
+  invalid-uuid: "Ogiltigt UUID!"
+  invalid-world: "Ogiltig värld!"
+  not-in-galactifun-world: "Du måste vara i en Galactifun-värld för att köra det här kommandot"
+  effect-level: "Effekt: %effect%, Nivå: %level%"
+
+sealed:
+  usage: "Användande: /galactifun sealed <räckvidd>"
+  range-out-of-bounds: "Räckvidden måste vara ett heltal mellan 1 och %max%"
+  sealed: "Tätt"
+  not-sealed: "Inte tätt"
+
+structure:
+  save-usage: "Användande: /galactifun save <namn>"
+  pos1-not-set: "pos1 är inte satt!"
+  pos2-not-set: "pos2 är inte satt!"
+  saved: "Sparat som '%name%'!"
+  save-failed: "Fel när filen skulle sparas! Kolla konsolen!"
+  must-target-block: "Du måste sikta på ett block!"
+  position: "%coords% i %world%"
+  pos1-set: "pos1 satt till %position%"
+  pos2-set: "pos2 satt till %position%"
+  paste-usage: "Användande: /galactifun paste <namn>"
+  unknown: "Okänd struktur '%name%'!"
+  pasted: "Inklistrat!"
+
+world:
+  out-of-oxygen: "Du har fått slut på syre!"
+  respawn-point-set: "Återuppståndelsepunkt satt"
+  respawn-loop-detected: "En möjlig återuppståndelseloop har upptäckts!"
+  respawn-loop-question: "Vill du åka tillbaka till jorden? (%yes%/%no%)"
+  affirmative: "ja"
+  negative: "nej"

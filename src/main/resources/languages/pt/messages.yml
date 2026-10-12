@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "O foguetão está a lançar!"
+  already-launching: "O foguetão já está a lançar!"
+  not-from-this-world: "Não podes viajar para o espaço a partir deste mundo!"
+  no-fuel: "O foguetão não tem combustível!"
+  enter-coordinates: "Escreve as coordenadas de destino na forma <x> <z> (por exemplo -123 456) ou escreve outra coisa para cancelar:"
+  outside-world-border: "O destino está fora do limite do mundo"
+  no-landing-permission: "Não tens permissão para aterrar ali"
+  launch-cancelled: "Lançamento cancelado"
+  verifying-blast: "A verificar a grandiosidade do lançamento..."
+  launch-messages:
+    - "A esquecer os paraquedas"
+    - "A repor a despensa de snacks"
+    - "A alinhar os planetas"
+    - "A acender o sol"
+    - "A inventar mensagens de lançamento divertidas"
+    - "A agradecer ao TheBusyBiscuit"
+    - "A falsificar as aterragens na Lua"
+    - "A dar um pequeno passo"
+    - "A tornar-se boomer"
+    - "A não voltar para casa"
+
+launch-pad:
+  rocket-launching: "Não podes destruir a plataforma de lançamento enquanto um foguetão lança nela!"
+  needs-floors: "Rodeia este bloco com 8 pisos de plataforma de lançamento antes de o usares"
+
+atmosphere:
+  exposed: "Foste exposto a %effect%!"
+
+effect:
+  radiation: "Radiação"
+  heat: "Calor"
+  cold: "Frio"
+
+assembly-table:
+  not-enough-energy: "Energia insuficiente!"
+  charge: "Carga: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Tens de estar num planeta para usar isto!"
+  already-observing: "Já está a observar!"
+  observing: "A observar o planeta %planet%"
+  already-analyzing: "Já está a analisar!"
+  analyzing: "A analisar o planeta %planet%"
+
+forcefield:
+  activated: "Ativado"
+  deactivated: "Desativado"
+
+stargate:
+  deactivate-first: "Desativa o Portal Estelar antes de o destruir"
+  not-assembled: "O Portal Estelar não está montado!"
+  activated: "Portal Estelar ativado!"
+  address: "Endereço (clica para copiar): %address%"
+  enter-destination: "Escreve o endereço de destino"
+  no-destination: "Nenhum destino encontrado!"
+  not-lit: "Por alguma razão o Portal Estelar não está aceso..."
+  destination-set: "Destino do Portal Estelar definido para %x% %y% %z% em %world%"
+  destination-not-activated: "O Portal Estelar de destino não está ativado"
+  destination-blocked: "O destino está bloqueado"
+
+commands:
+  invalid-uuid: "UUID inválido!"
+  invalid-world: "Mundo inválido!"
+  not-in-galactifun-world: "Tens de estar num mundo do Galactifun para executar este comando"
+  effect-level: "Efeito: %effect%, Nível: %level%"
+
+sealed:
+  usage: "Utilização: /galactifun sealed <alcance>"
+  range-out-of-bounds: "O alcance tem de ser um número inteiro entre 1 e %max%"
+  sealed: "Selado"
+  not-sealed: "Não selado"
+
+structure:
+  save-usage: "Utilização: /galactifun save <nome>"
+  pos1-not-set: "pos1 não está definida!"
+  pos2-not-set: "pos2 não está definida!"
+  saved: "Guardado como '%name%'!"
+  save-failed: "Erro ao guardar o ficheiro! Verifica a consola!"
+  must-target-block: "Tens de apontar para um bloco!"
+  position: "%coords% em %world%"
+  pos1-set: "pos1 definida para %position%"
+  pos2-set: "pos2 definida para %position%"
+  paste-usage: "Utilização: /galactifun paste <nome>"
+  unknown: "Estrutura desconhecida '%name%'!"
+  pasted: "Colado!"
+
+world:
+  out-of-oxygen: "Ficaste sem oxigénio!"
+  respawn-point-set: "Ponto de renascimento definido"
+  respawn-loop-detected: "Foi detetado um possível ciclo de renascimento!"
+  respawn-loop-question: "Queres voltar para a Terra? (%yes%/%no%)"
+  affirmative: "sim"
+  negative: "não"

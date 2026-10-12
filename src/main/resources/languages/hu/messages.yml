@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "A rakéta éppen indul!"
+  already-launching: "A rakéta már indul!"
+  not-from-this-world: "Erről a világról nem utazhatsz az űrbe!"
+  no-fuel: "A rakétának nincs üzemanyaga!"
+  enter-coordinates: "Írd be a cél koordinátáit <x> <z> formában (például -123 456), vagy írj bármi mást a megszakításhoz:"
+  outside-world-border: "A cél a világ határán kívül van"
+  no-landing-permission: "Nincs engedélyed arra, hogy ott leszállj"
+  launch-cancelled: "Indítás megszakítva"
+  verifying-blast: "Az indítás látványosságának ellenőrzése..."
+  launch-messages:
+    - "Ejtőernyők elfelejtése"
+    - "Nassolnivaló-tároló feltöltése"
+    - "Bolygók beállítása"
+    - "Nap begyújtása"
+    - "Vicces indítási üzenetek kitalálása"
+    - "TheBusyBiscuit megköszönése"
+    - "Holdra szállások megrendezése"
+    - "Egy kis lépés megtétele"
+    - "Boomerré válás"
+    - "Nem hazatérés"
+
+launch-pad:
+  rocket-launching: "Nem bonthatod el az indítólapot, amíg rakéta indul róla!"
+  needs-floors: "Vedd körbe ezt a blokkot 8 indítólap padlóval, mielőtt használni próbálod"
+
+atmosphere:
+  exposed: "A következő hatás érte: %effect%!"
+
+effect:
+  radiation: "Sugárzás"
+  heat: "Hőség"
+  cold: "Hideg"
+
+assembly-table:
+  not-enough-energy: "Nincs elég energia!"
+  charge: "Töltés: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "Egy bolygón kell lenned, hogy ezt használhasd!"
+  already-observing: "Már folyik a megfigyelés!"
+  observing: "A %planet% bolygó megfigyelése"
+  already-analyzing: "Már folyik az elemzés!"
+  analyzing: "A %planet% bolygó elemzése"
+
+forcefield:
+  activated: "Aktiválva"
+  deactivated: "Deaktiválva"
+
+stargate:
+  deactivate-first: "Deaktiváld a csillagkaput, mielőtt elpusztítod"
+  not-assembled: "A csillagkapu nincs összeállítva!"
+  activated: "Csillagkapu aktiválva!"
+  address: "Cím (kattints a másoláshoz): %address%"
+  enter-destination: "Írd be a cél címét"
+  no-destination: "Nem található cél!"
+  not-lit: "A csillagkapu valamiért nem világít..."
+  destination-set: "A csillagkapu célja beállítva: %x% %y% %z% a %world% világban"
+  destination-not-activated: "A cél csillagkapu nincs aktiválva"
+  destination-blocked: "A cél el van zárva"
+
+commands:
+  invalid-uuid: "Érvénytelen UUID!"
+  invalid-world: "Érvénytelen világ!"
+  not-in-galactifun-world: "Galactifun világban kell lenned a parancs végrehajtásához"
+  effect-level: "Hatás: %effect%, Szint: %level%"
+
+sealed:
+  usage: "Használat: /galactifun sealed <távolság>"
+  range-out-of-bounds: "A távolságnak 1 és %max% közötti egész számnak kell lennie"
+  sealed: "Szigetelt"
+  not-sealed: "Nem szigetelt"
+
+structure:
+  save-usage: "Használat: /galactifun save <név>"
+  pos1-not-set: "a pos1 nincs beállítva!"
+  pos2-not-set: "a pos2 nincs beállítva!"
+  saved: "Elmentve '%name%' néven!"
+  save-failed: "Hiba a fájl mentésekor! Ellenőrizd a konzolt!"
+  must-target-block: "Egy blokkra kell céloznod!"
+  position: "%coords% a %world% világban"
+  pos1-set: "a pos1 beállítva: %position%"
+  pos2-set: "a pos2 beállítva: %position%"
+  paste-usage: "Használat: /galactifun paste <név>"
+  unknown: "Ismeretlen szerkezet: '%name%'!"
+  pasted: "Beillesztve!"
+
+world:
+  out-of-oxygen: "Kifogytál az oxigénből!"
+  respawn-point-set: "Újraéledési pont beállítva"
+  respawn-loop-detected: "Lehetséges újraéledési hurkot észleltünk!"
+  respawn-loop-question: "Vissza szeretnél menni a Földre? (%yes%/%no%)"
+  affirmative: "igen"
+  negative: "nem"
