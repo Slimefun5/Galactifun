@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Abanseng Yunit ng Pagproseso'
   type:
   - '&7&oBahagi'
 AIR_FILTER:
+  name: '&fPansala'
   type:
   - '&7&oBahagi'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Hinding-hindi mo mahuhulaan kung gaano katagal'
+  - '&7bago namin napangalanan ang materyal na ito'
+  name: '&fKompositong Aluminyo'
   type:
   - '&7&oBahagi'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fLamina ng Kompositong Aluminyo'
   type:
   - '&7&oBahagi'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Ginagamit sa paggawa ng maraming bagay'
+  name: '&fMesa ng Pagbuo'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Likha'
   type:
   - '&7&oMakina'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fKanister ng Gas na Amonya'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fKanister ng Gas na Argon'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fKanister ng Gas na Karbon Dioksido'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fKanister ng Gas na Helyo'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fKanister ng Gas na Hidrokarburo'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fKanister ng Gas na Hidroheno'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fKanister ng Gas na Metano'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fKanister ng Gas na Nitroheno'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fKanister ng Gas na Oksiheno'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fKanister ng Gas na Tubig'
   type:
   - '&7&oRekurso'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Kinokolekta ang mga gas mula sa atmospera'
+  name: '&fTagaani ng Atmospera'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J na Buffer'
   type:
   - '&7&oMakina'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Awtomatikong inilalagay/inaalis ang mga bloke sa loob'
+  - '&7kapag lumalapit/lumalayo ka rito'
+  name: '&fAwtomatikong Pinto'
   type:
   - '&7&oMakina'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Nagbabagang Bulkanikong Bareta'
   type:
   - '&7&oRekurso'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7Lenap ralos gnamulakapan'
+  name: '&7Relikya: Lenap Ralos Gnaris'
   type:
   - '&7&oIba pa'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Pinagsasama ang mga kemikal'
+  - '&7upang gumawa ng mga bago'
+  name: '&fReaktor ng Kemikal'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J na Buffer'
   type:
   - '&7&oMakina'
 CIRCUIT_PRESS:
+  description:
+  - '&7Gumagawa ng mga sirkito'
+  name: '&fPamprensa ng Sirkito'
   stats:
   - '&8⇨ &e⚡ &7512 J na Buffer'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMakina'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Idagdag sa iyong kasuotang pangkalawakan upang mapataas ang resistensya sa lamig'
+  name: '&7Pampahusay sa Resistensya sa Lamig'
   type:
   - '&7&oBahagi'
 COMPUTER_RELIC:
+  description:
+  - '&7Retuypmok gnawinarak as asyak silibam sam gnan'
+  - '&7aluklakgam gnayak ya mutnawk an retuypmok agm gnA'
+  name: '&fRelikya: Mutnawk An Retuypmok'
   type:
   - '&7&oIba pa'
 COOLING_UNIT_1:
+  description:
+  - '&7Pasibong pinapalamig ang nakapaligid na lugar, binabawasan ang pagkalantad sa init habang pinapagana'
+  name: '&bYunit ng Pampalamig I'
+  stats:
+  - '&7Epekto: Init'
+  - '&7Proteksyon: 2'
+  - '&7Abot: 1000 bloke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Imbak'
   type:
   - '&7&oMakina'
 COOLING_UNIT_2:
+  description:
+  - '&7Pasibong pinapalamig ang nakapaligid na lugar, binabawasan ang pagkalantad sa init habang pinapagana'
+  name: '&bYunit ng Pampalamig II'
+  stats:
+  - '&7Epekto: Init'
+  - '&7Proteksyon: 4'
+  - '&7Abot: 1500 bloke'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Imbak'
   type:
   - '&7&oMakina'
 COOLING_UNIT_3:
+  description:
+  - '&7Pasibong pinapalamig ang nakapaligid na lugar, binabawasan ang pagkalantad sa init habang pinapagana'
+  name: '&bYunit ng Pampalamig III'
+  stats:
+  - '&7Epekto: Init'
+  - '&7Proteksyon: 6'
+  - '&7Abot: 2000 bloke'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Imbak'
   type:
   - '&7&oMakina'
 DIAMOND_ANVIL:
+  description:
+  - '&7Sinisiksik ang materyal nang napakalakas'
+  - '&7hanggang maging ganap nang ibang bagay'
+  name: '&fPalihan ng Diyamante'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J na Buffer'
   type:
   - '&7&oMakina'
 DIAMOND_ANVIL_CELL:
+  name: '&bSelda ng Palihang Diyamante'
   type:
   - '&7&oBahagi'
 DIAMOND_CIRCUIT:
+  name: '&7Sirkito ng Diyamante'
   type:
   - '&7&oBahagi'
 DRY_ICE:
+  name: '&bTuyong Yelo'
   type:
   - '&7&oRekurso'
 ELECTROLYZER:
+  description:
+  - '&7Gumagamit ng kuryente upang hatiin'
+  - '&7ang mga kemikal sa kanilang mga sangkap'
+  name: '&fElektrolisador'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J na Buffer'
   type:
   - '&7&oMakina'
 ENDER_BLOCK:
+  name: '&3Bloke ng Ender'
   type:
   - '&7&oBahagi'
 ENGINE_RELIC:
+  description:
+  - '&7Gnolusap okrab gna kaluti gnapu muykab gn'
+  - '&7ayihrene gn timagamug ya oti an rotom gnA'
+  name: '&fRelikya: Muykab An Rotom'
   type:
   - '&7&oIba pa'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Gumagawa ng puwersang panangga na humahadlang'
+  - '&7sa hangin, ngunit pinapayagan ang mga nilalang'
+  name: '&fTagabuo ng Puwersang Panangga sa Kapaligiran'
   type:
   - '&7&oMakina'
 FALLEN_METEOR:
+  description:
+  - '&7Ang mga meteorong ito ay naglalaman ng Tungsten'
+  name: '&4Bumagsak na Meteoro'
   type:
   - '&7&oRekurso'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Tignal as alum kasgamub an tyaletas'
+  name: '&7Relikya: Tyaletas An Kasgamub'
   type:
   - '&7&oIba pa'
 FAN_BLADE:
+  name: '&fTalim ng Bentilador'
   type:
   - '&7&oBahagi'
 FUEL_TANK:
+  name: '&6Tangke ng Gatong'
   type:
   - '&7&oBahagi'
 FUEL_TANK_2:
+  name: '&6Tangke ng Gatong Mk 2'
   type:
   - '&7&oBahagi'
 FUSION_PELLET:
+  name: '&fPelet ng Pagsasanib'
   type:
   - '&7&oBahagi'
 FUSION_REACTOR:
+  description:
+  - '&7Gumagamit ng laser upang isanib ang mga pelet ng Helium-3'
+  - '&7at bumuo ng napakadaming enerhiya'
+  - '&7sa proseso'
+  name: '&fReaktor ng Pagsasanib'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J na Buffer'
   type:
   - '&7&oGenerator'
 GLOWSTONE_CIRCUIT:
+  name: '&7Sirkito ng Glowstone'
   type:
   - '&7&oBahagi'
 GOLD_FOIL:
+  name: '&6Palara ng Ginto'
   type:
   - '&7&oBahagi'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Idagdag sa iyong kasuotang pangkalawakan upang mapataas ang resistensya sa init'
+  name: '&7Pampahusay sa Resistensya sa Init'
   type:
   - '&7&oBahagi'
 HEAVY_DUTY_SHEET:
+  name: '&fLaminang Pambigatan'
   type:
   - '&7&oBahagi'
 ION_DISPERSER_1:
+  description:
+  - '&7Pasibong pinapakalat ang radyasyon sa nakapaligid na lugar habang pinapagana'
+  name: '&fTagapagpakalat ng Ion I'
+  stats:
+  - '&7Epekto: Radyasyon'
+  - '&7Proteksyon: 2'
+  - '&7Abot: 1000 bloke'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Imbak'
   type:
   - '&7&oMakina'
 ION_DISPERSER_2:
+  description:
+  - '&7Pasibong pinapakalat ang radyasyon sa nakapaligid na lugar habang pinapagana'
+  name: '&fTagapagpakalat ng Ion II'
+  stats:
+  - '&7Epekto: Radyasyon'
+  - '&7Proteksyon: 4'
+  - '&7Abot: 1500 bloke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Imbak'
   type:
   - '&7&oMakina'
 ION_ENGINE:
+  name: '&bMotor na Ion'
   type:
   - '&7&oBahagi'
 ION_ROCKET:
+  description:
+  - '&7Gumagamit ng natatanging motor na'
+  - '&7bumubuga ng mga ion sa napakabilis, kaya'
+  - '&7sukdulan ang tipid sa gatong'
+  name: '&bRaketeng Ion'
+  stats:
+  - '&7Kapasidad ng Gatong: 500'
+  - '&7Kapasidad ng Kargamento: 18'
   type:
   - '&7&oMultiblock'
 LANDING_HATCH:
+  description:
+  - '&7Hindi pinapansin ng mga rakete ang blokeng ito'
+  - '&7kapag lumalapag; lalapag sila sa'
+  - '&7pinakamataas na bloke sa ilalim nito. Ito ay'
+  - '&7itinuturing na hindi madaraanan ng hangin'
+  - '&7kaya magagamit ito sa pagsara ng mga espasyo'
+  name: '&fPinto ng Paglapag'
   type:
   - '&7&oIba pa'
 LAPIS_CIRCUIT:
+  name: '&7Sirkito ng Lapis'
   type:
   - '&7&oBahagi'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oRekurso'
 LASERITE_DUST:
+  description:
+  - '&7Naubusan na ako ng pangalan'
+  name: '&cAlikabok ng Laserite'
   type:
   - '&7&oRekurso'
 LASERITE_ORE:
+  name: '&cMineral na Laserite'
   type:
   - '&7&oRekurso'
 LAUNCH_PAD_CORE:
+  name: '&fUbod ng Plataporma ng Paglunsad'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&7Palibutan ng 8 na &fSahig ng Plataporma ng Paglunsad&7'
+  - '&7para magamit'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Ginagamit sa paggawa ng Plataporma ng Paglunsad'
+  name: '&fSahig ng Plataporma ng Paglunsad'
   type:
   - '&7&oMultiblock'
 LIFE_SUPPORT_MODULE:
+  name: '&4Modyul ng Suportang Pangbuhay'
   type:
   - '&7&oBahagi'
 LUNAR_GLASS:
+  description:
+  - '&7Sa hindi malamang dahilan, ang paghalo ng'
+  - '&7alikabok ng buwan sa salamin ay nagpapalinaw nito...'
+  name: '&fSalamin ng Buwan'
   type:
   - '&7&oBahagi'
 MARS_DUST:
+  name: '&cAlikabok ng Mars'
   type:
   - '&7&oRekurso'
 MARS_ROCK:
+  name: '&cBato ng Mars'
   type:
   - '&7&oRekurso'
 METHANE_ICE:
+  name: '&bYelong Metano'
   type:
   - '&7&oRekurso'
 MOON_CHEESE:
+  description:
+  - '&7Yak'
+  name: '&6Keso ng Buwan'
+  stats:
+  - '&7Nagbabalik ng &b2 &7Gutom'
+  - '&7Nagbabalik ng &b2.0 &7Kabusugan'
   type:
   - '&7&oPagkain'
+  usage:
+  - '&7Ilagay upang makain'
 MOON_DUST:
+  name: '&7Alikabok ng Buwan'
   type:
   - '&7&oRekurso'
 MOON_ROCK:
+  name: '&7Bato ng Buwan'
   type:
   - '&7&oRekurso'
 MUNPOWDER:
+  description:
+  - '&7Ang pulbura ng buwan'
+  name: '&7Pulburang Buwan'
   type:
   - '&7&oRekurso'
 NOSE_CONE:
+  name: '&fTulis na Kono'
   type:
   - '&7&oBahagi'
 NOZZLE:
+  name: '&fBokilya'
   type:
   - '&7&oBahagi'
 OBSERVATORY:
+  description:
+  - '&7Nagbibigay-daan upang matuklasan ang basikong impormasyon'
+  - '&7tungkol sa isang mundo mula sa malayo. Gumagana lamang sa mga mundong'
+  - '&7mas malapit sa 0.25 ly (2,365,200,000,000 km)'
+  name: '&fObserbatoryo'
   type:
   - '&7&oGadyet'
 OXYGEN_FILLER:
+  description:
+  - '&7Pinupuno ng oksiheno ang mga kasuotang pangkalawakan'
+  name: '&fTagapuno ng Oksiheno'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Bilis: &b1.0x'
   type:
   - '&7&oMakina'
 OXYGEN_REGENERATOR:
+  name: '&bTagapagpanibago ng Oksiheno'
   type:
   - '&7&oBahagi'
 OXYGEN_SEALER:
+  description:
+  - '&7Pinupuno ng oksiheno ang isang saradong lugar'
+  name: '&fTagasara ng Oksiheno'
+  stats:
+  - '&7Abot: 1000 bloke'
   type:
   - '&7&oMakina'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Nagbibigay-daan upang matuklasan ang abanseng impormasyon'
+  - '&7tungkol sa kasalukuyang planeta'
+  name: '&fPang-analisa ng Planeta'
   type:
   - '&7&oGadyet'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Idagdag sa iyong kasuotang pangkalawakan upang mapataas ang resistensya sa radyasyon'
+  name: '&7Pampahusay sa Resistensya sa Radyasyon'
   type:
   - '&7&oBahagi'
 REACTOR_RELIC:
+  description:
+  - '&7Alaw as alum ninupit gniraaam ya ayihrene gna'
+  - '&7gnalakaa-gam gna onis?'
+  name: '&fRelikya: Muykab Gn Rodareneg Gnokirtkele'
   type:
   - '&7&oIba pa'
 REDSTONE_CIRCUIT:
+  name: '&7Sirkito ng Redstone'
   type:
   - '&7&oBahagi'
 REINFORCED_CHANNEL:
+  name: '&fPinatibay na Kanal'
   type:
   - '&7&oBahagi'
 ROCKET_ENGINE:
+  name: '&fMotor ng Rakete'
   type:
   - '&7&oBahagi'
 ROCKET_ENGINE_2:
+  name: '&fMotor ng Rakete Mk 2'
   type:
   - '&7&oBahagi'
 ROCKET_ENGINE_3:
+  name: '&fMotor ng Rakete Mk 3'
   type:
   - '&7&oBahagi'
 ROCKET_TIER_ONE:
+  name: '&4Kemikal na Rakete Baitang 1'
+  stats:
+  - '&7Kapasidad ng Gatong: 10'
+  - '&7Kapasidad ng Kargamento: 9'
   type:
   - '&7&oMultiblock'
 ROCKET_TIER_THREE:
+  name: '&4Kemikal na Rakete Baitang 3'
+  stats:
+  - '&7Kapasidad ng Gatong: 500'
+  - '&7Kapasidad ng Kargamento: 36'
   type:
   - '&7&oMultiblock'
 ROCKET_TIER_TWO:
+  name: '&4Kemikal na Rakete Baitang 2'
+  stats:
+  - '&7Kapasidad ng Gatong: 100'
+  - '&7Kapasidad ng Kargamento: 18'
   type:
   - '&7&oMultiblock'
 SPACE_GRADE_PLATE:
+  name: '&fPlakang Pangkalawakan'
   type:
   - '&7&oBahagi'
 SPACE_HEATER_1:
+  description:
+  - '&7Pasibong pinapainit ang nakapaligid na lugar, binabawasan ang pagkalantad sa lamig habang pinapagana'
+  name: '&6Pampainit na Pangkalawakan I'
+  stats:
+  - '&7Epekto: Lamig'
+  - '&7Proteksyon: 2'
+  - '&7Abot: 1000 bloke'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Imbak'
   type:
   - '&7&oMakina'
 SPACE_HEATER_2:
+  description:
+  - '&7Pasibong pinapainit ang nakapaligid na lugar, binabawasan ang pagkalantad sa lamig habang pinapagana'
+  name: '&6Pampainit na Pangkalawakan II'
+  stats:
+  - '&7Epekto: Lamig'
+  - '&7Proteksyon: 4'
+  - '&7Abot: 1500 bloke'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Imbak'
   type:
   - '&7&oMakina'
 SPACE_HEATER_3:
+  description:
+  - '&7Pasibong pinapainit ang nakapaligid na lugar, binabawasan ang pagkalantad sa lamig habang pinapagana'
+  name: '&6Pampainit na Pangkalawakan III'
+  stats:
+  - '&7Epekto: Lamig'
+  - '&7Proteksyon: 6'
+  - '&7Abot: 2000 bloke'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Imbak'
   type:
   - '&7&oMakina'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Basikong bota ng kasuotang pangkalawakan'
+  name: '&fBota ng Kasuotang Pangkalawakan'
   type:
   - '&7&oBaluti'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Basikong baluting dibdib ng kasuotang pangkalawakan'
+  name: '&fBaluting Dibdib ng Kasuotang Pangkalawakan'
   type:
   - '&7&oBaluti'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Basikong helmet ng kasuotang pangkalawakan'
+  name: '&fHelmet ng Kasuotang Pangkalawakan'
   type:
   - '&7&oBaluti'
   usage:
   - '&eKanang Klik&7 para gamitin'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Basikong pantalon ng kasuotang pangkalawakan'
+  name: '&fPantalon ng Kasuotang Pangkalawakan'
   type:
   - '&7&oBaluti'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Nagdadagdag ng pampahusay sa iyong kasuotang pangkalawakan'
+  name: '&fPampahusay ng Kasuotang Pangkalawakan'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Bilis: &b1.0x'
   type:
   - '&7&oMakina'
 SPARK_PLUG:
+  name: '&fBuhiya'
   type:
   - '&7&oBahagi'
 SPARK_PLUG_2:
+  name: '&fBuhiya Mk 2'
   type:
   - '&7&oBahagi'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Ginagamit sa pagkontrol ng pintuang-bituin'
+  name: '&9Kontrolador ng Pintuang-Bituin'
   type:
   - '&7&oMultiblock'
 STARGATE_RING:
+  description:
+  - '&7Ginagamit sa paggawa ng pintuang-bituin'
+  name: '&9Singsing ng Pintuang-Bituin'
   type:
   - '&7&oMultiblock'
 SULFUR_BLOCK:
+  name: '&6Bloke ng Asupre'
   type:
   - '&7&oRekurso'
 SUPER_FAN:
+  description:
+  - '&7Ilagay ito sa tabi ng blokeng nangangailangan'
+  - '&7ng saradong lugar upang mapalawak ang abot ng 15%'
+  name: '&7Super Bentilador'
   type:
   - '&7&oIba pa'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Sinasalba ang anumang masasalba mula sa mga relikya'
+  name: '&fTagasalba ng Teknolohiya'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J na Buffer'
   type:
   - '&7&oMakina'
 TUNGSTEN_CARBIDE:
+  name: '&7Karbayd ng Tungsten'
   type:
   - '&7&oRekurso'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Matibay na metal na nakukuha sa pagbibigay'
+  - '&7ng pinatibay na plaka sa mga Martian o sa'
+  - '&7pagtunaw ng mga bumagsak na meteoro'
+  name: '&bBareta ng Tungsten'
   type:
   - '&7&oRekurso'
 ULTRA_DUTY_SHEET:
+  name: '&fLaminang Ultra-Pambigatan'
   type:
   - '&7&oBahagi'
 VENTSTONE:
+  name: '&6Batong-Singaw'
   type:
   - '&7&oRekurso'
 VOLCANIC_INGOT:
+  description:
+  - '&7Pinanday sa kailaliman ng pinakamalapit'
+  - '&7na alam nating Impiyerno, ang Bulkanikong Bareta'
+  - '&7ay isang mahalagang kalakal'
+  name: '&4Bulkanikong Bareta'
   type:
   - '&7&oRekurso'
