@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4وحدة معالجة متقدّمة'
   type:
   - '&7&oمكون'
 AIR_FILTER:
+  name: '&fمُرشِّح'
   type:
   - '&7&oمكون'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7لن تتخيل كم استغرقنا من الوقت'
+  - '&7لتسمية هذه المادة'
+  name: '&fمُركّب الألومنيوم'
   type:
   - '&7&oمكون'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fشريحة مُركّب الألومنيوم'
   type:
   - '&7&oمكون'
 ASSEMBLY_TABLE:
+  description:
+  - '&7تُستخدم لبناء أشياء كثيرة'
+  name: '&fطاولة التجميع'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/صناعة'
   type:
   - '&7&oآلة'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fعبوة غاز أمونيا'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fعبوة غاز أرجون'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fعبوة غاز ثاني أكسيد الكربون'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fعبوة غاز هيليوم'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fعبوة غاز هيدروكربونات'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fعبوة غاز هيدروجين'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fعبوة غاز ميثان'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fعبوة غاز نيتروجين'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fعبوة غاز أكسجين'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fعبوة غاز الماء'
   type:
   - '&7&oمورد'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7تجمع الغازات من الغلاف الجوي'
+  name: '&fحاصدة الغلاف الجوي'
   stats:
   - '&8⇨ &e⚡ &764 جول/ث'
   - '&8⇨ &e⚡ &7مخزن 128 جول'
   type:
   - '&7&oآلة'
 AUTOMATIC_DOOR:
+  description:
+  - '&7يضع ويزيل الكتل الموجودة بداخله تلقائيًا'
+  - '&7عند اقترابك منه أو ابتعادك عنه'
+  name: '&fباب تلقائي'
   type:
   - '&7&oآلة'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6سبيكة بركانية ملتهبة'
   type:
   - '&7&oمورد'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7جدًا قديم شمسي لوح'
+  name: '&7أثر: معطّل شمسي لوح'
   type:
   - '&7&oمتنوع'
 CHEMICAL_REACTOR:
+  description:
+  - '&7يُفاعل المواد الكيميائية معًا'
+  - '&7لإنشاء مواد جديدة'
+  name: '&fمفاعل كيميائي'
   stats:
   - '&8⇨ &e⚡ &7256 جول/ث'
   - '&8⇨ &e⚡ &7مخزن 512 جول'
   type:
   - '&7&oآلة'
 CIRCUIT_PRESS:
+  description:
+  - '&7يُنشئ الدوائر'
+  name: '&fمكبس الدوائر'
   stats:
   - '&8⇨ &e⚡ &7مخزن 512 جول'
   - '&8⇨ &e⚡ &7256 جول/ث'
   type:
   - '&7&oآلة'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8أضفها إلى بذلة الفضاء لزيادة مقاومة البرد'
+  name: '&7ترقية مقاومة البرد'
   type:
   - '&7&oمكون'
 COMPUTER_RELIC:
+  description:
+  - '&7العادية الحواسيب من بكثير أسرع'
+  - '&7الحسابات إجراء تستطيع الكمية الحواسيب'
+  name: '&fأثر: كمي حاسوب'
   type:
   - '&7&oمتنوع'
 COOLING_UNIT_1:
+  description:
+  - '&7يبرّد المنطقة المحيطة سلبيًا، ويقلّل التعرّض للحرارة عند تزويده بالطاقة'
+  name: '&bوحدة تبريد I'
+  stats:
+  - '&7التأثير: حرارة'
+  - '&7الحماية: 2'
+  - '&7المدى: 1000 كتلة'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 COOLING_UNIT_2:
+  description:
+  - '&7يبرّد المنطقة المحيطة سلبيًا، ويقلّل التعرّض للحرارة عند تزويده بالطاقة'
+  name: '&bوحدة تبريد II'
+  stats:
+  - '&7التأثير: حرارة'
+  - '&7الحماية: 4'
+  - '&7المدى: 1500 كتلة'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 COOLING_UNIT_3:
+  description:
+  - '&7يبرّد المنطقة المحيطة سلبيًا، ويقلّل التعرّض للحرارة عند تزويده بالطاقة'
+  name: '&bوحدة تبريد III'
+  stats:
+  - '&7التأثير: حرارة'
+  - '&7الحماية: 6'
+  - '&7المدى: 2000 كتلة'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 DIAMOND_ANVIL:
+  description:
+  - '&7يضغط المادة بقوة شديدة'
+  - '&7حتى تصبح شيئًا آخر تمامًا'
+  name: '&fسندان الألماس'
   stats:
   - '&8⇨ &e⚡ &71024 جول/ث'
   - '&8⇨ &e⚡ &7مخزن 2048 جول'
   type:
   - '&7&oآلة'
 DIAMOND_ANVIL_CELL:
+  name: '&bخلية سندان الألماس'
   type:
   - '&7&oمكون'
 DIAMOND_CIRCUIT:
+  name: '&7دائرة ألماس'
   type:
   - '&7&oمكون'
 DRY_ICE:
+  name: '&bثلج جاف'
   type:
   - '&7&oمورد'
 ELECTROLYZER:
+  description:
+  - '&7يستخدم الكهرباء لتفكيك'
+  - '&7المواد الكيميائية إلى مكوّناتها'
+  name: '&fجهاز التحليل الكهربائي'
   stats:
   - '&8⇨ &e⚡ &7256 جول/ث'
   - '&8⇨ &e⚡ &7مخزن 512 جول'
   type:
   - '&7&oآلة'
 ENDER_BLOCK:
+  name: '&3كتلة إندر'
   type:
   - '&7&oمكون'
 ENGINE_RELIC:
+  description:
+  - '&7الأمام إلى السفينة لدفع الفراغ'
+  - '&7طاقة يستخدم المحرّك هذا'
+  name: '&fأثر: فراغي محرّك'
   type:
   - '&7&oمتنوع'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7يُنتج مجال قوة يمنع الهواء من'
+  - '&7المرور، لكنه يسمح بمرور الكائنات'
+  name: '&fمولّد مجال القوة البيئي'
   type:
   - '&7&oآلة'
 FALLEN_METEOR:
+  description:
+  - '&7تحتوي هذه النيازك على التنغستن'
+  name: '&4نيزك ساقط'
   type:
   - '&7&oمورد'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7السماء من سقط صناعي، قمر'
+  name: '&7أثر: ساقط صناعي قمر'
   type:
   - '&7&oمتنوع'
 FAN_BLADE:
+  name: '&fنصل المِروحة'
   type:
   - '&7&oمكون'
 FUEL_TANK:
+  name: '&6خزان وقود'
   type:
   - '&7&oمكون'
 FUEL_TANK_2:
+  name: '&6خزان وقود طراز 2'
   type:
   - '&7&oمكون'
 FUSION_PELLET:
+  name: '&fكُريّة اندماج'
   type:
   - '&7&oمكون'
 FUSION_REACTOR:
+  description:
+  - '&7يستخدم الليزر لدمج كُريّات هيليوم-3'
+  - '&7وتوليد كمية هائلة من الطاقة'
+  - '&7في أثناء ذلك'
+  name: '&fمفاعل اندماجي'
   stats:
   - '&8⇨ &e⚡ &765536 جول/ث'
   - '&8⇨ &e⚡ &7مخزن 65536 جول'
   type:
   - '&7&oمولد'
 GLOWSTONE_CIRCUIT:
+  name: '&7دائرة حجر مضيء'
   type:
   - '&7&oمكون'
 GOLD_FOIL:
+  name: '&6رقاقة ذهب'
   type:
   - '&7&oمكون'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8أضفها إلى بذلة الفضاء لزيادة مقاومة الحرارة'
+  name: '&7ترقية مقاومة الحرارة'
   type:
   - '&7&oمكون'
 HEAVY_DUTY_SHEET:
+  name: '&fشريحة شديدة التحمّل'
   type:
   - '&7&oمكون'
 ION_DISPERSER_1:
+  description:
+  - '&7يشتّت الإشعاع في المنطقة المحيطة سلبيًا عند تزويده بالطاقة'
+  name: '&fمُشتّت الأيونات I'
+  stats:
+  - '&7التأثير: إشعاع'
+  - '&7الحماية: 2'
+  - '&7المدى: 1000 كتلة'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 ION_DISPERSER_2:
+  description:
+  - '&7يشتّت الإشعاع في المنطقة المحيطة سلبيًا عند تزويده بالطاقة'
+  name: '&fمُشتّت الأيونات II'
+  stats:
+  - '&7التأثير: إشعاع'
+  - '&7الحماية: 4'
+  - '&7المدى: 1500 كتلة'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 ION_ENGINE:
+  name: '&bمحرّك أيوني'
   type:
   - '&7&oمكون'
 ION_ROCKET:
+  description:
+  - '&7يستخدم محرّكًا متخصصًا'
+  - '&7يطرد الأيونات بسرعة هائلة، مانحًا'
+  - '&7كفاءة وقود فائقة'
+  name: '&bصاروخ أيوني'
+  stats:
+  - '&7سعة الوقود: 500'
+  - '&7سعة الشحن: 18'
   type:
   - '&7&oبنية مركبة'
 LANDING_HATCH:
+  description:
+  - '&7تتجاهل الصواريخ هذه الكتلة عند'
+  - '&7الهبوط؛ ستهبط على'
+  - '&7أعلى كتلة تحتها. وتُعدّ'
+  - '&7غير قابلة للعبور من الهواء'
+  - '&7لذا يمكن استخدامها لإحكام المساحات'
+  name: '&fفتحة الهبوط'
   type:
   - '&7&oمتنوع'
 LAPIS_CIRCUIT:
+  name: '&7دائرة لازورد'
   type:
   - '&7&oمكون'
 LASERITE:
+  name: '&cليزرايت'
   type:
   - '&7&oمورد'
 LASERITE_DUST:
+  description:
+  - '&7نفدت مني الأسماء'
+  name: '&cغبار الليزرايت'
   type:
   - '&7&oمورد'
 LASERITE_ORE:
+  name: '&cخام الليزرايت'
   type:
   - '&7&oمورد'
 LAUNCH_PAD_CORE:
+  name: '&fنواة منصة الإطلاق'
   type:
   - '&7&oبنية مركبة'
+  usage:
+  - '&7أحِط بـ 8 من &fأرضيات منصة الإطلاق&7'
+  - '&7للاستخدام'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7تُستخدم في بناء منصة الإطلاق'
+  name: '&fأرضية منصة الإطلاق'
   type:
   - '&7&oبنية مركبة'
 LIFE_SUPPORT_MODULE:
+  name: '&4ملحق دعم الحياة'
   type:
   - '&7&oمكون'
 LUNAR_GLASS:
+  description:
+  - '&7لسبب ما، إضافة غبار القمر إلى'
+  - '&7الزجاج تجعله أصفى...'
+  name: '&fزجاج قمري'
   type:
   - '&7&oمكون'
 MARS_DUST:
+  name: '&cغبار المريخ'
   type:
   - '&7&oمورد'
 MARS_ROCK:
+  name: '&cصخر المريخ'
   type:
   - '&7&oمورد'
 METHANE_ICE:
+  name: '&bثلج الميثان'
   type:
   - '&7&oمورد'
 MOON_CHEESE:
+  description:
+  - '&7يع'
+  name: '&6جبن القمر'
+  stats:
+  - '&7يستعيد &b2 &7من الجوع'
+  - '&7يستعيد &b2.0 &7من التشبّع'
   type:
   - '&7&oطعام'
+  usage:
+  - '&7ضعه لتأكله'
 MOON_DUST:
+  name: '&7غبار القمر'
   type:
   - '&7&oمورد'
 MOON_ROCK:
+  name: '&7صخر القمر'
   type:
   - '&7&oمورد'
 MUNPOWDER:
+  description:
+  - '&7بارود القمر'
+  name: '&7مونبارود'
   type:
   - '&7&oمورد'
 NOSE_CONE:
+  name: '&fمخروط أمامي'
   type:
   - '&7&oمكون'
 NOZZLE:
+  name: '&fفُوّهة'
   type:
   - '&7&oمكون'
 OBSERVATORY:
+  description:
+  - '&7يسمح لك بكشف معلومات أساسية عن'
+  - '&7عالم عن بعد. يعمل فقط على العوالم'
+  - '&7الأقرب من 0.25 ly (2,365,200,000,000 km)'
+  name: '&fمرصد'
   type:
   - '&7&oجهاز'
 OXYGEN_FILLER:
+  description:
+  - '&7يملأ بذلات الفضاء بالأكسجين'
+  name: '&fمالئ الأكسجين'
   stats:
   - '&8⇨ &e⚡ &7100 جول/ث'
   - '&8⇨ &b⚡ &7السرعة: &b1.0x'
   type:
   - '&7&oآلة'
 OXYGEN_REGENERATOR:
+  name: '&bمُجدِّد الأكسجين'
   type:
   - '&7&oمكون'
 OXYGEN_SEALER:
+  description:
+  - '&7يملأ منطقة محكمة بالأكسجين'
+  name: '&fعازل الأكسجين'
+  stats:
+  - '&7المدى: 1000 كتلة'
   type:
   - '&7&oآلة'
 PLANETARY_ANALYZER:
+  description:
+  - '&7يسمح لك بكشف معلومات متقدّمة'
+  - '&7عن الكوكب الحالي'
+  name: '&fمُحلّل كوكبي'
   type:
   - '&7&oجهاز'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8أضفها إلى بذلة الفضاء لزيادة مقاومة الإشعاع'
+  name: '&7ترقية مقاومة الإشعاع'
   type:
   - '&7&oمكون'
 REACTOR_RELIC:
+  description:
+  - '&7شيء لا من جمعها يمكن الطاقة'
+  - '&7أن يظن كان من؟'
+  name: '&fأثر: فراغي كهربائي مولّد'
   type:
   - '&7&oمتنوع'
 REDSTONE_CIRCUIT:
+  name: '&7دائرة حجر أحمر'
   type:
   - '&7&oمكون'
 REINFORCED_CHANNEL:
+  name: '&fقناة معزّزة'
   type:
   - '&7&oمكون'
 ROCKET_ENGINE:
+  name: '&fمحرّك صاروخ'
   type:
   - '&7&oمكون'
 ROCKET_ENGINE_2:
+  name: '&fمحرّك صاروخ طراز 2'
   type:
   - '&7&oمكون'
 ROCKET_ENGINE_3:
+  name: '&fمحرّك صاروخ طراز 3'
   type:
   - '&7&oمكون'
 ROCKET_TIER_ONE:
+  name: '&4صاروخ كيميائي رتبة 1'
+  stats:
+  - '&7سعة الوقود: 10'
+  - '&7سعة الشحن: 9'
   type:
   - '&7&oبنية مركبة'
 ROCKET_TIER_THREE:
+  name: '&4صاروخ كيميائي رتبة 3'
+  stats:
+  - '&7سعة الوقود: 500'
+  - '&7سعة الشحن: 36'
   type:
   - '&7&oبنية مركبة'
 ROCKET_TIER_TWO:
+  name: '&4صاروخ كيميائي رتبة 2'
+  stats:
+  - '&7سعة الوقود: 100'
+  - '&7سعة الشحن: 18'
   type:
   - '&7&oبنية مركبة'
 SPACE_GRADE_PLATE:
+  name: '&fصفيحة بدرجة فضائية'
   type:
   - '&7&oمكون'
 SPACE_HEATER_1:
+  description:
+  - '&7يُدفئ المنطقة المحيطة سلبيًا، ويقلّل التعرّض للبرد عند تزويده بالطاقة'
+  name: '&6مُسخّن فضائي I'
+  stats:
+  - '&7التأثير: برد'
+  - '&7الحماية: 2'
+  - '&7المدى: 1000 كتلة'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 SPACE_HEATER_2:
+  description:
+  - '&7يُدفئ المنطقة المحيطة سلبيًا، ويقلّل التعرّض للبرد عند تزويده بالطاقة'
+  name: '&6مُسخّن فضائي II'
+  stats:
+  - '&7التأثير: برد'
+  - '&7الحماية: 4'
+  - '&7المدى: 1500 كتلة'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 SPACE_HEATER_3:
+  description:
+  - '&7يُدفئ المنطقة المحيطة سلبيًا، ويقلّل التعرّض للبرد عند تزويده بالطاقة'
+  name: '&6مُسخّن فضائي III'
+  stats:
+  - '&7التأثير: برد'
+  - '&7الحماية: 6'
+  - '&7المدى: 2000 كتلة'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J مخزن مؤقت'
   type:
   - '&7&oآلة'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7حذاء بذلة فضاء أساسي'
+  name: '&fحذاء بذلة الفضاء'
   type:
   - '&7&oدرع'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7صدرية بذلة فضاء أساسية'
+  name: '&fصدرية بذلة الفضاء'
   type:
   - '&7&oدرع'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7خوذة بذلة فضاء أساسية'
+  name: '&fخوذة بذلة الفضاء'
   type:
   - '&7&oدرع'
   usage:
   - '&eانقر بالزر الأيمن&7 للاستخدام'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7بنطال بذلة فضاء أساسي'
+  name: '&fبنطال بذلة الفضاء'
   type:
   - '&7&oدرع'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7يضيف ترقيات إلى بذلة الفضاء الخاصة بك'
+  name: '&fمُرقّي بذلة الفضاء'
   stats:
   - '&8⇨ &e⚡ &7200 جول/ث'
   - '&8⇨ &b⚡ &7السرعة: &b1.0x'
   type:
   - '&7&oآلة'
 SPARK_PLUG:
+  name: '&fشمعة إشعال'
   type:
   - '&7&oمكون'
 SPARK_PLUG_2:
+  name: '&fشمعة إشعال طراز 2'
   type:
   - '&7&oمكون'
 STARGATE_CONTROLLER:
+  description:
+  - '&7يُستخدم للتحكم في بوابة النجوم'
+  name: '&9متحكّم بوابة النجوم'
   type:
   - '&7&oبنية مركبة'
 STARGATE_RING:
+  description:
+  - '&7تُستخدم لبناء بوابة نجوم'
+  name: '&9حلقة بوابة النجوم'
   type:
   - '&7&oبنية مركبة'
 SULFUR_BLOCK:
+  name: '&6كتلة كبريت'
   type:
   - '&7&oمورد'
 SUPER_FAN:
+  description:
+  - '&7ضع هذه بجانب كتلة تحتاج'
+  - '&7منطقة محكمة لتوسيع المدى بنسبة 15%'
+  name: '&7مِروحة فائقة'
   type:
   - '&7&oمتنوع'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7يستخلص كل ما يمكن استخلاصه من الآثار'
+  name: '&fمُستخلِص تقني'
   stats:
   - '&8⇨ &e⚡ &764 جول/ث'
   - '&8⇨ &e⚡ &7مخزن 64 جول'
   type:
   - '&7&oآلة'
 TUNGSTEN_CARBIDE:
+  name: '&7كربيد التنغستن'
   type:
   - '&7&oمورد'
 TUNGSTEN_INGOT:
+  description:
+  - '&7معدن قوي يُستخرج إما من'
+  - '&7إعطاء المريخيين صفائح معزّزة أو'
+  - '&7من صهر النيازك الساقطة'
+  name: '&bسبيكة تنغستن'
   type:
   - '&7&oمورد'
 ULTRA_DUTY_SHEET:
+  name: '&fشريحة فائقة التحمّل'
   type:
   - '&7&oمكون'
 VENTSTONE:
+  name: '&6حجر الفوّهات'
   type:
   - '&7&oمورد'
 VOLCANIC_INGOT:
+  description:
+  - '&7مطروقة في أعماق أقرب شيء'
+  - '&7نعرفه إلى الجحيم، والسبائك البركانية'
+  - '&7سلعة ثمينة'
+  name: '&4سبيكة بركانية'
   type:
   - '&7&oمورد'
