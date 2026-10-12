@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Unitate de Procesare Avansată'
   type:
   - '&7&oComponentă'
 AIR_FILTER:
+  name: '&fFiltru'
   type:
   - '&7&oComponentă'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Nu vei ghici niciodată cât ne-a luat'
+  - '&7să numim acest material'
+  name: '&fCompozit de Aluminiu'
   type:
   - '&7&oComponentă'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fFoaie de Compozit de Aluminiu'
   type:
   - '&7&oComponentă'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Folosită pentru a construi multe lucruri'
+  name: '&fMasă de Asamblare'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Fabricare'
   type:
   - '&7&oMașină'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fCanistră de Gaz Amoniac'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fCanistră de Gaz Argon'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fCanistră de Gaz Dioxid de Carbon'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fCanistră de Gaz Heliu'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fCanistră de Gaz Hidrocarburi'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fCanistră de Gaz Hidrogen'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fCanistră de Gaz Metan'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fCanistră de Gaz Azot'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fCanistră de Gaz Oxigen'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fCanistră de Gaz Apă'
   type:
   - '&7&oResursă'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Colectează gaze din atmosferă'
+  name: '&fRecoltator Atmosferic'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J Tampon'
   type:
   - '&7&oMașină'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Plasează/elimină automat blocurile din interior'
+  - '&7când te apropii de ea sau te îndepărtezi'
+  name: '&fUșă Automată'
   type:
   - '&7&oMașină'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Lingou Vulcanic Incandescent'
   type:
   - '&7&oResursă'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7ihcev etraof ralos uonap nU'
+  name: '&7Relicvă: Tcefed ralos uonaP'
   type:
   - '&7&oDiverse'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Face substanțele chimice să reacționeze'
+  - '&7pentru a crea altele noi'
+  name: '&fReactor Chimic'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMașină'
 CIRCUIT_PRESS:
+  description:
+  - '&7Creează circuite'
+  name: '&fPresă de Circuite'
   stats:
   - '&8⇨ &e⚡ &7512 J Tampon'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMașină'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Adaugă la costumul tău spațial pentru a crește rezistența la frig'
+  name: '&7Îmbunătățire de Rezistență la Frig'
   type:
   - '&7&oComponentă'
 COMPUTER_RELIC:
+  description:
+  - '&7etiunsibo elerotaluclac taced edipar iam tluM'
+  - '&7eluclac ecaf top ecitnauc elerotaluclaC'
+  name: '&fRelicvă: Citnauc rotaluclaC'
   type:
   - '&7&oDiverse'
 COOLING_UNIT_1:
+  description:
+  - '&7Răcește pasiv zona înconjurătoare, reducând expunerea la căldură cât timp este alimentată'
+  name: '&bUnitate de Răcire I'
+  stats:
+  - '&7Efect: Căldură'
+  - '&7Protecție: 2'
+  - '&7Rază: 1000 blocuri'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMașină'
 COOLING_UNIT_2:
+  description:
+  - '&7Răcește pasiv zona înconjurătoare, reducând expunerea la căldură cât timp este alimentată'
+  name: '&bUnitate de Răcire II'
+  stats:
+  - '&7Efect: Căldură'
+  - '&7Protecție: 4'
+  - '&7Rază: 1500 blocuri'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Tampon'
   type:
   - '&7&oMașină'
 COOLING_UNIT_3:
+  description:
+  - '&7Răcește pasiv zona înconjurătoare, reducând expunerea la căldură cât timp este alimentată'
+  name: '&bUnitate de Răcire III'
+  stats:
+  - '&7Efect: Căldură'
+  - '&7Protecție: 6'
+  - '&7Rază: 2000 blocuri'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Tampon'
   type:
   - '&7&oMașină'
 DIAMOND_ANVIL:
+  description:
+  - '&7Comprimă materialul atât de puternic'
+  - '&7că devine cu totul altceva'
+  name: '&fNicovală de Diamant'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMașină'
 DIAMOND_ANVIL_CELL:
+  name: '&bCelulă cu Nicovală de Diamant'
   type:
   - '&7&oComponentă'
 DIAMOND_CIRCUIT:
+  name: '&7Circuit de Diamant'
   type:
   - '&7&oComponentă'
 DRY_ICE:
+  name: '&bGheață Carbonică'
   type:
   - '&7&oResursă'
 ELECTROLYZER:
+  description:
+  - '&7Folosește electricitate pentru a descompune'
+  - '&7substanțele chimice în componentele lor'
+  name: '&fElectrolizor'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Tampon'
   type:
   - '&7&oMașină'
 ENDER_BLOCK:
+  name: '&3Bloc Ender'
   type:
   - '&7&oComponentă'
 ENGINE_RELIC:
+  description:
+  - '&7etniani avan egnipmi a urtnep ludiV'
+  - '&7aigrene etsesolof rotom tsecA'
+  name: '&fRelicvă: Div ni rotoM'
   type:
   - '&7&oDiverse'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Produce un câmp de forță care împiedică aerul'
+  - '&7să treacă, dar permite entităților'
+  name: '&fGenerator de Câmp de Forță Ambiental'
   type:
   - '&7&oMașină'
 FALLEN_METEOR:
+  description:
+  - '&7Acești meteoriți conțin Tungsten'
+  name: '&4Meteorit Căzut'
   type:
   - '&7&oResursă'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7rec nid tuzac a erac tiletas nU'
+  name: '&7Relicvă: Tuzac tiletaS'
   type:
   - '&7&oDiverse'
 FAN_BLADE:
+  name: '&fPală de Ventilator'
   type:
   - '&7&oComponentă'
 FUEL_TANK:
+  name: '&6Rezervor de Combustibil'
   type:
   - '&7&oComponentă'
 FUEL_TANK_2:
+  name: '&6Rezervor de Combustibil Mk 2'
   type:
   - '&7&oComponentă'
 FUSION_PELLET:
+  name: '&fPeletă de Fuziune'
   type:
   - '&7&oComponentă'
 FUSION_REACTOR:
+  description:
+  - '&7Folosește lasere pentru a fuziona pelete de Heliu-3'
+  - '&7și generează o balenă de energie'
+  - '&7în acest proces'
+  name: '&fReactor de Fuziune'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J Tampon'
   type:
   - '&7&oGenerator'
 GLOWSTONE_CIRCUIT:
+  name: '&7Circuit de Glowstone'
   type:
   - '&7&oComponentă'
 GOLD_FOIL:
+  name: '&6Foiță de Aur'
   type:
   - '&7&oComponentă'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Adaugă la costumul tău spațial pentru a crește rezistența la căldură'
+  name: '&7Îmbunătățire de Rezistență la Căldură'
   type:
   - '&7&oComponentă'
 HEAVY_DUTY_SHEET:
+  name: '&fFoaie Rezistentă'
   type:
   - '&7&oComponentă'
 ION_DISPERSER_1:
+  description:
+  - '&7Dispersează pasiv radiația în zona înconjurătoare cât timp este alimentat'
+  name: '&fDispersor de Ioni I'
+  stats:
+  - '&7Efect: Radiație'
+  - '&7Protecție: 2'
+  - '&7Rază: 1000 blocuri'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Tampon'
   type:
   - '&7&oMașină'
 ION_DISPERSER_2:
+  description:
+  - '&7Dispersează pasiv radiația în zona înconjurătoare cât timp este alimentat'
+  name: '&fDispersor de Ioni II'
+  stats:
+  - '&7Efect: Radiație'
+  - '&7Protecție: 4'
+  - '&7Rază: 1500 blocuri'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMașină'
 ION_ENGINE:
+  name: '&bMotor cu Ioni'
   type:
   - '&7&oComponentă'
 ION_ROCKET:
+  description:
+  - '&7Folosește un motor specializat care'
+  - '&7expulzează ioni la viteză mare, oferind'
+  - '&7o eficiență extremă a combustibilului'
+  name: '&bRachetă cu Ioni'
+  stats:
+  - '&7Capacitate Combustibil: 500'
+  - '&7Capacitate Cargo: 18'
   type:
   - '&7&oMultibloc'
 LANDING_HATCH:
+  description:
+  - '&7Rachetele ignoră acest bloc când'
+  - '&7aterizează; vor ateriza pe'
+  - '&7cel mai înalt bloc de sub ea. Este'
+  - '&7considerată impenetrabilă de aer'
+  - '&7deci poate fi folosită pentru a sigila spații'
+  name: '&fTrapă de Aterizare'
   type:
   - '&7&oDiverse'
 LAPIS_CIRCUIT:
+  name: '&7Circuit de Lapis'
   type:
   - '&7&oComponentă'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oResursă'
 LASERITE_DUST:
+  description:
+  - '&7Am rămas fără nume'
+  name: '&cPraf de Laserite'
   type:
   - '&7&oResursă'
 LASERITE_ORE:
+  name: '&cMinereu de Laserite'
   type:
   - '&7&oResursă'
 LAUNCH_PAD_CORE:
+  name: '&fNucleu de Platformă de Lansare'
   type:
   - '&7&oMultibloc'
+  usage:
+  - '&7Înconjoară cu 8 &fPodele de Platformă de Lansare&7'
+  - '&7pentru a o folosi'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Folosită la construirea Platformei de Lansare'
+  name: '&fPodea de Platformă de Lansare'
   type:
   - '&7&oMultibloc'
 LIFE_SUPPORT_MODULE:
+  name: '&4Modul de Susținere a Vieții'
   type:
   - '&7&oComponentă'
 LUNAR_GLASS:
+  description:
+  - '&7Dintr-un motiv oarecare, praful de Lună adăugat'
+  - '&7în sticlă o face mai limpede...'
+  name: '&fSticlă Lunară'
   type:
   - '&7&oComponentă'
 MARS_DUST:
+  name: '&cPraf de Marte'
   type:
   - '&7&oResursă'
 MARS_ROCK:
+  name: '&cRocă de Marte'
   type:
   - '&7&oResursă'
 METHANE_ICE:
+  name: '&bGheață de Metan'
   type:
   - '&7&oResursă'
 MOON_CHEESE:
+  description:
+  - '&7Pfui'
+  name: '&6Brânză de Lună'
+  stats:
+  - '&7Reface &b2 &7Foame'
+  - '&7Reface &b2.0 &7Saturație'
   type:
   - '&7&oMâncare'
+  usage:
+  - '&7Plasează pentru a mânca'
 MOON_DUST:
+  name: '&7Praf de Lună'
   type:
   - '&7&oResursă'
 MOON_ROCK:
+  name: '&7Rocă de Lună'
   type:
   - '&7&oResursă'
 MUNPOWDER:
+  description:
+  - '&7Praful de pușcă al Lunii'
+  name: '&7Praf de Lușcă'
   type:
   - '&7&oResursă'
 NOSE_CONE:
+  name: '&fOgivă'
   type:
   - '&7&oComponentă'
 NOZZLE:
+  name: '&fDuză'
   type:
   - '&7&oComponentă'
 OBSERVATORY:
+  description:
+  - '&7Îți permite să descoperi informații de bază despre'
+  - '&7o lume la distanță. Funcționează doar pe lumi'
+  - '&7mai apropiate de 0.25 ly (2,365,200,000,000 km)'
+  name: '&fObservator'
   type:
   - '&7&oGadget'
 OXYGEN_FILLER:
+  description:
+  - '&7Umple costumele spațiale cu oxigen'
+  name: '&fUmplător de Oxigen'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Viteză: &b1.0x'
   type:
   - '&7&oMașină'
 OXYGEN_REGENERATOR:
+  name: '&bRegenerator de Oxigen'
   type:
   - '&7&oComponentă'
 OXYGEN_SEALER:
+  description:
+  - '&7Umple o zonă sigilată cu oxigen'
+  name: '&fSigilator de Oxigen'
+  stats:
+  - '&7Rază: 1000 blocuri'
   type:
   - '&7&oMașină'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Îți permite să descoperi informații avansate'
+  - '&7despre planeta actuală'
+  name: '&fAnalizor Planetar'
   type:
   - '&7&oGadget'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Adaugă la costumul tău spațial pentru a crește rezistența la radiație'
+  name: '&7Îmbunătățire de Rezistență la Radiație'
   type:
   - '&7&oComponentă'
 REACTOR_RELIC:
+  description:
+  - '&7cimin nid atanuda if etaop aigrenE'
+  - '&7?tuzerc if ra eniC'
+  name: '&fRelicvă: Div ni cirtcele rotareneG'
   type:
   - '&7&oDiverse'
 REDSTONE_CIRCUIT:
+  name: '&7Circuit de Redstone'
   type:
   - '&7&oComponentă'
 REINFORCED_CHANNEL:
+  name: '&fCanal Întărit'
   type:
   - '&7&oComponentă'
 ROCKET_ENGINE:
+  name: '&fMotor de Rachetă'
   type:
   - '&7&oComponentă'
 ROCKET_ENGINE_2:
+  name: '&fMotor de Rachetă Mk 2'
   type:
   - '&7&oComponentă'
 ROCKET_ENGINE_3:
+  name: '&fMotor de Rachetă Mk 3'
   type:
   - '&7&oComponentă'
 ROCKET_TIER_ONE:
+  name: '&4Rachetă Chimică Nivel 1'
+  stats:
+  - '&7Capacitate Combustibil: 10'
+  - '&7Capacitate Cargo: 9'
   type:
   - '&7&oMultibloc'
 ROCKET_TIER_THREE:
+  name: '&4Rachetă Chimică Nivel 3'
+  stats:
+  - '&7Capacitate Combustibil: 500'
+  - '&7Capacitate Cargo: 36'
   type:
   - '&7&oMultibloc'
 ROCKET_TIER_TWO:
+  name: '&4Rachetă Chimică Nivel 2'
+  stats:
+  - '&7Capacitate Combustibil: 100'
+  - '&7Capacitate Cargo: 18'
   type:
   - '&7&oMultibloc'
 SPACE_GRADE_PLATE:
+  name: '&fPlacă de Calitate Spațială'
   type:
   - '&7&oComponentă'
 SPACE_HEATER_1:
+  description:
+  - '&7Încălzește pasiv zona înconjurătoare, reducând expunerea la frig cât timp este alimentat'
+  name: '&6Încălzitor Spațial I'
+  stats:
+  - '&7Efect: Frig'
+  - '&7Protecție: 2'
+  - '&7Rază: 1000 blocuri'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Tampon'
   type:
   - '&7&oMașină'
 SPACE_HEATER_2:
+  description:
+  - '&7Încălzește pasiv zona înconjurătoare, reducând expunerea la frig cât timp este alimentat'
+  name: '&6Încălzitor Spațial II'
+  stats:
+  - '&7Efect: Frig'
+  - '&7Protecție: 4'
+  - '&7Rază: 1500 blocuri'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Tampon'
   type:
   - '&7&oMașină'
 SPACE_HEATER_3:
+  description:
+  - '&7Încălzește pasiv zona înconjurătoare, reducând expunerea la frig cât timp este alimentat'
+  name: '&6Încălzitor Spațial III'
+  stats:
+  - '&7Efect: Frig'
+  - '&7Protecție: 6'
+  - '&7Rază: 2000 blocuri'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Tampon'
   type:
   - '&7&oMașină'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Pereche de bază de cizme pentru costum spațial'
+  name: '&fCizme de Costum Spațial'
   type:
   - '&7&oArmură'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7O platoșă de bază pentru costum spațial'
+  name: '&fPlatoșă de Costum Spațial'
   type:
   - '&7&oArmură'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7O cască de bază pentru costum spațial'
+  name: '&fCască de Costum Spațial'
   type:
   - '&7&oArmură'
   usage:
   - '&eClick dreapta&7 pentru a folosi'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Pereche de bază de pantaloni pentru costum spațial'
+  name: '&fPantaloni de Costum Spațial'
   type:
   - '&7&oArmură'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Adaugă îmbunătățiri costumului tău spațial'
+  name: '&fÎmbunătățitor de Costum Spațial'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Viteză: &b1.0x'
   type:
   - '&7&oMașină'
 SPARK_PLUG:
+  name: '&fBujie'
   type:
   - '&7&oComponentă'
 SPARK_PLUG_2:
+  name: '&fBujie Mk 2'
   type:
   - '&7&oComponentă'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Folosit pentru a controla o poartă stelară'
+  name: '&9Controler de Poartă Stelară'
   type:
   - '&7&oMultibloc'
 STARGATE_RING:
+  description:
+  - '&7Folosit pentru a construi o poartă stelară'
+  name: '&9Inel de Poartă Stelară'
   type:
   - '&7&oMultibloc'
 SULFUR_BLOCK:
+  name: '&6Bloc de Sulf'
   type:
   - '&7&oResursă'
 SUPER_FAN:
+  description:
+  - '&7Plasează-l lângă un bloc care necesită'
+  - '&7o zonă sigilată pentru a extinde raza cu 15%'
+  name: '&7Super Ventilator'
   type:
   - '&7&oDiverse'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Recuperează orice se poate recupera din relicve'
+  name: '&fRecuperator Tehnologic'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J Tampon'
   type:
   - '&7&oMașină'
 TUNGSTEN_CARBIDE:
+  name: '&7Carbură de Tungsten'
   type:
   - '&7&oResursă'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Un metal puternic obținut fie'
+  - '&7dând marțienilor plăci întărite, fie'
+  - '&7din topirea meteoriților căzuți'
+  name: '&bLingou de Tungsten'
   type:
   - '&7&oResursă'
 ULTRA_DUTY_SHEET:
+  name: '&fFoaie Ultra-Rezistentă'
   type:
   - '&7&oComponentă'
 VENTSTONE:
+  name: '&6Piatră de Fumarolă'
   type:
   - '&7&oResursă'
 VOLCANIC_INGOT:
+  description:
+  - '&7Forjate în adâncurile celui mai apropiat'
+  - '&7lucru de pe lume cu Iadul, Lingourile Vulcanice'
+  - '&7sunt o marfă valoroasă'
+  name: '&4Lingou Vulcanic'
   type:
   - '&7&oResursă'
