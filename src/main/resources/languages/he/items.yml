@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4יחידת עיבוד מתקדמת'
   type:
   - '&7&oרכיב'
 AIR_FILTER:
+  name: '&fמסנן'
   type:
   - '&7&oרכיב'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7לא תנחש כמה זמן לקח לנו'
+  - '&7לתת שם לחומר הזה'
+  name: '&fמרוכב אלומיניום'
   type:
   - '&7&oרכיב'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fיריעת מרוכב אלומיניום'
   type:
   - '&7&oרכיב'
 ASSEMBLY_TABLE:
+  description:
+  - '&7משמש לבניית דברים רבים'
+  name: '&fשולחן הרכבה'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/יצירה'
   type:
   - '&7&oמכונה'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fמכל גז אמוניה'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fמכל גז ארגון'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fמכל גז פחמן דו-חמצני'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fמכל גז הליום'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fמכל גז פחמימנים'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fמכל גז מימן'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fמכל גז מתאן'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fמכל גז חנקן'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fמכל גז חמצן'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fמכל גז מים'
   type:
   - '&7&oמשאב'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7אוסף גזים מהאטמוספירה'
+  name: '&fקוצר אטמוספרי'
   stats:
   - '&8⇨ &e⚡ &764 J/שנייה'
   - '&8⇨ &e⚡ &7מאגר 128 J'
   type:
   - '&7&oמכונה'
 AUTOMATIC_DOOR:
+  description:
+  - '&7מציבה/מסירה אוטומטית את הבלוקים שבתוכה'
+  - '&7כשאתה מתקרב אליה/מתרחק ממנה'
+  name: '&fדלת אוטומטית'
   type:
   - '&7&oמכונה'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6מטיל וולקני לוהט'
   type:
   - '&7&oמשאב'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7מאוד ישן סולארי לוח'
+  name: '&7שריד: שבור סולארי לוח'
   type:
   - '&7&oשונות'
 CHEMICAL_REACTOR:
+  description:
+  - '&7מגיב כימיקלים זה עם זה'
+  - '&7כדי ליצור חדשים'
+  name: '&fכור כימי'
   stats:
   - '&8⇨ &e⚡ &7256 J/שנייה'
   - '&8⇨ &e⚡ &7מאגר 512 J'
   type:
   - '&7&oמכונה'
 CIRCUIT_PRESS:
+  description:
+  - '&7יוצר מעגלים'
+  name: '&fמכבש מעגלים'
   stats:
   - '&8⇨ &e⚡ &7מאגר 512 J'
   - '&8⇨ &e⚡ &7256 J/שנייה'
   type:
   - '&7&oמכונה'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8הוסף לחליפת החלל שלך כדי להגביר חסינות לקור'
+  name: '&7שדרוג חסינות לקור'
   type:
   - '&7&oרכיב'
 COMPUTER_RELIC:
+  description:
+  - '&7רגילים ממחשבים מהירים יותר הרבה'
+  - '&7חישובים לבצע יכולים קוונטיים מחשבים'
+  name: '&fשריד: קוונטי מחשב'
   type:
   - '&7&oשונות'
 COOLING_UNIT_1:
+  description:
+  - '&7מקרר באופן פסיבי את האזור הסובב ומצמצם חשיפה לחום בעת הפעלה'
+  name: '&bיחידת קירור I'
+  stats:
+  - '&7אפקט: חום'
+  - '&7הגנה: 2'
+  - '&7טווח: 1000 בלוקים'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J מאגר'
   type:
   - '&7&oמכונה'
 COOLING_UNIT_2:
+  description:
+  - '&7מקרר באופן פסיבי את האזור הסובב ומצמצם חשיפה לחום בעת הפעלה'
+  name: '&bיחידת קירור II'
+  stats:
+  - '&7אפקט: חום'
+  - '&7הגנה: 4'
+  - '&7טווח: 1500 בלוקים'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J מאגר'
   type:
   - '&7&oמכונה'
 COOLING_UNIT_3:
+  description:
+  - '&7מקרר באופן פסיבי את האזור הסובב ומצמצם חשיפה לחום בעת הפעלה'
+  name: '&bיחידת קירור III'
+  stats:
+  - '&7אפקט: חום'
+  - '&7הגנה: 6'
+  - '&7טווח: 2000 בלוקים'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J מאגר'
   type:
   - '&7&oמכונה'
 DIAMOND_ANVIL:
+  description:
+  - '&7דוחס חומר בעוצמה כה גדולה'
+  - '&7עד שהוא הופך למשהו אחר לגמרי'
+  name: '&fסדן יהלום'
   stats:
   - '&8⇨ &e⚡ &71024 J/שנייה'
   - '&8⇨ &e⚡ &7מאגר 2048 J'
   type:
   - '&7&oמכונה'
 DIAMOND_ANVIL_CELL:
+  name: '&bתא סדן יהלום'
   type:
   - '&7&oרכיב'
 DIAMOND_CIRCUIT:
+  name: '&7מעגל יהלום'
   type:
   - '&7&oרכיב'
 DRY_ICE:
+  name: '&bקרח יבש'
   type:
   - '&7&oמשאב'
 ELECTROLYZER:
+  description:
+  - '&7משתמש בחשמל כדי לפצל'
+  - '&7כימיקלים למרכיביהם'
+  name: '&fאלקטרוליזר'
   stats:
   - '&8⇨ &e⚡ &7256 J/שנייה'
   - '&8⇨ &e⚡ &7מאגר 512 J'
   type:
   - '&7&oמכונה'
 ENDER_BLOCK:
+  name: '&3בלוק אנדר'
   type:
   - '&7&oרכיב'
 ENGINE_RELIC:
+  description:
+  - '&7קדימה הספינה את להניע כדי הוואקום'
+  - '&7באנרגיית משתמש זה מנוע'
+  name: '&fשריד: ואקום מנוע'
   type:
   - '&7&oשונות'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7מפיק שדה כוח שמונע מאוויר'
+  - '&7לעבור, אך מאפשר ליצורים'
+  name: '&fגנרטור שדה כוח סביבתי'
   type:
   - '&7&oמכונה'
 FALLEN_METEOR:
+  description:
+  - '&7מטאורים אלה מכילים טונגסטן'
+  name: '&4מטאור שנפל'
   type:
   - '&7&oמשאב'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7השמיים מן שנפל לוויין'
+  name: '&7שריד: שנפל לוויין'
   type:
   - '&7&oשונות'
 FAN_BLADE:
+  name: '&fלהב מאוורר'
   type:
   - '&7&oרכיב'
 FUEL_TANK:
+  name: '&6מכל דלק'
   type:
   - '&7&oרכיב'
 FUEL_TANK_2:
+  name: '&6מכל דלק דגם 2'
   type:
   - '&7&oרכיב'
 FUSION_PELLET:
+  name: '&fכופתית היתוך'
   type:
   - '&7&oרכיב'
 FUSION_REACTOR:
+  description:
+  - '&7משתמש בלייזרים למיזוג כופתיות הליום-3'
+  - '&7ומייצר כמות לווייתנית של אנרגיה'
+  - '&7בתהליך'
+  name: '&fכור היתוך'
   stats:
   - '&8⇨ &e⚡ &765536 J/שנייה'
   - '&8⇨ &e⚡ &7מאגר 65536 J'
   type:
   - '&7&oגנרטור'
 GLOWSTONE_CIRCUIT:
+  name: '&7מעגל אבן זוהרת'
   type:
   - '&7&oרכיב'
 GOLD_FOIL:
+  name: '&6רדיד זהב'
   type:
   - '&7&oרכיב'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8הוסף לחליפת החלל שלך כדי להגביר חסינות לחום'
+  name: '&7שדרוג חסינות לחום'
   type:
   - '&7&oרכיב'
 HEAVY_DUTY_SHEET:
+  name: '&fיריעה לעומס כבד'
   type:
   - '&7&oרכיב'
 ION_DISPERSER_1:
+  description:
+  - '&7מפזר באופן פסיבי קרינה באזור הסובב בעת הפעלה'
+  name: '&fמפזר יונים I'
+  stats:
+  - '&7אפקט: קרינה'
+  - '&7הגנה: 2'
+  - '&7טווח: 1000 בלוקים'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J מאגר'
   type:
   - '&7&oמכונה'
 ION_DISPERSER_2:
+  description:
+  - '&7מפזר באופן פסיבי קרינה באזור הסובב בעת הפעלה'
+  name: '&fמפזר יונים II'
+  stats:
+  - '&7אפקט: קרינה'
+  - '&7הגנה: 4'
+  - '&7טווח: 1500 בלוקים'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J מאגר'
   type:
   - '&7&oמכונה'
 ION_ENGINE:
+  name: '&bמנוע יונים'
   type:
   - '&7&oרכיב'
 ION_ROCKET:
+  description:
+  - '&7משתמשת במנוע מיוחד'
+  - '&7שפולט יונים במהירות עצומה ומעניק'
+  - '&7יעילות דלק קיצונית'
+  name: '&bרקטת יונים'
+  stats:
+  - '&7קיבולת דלק: 500'
+  - '&7קיבולת מטען: 18'
   type:
   - '&7&oרב בלוק'
 LANDING_HATCH:
+  description:
+  - '&7רקטות מתעלמות מבלוק זה בעת'
+  - '&7נחיתה; הן ינחתו על'
+  - '&7הבלוק הגבוה ביותר שתחתיו. הוא'
+  - '&7נחשב בלתי עביר לאוויר'
+  - '&7ולכן ניתן להשתמש בו לאטימת חללים'
+  name: '&fפתח נחיתה'
   type:
   - '&7&oשונות'
 LAPIS_CIRCUIT:
+  name: '&7מעגל לפיס'
   type:
   - '&7&oרכיב'
 LASERITE:
+  name: '&cלייזרייט'
   type:
   - '&7&oמשאב'
 LASERITE_DUST:
+  description:
+  - '&7נגמרים לי השמות'
+  name: '&cאבקת לייזרייט'
   type:
   - '&7&oמשאב'
 LASERITE_ORE:
+  name: '&cעפרת לייזרייט'
   type:
   - '&7&oמשאב'
 LAUNCH_PAD_CORE:
+  name: '&fליבת משטח שיגור'
   type:
   - '&7&oרב בלוק'
+  usage:
+  - '&7הקף ב-8 &fרצפות משטח שיגור&7'
+  - '&7כדי להשתמש'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7משמשת לבניית משטח השיגור'
+  name: '&fרצפת משטח שיגור'
   type:
   - '&7&oרב בלוק'
 LIFE_SUPPORT_MODULE:
+  name: '&4מודול תמיכת חיים'
   type:
   - '&7&oרכיב'
 LUNAR_GLASS:
+  description:
+  - '&7משום מה הוספת אבקת ירח'
+  - '&7לזכוכית הופכת אותה צלולה יותר...'
+  name: '&fזכוכית ירח'
   type:
   - '&7&oרכיב'
 MARS_DUST:
+  name: '&cאבקת מאדים'
   type:
   - '&7&oמשאב'
 MARS_ROCK:
+  name: '&cסלע מאדים'
   type:
   - '&7&oמשאב'
 METHANE_ICE:
+  name: '&bקרח מתאן'
   type:
   - '&7&oמשאב'
 MOON_CHEESE:
+  description:
+  - '&7איכס'
+  name: '&6גבינת ירח'
+  stats:
+  - '&7משחזר &b2 &7רעב'
+  - '&7משחזר &b2.0 &7רוויה'
   type:
   - '&7&oמזון'
+  usage:
+  - '&7הצב כדי לאכול'
 MOON_DUST:
+  name: '&7אבקת ירח'
   type:
   - '&7&oמשאב'
 MOON_ROCK:
+  name: '&7סלע ירח'
   type:
   - '&7&oמשאב'
 MUNPOWDER:
+  description:
+  - '&7אבק השריפה של הירח'
+  name: '&7אבק שריפה ירחי'
   type:
   - '&7&oמשאב'
 NOSE_CONE:
+  name: '&fחרטום'
   type:
   - '&7&oרכיב'
 NOZZLE:
+  name: '&fנחיר'
   type:
   - '&7&oרכיב'
 OBSERVATORY:
+  description:
+  - '&7מאפשר לך לגלות מידע בסיסי על'
+  - '&7עולם מרחוק. עובד רק על עולמות'
+  - '&7קרובים מ-0.25 ly (2,365,200,000,000 km)'
+  name: '&fמצפה כוכבים'
   type:
   - '&7&oגאדג׳ט'
 OXYGEN_FILLER:
+  description:
+  - '&7ממלא חליפות חלל בחמצן'
+  name: '&fממלא חמצן'
   stats:
   - '&8⇨ &e⚡ &7100 J/שנייה'
   - '&8⇨ &b⚡ &7מהירות: &b1.0x'
   type:
   - '&7&oמכונה'
 OXYGEN_REGENERATOR:
+  name: '&bמחדש חמצן'
   type:
   - '&7&oרכיב'
 OXYGEN_SEALER:
+  description:
+  - '&7ממלא אזור אטום בחמצן'
+  name: '&fאוטם חמצן'
+  stats:
+  - '&7טווח: 1000 בלוקים'
   type:
   - '&7&oמכונה'
 PLANETARY_ANALYZER:
+  description:
+  - '&7מאפשר לך לגלות מידע מתקדם'
+  - '&7על כוכב הלכת הנוכחי'
+  name: '&fמנתח כוכבי לכת'
   type:
   - '&7&oגאדג׳ט'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8הוסף לחליפת החלל שלך כדי להגביר חסינות לקרינה'
+  name: '&7שדרוג חסינות לקרינה'
   type:
   - '&7&oרכיב'
 REACTOR_RELIC:
+  description:
+  - '&7מכלום אנרגיה לאסוף אפשר'
+  - '&7מאמין היה מי?'
+  name: '&fשריד: ואקומי חשמלי גנרטור'
   type:
   - '&7&oשונות'
 REDSTONE_CIRCUIT:
+  name: '&7מעגל אבן אדומה'
   type:
   - '&7&oרכיב'
 REINFORCED_CHANNEL:
+  name: '&fתעלה מחוזקת'
   type:
   - '&7&oרכיב'
 ROCKET_ENGINE:
+  name: '&fמנוע רקטה'
   type:
   - '&7&oרכיב'
 ROCKET_ENGINE_2:
+  name: '&fמנוע רקטה דגם 2'
   type:
   - '&7&oרכיב'
 ROCKET_ENGINE_3:
+  name: '&fמנוע רקטה דגם 3'
   type:
   - '&7&oרכיב'
 ROCKET_TIER_ONE:
+  name: '&4רקטה כימית דרגה 1'
+  stats:
+  - '&7קיבולת דלק: 10'
+  - '&7קיבולת מטען: 9'
   type:
   - '&7&oרב בלוק'
 ROCKET_TIER_THREE:
+  name: '&4רקטה כימית דרגה 3'
+  stats:
+  - '&7קיבולת דלק: 500'
+  - '&7קיבולת מטען: 36'
   type:
   - '&7&oרב בלוק'
 ROCKET_TIER_TWO:
+  name: '&4רקטה כימית דרגה 2'
+  stats:
+  - '&7קיבולת דלק: 100'
+  - '&7קיבולת מטען: 18'
   type:
   - '&7&oרב בלוק'
 SPACE_GRADE_PLATE:
+  name: '&fלוחית איכות חלל'
   type:
   - '&7&oרכיב'
 SPACE_HEATER_1:
+  description:
+  - '&7מחמם באופן פסיבי את האזור הסובב ומצמצם חשיפה לקור בעת הפעלה'
+  name: '&6מחמם חלל I'
+  stats:
+  - '&7אפקט: קור'
+  - '&7הגנה: 2'
+  - '&7טווח: 1000 בלוקים'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J מאגר'
   type:
   - '&7&oמכונה'
 SPACE_HEATER_2:
+  description:
+  - '&7מחמם באופן פסיבי את האזור הסובב ומצמצם חשיפה לקור בעת הפעלה'
+  name: '&6מחמם חלל II'
+  stats:
+  - '&7אפקט: קור'
+  - '&7הגנה: 4'
+  - '&7טווח: 1500 בלוקים'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J מאגר'
   type:
   - '&7&oמכונה'
 SPACE_HEATER_3:
+  description:
+  - '&7מחמם באופן פסיבי את האזור הסובב ומצמצם חשיפה לקור בעת הפעלה'
+  name: '&6מחמם חלל III'
+  stats:
+  - '&7אפקט: קור'
+  - '&7הגנה: 6'
+  - '&7טווח: 2000 בלוקים'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J מאגר'
   type:
   - '&7&oמכונה'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7זוג מגפי חליפת חלל בסיסיים'
+  name: '&fמגפי חליפת חלל'
   type:
   - '&7&oשריון'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7חזה חליפת חלל בסיסי'
+  name: '&fחזה חליפת חלל'
   type:
   - '&7&oשריון'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7קסדת חליפת חלל בסיסית'
+  name: '&fקסדת חליפת חלל'
   type:
   - '&7&oשריון'
   usage:
   - '&eקליק ימני&7 כדי להשתמש'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7זוג מכנסי חליפת חלל בסיסיים'
+  name: '&fמכנסי חליפת חלל'
   type:
   - '&7&oשריון'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7מוסיף שדרוגים לחליפת החלל שלך'
+  name: '&fמשדרג חליפות חלל'
   stats:
   - '&8⇨ &e⚡ &7200 J/שנייה'
   - '&8⇨ &b⚡ &7מהירות: &b1.0x'
   type:
   - '&7&oמכונה'
 SPARK_PLUG:
+  name: '&fמצת'
   type:
   - '&7&oרכיב'
 SPARK_PLUG_2:
+  name: '&fמצת דגם 2'
   type:
   - '&7&oרכיב'
 STARGATE_CONTROLLER:
+  description:
+  - '&7משמש לשליטה בשער כוכבים'
+  name: '&9בקר שער כוכבים'
   type:
   - '&7&oרב בלוק'
 STARGATE_RING:
+  description:
+  - '&7משמשת לבניית שער כוכבים'
+  name: '&9טבעת שער כוכבים'
   type:
   - '&7&oרב בלוק'
 SULFUR_BLOCK:
+  name: '&6בלוק גופרית'
   type:
   - '&7&oמשאב'
 SUPER_FAN:
+  description:
+  - '&7הצב זאת ליד בלוק שזקוק'
+  - '&7לאזור אטום כדי להרחיב את הטווח ב-15%'
+  name: '&7סופר-מאוורר'
   type:
   - '&7&oשונות'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7מחלץ כל מה שניתן לחלץ משרידים'
+  name: '&fמחלץ טכנולוגי'
   stats:
   - '&8⇨ &e⚡ &764 J/שנייה'
   - '&8⇨ &e⚡ &7מאגר 64 J'
   type:
   - '&7&oמכונה'
 TUNGSTEN_CARBIDE:
+  name: '&7קרביד טונגסטן'
   type:
   - '&7&oמשאב'
 TUNGSTEN_INGOT:
+  description:
+  - '&7מתכת חזקה שמתקבלת או ממתן'
+  - '&7לוחיות מחוזקות למאדימאים או'
+  - '&7מהתכת מטאורים שנפלו'
+  name: '&bמטיל טונגסטן'
   type:
   - '&7&oמשאב'
 ULTRA_DUTY_SHEET:
+  name: '&fיריעה לעומס על-כבד'
   type:
   - '&7&oרכיב'
 VENTSTONE:
+  name: '&6אבן אוורור'
   type:
   - '&7&oמשאב'
 VOLCANIC_INGOT:
+  description:
+  - '&7מחושל במעמקי הדבר הקרוב ביותר'
+  - '&7לגיהינום שאנו מכירים, מטילים וולקניים'
+  - '&7הם סחורה יקרת ערך'
+  name: '&4מטיל וולקני'
   type:
   - '&7&oמשאב'
