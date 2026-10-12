@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Fejlett Feldolgozó Egység'
   type:
   - '&7&oAlkatrész'
 AIR_FILTER:
+  name: '&fSzűrő'
   type:
   - '&7&oAlkatrész'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Sosem találnád ki, mennyi ideig tartott'
+  - '&7elnevezni ezt az anyagot'
+  name: '&fAlumínium Kompozit'
   type:
   - '&7&oAlkatrész'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAlumínium Kompozit Lap'
   type:
   - '&7&oAlkatrész'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Sok dolog megépítésére használatos'
+  name: '&fÖsszeállító Asztal'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Barkácsolás'
   type:
   - '&7&oGép'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmmónia Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgon Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fSzén-dioxid Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHélium Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fSzénhidrogén Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fHidrogén Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetán Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fNitrogén Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fOxigén Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fVíz Gázpalack'
   type:
   - '&7&oNyersanyag'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Gázokat gyűjt a légkörből'
+  name: '&fLégköri Begyűjtő'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J Puffer'
   type:
   - '&7&oGép'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Automatikusan elhelyezi/eltávolítja a belső blokkokat'
+  - '&7amikor odamész vagy elmész tőle'
+  name: '&fAutomatikus Ajtó'
   type:
   - '&7&oGép'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Izzó Vulkáni Rúd'
   type:
   - '&7&oNyersanyag'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7Melepan gero noygan'
+  name: '&7Ereklye: Melepan Ttorot'
   type:
   - '&7&oEgyéb'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Kémiai anyagokat reagáltat egymással'
+  - '&7hogy újakat hozzon létre'
+  name: '&fKémiai Reaktor'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Puffer'
   type:
   - '&7&oGép'
 CIRCUIT_PRESS:
+  description:
+  - '&7Áramköröket készít'
+  name: '&fÁramkör Prés'
   stats:
   - '&8⇨ &e⚡ &7512 J Puffer'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oGép'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Add az űrruhádhoz a hidegellenállás növeléséhez'
+  name: '&7Hidegellenállás Fejlesztés'
   type:
   - '&7&oAlkatrész'
 COMPUTER_RELIC:
+  description:
+  - '&7Kepegotimazs soynamoygah a tnim bbasroyg lakkos'
+  - '&7kenzegev takosatimazs kepegotimazs mutnavk a'
+  name: '&fEreklye: Pegotimazs Mutnavk'
   type:
   - '&7&oEgyéb'
 COOLING_UNIT_1:
+  description:
+  - '&7Passzívan hűti a környező területet, csökkentve a hőhatást, amíg áram alatt van'
+  name: '&bHűtőegység I'
+  stats:
+  - '&7Hatás: Hő'
+  - '&7Védelem: 2'
+  - '&7Hatótávolság: 1000 blokk'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Puffer'
   type:
   - '&7&oGép'
 COOLING_UNIT_2:
+  description:
+  - '&7Passzívan hűti a környező területet, csökkentve a hőhatást, amíg áram alatt van'
+  name: '&bHűtőegység II'
+  stats:
+  - '&7Hatás: Hő'
+  - '&7Védelem: 4'
+  - '&7Hatótávolság: 1500 blokk'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Puffer'
   type:
   - '&7&oGép'
 COOLING_UNIT_3:
+  description:
+  - '&7Passzívan hűti a környező területet, csökkentve a hőhatást, amíg áram alatt van'
+  name: '&bHűtőegység III'
+  stats:
+  - '&7Hatás: Hő'
+  - '&7Védelem: 6'
+  - '&7Hatótávolság: 2000 blokk'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Puffer'
   type:
   - '&7&oGép'
 DIAMOND_ANVIL:
+  description:
+  - '&7Olyan erősen tömöríti az anyagot,'
+  - '&7hogy teljesen másvalamivé válik'
+  name: '&fGyémánt Üllő'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J Puffer'
   type:
   - '&7&oGép'
 DIAMOND_ANVIL_CELL:
+  name: '&bGyémánt Üllő Cella'
   type:
   - '&7&oAlkatrész'
 DIAMOND_CIRCUIT:
+  name: '&7Gyémánt Áramkör'
   type:
   - '&7&oAlkatrész'
 DRY_ICE:
+  name: '&bSzárazjég'
   type:
   - '&7&oNyersanyag'
 ELECTROLYZER:
+  description:
+  - '&7Elektromossággal bontja fel'
+  - '&7a kémiai anyagokat alkotóelemeikre'
+  name: '&fElektrolizáló'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Puffer'
   type:
   - '&7&oGép'
 ENDER_BLOCK:
+  name: '&3Ender Blokk'
   type:
   - '&7&oAlkatrész'
 ENGINE_RELIC:
+  description:
+  - '&7Tojah a assagzom erole ygoh muukav'
+  - '&7Lanzsah taigrene rotom a ze'
+  name: '&fEreklye: Rotom Muukav'
   type:
   - '&7&oEgyéb'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Erőteret termel, amely megakadályozza a levegő'
+  - '&7áthaladását, de az entitásokat átengedi'
+  name: '&fKörnyezeti Erőtér Generátor'
   type:
   - '&7&oGép'
 FALLEN_METEOR:
+  description:
+  - '&7Ezek a meteorok Volfrámot tartalmaznak'
+  name: '&4Lezuhant Meteor'
   type:
   - '&7&oNyersanyag'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Lobge za ttolluhel ylema dlohum'
+  name: '&7Ereklye: Dlohum Tnahuzel'
   type:
   - '&7&oEgyéb'
 FAN_BLADE:
+  name: '&fVentilátorlapát'
   type:
   - '&7&oAlkatrész'
 FUEL_TANK:
+  name: '&6Üzemanyagtartály'
   type:
   - '&7&oAlkatrész'
 FUEL_TANK_2:
+  name: '&6Üzemanyagtartály Mk 2'
   type:
   - '&7&oAlkatrész'
 FUSION_PELLET:
+  name: '&fFúziós Pellet'
   type:
   - '&7&oAlkatrész'
 FUSION_REACTOR:
+  description:
+  - '&7Lézerekkel olvasztja össze a Hélium-3 pelleteket'
+  - '&7és bálnányi sok energiát generál'
+  - '&7a folyamat során'
+  name: '&fFúziós Reaktor'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J Puffer'
   type:
   - '&7&oGenerátor'
 GLOWSTONE_CIRCUIT:
+  name: '&7Fénykő Áramkör'
   type:
   - '&7&oAlkatrész'
 GOLD_FOIL:
+  name: '&6Aranyfólia'
   type:
   - '&7&oAlkatrész'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Add az űrruhádhoz a hőellenállás növeléséhez'
+  name: '&7Hőellenállás Fejlesztés'
   type:
   - '&7&oAlkatrész'
 HEAVY_DUTY_SHEET:
+  name: '&fNagy Teherbírású Lap'
   type:
   - '&7&oAlkatrész'
 ION_DISPERSER_1:
+  description:
+  - '&7Passzívan szétszórja a sugárzást a környező területen, amíg áram alatt van'
+  name: '&fIon Szóró I'
+  stats:
+  - '&7Hatás: Sugárzás'
+  - '&7Védelem: 2'
+  - '&7Hatótávolság: 1000 blokk'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Puffer'
   type:
   - '&7&oGép'
 ION_DISPERSER_2:
+  description:
+  - '&7Passzívan szétszórja a sugárzást a környező területen, amíg áram alatt van'
+  name: '&fIon Szóró II'
+  stats:
+  - '&7Hatás: Sugárzás'
+  - '&7Védelem: 4'
+  - '&7Hatótávolság: 1500 blokk'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Puffer'
   type:
   - '&7&oGép'
 ION_ENGINE:
+  name: '&bIonmotor'
   type:
   - '&7&oAlkatrész'
 ION_ROCKET:
+  description:
+  - '&7Speciális motort használ, amely'
+  - '&7nagy sebességgel lövi ki az ionokat, ami'
+  - '&7extrém üzemanyag-hatékonyságot ad'
+  name: '&bIon Hordozórakéta'
+  stats:
+  - '&7Üzemanyag Kapacitás: 500'
+  - '&7Teher Kapacitás: 18'
   type:
   - '&7&oMultiblock'
 LANDING_HATCH:
+  description:
+  - '&7A hordozórakéták figyelmen kívül hagyják'
+  - '&7ezt a blokkot leszálláskor; az alatta'
+  - '&7lévő legmagasabb blokkra szállnak. A'
+  - '&7levegő számára áthatolhatatlan,'
+  - '&7így terek lezárására használható'
+  name: '&fLeszálló Nyílás'
   type:
   - '&7&oEgyéb'
 LAPIS_CIRCUIT:
+  name: '&7Lazurit Áramkör'
   type:
   - '&7&oAlkatrész'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oNyersanyag'
 LASERITE_DUST:
+  description:
+  - '&7Kifogyok a nevekből'
+  name: '&cLaserite Por'
   type:
   - '&7&oNyersanyag'
 LASERITE_ORE:
+  name: '&cLaserite Érc'
   type:
   - '&7&oNyersanyag'
 LAUNCH_PAD_CORE:
+  name: '&fIndítólap Mag'
   type:
   - '&7&oMultiblock'
+  usage:
+  - '&7Vedd körbe 8 &fIndítólap Padlóval&7'
+  - '&7a használathoz'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Az Indítólap megépítéséhez használatos'
+  name: '&fIndítólap Padló'
   type:
   - '&7&oMultiblock'
 LIFE_SUPPORT_MODULE:
+  name: '&4Életfenntartó Modul'
   type:
   - '&7&oAlkatrész'
 LUNAR_GLASS:
+  description:
+  - '&7Valamiért a holdpor hozzáadása az'
+  - '&7üveghez átlátszóbbá teszi...'
+  name: '&fHoldüveg'
   type:
   - '&7&oAlkatrész'
 MARS_DUST:
+  name: '&cMarspor'
   type:
   - '&7&oNyersanyag'
 MARS_ROCK:
+  name: '&cMarskő'
   type:
   - '&7&oNyersanyag'
 METHANE_ICE:
+  name: '&bMetánjég'
   type:
   - '&7&oNyersanyag'
 MOON_CHEESE:
+  description:
+  - '&7Fuj'
+  name: '&6Holdsajt'
+  stats:
+  - '&7Visszaállít &b2 &7Éhséget'
+  - '&7Visszaállít &b2.0 &7Jóllakottságot'
   type:
   - '&7&oÉtel'
+  usage:
+  - '&7Helyezd le az evéshez'
 MOON_DUST:
+  name: '&7Holdpor'
   type:
   - '&7&oNyersanyag'
 MOON_ROCK:
+  name: '&7Holdkő'
   type:
   - '&7&oNyersanyag'
 MUNPOWDER:
+  description:
+  - '&7A Hold puskapora'
+  name: '&7Munpor'
   type:
   - '&7&oNyersanyag'
 NOSE_CONE:
+  name: '&fOrrkúp'
   type:
   - '&7&oAlkatrész'
 NOZZLE:
+  name: '&fFúvóka'
   type:
   - '&7&oAlkatrész'
 OBSERVATORY:
+  description:
+  - '&7Lehetővé teszi alap információk felfedezését'
+  - '&7egy világról távolról. Csak olyan világokon működik,'
+  - '&7amelyek 0.25 ly-nél (2,365,200,000,000 km) közelebb vannak'
+  name: '&fObszervatórium'
   type:
   - '&7&oKütyü'
 OXYGEN_FILLER:
+  description:
+  - '&7Űrruhákat tölt fel oxigénnel'
+  name: '&fOxigén Töltő'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
   type:
   - '&7&oGép'
 OXYGEN_REGENERATOR:
+  name: '&bOxigén Regenerátor'
   type:
   - '&7&oAlkatrész'
 OXYGEN_SEALER:
+  description:
+  - '&7Oxigénnel tölt fel egy zárt területet'
+  name: '&fOxigén Szigetelő'
+  stats:
+  - '&7Hatótávolság: 1000 blokk'
   type:
   - '&7&oGép'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Lehetővé teszi fejlett információk felfedezését'
+  - '&7a jelenlegi bolygóról'
+  name: '&fBolygó Analizátor'
   type:
   - '&7&oKütyü'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Add az űrruhádhoz a sugárzásellenállás növeléséhez'
+  name: '&7Sugárzásellenállás Fejlesztés'
   type:
   - '&7&oAlkatrész'
 REACTOR_RELIC:
+  description:
+  - '&7Inetjuyg tehel si lobimmes taigrene'
+  - '&7anlov atlodnog ik?'
+  name: '&fEreklye: Rotareneg Somortkele Muukav'
   type:
   - '&7&oEgyéb'
 REDSTONE_CIRCUIT:
+  name: '&7Redstone Áramkör'
   type:
   - '&7&oAlkatrész'
 REINFORCED_CHANNEL:
+  name: '&fMegerősített Csatorna'
   type:
   - '&7&oAlkatrész'
 ROCKET_ENGINE:
+  name: '&fRakétamotor'
   type:
   - '&7&oAlkatrész'
 ROCKET_ENGINE_2:
+  name: '&fRakétamotor Mk 2'
   type:
   - '&7&oAlkatrész'
 ROCKET_ENGINE_3:
+  name: '&fRakétamotor Mk 3'
   type:
   - '&7&oAlkatrész'
 ROCKET_TIER_ONE:
+  name: '&4Kémiai Hordozórakéta 1. Szint'
+  stats:
+  - '&7Üzemanyag Kapacitás: 10'
+  - '&7Teher Kapacitás: 9'
   type:
   - '&7&oMultiblock'
 ROCKET_TIER_THREE:
+  name: '&4Kémiai Hordozórakéta 3. Szint'
+  stats:
+  - '&7Üzemanyag Kapacitás: 500'
+  - '&7Teher Kapacitás: 36'
   type:
   - '&7&oMultiblock'
 ROCKET_TIER_TWO:
+  name: '&4Kémiai Hordozórakéta 2. Szint'
+  stats:
+  - '&7Üzemanyag Kapacitás: 100'
+  - '&7Teher Kapacitás: 18'
   type:
   - '&7&oMultiblock'
 SPACE_GRADE_PLATE:
+  name: '&fŰrminőségű Lemez'
   type:
   - '&7&oAlkatrész'
 SPACE_HEATER_1:
+  description:
+  - '&7Passzívan melegíti a környező területet, csökkentve a hideghatást, amíg áram alatt van'
+  name: '&6Űrfűtő I'
+  stats:
+  - '&7Hatás: Hideg'
+  - '&7Védelem: 2'
+  - '&7Hatótávolság: 1000 blokk'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Puffer'
   type:
   - '&7&oGép'
 SPACE_HEATER_2:
+  description:
+  - '&7Passzívan melegíti a környező területet, csökkentve a hideghatást, amíg áram alatt van'
+  name: '&6Űrfűtő II'
+  stats:
+  - '&7Hatás: Hideg'
+  - '&7Védelem: 4'
+  - '&7Hatótávolság: 1500 blokk'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Puffer'
   type:
   - '&7&oGép'
 SPACE_HEATER_3:
+  description:
+  - '&7Passzívan melegíti a környező területet, csökkentve a hideghatást, amíg áram alatt van'
+  name: '&6Űrfűtő III'
+  stats:
+  - '&7Hatás: Hideg'
+  - '&7Védelem: 6'
+  - '&7Hatótávolság: 2000 blokk'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Puffer'
   type:
   - '&7&oGép'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Alap űrruha csizma'
+  name: '&fŰrruha Csizma'
   type:
   - '&7&oPáncél'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Egy alap űrruha mellrész'
+  name: '&fŰrruha Mellrész'
   type:
   - '&7&oPáncél'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Egy alap űrruha sisak'
+  name: '&fŰrruha Sisak'
   type:
   - '&7&oPáncél'
   usage:
   - '&eJobb kattintás&7 a használathoz'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Alap űrruha nadrág'
+  name: '&fŰrruha Nadrág'
   type:
   - '&7&oPáncél'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Fejlesztéseket ad az űrruhádhoz'
+  name: '&fŰrruha Fejlesztő'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Sebesség: &b1.0x'
   type:
   - '&7&oGép'
 SPARK_PLUG:
+  name: '&fGyújtógyertya'
   type:
   - '&7&oAlkatrész'
 SPARK_PLUG_2:
+  name: '&fGyújtógyertya Mk 2'
   type:
   - '&7&oAlkatrész'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Csillagkapu irányításához használatos'
+  name: '&9Csillagkapu Vezérlő'
   type:
   - '&7&oMultiblock'
 STARGATE_RING:
+  description:
+  - '&7Csillagkapu megépítéséhez használatos'
+  name: '&9Csillagkapu Gyűrű'
   type:
   - '&7&oMultiblock'
 SULFUR_BLOCK:
+  name: '&6Kénblokk'
   type:
   - '&7&oNyersanyag'
 SUPER_FAN:
+  description:
+  - '&7Helyezd egy olyan blokk mellé, amely'
+  - '&7zárt területet igényel, 15%-kal növelve a hatótávolságot'
+  name: '&7Szuper Ventilátor'
   type:
   - '&7&oEgyéb'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Mindent kinyer az ereklyékből, ami kinyerhető'
+  name: '&fTechnológiai Hasznosító'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J Puffer'
   type:
   - '&7&oGép'
 TUNGSTEN_CARBIDE:
+  name: '&7Volfrám-karbid'
   type:
   - '&7&oNyersanyag'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Egy erős fém, amelyet vagy úgy kapsz, hogy'
+  - '&7megerősített lemezeket adsz a marslakóknak, vagy'
+  - '&7lezuhant meteorok kiolvasztásával'
+  name: '&bVolfrám Rúd'
   type:
   - '&7&oNyersanyag'
 ULTRA_DUTY_SHEET:
+  name: '&fUltra Teherbírású Lap'
   type:
   - '&7&oAlkatrész'
 VENTSTONE:
+  name: '&6Kürtőkő'
   type:
   - '&7&oNyersanyag'
 VOLCANIC_INGOT:
+  description:
+  - '&7A Pokolhoz legközelebb álló dolog'
+  - '&7mélyén kovácsolva, a Vulkáni Rudak'
+  - '&7értékes árucikkek'
+  name: '&4Vulkáni Rúd'
   type:
   - '&7&oNyersanyag'
