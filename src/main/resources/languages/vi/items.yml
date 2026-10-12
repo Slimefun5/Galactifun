@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Thiết bị Xử lý Nâng cao'
   type:
   - '&7&oThành Phần'
 AIR_FILTER:
+  name: '&fBộ lọc'
   type:
   - '&7&oThành Phần'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Bạn sẽ không đoán nổi chúng tôi mất bao lâu'
+  - '&7để đặt tên cho nguyên liệu này'
+  name: '&fVật liệu Tổng hợp Nhôm'
   type:
   - '&7&oThành Phần'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fTấm Tổng hợp Nhôm'
   type:
   - '&7&oThành Phần'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Dùng để chế tạo nhiều thứ'
+  name: '&fBàn lắp ráp'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/Chế tạo'
   type:
   - '&7&oMáy Móc'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fBình Khí Amoniac'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fBình Khí Argon'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fBình Khí Cacbon Dioxit'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fBình Khí Heli'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fBình Khí Hydrocacbon'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fBình Khí Hydro'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fBình Khí Metan'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fBình Khí Nitơ'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fBình Khí Oxy'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fBình Khí Nước'
   type:
   - '&7&oTài Nguyên'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Thu gom các loại khí từ bầu khí quyển'
+  name: '&fMáy thu hoạch Khí quyển'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J Bộ Đệm'
   type:
   - '&7&oMáy Móc'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Tự động đặt/gỡ các khối bên trong'
+  - '&7khi bạn đến gần hoặc rời xa nó'
+  name: '&fCửa Tự động'
   type:
   - '&7&oMáy Móc'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Thỏi Núi lửa Rực cháy'
   type:
   - '&7&oTài Nguyên'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7uc tar iort tam nip mat toM'
+  name: '&7Cổ vật: gnoh iort tam nip maT'
   type:
   - '&7&oLinh Tinh'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Cho các hóa chất phản ứng với nhau'
+  - '&7để tạo ra chất mới'
+  name: '&fLò phản ứng Hóa học'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Bộ Đệm'
   type:
   - '&7&oMáy Móc'
 CIRCUIT_PRESS:
+  description:
+  - '&7Tạo ra mạch điện'
+  name: '&fMáy ép Mạch điện'
   stats:
   - '&8⇨ &e⚡ &7512 J Bộ Đệm'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oMáy Móc'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Thêm vào bộ đồ không gian để tăng khả năng kháng lạnh'
+  name: '&7Nâng cấp Kháng lạnh'
   type:
   - '&7&oThành Phần'
 COMPUTER_RELIC:
+  description:
+  - '&7gnouht hnit yam iov os ueihn noh hnahN'
+  - '&7naot hnit eht oc ut gnoul hnit yaM'
+  name: '&fCổ vật: ut gnoul hnit yaM'
   type:
   - '&7&oLinh Tinh'
 COOLING_UNIT_1:
+  description:
+  - '&7Thụ động làm mát khu vực xung quanh, giảm phơi nhiễm nhiệt khi được cấp điện'
+  name: '&bThiết bị Làm mát I'
+  stats:
+  - '&7Hiệu ứng: Nhiệt'
+  - '&7Bảo vệ: 2'
+  - '&7Phạm vi: 1000 khối'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 COOLING_UNIT_2:
+  description:
+  - '&7Thụ động làm mát khu vực xung quanh, giảm phơi nhiễm nhiệt khi được cấp điện'
+  name: '&bThiết bị Làm mát II'
+  stats:
+  - '&7Hiệu ứng: Nhiệt'
+  - '&7Bảo vệ: 4'
+  - '&7Phạm vi: 1500 khối'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 COOLING_UNIT_3:
+  description:
+  - '&7Thụ động làm mát khu vực xung quanh, giảm phơi nhiễm nhiệt khi được cấp điện'
+  name: '&bThiết bị Làm mát III'
+  stats:
+  - '&7Hiệu ứng: Nhiệt'
+  - '&7Bảo vệ: 6'
+  - '&7Phạm vi: 2000 khối'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 DIAMOND_ANVIL:
+  description:
+  - '&7Nén nguyên liệu mạnh đến mức'
+  - '&7nó biến thành một thứ hoàn toàn khác'
+  name: '&fĐe Kim cương'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J Bộ Đệm'
   type:
   - '&7&oMáy Móc'
 DIAMOND_ANVIL_CELL:
+  name: '&bNgăn Đe Kim cương'
   type:
   - '&7&oThành Phần'
 DIAMOND_CIRCUIT:
+  name: '&7Mạch điện Kim cương'
   type:
   - '&7&oThành Phần'
 DRY_ICE:
+  name: '&bBăng khô'
   type:
   - '&7&oTài Nguyên'
 ELECTROLYZER:
+  description:
+  - '&7Dùng dòng điện để tách'
+  - '&7hóa chất thành các thành phần của chúng'
+  name: '&fMáy điện phân'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J Bộ Đệm'
   type:
   - '&7&oMáy Móc'
 ENDER_BLOCK:
+  name: '&3Khối Ender'
   type:
   - '&7&oThành Phần'
 ENGINE_RELIC:
+  description:
+  - '&7nel neit uat yad ed gnohk nahc auC'
+  - '&7gnoul gnan gnud us yan oc gnoD'
+  name: '&fCổ vật: gnohk nahc oc gnoD'
   type:
   - '&7&oLinh Tinh'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Tạo ra một trường lực ngăn không khí'
+  - '&7đi xuyên qua, nhưng cho phép thực thể'
+  name: '&fMáy tạo Trường lực Môi trường'
   type:
   - '&7&oMáy Móc'
 FALLEN_METEOR:
+  description:
+  - '&7Những thiên thạch này chứa Vonfram'
+  name: '&4Thiên thạch Rơi'
   type:
   - '&7&oTài Nguyên'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7iort uab ut ior hnit ev toM'
+  name: '&7Cổ vật: ior hnit eV'
   type:
   - '&7&oLinh Tinh'
 FAN_BLADE:
+  name: '&fCánh quạt'
   type:
   - '&7&oThành Phần'
 FUEL_TANK:
+  name: '&6Bình Nhiên liệu'
   type:
   - '&7&oThành Phần'
 FUEL_TANK_2:
+  name: '&6Bình Nhiên liệu Mk 2'
   type:
   - '&7&oThành Phần'
 FUSION_PELLET:
+  name: '&fViên Nhiệt hạch'
   type:
   - '&7&oThành Phần'
 FUSION_REACTOR:
+  description:
+  - '&7Dùng tia laser để hợp nhất viên Heli-3'
+  - '&7và tạo ra cả một biển năng lượng'
+  - '&7trong quá trình đó'
+  name: '&fLò phản ứng Nhiệt hạch'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J Bộ Đệm'
   type:
   - '&7&oMáy Phát Điện'
 GLOWSTONE_CIRCUIT:
+  name: '&7Mạch điện Đá phát sáng'
   type:
   - '&7&oThành Phần'
 GOLD_FOIL:
+  name: '&6Lá Vàng'
   type:
   - '&7&oThành Phần'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Thêm vào bộ đồ không gian để tăng khả năng kháng nhiệt'
+  name: '&7Nâng cấp Kháng nhiệt'
   type:
   - '&7&oThành Phần'
 HEAVY_DUTY_SHEET:
+  name: '&fTấm Chịu lực nặng'
   type:
   - '&7&oThành Phần'
 ION_DISPERSER_1:
+  description:
+  - '&7Thụ động xua tan phóng xạ ở khu vực xung quanh khi được cấp điện'
+  name: '&fMáy xua Ion I'
+  stats:
+  - '&7Hiệu ứng: Phóng xạ'
+  - '&7Bảo vệ: 2'
+  - '&7Phạm vi: 1000 khối'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 ION_DISPERSER_2:
+  description:
+  - '&7Thụ động xua tan phóng xạ ở khu vực xung quanh khi được cấp điện'
+  name: '&fMáy xua Ion II'
+  stats:
+  - '&7Hiệu ứng: Phóng xạ'
+  - '&7Bảo vệ: 4'
+  - '&7Phạm vi: 1500 khối'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 ION_ENGINE:
+  name: '&bĐộng cơ Ion'
   type:
   - '&7&oThành Phần'
 ION_ROCKET:
+  description:
+  - '&7Dùng một động cơ chuyên biệt'
+  - '&7phun ion với tốc độ cực lớn, mang lại'
+  - '&7hiệu suất nhiên liệu cực cao'
+  name: '&bTên lửa đẩy Ion'
+  stats:
+  - '&7Dung lượng Nhiên liệu: 500'
+  - '&7Dung lượng Hàng hóa: 18'
   type:
   - '&7&oĐa khối'
 LANDING_HATCH:
+  description:
+  - '&7Tên lửa đẩy bỏ qua khối này khi'
+  - '&7hạ cánh; chúng sẽ đáp xuống'
+  - '&7khối cao nhất bên dưới nó. Nó được'
+  - '&7coi là không khí không thể đi qua'
+  - '&7nên có thể dùng để bịt kín không gian'
+  name: '&fCửa hạ cánh'
   type:
   - '&7&oLinh Tinh'
 LAPIS_CIRCUIT:
+  name: '&7Mạch điện Lưu ly'
   type:
   - '&7&oThành Phần'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oTài Nguyên'
 LASERITE_DUST:
+  description:
+  - '&7Tôi hết tên để đặt rồi'
+  name: '&cBột Laserite'
   type:
   - '&7&oTài Nguyên'
 LASERITE_ORE:
+  name: '&cQuặng Laserite'
   type:
   - '&7&oTài Nguyên'
 LAUNCH_PAD_CORE:
+  name: '&fLõi Bệ phóng'
   type:
   - '&7&oĐa khối'
+  usage:
+  - '&7Bao quanh bằng 8 &fSàn Bệ phóng&7 thì mới'
+  - '&7dùng được'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Dùng để xây dựng Bệ phóng'
+  name: '&fSàn Bệ phóng'
   type:
   - '&7&oĐa khối'
 LIFE_SUPPORT_MODULE:
+  name: '&4Mô-đun Duy trì Sinh tồn'
   type:
   - '&7&oThành Phần'
 LUNAR_GLASS:
+  description:
+  - '&7Chẳng hiểu sao thêm bột mặt trăng vào'
+  - '&7kính lại làm nó trong hơn...'
+  name: '&fKính Mặt trăng'
   type:
   - '&7&oThành Phần'
 MARS_DUST:
+  name: '&cBột Sao Hỏa'
   type:
   - '&7&oTài Nguyên'
 MARS_ROCK:
+  name: '&cĐá Sao Hỏa'
   type:
   - '&7&oTài Nguyên'
 METHANE_ICE:
+  name: '&bBăng Metan'
   type:
   - '&7&oTài Nguyên'
 MOON_CHEESE:
+  description:
+  - '&7Eo ơi'
+  name: '&6Phô mai Mặt trăng'
+  stats:
+  - '&7Hồi phục &b2 &7Độ no'
+  - '&7Hồi phục &b2.0 &7Độ bão hòa'
   type:
   - '&7&oThức Ăn'
+  usage:
+  - '&7Đặt xuống để ăn'
 MOON_DUST:
+  name: '&7Bột Mặt trăng'
   type:
   - '&7&oTài Nguyên'
 MOON_ROCK:
+  name: '&7Đá Mặt trăng'
   type:
   - '&7&oTài Nguyên'
 MUNPOWDER:
+  description:
+  - '&7Thuốc súng của mặt trăng'
+  name: '&7Thuốc súng Mặt trăng'
   type:
   - '&7&oTài Nguyên'
 NOSE_CONE:
+  name: '&fChóp mũi'
   type:
   - '&7&oThành Phần'
 NOZZLE:
+  name: '&fVòi phun'
   type:
   - '&7&oThành Phần'
 OBSERVATORY:
+  description:
+  - '&7Cho phép bạn khám phá thông tin cơ bản'
+  - '&7về một thế giới từ xa. Chỉ hiệu quả với thế giới'
+  - '&7gần hơn 0.25 ly (2,365,200,000,000 km)'
+  name: '&fĐài quan sát'
   type:
   - '&7&oThiết Bị'
 OXYGEN_FILLER:
+  description:
+  - '&7Bơm oxy vào bộ đồ không gian'
+  name: '&fMáy nạp Oxy'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Tốc Độ: &b1.0x'
   type:
   - '&7&oMáy Móc'
 OXYGEN_REGENERATOR:
+  name: '&bMáy tái tạo Oxy'
   type:
   - '&7&oThành Phần'
 OXYGEN_SEALER:
+  description:
+  - '&7Bơm đầy oxy vào một khu vực kín'
+  name: '&fMáy bịt kín Oxy'
+  stats:
+  - '&7Phạm vi: 1000 khối'
   type:
   - '&7&oMáy Móc'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Cho phép bạn khám phá thông tin nâng cao'
+  - '&7về hành tinh hiện tại'
+  name: '&fMáy phân tích Hành tinh'
   type:
   - '&7&oThiết Bị'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Thêm vào bộ đồ không gian để tăng khả năng kháng phóng xạ'
+  name: '&7Nâng cấp Kháng phóng xạ'
   type:
   - '&7&oThành Phần'
 REACTOR_RELIC:
+  description:
+  - '&7gnohk uh ut coud uht eht oc gnoul gnaN'
+  - '&7uhc coud ogn iA?'
+  name: '&fCổ vật: gnohk nahc neid tahp yaM'
   type:
   - '&7&oLinh Tinh'
 REDSTONE_CIRCUIT:
+  name: '&7Mạch điện Đá đỏ'
   type:
   - '&7&oThành Phần'
 REINFORCED_CHANNEL:
+  name: '&fRãnh Gia cố'
   type:
   - '&7&oThành Phần'
 ROCKET_ENGINE:
+  name: '&fĐộng cơ Tên lửa đẩy'
   type:
   - '&7&oThành Phần'
 ROCKET_ENGINE_2:
+  name: '&fĐộng cơ Tên lửa đẩy Mk 2'
   type:
   - '&7&oThành Phần'
 ROCKET_ENGINE_3:
+  name: '&fĐộng cơ Tên lửa đẩy Mk 3'
   type:
   - '&7&oThành Phần'
 ROCKET_TIER_ONE:
+  name: '&4Tên lửa đẩy Hóa học Bậc 1'
+  stats:
+  - '&7Dung lượng Nhiên liệu: 10'
+  - '&7Dung lượng Hàng hóa: 9'
   type:
   - '&7&oĐa khối'
 ROCKET_TIER_THREE:
+  name: '&4Tên lửa đẩy Hóa học Bậc 3'
+  stats:
+  - '&7Dung lượng Nhiên liệu: 500'
+  - '&7Dung lượng Hàng hóa: 36'
   type:
   - '&7&oĐa khối'
 ROCKET_TIER_TWO:
+  name: '&4Tên lửa đẩy Hóa học Bậc 2'
+  stats:
+  - '&7Dung lượng Nhiên liệu: 100'
+  - '&7Dung lượng Hàng hóa: 18'
   type:
   - '&7&oĐa khối'
 SPACE_GRADE_PLATE:
+  name: '&fTấm Chuẩn Không gian'
   type:
   - '&7&oThành Phần'
 SPACE_HEATER_1:
+  description:
+  - '&7Thụ động sưởi ấm khu vực xung quanh, giảm phơi nhiễm lạnh khi được cấp điện'
+  name: '&6Lò sưởi Không gian I'
+  stats:
+  - '&7Hiệu ứng: Lạnh'
+  - '&7Bảo vệ: 2'
+  - '&7Phạm vi: 1000 khối'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 SPACE_HEATER_2:
+  description:
+  - '&7Thụ động sưởi ấm khu vực xung quanh, giảm phơi nhiễm lạnh khi được cấp điện'
+  name: '&6Lò sưởi Không gian II'
+  stats:
+  - '&7Hiệu ứng: Lạnh'
+  - '&7Bảo vệ: 4'
+  - '&7Phạm vi: 1500 khối'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 SPACE_HEATER_3:
+  description:
+  - '&7Thụ động sưởi ấm khu vực xung quanh, giảm phơi nhiễm lạnh khi được cấp điện'
+  name: '&6Lò sưởi Không gian III'
+  stats:
+  - '&7Hiệu ứng: Lạnh'
+  - '&7Bảo vệ: 6'
+  - '&7Phạm vi: 2000 khối'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J Bộ đệm'
   type:
   - '&7&oMáy Móc'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Giày bộ đồ không gian cơ bản'
+  name: '&fGiày Bộ đồ không gian'
   type:
   - '&7&oGiáp'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Áo giáp bộ đồ không gian cơ bản'
+  name: '&fÁo giáp Bộ đồ không gian'
   type:
   - '&7&oGiáp'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Mũ bộ đồ không gian cơ bản'
+  name: '&fMũ Bộ đồ không gian'
   type:
   - '&7&oGiáp'
   usage:
   - '&eChuột Phải&7 để sử dụng'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Quần bộ đồ không gian cơ bản'
+  name: '&fQuần Bộ đồ không gian'
   type:
   - '&7&oGiáp'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Thêm nâng cấp cho bộ đồ không gian của bạn'
+  name: '&fMáy nâng cấp Bộ đồ không gian'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Tốc Độ: &b1.0x'
   type:
   - '&7&oMáy Móc'
 SPARK_PLUG:
+  name: '&fBugi'
   type:
   - '&7&oThành Phần'
 SPARK_PLUG_2:
+  name: '&fBugi Mk 2'
   type:
   - '&7&oThành Phần'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Dùng để điều khiển một cổng sao'
+  name: '&9Bộ điều khiển Cổng sao'
   type:
   - '&7&oĐa khối'
 STARGATE_RING:
+  description:
+  - '&7Dùng để xây dựng một cổng sao'
+  name: '&9Vòng Cổng sao'
   type:
   - '&7&oĐa khối'
 SULFUR_BLOCK:
+  name: '&6Khối Lưu huỳnh'
   type:
   - '&7&oTài Nguyên'
 SUPER_FAN:
+  description:
+  - '&7Đặt cái này cạnh một khối cần'
+  - '&7khu vực kín để mở rộng phạm vi thêm 15%'
+  name: '&7Siêu quạt'
   type:
   - '&7&oLinh Tinh'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Tận thu mọi thứ còn dùng được từ cổ vật'
+  name: '&fMáy tận thu Công nghệ'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J Bộ Đệm'
   type:
   - '&7&oMáy Móc'
 TUNGSTEN_CARBIDE:
+  name: '&7Vonfram Cacbua'
   type:
   - '&7&oTài Nguyên'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Một kim loại cứng có được từ việc'
+  - '&7đưa cho người Sao Hỏa tấm gia cố hoặc'
+  - '&7từ việc nung chảy thiên thạch rơi'
+  name: '&bThỏi Vonfram'
   type:
   - '&7&oTài Nguyên'
 ULTRA_DUTY_SHEET:
+  name: '&fTấm Siêu chịu lực'
   type:
   - '&7&oThành Phần'
 VENTSTONE:
+  name: '&6Đá Miệng phun'
   type:
   - '&7&oTài Nguyên'
 VOLCANIC_INGOT:
+  description:
+  - '&7Được rèn trong lòng sâu của thứ gần'
+  - '&7với Địa ngục nhất mà ta biết, Thỏi Núi lửa'
+  - '&7là một mặt hàng vô cùng giá trị'
+  name: '&4Thỏi Núi lửa'
   type:
   - '&7&oTài Nguyên'
