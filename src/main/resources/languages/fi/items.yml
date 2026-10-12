@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4Kehittynyt prosessointiyksikkö'
   type:
   - '&7&oKomponentti'
 AIR_FILTER:
+  name: '&fSuodatin'
   type:
   - '&7&oKomponentti'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7Et ikinä arvaa, kuinka kauan meiltä kesti'
+  - '&7nimetä tämä materiaali'
+  name: '&fAlumiinikomposiitti'
   type:
   - '&7&oKomponentti'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&fAlumiinikomposiittipelti'
   type:
   - '&7&oKomponentti'
 ASSEMBLY_TABLE:
+  description:
+  - '&7Käytetään monien asioiden rakentamiseen'
+  name: '&fKokoonpanopöytä'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/valmistus'
   type:
   - '&7&oKone'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fAmmoniakkikaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&fArgonkaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&fHiilidioksidikaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&fHeliumkaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&fHiilivetykaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&fVetykaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&fMetaanikaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&fTyppikaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&fHappikaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_GAS_WATER:
+  name: '&fVesikaasusäiliö'
   type:
   - '&7&oResurssi'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7Kerää kaasuja ilmakehästä'
+  name: '&fIlmakehän kerääjä'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &7128 J puskuri'
   type:
   - '&7&oKone'
 AUTOMATIC_DOOR:
+  description:
+  - '&7Asettaa ja poistaa automaattisesti sisällä olevat palikat'
+  - '&7kun menet sen luo tai pois siltä'
+  name: '&fAutomaattinen ovi'
   type:
   - '&7&oKone'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6Polttava vulkaaninen harkko'
   type:
   - '&7&oResurssi'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7Ileenapoknirua ahnav nivyh'
+  name: '&7Reliikki: Ileenapoknirua Neniänikkir'
   type:
   - '&7&oSekalainen'
 CHEMICAL_REACTOR:
+  description:
+  - '&7Saattaa kemikaalit reagoimaan'
+  - '&7luoden uusia'
+  name: '&fKemiallinen reaktori'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J puskuri'
   type:
   - '&7&oKone'
 CIRCUIT_PRESS:
+  description:
+  - '&7Luo piirejä'
+  name: '&fPiiripuristin'
   stats:
   - '&8⇨ &e⚡ &7512 J puskuri'
   - '&8⇨ &e⚡ &7256 J/s'
   type:
   - '&7&oKone'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8Lisää avaruuspukuusi kasvattaaksesi kylmävastustuskykyä'
+  name: '&7Kylmävastustuskyvyn päivitys'
   type:
   - '&7&oKomponentti'
 COMPUTER_RELIC:
+  description:
+  - '&7Teenokoteit tesillavat niuk nimmaepon nojlap'
+  - '&7Aimleksal ädhet taviov teenokoteitittnavk'
+  name: '&fReliikki: Enokoteit Nenittnavk'
   type:
   - '&7&oSekalainen'
 COOLING_UNIT_1:
+  description:
+  - '&7Jäähdyttää passiivisesti ympäröivää aluetta vähentäen lämmölle altistumista virran ollessa päällä'
+  name: '&bJäähdytysyksikkö I'
+  stats:
+  - '&7Vaikutus: Lämpö'
+  - '&7Suojaus: 2'
+  - '&7Kantama: 1000 palikkaa'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J puskuri'
   type:
   - '&7&oKone'
 COOLING_UNIT_2:
+  description:
+  - '&7Jäähdyttää passiivisesti ympäröivää aluetta vähentäen lämmölle altistumista virran ollessa päällä'
+  name: '&bJäähdytysyksikkö II'
+  stats:
+  - '&7Vaikutus: Lämpö'
+  - '&7Suojaus: 4'
+  - '&7Kantama: 1500 palikkaa'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J puskuri'
   type:
   - '&7&oKone'
 COOLING_UNIT_3:
+  description:
+  - '&7Jäähdyttää passiivisesti ympäröivää aluetta vähentäen lämmölle altistumista virran ollessa päällä'
+  name: '&bJäähdytysyksikkö III'
+  stats:
+  - '&7Vaikutus: Lämpö'
+  - '&7Suojaus: 6'
+  - '&7Kantama: 2000 palikkaa'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J puskuri'
   type:
   - '&7&oKone'
 DIAMOND_ANVIL:
+  description:
+  - '&7Puristaa materiaalia niin lujaa'
+  - '&7että siitä tulee jotain aivan muuta'
+  name: '&fTimanttialasin'
   stats:
   - '&8⇨ &e⚡ &71024 J/s'
   - '&8⇨ &e⚡ &72048 J puskuri'
   type:
   - '&7&oKone'
 DIAMOND_ANVIL_CELL:
+  name: '&bTimanttialasinkenno'
   type:
   - '&7&oKomponentti'
 DIAMOND_CIRCUIT:
+  name: '&7Timanttipiiri'
   type:
   - '&7&oKomponentti'
 DRY_ICE:
+  name: '&bKuivajää'
   type:
   - '&7&oResurssi'
 ELECTROLYZER:
+  description:
+  - '&7Käyttää sähköä hajottamaan'
+  - '&7kemikaalit osatekijöihinsä'
+  name: '&fElektrolyysilaite'
   stats:
   - '&8⇨ &e⚡ &7256 J/s'
   - '&8⇨ &e⚡ &7512 J puskuri'
   type:
   - '&7&oKone'
 ENDER_BLOCK:
+  name: '&3Enderpalikka'
   type:
   - '&7&oKomponentti'
 ENGINE_RELIC:
+  description:
+  - '&7Niäpneete aavial neeskaattukiil'
+  - '&7Aaigrene nöijhyt äättyäk irottoom ämät'
+  name: '&fReliikki: Irottoom Nöijhyt'
   type:
   - '&7&oSekalainen'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7Tuottaa voimakentän, joka estää ilman'
+  - '&7läpäisyn, mutta päästää oliot lävitse'
+  name: '&fYmpäristön voimakenttägeneraattori'
   type:
   - '&7&oKone'
 FALLEN_METEOR:
+  description:
+  - '&7Näissä meteoreissa on volframia'
+  name: '&4Pudonnut meteori'
   type:
   - '&7&oResurssi'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Atlaavait isotup akoj, ittiilletas'
+  name: '&7Reliikki: Ittiilletas Tunnodup'
   type:
   - '&7&oSekalainen'
 FAN_BLADE:
+  name: '&fTuulettimen siipi'
   type:
   - '&7&oKomponentti'
 FUEL_TANK:
+  name: '&6Polttoainesäiliö'
   type:
   - '&7&oKomponentti'
 FUEL_TANK_2:
+  name: '&6Polttoainesäiliö Mk 2'
   type:
   - '&7&oKomponentti'
 FUSION_PELLET:
+  name: '&fFuusiopelletti'
   type:
   - '&7&oKomponentti'
 FUSION_REACTOR:
+  description:
+  - '&7Sulattaa lasereilla Helium-3-pellettejä'
+  - '&7ja tuottaa valaan verran energiaa'
+  - '&7prosessin aikana'
+  name: '&fFuusioreaktori'
   stats:
   - '&8⇨ &e⚡ &765536 J/s'
   - '&8⇨ &e⚡ &765536 J puskuri'
   type:
   - '&7&oGeneraattori'
 GLOWSTONE_CIRCUIT:
+  name: '&7Hohtokivipiiri'
   type:
   - '&7&oKomponentti'
 GOLD_FOIL:
+  name: '&6Kultafolio'
   type:
   - '&7&oKomponentti'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8Lisää avaruuspukuusi kasvattaaksesi lämpövastustuskykyä'
+  name: '&7Lämpövastustuskyvyn päivitys'
   type:
   - '&7&oKomponentti'
 HEAVY_DUTY_SHEET:
+  name: '&fRaskaan käytön pelti'
   type:
   - '&7&oKomponentti'
 ION_DISPERSER_1:
+  description:
+  - '&7Hajottaa passiivisesti säteilyä ympäröivällä alueella virran ollessa päällä'
+  name: '&fIonihajottaja I'
+  stats:
+  - '&7Vaikutus: Säteily'
+  - '&7Suojaus: 2'
+  - '&7Kantama: 1000 palikkaa'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J puskuri'
   type:
   - '&7&oKone'
 ION_DISPERSER_2:
+  description:
+  - '&7Hajottaa passiivisesti säteilyä ympäröivällä alueella virran ollessa päällä'
+  name: '&fIonihajottaja II'
+  stats:
+  - '&7Vaikutus: Säteily'
+  - '&7Suojaus: 4'
+  - '&7Kantama: 1500 palikkaa'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J puskuri'
   type:
   - '&7&oKone'
 ION_ENGINE:
+  name: '&bIonimoottori'
   type:
   - '&7&oKomponentti'
 ION_ROCKET:
+  description:
+  - '&7Käyttää erikoismoottoria, joka'
+  - '&7syöksee ioneja suurella nopeudella, mikä antaa'
+  - '&7äärimmäisen polttoainetehokkuuden'
+  name: '&bIoniraketti'
+  stats:
+  - '&7Polttoainekapasiteetti: 500'
+  - '&7Rahtikapasiteetti: 18'
   type:
   - '&7&oMultiblokki'
 LANDING_HATCH:
+  description:
+  - '&7Raketit ohittavat tämän palikan'
+  - '&7laskeutuessaan; ne laskeutuvat'
+  - '&7sen alla olevalle ylimmälle palikalle. Se'
+  - '&7katsotaan ilmalle läpäisemättömäksi'
+  - '&7joten sillä voi tiivistää tiloja'
+  name: '&fLaskeutumisluukku'
   type:
   - '&7&oSekalainen'
 LAPIS_CIRCUIT:
+  name: '&7Lapispiiri'
   type:
   - '&7&oKomponentti'
 LASERITE:
+  name: '&cLaserite'
   type:
   - '&7&oResurssi'
 LASERITE_DUST:
+  description:
+  - '&7Nimet alkavat loppua'
+  name: '&cLaserite-pöly'
   type:
   - '&7&oResurssi'
 LASERITE_ORE:
+  name: '&cLaserite-malmi'
   type:
   - '&7&oResurssi'
 LAUNCH_PAD_CORE:
+  name: '&fLaukaisualustan ydin'
   type:
   - '&7&oMultiblokki'
+  usage:
+  - '&7Ympäröi 8 &fLaukaisualustan lattia&7lla'
+  - '&7käyttääksesi'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7Käytetään laukaisualustan rakentamiseen'
+  name: '&fLaukaisualustan lattia'
   type:
   - '&7&oMultiblokki'
 LIFE_SUPPORT_MODULE:
+  name: '&4Elintukimoduuli'
   type:
   - '&7&oKomponentti'
 LUNAR_GLASS:
+  description:
+  - '&7Jostain syystä kuupölyn lisääminen'
+  - '&7lasiin tekee siitä kirkkaampaa...'
+  name: '&fKuulasi'
   type:
   - '&7&oKomponentti'
 MARS_DUST:
+  name: '&cMarsin pöly'
   type:
   - '&7&oResurssi'
 MARS_ROCK:
+  name: '&cMarsin kivi'
   type:
   - '&7&oResurssi'
 METHANE_ICE:
+  name: '&bMetaanijää'
   type:
   - '&7&oResurssi'
 MOON_CHEESE:
+  description:
+  - '&7Yäk'
+  name: '&6Kuujuusto'
+  stats:
+  - '&7Palauttaa &b2 &7nälkää'
+  - '&7Palauttaa &b2.0 &7kylläisyyttä'
   type:
   - '&7&oRuoka'
+  usage:
+  - '&7Aseta syötäväksi'
 MOON_DUST:
+  name: '&7Kuupöly'
   type:
   - '&7&oResurssi'
 MOON_ROCK:
+  name: '&7Kuukivi'
   type:
   - '&7&oResurssi'
 MUNPOWDER:
+  description:
+  - '&7Kuun ruuti'
+  name: '&7Kuuti'
   type:
   - '&7&oResurssi'
 NOSE_CONE:
+  name: '&fKärkikapseli'
   type:
   - '&7&oKomponentti'
 NOZZLE:
+  name: '&fSuutin'
   type:
   - '&7&oKomponentti'
 OBSERVATORY:
+  description:
+  - '&7Mahdollistaa perustietojen selvittämisen'
+  - '&7maailmasta etänä. Toimii vain maailmoihin'
+  - '&7jotka ovat lähempänä kuin 0.25 ly (2,365,200,000,000 km)'
+  name: '&fTähtitorni'
   type:
   - '&7&oGadgetti'
 OXYGEN_FILLER:
+  description:
+  - '&7Täyttää avaruuspuvut hapella'
+  name: '&fHappitäyttäjä'
   stats:
   - '&8⇨ &e⚡ &7100 J/s'
   - '&8⇨ &b⚡ &7Nopeus: &b1.0x'
   type:
   - '&7&oKone'
 OXYGEN_REGENERATOR:
+  name: '&bHapen uudistin'
   type:
   - '&7&oKomponentti'
 OXYGEN_SEALER:
+  description:
+  - '&7Täyttää tiivistetyn alueen hapella'
+  name: '&fHapen tiivistäjä'
+  stats:
+  - '&7Kantama: 1000 palikkaa'
   type:
   - '&7&oKone'
 PLANETARY_ANALYZER:
+  description:
+  - '&7Mahdollistaa kehittyneiden tietojen'
+  - '&7selvittämisen nykyisestä planeetasta'
+  name: '&fPlaneetta-analysaattori'
   type:
   - '&7&oGadgetti'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8Lisää avaruuspukuusi kasvattaaksesi säteilyvastustuskykyä'
+  name: '&7Säteilyvastustuskyvyn päivitys'
   type:
   - '&7&oKomponentti'
 REACTOR_RELIC:
+  description:
+  - '&7Ätsäjhyt ätärek iov aaigrene'
+  - '&7Ätte tunoksu isilo akuk?'
+  name: '&fReliikki: Irottaarenegökhäs Nöijhyt'
   type:
   - '&7&oSekalainen'
 REDSTONE_CIRCUIT:
+  name: '&7Punakivipiiri'
   type:
   - '&7&oKomponentti'
 REINFORCED_CHANNEL:
+  name: '&fVahvistettu kanava'
   type:
   - '&7&oKomponentti'
 ROCKET_ENGINE:
+  name: '&fRakettimoottori'
   type:
   - '&7&oKomponentti'
 ROCKET_ENGINE_2:
+  name: '&fRakettimoottori Mk 2'
   type:
   - '&7&oKomponentti'
 ROCKET_ENGINE_3:
+  name: '&fRakettimoottori Mk 3'
   type:
   - '&7&oKomponentti'
 ROCKET_TIER_ONE:
+  name: '&4Kemiallinen raketti taso 1'
+  stats:
+  - '&7Polttoainekapasiteetti: 10'
+  - '&7Rahtikapasiteetti: 9'
   type:
   - '&7&oMultiblokki'
 ROCKET_TIER_THREE:
+  name: '&4Kemiallinen raketti taso 3'
+  stats:
+  - '&7Polttoainekapasiteetti: 500'
+  - '&7Rahtikapasiteetti: 36'
   type:
   - '&7&oMultiblokki'
 ROCKET_TIER_TWO:
+  name: '&4Kemiallinen raketti taso 2'
+  stats:
+  - '&7Polttoainekapasiteetti: 100'
+  - '&7Rahtikapasiteetti: 18'
   type:
   - '&7&oMultiblokki'
 SPACE_GRADE_PLATE:
+  name: '&fAvaruusluokan levy'
   type:
   - '&7&oKomponentti'
 SPACE_HEATER_1:
+  description:
+  - '&7Lämmittää passiivisesti ympäröivää aluetta vähentäen kylmälle altistumista virran ollessa päällä'
+  name: '&6Avaruuslämmitin I'
+  stats:
+  - '&7Vaikutus: Kylmä'
+  - '&7Suojaus: 2'
+  - '&7Kantama: 1000 palikkaa'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J puskuri'
   type:
   - '&7&oKone'
 SPACE_HEATER_2:
+  description:
+  - '&7Lämmittää passiivisesti ympäröivää aluetta vähentäen kylmälle altistumista virran ollessa päällä'
+  name: '&6Avaruuslämmitin II'
+  stats:
+  - '&7Vaikutus: Kylmä'
+  - '&7Suojaus: 4'
+  - '&7Kantama: 1500 palikkaa'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J puskuri'
   type:
   - '&7&oKone'
 SPACE_HEATER_3:
+  description:
+  - '&7Lämmittää passiivisesti ympäröivää aluetta vähentäen kylmälle altistumista virran ollessa päällä'
+  name: '&6Avaruuslämmitin III'
+  stats:
+  - '&7Vaikutus: Kylmä'
+  - '&7Suojaus: 6'
+  - '&7Kantama: 2000 palikkaa'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J puskuri'
   type:
   - '&7&oKone'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7Perustason avaruuspuvun saappaat'
+  name: '&fAvaruuspuvun saappaat'
   type:
   - '&7&oPanssari'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7Perustason avaruuspuvun rintapanssari'
+  name: '&fAvaruuspuvun rintapanssari'
   type:
   - '&7&oPanssari'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7Perustason avaruuspuvun kypärä'
+  name: '&fAvaruuspuvun kypärä'
   type:
   - '&7&oPanssari'
   usage:
   - '&eOikea klikkaus&7 käyttääksesi'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7Perustason avaruuspuvun housut'
+  name: '&fAvaruuspuvun housut'
   type:
   - '&7&oPanssari'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7Lisää päivityksiä avaruuspukuusi'
+  name: '&fAvaruuspuvun päivittäjä'
   stats:
   - '&8⇨ &e⚡ &7200 J/s'
   - '&8⇨ &b⚡ &7Nopeus: &b1.0x'
   type:
   - '&7&oKone'
 SPARK_PLUG:
+  name: '&fSytytystulppa'
   type:
   - '&7&oKomponentti'
 SPARK_PLUG_2:
+  name: '&fSytytystulppa Mk 2'
   type:
   - '&7&oKomponentti'
 STARGATE_CONTROLLER:
+  description:
+  - '&7Käytetään tähtiportin ohjaamiseen'
+  name: '&9Tähtiportin ohjain'
   type:
   - '&7&oMultiblokki'
 STARGATE_RING:
+  description:
+  - '&7Käytetään tähtiportin rakentamiseen'
+  name: '&9Tähtiportin rengas'
   type:
   - '&7&oMultiblokki'
 SULFUR_BLOCK:
+  name: '&6Rikkipalikka'
   type:
   - '&7&oResurssi'
 SUPER_FAN:
+  description:
+  - '&7Aseta tämä sellaisen palikan viereen'
+  - '&7joka tarvitsee tiivistetyn alueen, kasvattaaksesi kantamaa 15%'
+  name: '&7Supertuuletin'
   type:
   - '&7&oSekalainen'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7Ottaa talteen kaiken hyödynnettävän reliikeistä'
+  name: '&fTeknologinen talteenottaja'
   stats:
   - '&8⇨ &e⚡ &764 J/s'
   - '&8⇨ &e⚡ &764 J puskuri'
   type:
   - '&7&oKone'
 TUNGSTEN_CARBIDE:
+  name: '&7Volframikarbidi'
   type:
   - '&7&oResurssi'
 TUNGSTEN_INGOT:
+  description:
+  - '&7Vahva metalli, joka saadaan antamalla'
+  - '&7marsilaisille vahvistettuja levyjä tai'
+  - '&7sulattamalla pudonneita meteoreja'
+  name: '&bVolframiharkko'
   type:
   - '&7&oResurssi'
 ULTRA_DUTY_SHEET:
+  name: '&fErittäin raskaan käytön pelti'
   type:
   - '&7&oKomponentti'
 VENTSTONE:
+  name: '&6Purkauskivi'
   type:
   - '&7&oResurssi'
 VOLCANIC_INGOT:
+  description:
+  - '&7Taottu syvyyksissä paikassa, joka on'
+  - '&7lähin tuntemamme helvetti, vulkaaniset harkot'
+  - '&7ovat arvokasta kauppatavaraa'
+  name: '&4Vulkaaninen harkko'
   type:
   - '&7&oResurssi'
