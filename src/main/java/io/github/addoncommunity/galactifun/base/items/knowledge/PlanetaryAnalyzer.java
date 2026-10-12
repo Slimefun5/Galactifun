@@ -10,6 +10,7 @@ import org.bukkit.inventory.ItemStack;
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
 import io.github.addoncommunity.galactifun.core.CoreItemGroup;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
@@ -32,16 +33,17 @@ public final class PlanetaryAnalyzer extends SimpleSlimefunItem<BlockUseHandler>
 
             PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
             if (world == null) {
-                p.sendMessage(ChatColor.RED + "You must be on a planet to use this!");
+                Messages.send(p, ChatColor.RED, "knowledge.must-be-on-planet", "You must be on a planet to use this!");
                 return;
             }
 
             if (Pdc.getBoolean(world.worldStorage(), key)) {
-                p.sendMessage(ChatColor.RED + "Already analyzing!");
+                Messages.send(p, ChatColor.RED, "knowledge.already-analyzing", "Already analyzing!");
                 return;
             }
 
-            p.sendMessage(ChatColor.GREEN + "Analyzing planet " + world.name());
+            Messages.send(p, ChatColor.GREEN, "knowledge.analyzing", "Analyzing planet %planet%",
+                    line -> line.replace("%planet%", world.name()));
             Pdc.setBoolean(world.worldStorage(), key, true);
             Scheduler.run(30 * 60 * 20, () -> {
                 Pdc.setBoolean(world.worldStorage(), key, false);

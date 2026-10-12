@@ -24,6 +24,7 @@ import org.bukkit.persistence.PersistentDataContainer;
 import io.github.addoncommunity.galactifun.api.items.Rocket;
 import io.github.addoncommunity.galactifun.base.BaseItems;
 import io.github.addoncommunity.galactifun.util.BSUtils;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.addoncommunity.galactifun.util.Util;
 import io.github.mooy1.infinitylib.common.PersistentType;
 import io.github.mooy1.infinitylib.common.StackUtils;
@@ -130,7 +131,7 @@ public final class LaunchPadCore extends TickingMenuBlock {
 
     public static boolean canBreak(@Nonnull Player p, @Nonnull Block b) {
         if (BSUtils.getStoredBoolean(b.getRelative(BlockFace.UP).getLocation(), "isLaunching")) {
-            p.sendMessage(ChatColor.RED + "You cannot break the launchpad a rocket is launching on!");
+            Messages.send(p, ChatColor.RED, "launch-pad.rocket-launching", "You cannot break the launchpad a rocket is launching on!");
             return false;
         }
         return true;
@@ -196,7 +197,7 @@ public final class LaunchPadCore extends TickingMenuBlock {
                 BlockStorage.getInventory(b).open(p);
             } else {
                 e.cancel();
-                p.sendMessage(ChatColor.RED + "Surround this block with 8 launch pad floors before attempting to use it");
+                Messages.send(p, ChatColor.RED, "launch-pad.needs-floors", "Surround this block with 8 launch pad floors before attempting to use it");
             }
         }
     }

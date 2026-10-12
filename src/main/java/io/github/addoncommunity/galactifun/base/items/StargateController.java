@@ -30,6 +30,7 @@ import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.worlds.AlienWorld;
 import io.github.addoncommunity.galactifun.base.BaseItems;
 import io.github.addoncommunity.galactifun.util.BSUtils;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.mooy1.infinitylib.machines.MenuBlock;
@@ -120,7 +121,7 @@ public final class StargateController extends SlimefunItem implements Listener {
             public void onPlayerBreak(BlockBreakEvent e, ItemStack item, List<ItemStack> drops) {
                 if (Boolean.parseBoolean(BlockStorage.getLocationInfo(e.getBlock().getLocation(), "locked"))) {
                     e.setCancelled(true);
-                    e.getPlayer().sendMessage(ChatColor.RED + "Deactivate the Stargate before destroying it");
+                    Messages.send(e.getPlayer(), ChatColor.RED, "stargate.deactivate-first", "Deactivate the Stargate before destroying it");
                 }
             }
         });
@@ -172,7 +173,7 @@ public final class StargateController extends SlimefunItem implements Listener {
 
     private void onUse(PlayerRightClickEvent event, Player p, Block b) {
         if (!isPartOfStargate(b)) {
-            p.sendMessage(ChatColor.RED + "The Stargate is not assembled!");
+            Messages.send(p, ChatColor.RED, "stargate.not-assembled", "The Stargate is not assembled!");
             return;
         }
         event.cancel();
@@ -192,7 +193,7 @@ public final class StargateController extends SlimefunItem implements Listener {
             }
 
             lockBlocks(b, true);
-            p.sendMessage(ChatColor.YELLOW + "Stargate activated!");
+            Messages.send(p, ChatColor.YELLOW, "stargate.activated", "Stargate activated!");
             return;
         }
 
@@ -234,7 +235,8 @@ public final class StargateController extends SlimefunItem implements Listener {
             p.sendMessage(
                     Component.text()
                             .color(NamedTextColor.YELLOW)
-                            .content("Address (click to copy): " + temp)
+                            .content(Messages.get(p, "stargate.address", "Address (click to copy): %address%")
+                                    .replace("%address%", temp))
                             .clickEvent(ClickEvent.copyToClipboard(temp))
                             .build()
             );
@@ -262,7 +264,7 @@ public final class StargateController extends SlimefunItem implements Listener {
                 "&fClick to Set Destination",
                 "&7Current Destination: " + destination
         ), (p, i, s, c) -> {
-            p.sendMessage(ChatColor.YELLOW + "Type in the destination address");
+            Messages.send(p, ChatColor.YELLOW, "stargate.enter-destination", "Type in the destination address");
             ChatUtils.awaitInput(p, st -> setDestination(st, b, p));
             p.closeInventory();
             return false;
@@ -284,25 +286,23 @@ public final class StargateController extends SlimefunItem implements Listener {
                     }
                 }
             }
-            p.sendMessage(ChatColor.RED + "No destination found!");
+            Messages.send(p, ChatColor.RED, "stargate.no-destination", "No destination found!");
             return;
         }
 
         Optional<List<Block>> portalOptional = getPortalBlocks(b);
         if (!portalOptional.isPresent()) {
-            p.sendMessage(ChatColor.RED + "The Stargate is not lit for some reason...");
+            Messages.send(p, ChatColor.RED, "stargate.not-lit", "The Stargate is not lit for some reason...");
             return;
         }
 
         BSUtils.setStoredLocation(b.getLocation(), "dest", dest);
 
-        p.sendMessage(ChatColor.YELLOW + String.format(
-                "Set Stargate destination to %d %d %d in %s",
-                dest.getBlockX(),
-                dest.getBlockY(),
-                dest.getBlockZ(),
-                dest.getWorld().getName()
-        ));
+        Messages.send(p, ChatColor.YELLOW, "stargate.destination-set", "Set Stargate destination to %x% %y% %z% in %world%",
+                line -> line.replace("%x%", String.valueOf(dest.getBlockX()))
+                        .replace("%y%", String.valueOf(dest.getBlockY()))
+                        .replace("%z%", String.valueOf(dest.getBlockZ()))
+                        .replace("%world%", dest.getWorld().getName()));
 
         BlockStorage.addBlockInfo(b, "destination", destination);
     }
@@ -313,7 +313,7 @@ public final class StargateController extends SlimefunItem implements Listener {
         if (b.getType() == MaterialCompat.safe(XMaterial.END_GATEWAY) &&
                 Boolean.parseBoolean(BlockStorage.getLocationInfo(b.getLocation(), "locked"))) {
             e.setCancelled(true);
-            e.getPlayer().sendMessage(ChatColor.RED + "Deactivate the Stargate before destroying it");
+            Messages.send(e.getPlayer(), ChatColor.RED, "stargate.deactivate-first", "Deactivate the Stargate before destroying it");
         }
     }
 
@@ -332,7 +332,7 @@ public final class StargateController extends SlimefunItem implements Listener {
         Block b = dest.getBlock();
         if (BlockStorage.check(b, BaseItems.STARGATE_CONTROLLER.getItemId()) &&
                 !StargateController.getPortalBlocks(b).isPresent()) {
-            p.sendMessage(ChatColor.RED + "The destination Stargate is not activated");
+            Messages.send(p, ChatColor.RED, "stargate.destination-not-activated", "The destination Stargate is not activated");
             return;
         }
 
@@ -347,7 +347,7 @@ public final class StargateController extends SlimefunItem implements Listener {
             p.setMetadata("disableStargate", new FixedMetadataValue(Galactifun.instance(), true));
             Scheduler.run(10, () -> p.removeMetadata("disableStargate", Galactifun.instance()));
         } else {
-            p.sendMessage(ChatColor.RED + "The destination is blocked");
+            Messages.send(p, ChatColor.RED, "stargate.destination-blocked", "The destination is blocked");
         }
     }
 

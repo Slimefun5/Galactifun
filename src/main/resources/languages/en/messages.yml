@@ -1,0 +1,94 @@
+rocket:
+  currently-launching: "The rocket is currently launching!"
+  already-launching: "The rocket is already launching!"
+  not-from-this-world: "You cannot travel to space from this world!"
+  no-fuel: "The rocket has no fuel!"
+  enter-coordinates: "Please enter destination coordinates in the form of <x> <z> (i.e. -123 456) or type in anything else to cancel:"
+  outside-world-border: "Destination is outside of world border"
+  no-landing-permission: "You do not have permission to land there"
+  launch-cancelled: "Launch cancelled"
+  verifying-blast: "Verifying blast awesomeness..."
+  launch-messages:
+    - "Forgetting parachutes"
+    - "Restocking snack bin"
+    - "Aligning planets"
+    - "Igniting sun"
+    - "Inventing funny launch messages"
+    - "Thanking TheBusyBiscuit"
+    - "Faking Moon landings"
+    - "Taking one small step"
+    - "Going Boomer"
+    - "Not going home"
+
+launch-pad:
+  rocket-launching: "You cannot break the launchpad a rocket is launching on!"
+  needs-floors: "Surround this block with 8 launch pad floors before attempting to use it"
+
+atmosphere:
+  exposed: "You have been exposed to %effect%!"
+
+effect:
+  radiation: "Radiation"
+  heat: "Heat"
+  cold: "Cold"
+
+assembly-table:
+  not-enough-energy: "Not enough energy!"
+  charge: "Charge: %charge%/%required% J"
+
+knowledge:
+  must-be-on-planet: "You must be on a planet to use this!"
+  already-observing: "Already observing!"
+  observing: "Observing planet %planet%"
+  already-analyzing: "Already analyzing!"
+  analyzing: "Analyzing planet %planet%"
+
+forcefield:
+  activated: "Activated"
+  deactivated: "Deactivated"
+
+stargate:
+  deactivate-first: "Deactivate the Stargate before destroying it"
+  not-assembled: "The Stargate is not assembled!"
+  activated: "Stargate activated!"
+  address: "Address (click to copy): %address%"
+  enter-destination: "Type in the destination address"
+  no-destination: "No destination found!"
+  not-lit: "The Stargate is not lit for some reason..."
+  destination-set: "Set Stargate destination to %x% %y% %z% in %world%"
+  destination-not-activated: "The destination Stargate is not activated"
+  destination-blocked: "The destination is blocked"
+
+commands:
+  invalid-uuid: "Invalid UUID!"
+  invalid-world: "Invalid World!"
+  not-in-galactifun-world: "You must be in a Galactifun world to execute this command"
+  effect-level: "Effect: %effect%, Level: %level%"
+
+sealed:
+  usage: "Usage: /galactifun sealed <range>"
+  range-out-of-bounds: "Range must be an integer between 1 and %max%"
+  sealed: "Sealed"
+  not-sealed: "Not sealed"
+
+structure:
+  save-usage: "Usage: /galactifun save <name>"
+  pos1-not-set: "pos1 not set!"
+  pos2-not-set: "pos2 not set!"
+  saved: "Saved as '%name%'!"
+  save-failed: "Error saving file! Check the console!"
+  must-target-block: "You must target a block!"
+  position: "%coords% in %world%"
+  pos1-set: "Set pos1 to %position%"
+  pos2-set: "Set pos2 to %position%"
+  paste-usage: "Usage: /galactifun paste <name>"
+  unknown: "Unknown structure '%name%'!"
+  pasted: "Pasted!"
+
+world:
+  out-of-oxygen: "You have run out of oxygen!"
+  respawn-point-set: "Respawn point set"
+  respawn-loop-detected: "A possible respawn loop has been detected!"
+  respawn-loop-question: "Do you wish to go back to Earth? (%yes%/%no%)"
+  affirmative: "yes"
+  negative: "no"

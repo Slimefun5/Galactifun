@@ -13,6 +13,7 @@ import org.bukkit.entity.Player;
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
 import io.github.addoncommunity.galactifun.base.items.knowledge.KnowledgeLevel;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import io.github.thebusybiscuit.slimefun5.libraries.paperlib.PaperLib;
 
@@ -38,7 +39,7 @@ public final class GalactiportCommand extends SubCommand {
         World world = Bukkit.getWorld(strings[0]);
 
         if (world == null) {
-            p.sendMessage(ChatColor.RED + "Invalid World!");
+            Messages.send(p, ChatColor.RED, "commands.invalid-world", "Invalid World!");
             return;
         }
 

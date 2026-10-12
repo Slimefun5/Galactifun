@@ -64,6 +64,7 @@ import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
 import io.github.addoncommunity.galactifun.base.BaseUniverse;
 import io.github.addoncommunity.galactifun.base.universe.earth.Earth;
 import io.github.addoncommunity.galactifun.util.ChunkStorage;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.common.Events;
 import io.github.mooy1.infinitylib.common.Scheduler;
 import io.github.thebusybiscuit.slimefun5.api.events.ExplosiveToolBreakBlocksEvent;
@@ -153,7 +154,7 @@ public final class WorldManager implements Listener {
                         && !Galactifun.protectionManager().isOxygenBlock(p.getLocation())
                         && !SpaceSuitProfile.get(p).consumeOxygen(20)
                         && !p.isDead()) {
-                    p.sendMessage(ChatColor.RED + "You have run out of oxygen!");
+                    Messages.send(p, ChatColor.RED, "world.out-of-oxygen", "You have run out of oxygen!");
                     double damage = oxygenDamage.merge(p.getUniqueId(), 2L, (a, b) -> a * b);
                     p.setHealth(Math.max(p.getHealth() - damage, 0));
                 } else {
@@ -354,7 +355,7 @@ public final class WorldManager implements Listener {
         if (b != null && Tag.BEDS.isTagged(b.getType())) {
             e.setCancelled(true);
             p.setBedSpawnLocation(p.getLocation(), true);
-            p.sendMessage("Respawn point set");
+            Messages.send(p, "world.respawn-point-set", "Respawn point set");
         }
     }
 
@@ -377,9 +378,12 @@ public final class WorldManager implements Listener {
                 if (timeSince < (60 * 1000)) {
                     int times = this.respawnTimes.merge(p.getUniqueId(), 1, Integer::sum);
                     if (times > 3) {
-                        p.sendMessage(ChatColor.YELLOW + "A possible respawn loop has been detected!\nDo you wish to go back to Earth? (yes/no)");
+                        Messages.send(p, ChatColor.YELLOW, "world.respawn-loop-detected", "A possible respawn loop has been detected!");
+                        Messages.send(p, ChatColor.YELLOW, "world.respawn-loop-question", "Do you wish to go back to Earth? (%yes%/%no%)",
+                                line -> line.replace("%yes%", Messages.get(p, "world.affirmative", "yes"))
+                                        .replace("%no%", Messages.get(p, "world.negative", "no")));
                         ChatUtils.awaitInput(p, s -> {
-                            if (s.equalsIgnoreCase("yes")) {
+                            if (Messages.isAffirmative(p, s)) {
                                 PaperLib.teleportAsync(p, BaseUniverse.EARTH.world().getSpawnLocation());
                                 WorldManager.this.respawnTimes.remove(p.getUniqueId());
                             }

@@ -19,6 +19,7 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.core.CoreItemGroup;
 import io.github.addoncommunity.galactifun.util.BSUtils;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.api.recipes.RecipeType;
@@ -72,10 +73,10 @@ public final class ForcefieldGenerator extends SlimefunItem implements EnergyNet
             Player p = e.getPlayer();
             if (BSUtils.getStoredBoolean(b, ACTIVE)) {
                 deactivate(b);
-                p.sendMessage("Deactivated");
+                Messages.send(p, "forcefield.deactivated", "Deactivated");
             } else {
                 activate(b);
-                p.sendMessage("Activated");
+                Messages.send(p, "forcefield.activated", "Activated");
             }
         });
     }

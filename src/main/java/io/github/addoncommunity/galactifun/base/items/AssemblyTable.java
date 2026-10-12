@@ -15,6 +15,7 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.base.BaseItems;
 import io.github.addoncommunity.galactifun.core.CoreItemGroup;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.machines.CraftingBlock;
 import io.github.mooy1.infinitylib.machines.MachineLayout;
 import io.github.mooy1.infinitylib.machines.MachineRecipeType;
@@ -90,8 +91,10 @@ public final class AssemblyTable extends CraftingBlock implements EnergyNetCompo
         int charge = getCharge(menu.getLocation());
         if (charge < this.energy) {
             p.sendMessage(
-                    ChatColor.RED + "Not enough energy!\n" +
-                    ChatColor.GREEN + "Charge: " + ChatColor.RED + charge + ChatColor.GREEN + "/" + this.energy + " J"
+                    ChatColor.RED + Messages.get(p, "assembly-table.not-enough-energy", "Not enough energy!") + "\n" +
+                    ChatColor.GREEN + Messages.get(p, "assembly-table.charge", "Charge: %charge%/%required% J")
+                            .replace("%charge%", ChatColor.RED + String.valueOf(charge) + ChatColor.GREEN)
+                            .replace("%required%", String.valueOf(this.energy))
             );
         }
         else {

@@ -12,6 +12,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.addoncommunity.galactifun.util.Util;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.blocks.BlockPosition;
@@ -27,21 +28,22 @@ public final class SealedCommand extends SubCommand {
         if (!(commandSender instanceof Player)) return;
         Player p = (Player) commandSender;
         if (strings.length != 1) {
-            p.sendMessage(ChatColor.RED + "Usage: /galactifun sealed <range>");
+            Messages.send(p, ChatColor.RED, "sealed.usage", "Usage: /galactifun sealed <range>");
             return;
         }
 
+        int maxRange = Galactifun.instance().getConfig().getInt("other.sealed-command-max-range");
         int range;
 
         try {
             range = Integer.parseInt(strings[0]);
         } catch (NumberFormatException e) {
-            p.sendMessage(ChatColor.RED + "Range must be an integer between 1 and " + Galactifun.instance().getConfig().getInt("other.sealed-command-max-range"));
+            sendRangeError(p, maxRange);
             return;
         }
 
-        if (range < 1 || range > Galactifun.instance().getConfig().getInt("other.sealed-command-max-range")) {
-            p.sendMessage(ChatColor.RED + "Range must be an integer between 1 and " + Galactifun.instance().getConfig().getInt("other.sealed-command-max-range"));
+        if (range < 1 || range > maxRange) {
+            sendRangeError(p, maxRange);
             return;
         }
 
@@ -49,12 +51,17 @@ public final class SealedCommand extends SubCommand {
         Optional<Set<BlockPosition>> filled = Util.floodFill(p.getLocation(), range);
 
         if (filled.isPresent()) {
-            p.sendMessage("Sealed");
+            Messages.send(p, "sealed.sealed", "Sealed");
         } else {
-            p.sendMessage("Not sealed");
+            Messages.send(p, "sealed.not-sealed", "Not sealed");
         }
 
         p.sendMessage(Util.timeSince(time));
+    }
+
+    private static void sendRangeError(@Nonnull Player p, int maxRange) {
+        Messages.send(p, ChatColor.RED, "sealed.range-out-of-bounds", "Range must be an integer between 1 and %max%",
+                line -> line.replace("%max%", String.valueOf(maxRange)));
     }
 
     @Override

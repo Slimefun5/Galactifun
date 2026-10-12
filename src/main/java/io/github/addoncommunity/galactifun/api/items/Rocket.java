@@ -1,6 +1,8 @@
 package io.github.addoncommunity.galactifun.api.items;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -45,6 +47,7 @@ import io.github.addoncommunity.galactifun.base.items.knowledge.KnowledgeLevel;
 import io.github.addoncommunity.galactifun.core.WorldSelector;
 import io.github.addoncommunity.galactifun.core.managers.WorldManager;
 import io.github.addoncommunity.galactifun.util.BSUtils;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.addoncommunity.galactifun.util.Util;
 import io.github.mooy1.infinitylib.common.PersistentType;
 import io.github.mooy1.infinitylib.common.Scheduler;
@@ -71,6 +74,26 @@ import net.kyori.adventure.text.format.NamedTextColor;
 public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
 
     public static final NamespacedKey CARGO_KEY = new NamespacedKey("galactifun", "cargo");
+
+    /**
+     * The launch messages this addon ships, which double as the English source of the translated
+     * list in {@code messages.yml}.
+     *
+     * @implNote A server that has edited {@code rockets.launch-msgs} gets its own wording verbatim:
+     *           a translation can only stand in for a line the operator did not replace.
+     */
+    private static final List<String> DEFAULT_LAUNCH_MESSAGES = Collections.unmodifiableList(Arrays.asList(
+            "Forgetting parachutes",
+            "Restocking snack bin",
+            "Aligning planets",
+            "Igniting sun",
+            "Inventing funny launch messages",
+            "Thanking TheBusyBiscuit",
+            "Faking Moon landings",
+            "Taking one small step",
+            "Going Boomer",
+            "Not going home"
+    ));
 
     // todo Move static to some sort of RocketManager
     private static final List<String> LAUNCH_MESSAGES = Galactifun.instance().getConfig().getStringList("rockets.launch-msgs");
@@ -113,7 +136,7 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
             public void onPlayerBreak(BlockBreakEvent e, ItemStack itemStack, List<ItemStack> list) {
                 if (Boolean.parseBoolean(BlockStorage.getLocationInfo(e.getBlock().getLocation(), "isLaunching"))) {
                     e.setCancelled(true);
-                    e.getPlayer().sendMessage(ChatColor.RED + "The rocket is currently launching!");
+                    Messages.send(e.getPlayer(), ChatColor.RED, "rocket.currently-launching", "The rocket is currently launching!");
                 }
             }
         });
@@ -123,20 +146,20 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
         if (!BlockStorage.check(b, this.getId())) return;
 
         if (BSUtils.getStoredBoolean(b.getLocation(), "isLaunching")) {
-            p.sendMessage(ChatColor.RED + "The rocket is already launching!");
+            Messages.send(p, ChatColor.RED, "rocket.already-launching", "The rocket is already launching!");
             return;
         }
 
         WorldManager worldManager = Galactifun.worldManager();
         PlanetaryWorld currentWorld = worldManager.getWorld(p.getWorld());
         if (currentWorld == null) {
-            p.sendMessage(ChatColor.RED + "You cannot travel to space from this world!");
+            Messages.send(p, ChatColor.RED, "rocket.not-from-this-world", "You cannot travel to space from this world!");
             return;
         }
 
         int fuel = BSUtils.getStoredInt(b.getLocation(), "fuel");
         if (fuel == 0) {
-            p.sendMessage(ChatColor.RED + "The rocket has no fuel!");
+            Messages.send(p, ChatColor.RED, "rocket.no-fuel", "The rocket has no fuel!");
             return;
         }
 
@@ -163,7 +186,7 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
         }, (player, destination) -> {
             player.closeInventory();
             int usedFuel = (int) Math.ceil(destination.distanceTo(currentWorld) / (DISTANCE_PER_FUEL * eff));
-            p.sendMessage(ChatColor.YELLOW + "Please enter destination coordinates in the form of <x> <z> (i.e. -123 456) or type in anything else to cancel:");
+            Messages.send(p, ChatColor.YELLOW, "rocket.enter-coordinates", "Please enter destination coordinates in the form of <x> <z> (i.e. -123 456) or type in anything else to cancel:");
             ChatUtils.awaitInput(p, s -> {
                 if (Util.COORD_PATTERN.matcher(s).matches()) {
                     String[] coords = Util.SPACE_PATTERN.split(s);
@@ -175,9 +198,9 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
                     );
                     destBlock.getChunk().load();
                     if (!destBlock.getWorld().getWorldBorder().isInside(destBlock.getLocation())) {
-                        p.sendMessage(ChatColor.RED + "Destination is outside of world border");
+                        Messages.send(p, ChatColor.RED, "rocket.outside-world-border", "Destination is outside of world border");
                     } else if (!Slimefun.getProtectionManager().hasPermission(p, destBlock, Interaction.PLACE_BLOCK)) {
-                        p.sendMessage(ChatColor.RED + "You do not have permission to land there");
+                        Messages.send(p, ChatColor.RED, "rocket.no-landing-permission", "You do not have permission to land there");
                     } else {
                         Block down = destBlock.getRelative(BlockFace.DOWN);
                         if (down.getType() == MaterialCompat.safe(XMaterial.CHEST)) {
@@ -194,7 +217,7 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
                         );
                     }
                 } else {
-                    p.sendMessage(ChatColor.RED + "Launch cancelled");
+                    Messages.send(p, ChatColor.RED, "rocket.launch-cancelled", "Launch cancelled");
                 }
             });
         }).open(p);
@@ -221,13 +244,13 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
             }
         }.runTaskTimer(Galactifun.instance(), 0, 10);
 
-        RandomizedSet<String> launchMessages = new RandomizedSet<>(LAUNCH_MESSAGES);
+        RandomizedSet<String> launchMessages = new RandomizedSet<>(launchMessages(p));
         sendLaunchMessage(40, p, launchMessages);
         sendLaunchMessage(80, p, launchMessages);
         sendLaunchMessage(120, p, launchMessages);
         sendLaunchMessage(160, p, launchMessages);
         Scheduler.run(200, () -> {
-            p.sendMessage(ChatColor.YELLOW + "Verifying blast awesomeness...");
+            Messages.send(p, ChatColor.YELLOW, "rocket.verifying-blast", "Verifying blast awesomeness...");
             Chest chest = (Chest) PaperLib.getBlockState(destBlock, false).getState();
             Inventory inv = chest.getBlockInventory();
             inv.addItem(fuelLeft);
@@ -289,6 +312,15 @@ public abstract class Rocket extends SlimefunItem implements RecipeDisplayItem {
             rocket.setType(MaterialCompat.safe(XMaterial.AIR));
             BlockStorage.clearBlockInfo(rocket);
         });
+    }
+
+    @Nonnull
+    private static List<String> launchMessages(@Nonnull Player p) {
+        if (LAUNCH_MESSAGES.equals(DEFAULT_LAUNCH_MESSAGES)) {
+            return Messages.getList(p, "rocket.launch-messages", DEFAULT_LAUNCH_MESSAGES);
+        }
+
+        return LAUNCH_MESSAGES;
     }
 
     private static void sendLaunchMessage(int delay, Player p, RandomizedSet<String> choices) {

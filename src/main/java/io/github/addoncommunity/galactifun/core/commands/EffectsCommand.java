@@ -12,6 +12,7 @@ import org.bukkit.entity.Player;
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.AtmosphericEffect;
 import io.github.addoncommunity.galactifun.api.worlds.PlanetaryWorld;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 
 public final class EffectsCommand extends SubCommand {
@@ -27,15 +28,14 @@ public final class EffectsCommand extends SubCommand {
 
         PlanetaryWorld world = Galactifun.worldManager().getWorld(p.getWorld());
         if (world == null) {
-            p.sendMessage(ChatColor.RED + "You must be in a Galactifun world to execute this command");
+            Messages.send(p, ChatColor.RED, "commands.not-in-galactifun-world", "You must be in a Galactifun world to execute this command");
             return;
         }
 
         for (Map.Entry<AtmosphericEffect, Integer> entry : Galactifun.protectionManager().getEffectsAt(p.getLocation()).entrySet()) {
-            p.sendMessage(ChatColor.YELLOW + String.format("Effect: %s, Level: %d",
-                    entry.getKey().toString(),
-                    entry.getValue()
-            ));
+            Messages.send(p, ChatColor.YELLOW, "commands.effect-level", "Effect: %effect%, Level: %level%",
+                    line -> line.replace("%effect%", entry.getKey().name(p))
+                            .replace("%level%", String.valueOf(entry.getValue())));
         }
     }
 

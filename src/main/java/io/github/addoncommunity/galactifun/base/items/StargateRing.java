@@ -9,6 +9,7 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
 import io.github.addoncommunity.galactifun.util.BSUtils;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.thebusybiscuit.slimefun5.api.items.ItemGroup;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
@@ -26,7 +27,7 @@ public final class StargateRing extends SlimefunItem {
             public void onPlayerBreak(BlockBreakEvent e, ItemStack item, List<ItemStack> drops) {
                 if (BSUtils.getStoredBoolean(e.getBlock().getLocation(), "locked")) {
                     e.setCancelled(true);
-                    e.getPlayer().sendMessage(ChatColor.RED + "Deactivate the Stargate before destroying it");
+                    Messages.send(e.getPlayer(), ChatColor.RED, "stargate.deactivate-first", "Deactivate the Stargate before destroying it");
                 }
             }
         });

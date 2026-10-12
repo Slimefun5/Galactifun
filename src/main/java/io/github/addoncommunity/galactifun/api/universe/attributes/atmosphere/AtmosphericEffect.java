@@ -1,6 +1,7 @@
 package io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.function.BiConsumer;
@@ -17,6 +18,7 @@ import org.bukkit.potion.PotionEffectType;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.primitives.Ints;
 import io.github.addoncommunity.galactifun.api.items.spacesuit.SpaceSuitStat;
+import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.thebusybiscuit.slimefun5.utils.ChatUtils;
 
 /**
@@ -87,9 +89,18 @@ public final class AtmosphericEffect {
 
     public void apply(@Nonnull Player p, int level) {
         if (level > 0) {
-            p.sendMessage(ChatColor.RED + "You have been exposed to " + this + "!");
+            Messages.send(p, ChatColor.RED, "atmosphere.exposed", "You have been exposed to %effect%!",
+                    line -> line.replace("%effect%", name(p)));
             this.applier.accept(p, level);
         }
+    }
+
+    /**
+     * This effect's name in the viewer's own language, for a message or command output that names it.
+     */
+    @Nonnull
+    public String name(@Nullable Player p) {
+        return Messages.get(p, "effect." + this.id.toLowerCase(Locale.ROOT), toString());
     }
 
     @Override
