@@ -1,338 +1,637 @@
 ADVANCED_PROCESSING_UNIT:
+  name: '&4고급 처리 유닛'
   type:
   - '&7&o부품'
 AIR_FILTER:
+  name: '&f필터'
   type:
   - '&7&o부품'
 ALUMINUM_COMPOSITE:
+  description:
+  - '&7이 재료의 이름을 짓는 데 얼마나'
+  - '&7오래 걸렸는지 상상도 못 할 겁니다'
+  name: '&f알루미늄 복합재'
   type:
   - '&7&o부품'
 ALUMINUM_COMPOSITE_SHEET:
+  name: '&f알루미늄 복합 판재'
   type:
   - '&7&o부품'
 ASSEMBLY_TABLE:
+  description:
+  - '&7여러 가지를 조립하는 데 사용합니다'
+  name: '&f조립대'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/제작'
   type:
   - '&7&o기계'
 ATMOSPHERIC_GAS_AMMONIA:
+  name: '&f암모니아 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_ARGON:
+  name: '&f아르곤 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&f이산화탄소 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_HELIUM:
+  name: '&f헬륨 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&f탄화수소 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&f수소 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_METHANE:
+  name: '&f메탄 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_NITROGEN:
+  name: '&f질소 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_OXYGEN:
+  name: '&f산소 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_GAS_WATER:
+  name: '&f수증기 가스 캐니스터'
   type:
   - '&7&o자원'
 ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7대기에서 가스를 수집합니다'
+  name: '&f대기 수확기'
   stats:
   - '&8⇨ &e⚡ &764 J/초'
   - '&8⇨ &e⚡ &7128 J 버퍼'
   type:
   - '&7&o기계'
 AUTOMATIC_DOOR:
+  description:
+  - '&7다가가거나 멀어질 때 안쪽 블록을'
+  - '&7자동으로 설치하고 제거합니다'
+  name: '&f자동문'
   type:
   - '&7&o기계'
 BLISTERING_VOLCANIC_INGOT:
+  name: '&6작열하는 화산 주괴'
   type:
   - '&7&o자원'
 BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7널패 광양태 된래오 주아'
+  name: '&7유물: 널패 광양태 난장고'
   type:
   - '&7&o기타'
 CHEMICAL_REACTOR:
+  description:
+  - '&7화학 물질을 반응시켜'
+  - '&7새로운 물질을 만듭니다'
+  name: '&f화학 반응로'
   stats:
   - '&8⇨ &e⚡ &7256 J/초'
   - '&8⇨ &e⚡ &7512 J 버퍼'
   type:
   - '&7&o기계'
 CIRCUIT_PRESS:
+  description:
+  - '&7회로를 만듭니다'
+  name: '&f회로 압착기'
   stats:
   - '&8⇨ &e⚡ &7512 J 버퍼'
   - '&8⇨ &e⚡ &7256 J/초'
   type:
   - '&7&o기계'
 COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8우주복에 추가하면 냉기 저항이 올라갑니다'
+  name: '&7냉기 저항 업그레이드'
   type:
   - '&7&o부품'
 COMPUTER_RELIC:
+  description:
+  - '&7다있 수 할산계 게르빠 씬훨'
+  - '&7다보터퓨컴 반일 는터퓨컴 자양'
+  name: '&f유물: 터퓨컴 자양'
   type:
   - '&7&o기타'
 COOLING_UNIT_1:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역을 수동적으로 식혀 열 노출을 줄입니다'
+  name: '&b냉각 유닛 I'
+  stats:
+  - '&7효과: 열'
+  - '&7보호: 2'
+  - '&7범위: 1000 블록'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J 버퍼'
   type:
   - '&7&o기계'
 COOLING_UNIT_2:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역을 수동적으로 식혀 열 노출을 줄입니다'
+  name: '&b냉각 유닛 II'
+  stats:
+  - '&7효과: 열'
+  - '&7보호: 4'
+  - '&7범위: 1500 블록'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J 버퍼'
   type:
   - '&7&o기계'
 COOLING_UNIT_3:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역을 수동적으로 식혀 열 노출을 줄입니다'
+  name: '&b냉각 유닛 III'
+  stats:
+  - '&7효과: 열'
+  - '&7보호: 6'
+  - '&7범위: 2000 블록'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J 버퍼'
   type:
   - '&7&o기계'
 DIAMOND_ANVIL:
+  description:
+  - '&7재료를 너무 세게 압축해서'
+  - '&7완전히 다른 것이 되어 버립니다'
+  name: '&f다이아몬드 모루'
   stats:
   - '&8⇨ &e⚡ &71024 J/초'
   - '&8⇨ &e⚡ &72048 J 버퍼'
   type:
   - '&7&o기계'
 DIAMOND_ANVIL_CELL:
+  name: '&b다이아몬드 모루 셀'
   type:
   - '&7&o부품'
 DIAMOND_CIRCUIT:
+  name: '&7다이아몬드 회로'
   type:
   - '&7&o부품'
 DRY_ICE:
+  name: '&b드라이아이스'
   type:
   - '&7&o자원'
 ELECTROLYZER:
+  description:
+  - '&7전기로 화학 물질을'
+  - '&7구성 성분으로 분해합니다'
+  name: '&f전기분해기'
   stats:
   - '&8⇨ &e⚡ &7256 J/초'
   - '&8⇨ &e⚡ &7512 J 버퍼'
   type:
   - '&7&o기계'
 ENDER_BLOCK:
+  name: '&3엔더 블록'
   type:
   - '&7&o부품'
 ENGINE_RELIC:
+  description:
+  - '&7다낸어밀 로으앞 를배'
+  - '&7해용사 를지너에 공진 은진엔 이'
+  name: '&f유물: 진엔 공진'
   type:
   - '&7&o기타'
 ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7공기는 통과하지 못하지만 엔티티는'
+  - '&7지나갈 수 있는 역장을 만듭니다'
+  name: '&f환경 역장 발생기'
   type:
   - '&7&o기계'
 FALLEN_METEOR:
+  description:
+  - '&7이 운석에는 텅스텐이 들어 있습니다'
+  name: '&4떨어진 운석'
   type:
   - '&7&o자원'
 FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7성위 진어떨 서에늘하'
+  name: '&7유물: 성위 한락추'
   type:
   - '&7&o기타'
 FAN_BLADE:
+  name: '&f팬 날개'
   type:
   - '&7&o부품'
 FUEL_TANK:
+  name: '&6연료 탱크'
   type:
   - '&7&o부품'
 FUEL_TANK_2:
+  name: '&6연료 탱크 2형'
   type:
   - '&7&o부품'
 FUSION_PELLET:
+  name: '&f핵융합 펠릿'
   type:
   - '&7&o부품'
 FUSION_REACTOR:
+  description:
+  - '&7레이저로 헬륨-3 펠릿을 융합하며'
+  - '&7그 과정에서 고래만큼 많은'
+  - '&7에너지를 생산합니다'
+  name: '&f핵융합로'
   stats:
   - '&8⇨ &e⚡ &765536 J/초'
   - '&8⇨ &e⚡ &765536 J 버퍼'
   type:
   - '&7&o발전기'
 GLOWSTONE_CIRCUIT:
+  name: '&7발광석 회로'
   type:
   - '&7&o부품'
 GOLD_FOIL:
+  name: '&6금박'
   type:
   - '&7&o부품'
 HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8우주복에 추가하면 열 저항이 올라갑니다'
+  name: '&7열 저항 업그레이드'
   type:
   - '&7&o부품'
 HEAVY_DUTY_SHEET:
+  name: '&f고강도 판재'
   type:
   - '&7&o부품'
 ION_DISPERSER_1:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역의 방사능을 수동적으로 분산시킵니다'
+  name: '&f이온 분산기 I'
+  stats:
+  - '&7효과: 방사능'
+  - '&7보호: 2'
+  - '&7범위: 1000 블록'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J 버퍼'
   type:
   - '&7&o기계'
 ION_DISPERSER_2:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역의 방사능을 수동적으로 분산시킵니다'
+  name: '&f이온 분산기 II'
+  stats:
+  - '&7효과: 방사능'
+  - '&7보호: 4'
+  - '&7범위: 1500 블록'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J 버퍼'
   type:
   - '&7&o기계'
 ION_ENGINE:
+  name: '&b이온 엔진'
   type:
   - '&7&o부품'
 ION_ROCKET:
+  description:
+  - '&7특수 엔진을 사용해 이온을'
+  - '&7엄청난 속도로 뿜어내며, 극도로'
+  - '&7높은 연료 효율을 냅니다'
+  name: '&b이온 로켓'
+  stats:
+  - '&7연료 용량: 500'
+  - '&7화물 용량: 18'
   type:
   - '&7&o멀티블록'
 LANDING_HATCH:
+  description:
+  - '&7로켓은 착륙할 때 이 블록을'
+  - '&7무시하고 그 아래의 가장 높은'
+  - '&7블록에 내려앉습니다. 공기는'
+  - '&7통과할 수 없는 블록으로 취급되어'
+  - '&7공간을 밀폐하는 데 쓸 수 있습니다'
+  name: '&f착륙 해치'
   type:
   - '&7&o기타'
 LAPIS_CIRCUIT:
+  name: '&7청금석 회로'
   type:
   - '&7&o부품'
 LASERITE:
+  name: '&c레이저라이트'
   type:
   - '&7&o자원'
 LASERITE_DUST:
+  description:
+  - '&7이름 짓기도 이제 한계입니다'
+  name: '&c레이저라이트 가루'
   type:
   - '&7&o자원'
 LASERITE_ORE:
+  name: '&c레이저라이트 광석'
   type:
   - '&7&o자원'
 LAUNCH_PAD_CORE:
+  name: '&f발사대 코어'
   type:
   - '&7&o멀티블록'
+  usage:
+  - '&7주위를 8개의 &f발사대 바닥&7으로 둘러싸야'
+  - '&7사용할 수 있습니다'
 LAUNCH_PAD_FLOOR:
+  description:
+  - '&7발사대를 지을 때 사용합니다'
+  name: '&f발사대 바닥'
   type:
   - '&7&o멀티블록'
 LIFE_SUPPORT_MODULE:
+  name: '&4생명 유지 모듈'
   type:
   - '&7&o부품'
 LUNAR_GLASS:
+  description:
+  - '&7웬일인지 유리에 달 가루를 넣으면'
+  - '&7더 투명해집니다...'
+  name: '&f달 유리'
   type:
   - '&7&o부품'
 MARS_DUST:
+  name: '&c화성 가루'
   type:
   - '&7&o자원'
 MARS_ROCK:
+  name: '&c화성 암석'
   type:
   - '&7&o자원'
 METHANE_ICE:
+  name: '&b메탄 얼음'
   type:
   - '&7&o자원'
 MOON_CHEESE:
+  description:
+  - '&7으윽'
+  name: '&6달 치즈'
+  stats:
+  - '&7허기 &b2 &7회복'
+  - '&7포만감 &b2.0 &7회복'
   type:
   - '&7&o음식'
+  usage:
+  - '&7설치하여 먹기'
 MOON_DUST:
+  name: '&7달 가루'
   type:
   - '&7&o자원'
 MOON_ROCK:
+  name: '&7달 암석'
   type:
   - '&7&o자원'
 MUNPOWDER:
+  description:
+  - '&7달의 화약'
+  name: '&7달화약'
   type:
   - '&7&o자원'
 NOSE_CONE:
+  name: '&f노즈콘'
   type:
   - '&7&o부품'
 NOZZLE:
+  name: '&f노즐'
   type:
   - '&7&o부품'
 OBSERVATORY:
+  description:
+  - '&7월드의 기본 정보를 원격으로'
+  - '&7알아낼 수 있습니다. 거리가'
+  - '&70.25 ly (2,365,200,000,000 km) 이내인 월드만 가능'
+  name: '&f천문대'
   type:
   - '&7&o장치'
 OXYGEN_FILLER:
+  description:
+  - '&7우주복에 산소를 채웁니다'
+  name: '&f산소 충전기'
   stats:
   - '&8⇨ &e⚡ &7100 J/초'
   - '&8⇨ &b⚡ &7속도: &b1.0배'
   type:
   - '&7&o기계'
 OXYGEN_REGENERATOR:
+  name: '&b산소 재생기'
   type:
   - '&7&o부품'
 OXYGEN_SEALER:
+  description:
+  - '&7밀폐된 영역을 산소로 채웁니다'
+  name: '&f산소 밀폐기'
+  stats:
+  - '&7범위: 1000 블록'
   type:
   - '&7&o기계'
 PLANETARY_ANALYZER:
+  description:
+  - '&7현재 행성의 고급 정보를'
+  - '&7알아낼 수 있습니다'
+  name: '&f행성 분석기'
   type:
   - '&7&o장치'
 RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8우주복에 추가하면 방사능 저항이 올라갑니다'
+  name: '&7방사능 저항 업그레이드'
   type:
   - '&7&o부품'
 REACTOR_RELIC:
+  description:
+  - '&7까을했각생 가누 고다있 수 을모'
+  - '&7를지너에 서에곳 는없 도것무아?'
+  name: '&f유물: 기전발 공진'
   type:
   - '&7&o기타'
 REDSTONE_CIRCUIT:
+  name: '&7레드스톤 회로'
   type:
   - '&7&o부품'
 REINFORCED_CHANNEL:
+  name: '&f강화 채널'
   type:
   - '&7&o부품'
 ROCKET_ENGINE:
+  name: '&f로켓 엔진'
   type:
   - '&7&o부품'
 ROCKET_ENGINE_2:
+  name: '&f로켓 엔진 2형'
   type:
   - '&7&o부품'
 ROCKET_ENGINE_3:
+  name: '&f로켓 엔진 3형'
   type:
   - '&7&o부품'
 ROCKET_TIER_ONE:
+  name: '&4화학 로켓 티어 1'
+  stats:
+  - '&7연료 용량: 10'
+  - '&7화물 용량: 9'
   type:
   - '&7&o멀티블록'
 ROCKET_TIER_THREE:
+  name: '&4화학 로켓 티어 3'
+  stats:
+  - '&7연료 용량: 500'
+  - '&7화물 용량: 36'
   type:
   - '&7&o멀티블록'
 ROCKET_TIER_TWO:
+  name: '&4화학 로켓 티어 2'
+  stats:
+  - '&7연료 용량: 100'
+  - '&7화물 용량: 18'
   type:
   - '&7&o멀티블록'
 SPACE_GRADE_PLATE:
+  name: '&f우주급 판'
   type:
   - '&7&o부품'
 SPACE_HEATER_1:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역을 수동적으로 따뜻하게 해 냉기 노출을 줄입니다'
+  name: '&6우주 난방기 I'
+  stats:
+  - '&7효과: 냉기'
+  - '&7보호: 2'
+  - '&7범위: 1000 블록'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J 버퍼'
   type:
   - '&7&o기계'
 SPACE_HEATER_2:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역을 수동적으로 따뜻하게 해 냉기 노출을 줄입니다'
+  name: '&6우주 난방기 II'
+  stats:
+  - '&7효과: 냉기'
+  - '&7보호: 4'
+  - '&7범위: 1500 블록'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J 버퍼'
   type:
   - '&7&o기계'
 SPACE_HEATER_3:
+  description:
+  - '&7전력이 공급되는 동안 주변 영역을 수동적으로 따뜻하게 해 냉기 노출을 줄입니다'
+  name: '&6우주 난방기 III'
+  stats:
+  - '&7효과: 냉기'
+  - '&7보호: 6'
+  - '&7범위: 2000 블록'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J 버퍼'
   type:
   - '&7&o기계'
 SPACE_SUIT_BOOTS:
+  description:
+  - '&7기본 우주복 부츠 한 켤레'
+  name: '&f우주복 부츠'
   type:
   - '&7&o갑옷'
 SPACE_SUIT_CHEST:
+  description:
+  - '&7기본 우주복 흉갑'
+  name: '&f우주복 흉갑'
   type:
   - '&7&o갑옷'
 SPACE_SUIT_HELMET:
+  description:
+  - '&7기본 우주복 투구'
+  name: '&f우주복 투구'
   type:
   - '&7&o갑옷'
   usage:
   - '&e우클릭&7하여 사용'
 SPACE_SUIT_PANTS:
+  description:
+  - '&7기본 우주복 바지 한 벌'
+  name: '&f우주복 바지'
   type:
   - '&7&o갑옷'
 SPACE_SUIT_UPGRADER:
+  description:
+  - '&7우주복에 업그레이드를 추가합니다'
+  name: '&f우주복 개선기'
   stats:
   - '&8⇨ &e⚡ &7200 J/초'
   - '&8⇨ &b⚡ &7속도: &b1.0배'
   type:
   - '&7&o기계'
 SPARK_PLUG:
+  name: '&f점화 플러그'
   type:
   - '&7&o부품'
 SPARK_PLUG_2:
+  name: '&f점화 플러그 2형'
   type:
   - '&7&o부품'
 STARGATE_CONTROLLER:
+  description:
+  - '&7스타게이트를 제어하는 데 사용합니다'
+  name: '&9스타게이트 제어기'
   type:
   - '&7&o멀티블록'
 STARGATE_RING:
+  description:
+  - '&7스타게이트를 짓는 데 사용합니다'
+  name: '&9스타게이트 고리'
   type:
   - '&7&o멀티블록'
 SULFUR_BLOCK:
+  name: '&6황 블록'
   type:
   - '&7&o자원'
 SUPER_FAN:
+  description:
+  - '&7밀폐 영역이 필요한 블록 옆에'
+  - '&7설치하면 범위가 15% 늘어납니다'
+  name: '&7슈퍼 송풍기'
   type:
   - '&7&o기타'
 TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7유물에서 회수할 수 있는 것은 모두 회수합니다'
+  name: '&f기술 회수기'
   stats:
   - '&8⇨ &e⚡ &764 J/초'
   - '&8⇨ &e⚡ &764 J 버퍼'
   type:
   - '&7&o기계'
 TUNGSTEN_CARBIDE:
+  name: '&7탄화 텅스텐'
   type:
   - '&7&o자원'
 TUNGSTEN_INGOT:
+  description:
+  - '&7화성인에게 강화 판을 건네거나'
+  - '&7떨어진 운석을 제련해서 얻는'
+  - '&7튼튼한 금속입니다'
+  name: '&b텅스텐 주괴'
   type:
   - '&7&o자원'
 ULTRA_DUTY_SHEET:
+  name: '&f초고강도 판재'
   type:
   - '&7&o부품'
 VENTSTONE:
+  name: '&6분출암'
   type:
   - '&7&o자원'
 VOLCANIC_INGOT:
+  description:
+  - '&7우리가 아는 지옥에 가장 가까운'
+  - '&7곳의 깊은 데서 단련된 화산 주괴는'
+  - '&7값비싼 물건입니다'
+  name: '&4화산 주괴'
   type:
   - '&7&o자원'
