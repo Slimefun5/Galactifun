@@ -1,0 +1,637 @@
+ADVANCED_PROCESSING_UNIT:
+  name: '&4高度処理ユニット'
+  type:
+  - '&7&oコンポーネント'
+AIR_FILTER:
+  name: '&fフィルター'
+  type:
+  - '&7&oコンポーネント'
+ALUMINUM_COMPOSITE:
+  description:
+  - '&7この素材の名前を考えるのに'
+  - '&7どれだけ時間がかかったか、想像もつかないだろう'
+  name: '&fアルミニウム複合材'
+  type:
+  - '&7&oコンポーネント'
+ALUMINUM_COMPOSITE_SHEET:
+  name: '&fアルミニウム複合板'
+  type:
+  - '&7&oコンポーネント'
+ASSEMBLY_TABLE:
+  description:
+  - '&7様々なものを作るのに使用'
+  name: '&f組立台'
+  stats:
+  - '&8⇨ &e⚡ &72048 J/クラフト'
+  type:
+  - '&7&o機械'
+ATMOSPHERIC_GAS_AMMONIA:
+  name: '&fアンモニアガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_ARGON:
+  name: '&fアルゴンガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_CARBON_DIOXIDE:
+  name: '&f二酸化炭素ガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_HELIUM:
+  name: '&fヘリウムガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_HYDROCARBONS:
+  name: '&f炭化水素ガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_HYDROGEN:
+  name: '&f水素ガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_METHANE:
+  name: '&fメタンガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_NITROGEN:
+  name: '&f窒素ガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_OXYGEN:
+  name: '&f酸素ガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_GAS_WATER:
+  name: '&f水ガスボンベ'
+  type:
+  - '&7&o資源'
+ATMOSPHERIC_HARVESTER:
+  description:
+  - '&7大気からガスを採取する'
+  name: '&f大気採取機'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &7128 J バッファ'
+  type:
+  - '&7&o機械'
+AUTOMATIC_DOOR:
+  description:
+  - '&7内部のブロックを自動で設置'
+  - '&7または撤去する'
+  name: '&f自動ドア'
+  type:
+  - '&7&o機械'
+BLISTERING_VOLCANIC_INGOT:
+  name: '&6灼熱の火山インゴット'
+  type:
+  - '&7&o資源'
+BROKEN_SOLAR_PANEL_RELIC:
+  description:
+  - '&7''Lenap ayanhcenlos ayarats ''nehco'
+  name: '&7遺物: ''Lenap Ayanhcenlos Ayanamolop'
+  type:
+  - '&7&oその他'
+CHEMICAL_REACTOR:
+  description:
+  - '&7化学物質を反応させ'
+  - '&7新しい物質を作り出す'
+  name: '&f化学反応炉'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J バッファ'
+  type:
+  - '&7&o機械'
+CIRCUIT_PRESS:
+  description:
+  - '&7回路を作成する'
+  name: '&f回路プレス機'
+  stats:
+  - '&8⇨ &e⚡ &7512 J バッファ'
+  - '&8⇨ &e⚡ &7256 J/s'
+  type:
+  - '&7&o機械'
+COLD_RESISTANCE_UPGRADE:
+  description:
+  - '&8宇宙服に追加して耐寒性を上げる'
+  name: '&7耐寒アップグレード'
+  type:
+  - '&7&oコンポーネント'
+COMPUTER_RELIC:
+  description:
+  - '&7Aretupmoc eyenhcybo mehc eyertsyb ogonman'
+  - '&7einelsihcsar ''taled tugom aretuypmok eyntnavk'
+  name: '&f遺物: Retuypmok Yyntnavk'
+  type:
+  - '&7&oその他'
+COOLING_UNIT_1:
+  description:
+  - '&7稼働中は周囲を自動で冷却し、熱への被曝を軽減する'
+  name: '&b冷却ユニットI'
+  stats:
+  - '&7効果: 熱'
+  - '&7防護: 2'
+  - '&7範囲: 1000ブロック'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J バッファ'
+  type:
+  - '&7&o機械'
+COOLING_UNIT_2:
+  description:
+  - '&7稼働中は周囲を自動で冷却し、熱への被曝を軽減する'
+  name: '&b冷却ユニットII'
+  stats:
+  - '&7効果: 熱'
+  - '&7防護: 4'
+  - '&7範囲: 1500ブロック'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J バッファ'
+  type:
+  - '&7&o機械'
+COOLING_UNIT_3:
+  description:
+  - '&7稼働中は周囲を自動で冷却し、熱への被曝を軽減する'
+  name: '&b冷却ユニットIII'
+  stats:
+  - '&7効果: 熱'
+  - '&7防護: 6'
+  - '&7範囲: 2000ブロック'
+  - '&8⇨ &e⚡ &73072 J/s'
+  - '&8⇨ &e⚡ &76144 J バッファ'
+  type:
+  - '&7&o機械'
+DIAMOND_ANVIL:
+  description:
+  - '&7素材を極限まで圧縮し'
+  - '&7全く別のものへと変える'
+  name: '&fダイヤモンドアンビル'
+  stats:
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J バッファ'
+  type:
+  - '&7&o機械'
+DIAMOND_ANVIL_CELL:
+  name: '&bダイヤモンドアンビルセル'
+  type:
+  - '&7&oコンポーネント'
+DIAMOND_CIRCUIT:
+  name: '&7ダイヤモンド回路'
+  type:
+  - '&7&oコンポーネント'
+DRY_ICE:
+  name: '&bドライアイス'
+  type:
+  - '&7&o資源'
+ELECTROLYZER:
+  description:
+  - '&7電気を使って'
+  - '&7化学物質を成分に分解する'
+  name: '&f電気分解装置'
+  stats:
+  - '&8⇨ &e⚡ &7256 J/s'
+  - '&8⇨ &e⚡ &7512 J バッファ'
+  type:
+  - '&7&o機械'
+ENDER_BLOCK:
+  name: '&3エンダーブロック'
+  type:
+  - '&7&oコンポーネント'
+ENGINE_RELIC:
+  description:
+  - '&7Dorepv ''lbarok ''tagivd yboths amukav'
+  - '&7uyigrene teuz''lopsi ''letagivd tote'
+  name: '&f遺物: ''Letagivd Yynmukav'
+  type:
+  - '&7&oその他'
+ENVIRONMENTAL_FORCEFIELD_GENERATOR:
+  description:
+  - '&7空気を通さない'
+  - '&7フォースフィールドを発生させるが、エンティティは通す'
+  name: '&f環境フォースフィールド発生装置'
+  type:
+  - '&7&o機械'
+FALLEN_METEOR:
+  description:
+  - '&7このメテオにはタングステンが含まれている'
+  name: '&4落下隕石'
+  type:
+  - '&7&o資源'
+FALLEN_SATELLITE_RELIC:
+  description:
+  - '&7Aben s lapu yyrotok, kintups'
+  name: '&7遺物: Kintups Yyhsdap'
+  type:
+  - '&7&oその他'
+FAN_BLADE:
+  name: '&fファンブレード'
+  type:
+  - '&7&oコンポーネント'
+FUEL_TANK:
+  name: '&6燃料タンク'
+  type:
+  - '&7&oコンポーネント'
+FUEL_TANK_2:
+  name: '&6燃料タンクMk2'
+  type:
+  - '&7&oコンポーネント'
+FUSION_PELLET:
+  name: '&f核融合ペレット'
+  type:
+  - '&7&oコンポーネント'
+FUSION_REACTOR:
+  description:
+  - '&7レーザーでヘリウム3ペレットを核融合させ'
+  - '&7莫大なエネルギーを生み出す'
+  - '&7その過程で'
+  name: '&f核融合炉'
+  stats:
+  - '&8⇨ &e⚡ &765536 J/s'
+  - '&8⇨ &e⚡ &765536 J バッファ'
+  type:
+  - '&7&o発電機'
+GLOWSTONE_CIRCUIT:
+  name: '&7グロウストーン回路'
+  type:
+  - '&7&oコンポーネント'
+GOLD_FOIL:
+  name: '&6金箔'
+  type:
+  - '&7&oコンポーネント'
+HEAT_RESISTANCE_UPGRADE:
+  description:
+  - '&8宇宙服に追加して耐熱性を上げる'
+  name: '&7耐熱アップグレード'
+  type:
+  - '&7&oコンポーネント'
+HEAVY_DUTY_SHEET:
+  name: '&f高耐久シート'
+  type:
+  - '&7&oコンポーネント'
+ION_DISPERSER_1:
+  description:
+  - '&7稼働中は周囲の放射線を自動で拡散させる'
+  name: '&fイオンディスパーサーI'
+  stats:
+  - '&7効果: 放射線'
+  - '&7防護: 2'
+  - '&7範囲: 1000ブロック'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  type:
+  - '&7&o機械'
+ION_DISPERSER_2:
+  description:
+  - '&7稼働中は周囲の放射線を自動で拡散させる'
+  name: '&fイオンディスパーサーII'
+  stats:
+  - '&7効果: 放射線'
+  - '&7防護: 4'
+  - '&7範囲: 1500ブロック'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J バッファ'
+  type:
+  - '&7&o機械'
+ION_ENGINE:
+  name: '&bイオンエンジン'
+  type:
+  - '&7&oコンポーネント'
+ION_ROCKET:
+  description:
+  - '&7特殊なエンジンを使用し'
+  - '&7イオンを高速で噴射することで'
+  - '&7極めて高い燃費を実現する'
+  name: '&bイオンロケット'
+  stats:
+  - '&7燃料容量: 500'
+  - '&7貨物容量: 18'
+  type:
+  - '&7&oマルチブロック'
+LANDING_HATCH:
+  description:
+  - '&7ロケットはこのブロックを無視して'
+  - '&7着陸する。ロケットは'
+  - '&7その下にある最も高いブロックに着陸する。'
+  - '&7このブロックは空気を通さないとみなされ'
+  - '&7空間の密閉に使用できる'
+  name: '&f着陸ハッチ'
+  type:
+  - '&7&oその他'
+LAPIS_CIRCUIT:
+  name: '&7ラピス回路'
+  type:
+  - '&7&oコンポーネント'
+LASERITE:
+  name: '&cレーザライト'
+  type:
+  - '&7&o資源'
+LASERITE_DUST:
+  description:
+  - '&7もう名前のネタが尽きた'
+  name: '&cレーザライトダスト'
+  type:
+  - '&7&o資源'
+LASERITE_ORE:
+  name: '&cレーザライト鉱石'
+  type:
+  - '&7&o資源'
+LAUNCH_PAD_CORE:
+  name: '&f発射台コア'
+  type:
+  - '&7&oマルチブロック'
+  usage:
+  - '&7周囲を8つの&f発射台フロア&7で囲んで'
+  - '&7使用する'
+LAUNCH_PAD_FLOOR:
+  description:
+  - '&7発射台の建造に使用'
+  name: '&f発射台フロア'
+  type:
+  - '&7&oマルチブロック'
+LIFE_SUPPORT_MODULE:
+  name: '&4生命維持モジュール'
+  type:
+  - '&7&oコンポーネント'
+LUNAR_GLASS:
+  description:
+  - '&7なぜか月の砂をガラスに混ぜると'
+  - '&7より透明になる...'
+  name: '&f月面ガラス'
+  type:
+  - '&7&oコンポーネント'
+MARS_DUST:
+  name: '&c火星の砂'
+  type:
+  - '&7&o資源'
+MARS_ROCK:
+  name: '&c火星の岩'
+  type:
+  - '&7&o資源'
+METHANE_ICE:
+  name: '&bメタン氷'
+  type:
+  - '&7&o資源'
+MOON_CHEESE:
+  description:
+  - '&7うわ'
+  name: '&6月のチーズ'
+  stats:
+  - '&7満腹度を&b2 &7回復'
+  - '&7隠し満腹度を&b2.0 &7回復'
+  type:
+  - '&7&o食料'
+  usage:
+  - '&7設置して食べる'
+MOON_DUST:
+  name: '&7月の砂'
+  type:
+  - '&7&o資源'
+MOON_ROCK:
+  name: '&7月の岩'
+  type:
+  - '&7&o資源'
+MUNPOWDER:
+  description:
+  - '&7月の火薬'
+  name: '&7ムーンパウダー'
+  type:
+  - '&7&o資源'
+NOSE_CONE:
+  name: '&fノーズコーン'
+  type:
+  - '&7&oコンポーネント'
+NOZZLE:
+  name: '&fノズル'
+  type:
+  - '&7&oコンポーネント'
+OBSERVATORY:
+  description:
+  - '&7遠隔から惑星の基本情報を'
+  - '&7調べられる。ただし対象は'
+  - '&70.25光年(2,365,200,000,000km)以内の惑星に限る'
+  name: '&f天文台'
+  type:
+  - '&7&oガジェット'
+OXYGEN_FILLER:
+  description:
+  - '&7宇宙服に酸素を補充する'
+  name: '&f酸素充填機'
+  stats:
+  - '&8⇨ &e⚡ &7100 J/s'
+  - '&8⇨ &b⚡ &7速度: &b1.0x'
+  type:
+  - '&7&o機械'
+OXYGEN_REGENERATOR:
+  name: '&b酸素再生装置'
+  type:
+  - '&7&oコンポーネント'
+OXYGEN_SEALER:
+  description:
+  - '&7密閉空間に酸素を満たす'
+  name: '&f酸素シーラー'
+  stats:
+  - '&7範囲: 1000ブロック'
+  type:
+  - '&7&o機械'
+PLANETARY_ANALYZER:
+  description:
+  - '&7現在の惑星についての'
+  - '&7詳細情報を調べられる'
+  name: '&f惑星アナライザー'
+  type:
+  - '&7&oガジェット'
+RADIATION_RESISTANCE_UPGRADE:
+  description:
+  - '&8宇宙服に追加して耐放射線性を上げる'
+  name: '&7耐放射線アップグレード'
+  type:
+  - '&7&oコンポーネント'
+REACTOR_RELIC:
+  description:
+  - '&7Ovehcin zi ''taribos onhzom uyigrene'
+  - '&7oths lamud otk?'
+  name: '&f遺物: Rotarenegortkele Yynmukav'
+  type:
+  - '&7&oその他'
+REDSTONE_CIRCUIT:
+  name: '&7レッドストーン回路'
+  type:
+  - '&7&oコンポーネント'
+REINFORCED_CHANNEL:
+  name: '&f強化チャンネル'
+  type:
+  - '&7&oコンポーネント'
+ROCKET_ENGINE:
+  name: '&fロケットエンジン'
+  type:
+  - '&7&oコンポーネント'
+ROCKET_ENGINE_2:
+  name: '&fロケットエンジンMk2'
+  type:
+  - '&7&oコンポーネント'
+ROCKET_ENGINE_3:
+  name: '&fロケットエンジンMk3'
+  type:
+  - '&7&oコンポーネント'
+ROCKET_TIER_ONE:
+  name: '&4化学ロケット Tier1'
+  stats:
+  - '&7燃料容量: 10'
+  - '&7貨物容量: 9'
+  type:
+  - '&7&oマルチブロック'
+ROCKET_TIER_THREE:
+  name: '&4化学ロケット Tier3'
+  stats:
+  - '&7燃料容量: 500'
+  - '&7貨物容量: 36'
+  type:
+  - '&7&oマルチブロック'
+ROCKET_TIER_TWO:
+  name: '&4化学ロケット Tier2'
+  stats:
+  - '&7燃料容量: 100'
+  - '&7貨物容量: 18'
+  type:
+  - '&7&oマルチブロック'
+SPACE_GRADE_PLATE:
+  name: '&f宇宙仕様プレート'
+  type:
+  - '&7&oコンポーネント'
+SPACE_HEATER_1:
+  description:
+  - '&7稼働中は周囲を自動で暖め、寒さへの被曝を軽減する'
+  name: '&6スペースヒーターI'
+  stats:
+  - '&7効果: 寒さ'
+  - '&7防護: 2'
+  - '&7範囲: 1000ブロック'
+  - '&8⇨ &e⚡ &7512 J/s'
+  - '&8⇨ &e⚡ &71024 J バッファ'
+  type:
+  - '&7&o機械'
+SPACE_HEATER_2:
+  description:
+  - '&7稼働中は周囲を自動で暖め、寒さへの被曝を軽減する'
+  name: '&6スペースヒーターII'
+  stats:
+  - '&7効果: 寒さ'
+  - '&7防護: 4'
+  - '&7範囲: 1500ブロック'
+  - '&8⇨ &e⚡ &71024 J/s'
+  - '&8⇨ &e⚡ &72048 J バッファ'
+  type:
+  - '&7&o機械'
+SPACE_HEATER_3:
+  description:
+  - '&7稼働中は周囲を自動で暖め、寒さへの被曝を軽減する'
+  name: '&6スペースヒーターIII'
+  stats:
+  - '&7効果: 寒さ'
+  - '&7防護: 6'
+  - '&7範囲: 2000ブロック'
+  - '&8⇨ &e⚡ &72048 J/s'
+  - '&8⇨ &e⚡ &74096 J バッファ'
+  type:
+  - '&7&o機械'
+SPACE_SUIT_BOOTS:
+  description:
+  - '&7基本的な宇宙服のブーツ'
+  name: '&f宇宙服ブーツ'
+  type:
+  - '&7&o防具'
+SPACE_SUIT_CHEST:
+  description:
+  - '&7基本的な宇宙服の胴部'
+  name: '&f宇宙服チェストプレート'
+  type:
+  - '&7&o防具'
+SPACE_SUIT_HELMET:
+  description:
+  - '&7基本的な宇宙服のヘルメット'
+  name: '&f宇宙服ヘルメット'
+  type:
+  - '&7&o防具'
+  usage:
+  - '&e右クリック&7で使用'
+SPACE_SUIT_PANTS:
+  description:
+  - '&7基本的な宇宙服のズボン'
+  name: '&f宇宙服パンツ'
+  type:
+  - '&7&o防具'
+SPACE_SUIT_UPGRADER:
+  description:
+  - '&7宇宙服にアップグレードを追加する'
+  name: '&f宇宙服アップグレーダー'
+  stats:
+  - '&8⇨ &e⚡ &7200 J/s'
+  - '&8⇨ &b⚡ &7速度: &b1.0x'
+  type:
+  - '&7&o機械'
+SPARK_PLUG:
+  name: '&fスパークプラグ'
+  type:
+  - '&7&oコンポーネント'
+SPARK_PLUG_2:
+  name: '&fスパークプラグMk2'
+  type:
+  - '&7&oコンポーネント'
+STARGATE_CONTROLLER:
+  description:
+  - '&7スターゲートを制御するために使用'
+  name: '&9スターゲートコントローラー'
+  type:
+  - '&7&oマルチブロック'
+STARGATE_RING:
+  description:
+  - '&7スターゲートの建造に使用'
+  name: '&9スターゲートリング'
+  type:
+  - '&7&oマルチブロック'
+SULFUR_BLOCK:
+  name: '&6硫黄ブロック'
+  type:
+  - '&7&o資源'
+SUPER_FAN:
+  description:
+  - '&7密閉空間を必要とするブロックの隣に設置すると'
+  - '&7その範囲を15%拡張する'
+  name: '&7スーパーファン'
+  type:
+  - '&7&oその他'
+TECHNOLOGICAL_SALVAGER:
+  description:
+  - '&7遺物から回収可能なものを回収する'
+  name: '&f技術サルベージ機'
+  stats:
+  - '&8⇨ &e⚡ &764 J/s'
+  - '&8⇨ &e⚡ &764 J バッファ'
+  type:
+  - '&7&o機械'
+TUNGSTEN_CARBIDE:
+  name: '&7タングステンカーバイド'
+  type:
+  - '&7&o資源'
+TUNGSTEN_INGOT:
+  description:
+  - '&7火星人に強化プレートを渡すか'
+  - '&7落下隕石を製錬することで得られる'
+  - '&7頑丈な金属'
+  name: '&bタングステンインゴット'
+  type:
+  - '&7&o資源'
+ULTRA_DUTY_SHEET:
+  name: '&f超高耐久シート'
+  type:
+  - '&7&oコンポーネント'
+VENTSTONE:
+  name: '&6ベントストーン'
+  type:
+  - '&7&o資源'
+VOLCANIC_INGOT:
+  description:
+  - '&7地獄に最も近い場所の奥底で'
+  - '&7鍛えられたヴォルケニックインゴットは'
+  - '&7貴重な資源である'
+  name: '&4火山インゴット'
+  type:
+  - '&7&o資源'
