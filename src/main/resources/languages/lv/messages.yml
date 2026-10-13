@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Vai vēlies atgriezties uz Zemi? (%yes%/%no%)"
   affirmative: "jā"
   negative: "nē"
+guide:
+  widgets:
+    universe: '&bVisums'

@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Haluatko palata Maahan? (%yes%/%no%)"
   affirmative: "kyllä"
   negative: "ei"
+guide:
+  widgets:
+    universe: '&bUniversumi'

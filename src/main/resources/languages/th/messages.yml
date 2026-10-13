@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "คุณต้องการกลับไปยังโลกหรือไม่? (%yes%/%no%)"
   affirmative: "ใช่"
   negative: "ไม่"
+guide:
+  widgets:
+    universe: '&bจักรวาล'

@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Apakah Anda ingin kembali ke Bumi? (%yes%/%no%)"
   affirmative: "ya"
   negative: "tidak"
+guide:
+  widgets:
+    universe: '&bAlam Semesta'

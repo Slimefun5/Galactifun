@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "آیا می‌خواهید به زمین برگردید؟ (%yes%/%no%)"
   affirmative: "بله"
   negative: "خیر"
+guide:
+  widgets:
+    universe: '&bکائنات'

@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Dünya'ya geri dönmek ister misin? (%yes%/%no%)"
   affirmative: "evet"
   negative: "hayır"
+guide:
+  widgets:
+    universe: '&bEvren'

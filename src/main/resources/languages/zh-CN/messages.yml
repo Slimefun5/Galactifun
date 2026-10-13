@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "你想回到地球吗？(%yes%/%no%)"
   affirmative: "是"
   negative: "否"
+guide:
+  widgets:
+    universe: '&b宇宙'

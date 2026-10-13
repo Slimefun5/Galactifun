@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "ඔබට පෘථිවියට නැවත යාමට අවශ්‍යද? (%yes%/%no%)"
   affirmative: "ඔව්"
   negative: "නැහැ"
+guide:
+  widgets:
+    universe: '&bවිශ්වය'

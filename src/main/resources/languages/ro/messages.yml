@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Vrei să te întorci pe Pământ? (%yes%/%no%)"
   affirmative: "da"
   negative: "nu"
+guide:
+  widgets:
+    universe: '&bUniversul'

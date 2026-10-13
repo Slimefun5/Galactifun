@@ -67,12 +67,15 @@ public final class CoreItemGroup {
         registerIfNeeded(RELICS, galactifun);
 
         // The universe map is a navigable screen, not an item list, so expose it as a guide widget
+        String universeName = "&bThe Universe";
         Slimefun.getGuideWidgets().register(new GuideWidget(
-                "galactifun_universe", "&bThe Universe", XMaterial.END_STONE, 10,
+                "galactifun_universe", universeName, XMaterial.END_STONE, 10,
                 (player, profile) -> new WorldSelector((p, slot, item, action) -> {
                     profile.getGuideHistory().goBack(Slimefun.getRegistry().getSlimefunGuide(SlimefunGuideMode.SURVIVAL_MODE));
                     return false;
-                }).open(player)));
+                }).open(player))
+            .setNameResolver(viewer -> Slimefun.getAddonMessageService()
+                .getMessage(viewer, galactifun, "guide.widgets.universe", universeName)));
     }
 
 

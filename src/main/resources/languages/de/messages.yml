@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Möchtest du zur Erde zurückkehren? (%yes%/%no%)"
   affirmative: "ja"
   negative: "nein"
+guide:
+  widgets:
+    universe: '&bDas Universum'

@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Gusto mo bang bumalik sa Mundo? (%yes%/%no%)"
   affirmative: "oo"
   negative: "hindi"
+guide:
+  widgets:
+    universe: '&bAng Sansinukob'

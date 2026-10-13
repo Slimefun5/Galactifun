@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Wil je terug naar de Aarde? (%yes%/%no%)"
   affirmative: "ja"
   negative: "nee"
+guide:
+  widgets:
+    universe: '&bHet Heelal'

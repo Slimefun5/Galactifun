@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "האם ברצונך לחזור לכדור הארץ? (%yes%/%no%)"
   affirmative: "כן"
   negative: "לא"
+guide:
+  widgets:
+    universe: '&bהיקום'

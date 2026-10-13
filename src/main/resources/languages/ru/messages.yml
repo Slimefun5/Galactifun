@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Хотите вернуться на Землю? (%yes%/%no%)"
   affirmative: "да"
   negative: "нет"
+guide:
+  widgets:
+    universe: '&bВселенная'

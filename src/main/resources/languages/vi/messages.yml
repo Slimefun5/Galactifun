@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Bạn có muốn trở về Trái Đất không? (%yes%/%no%)"
   affirmative: "có"
   negative: "không"
+guide:
+  widgets:
+    universe: '&bVũ trụ'

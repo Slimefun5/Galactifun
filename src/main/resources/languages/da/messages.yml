@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Vil du tilbage til Jorden? (%yes%/%no%)"
   affirmative: "ja"
   negative: "nej"
+guide:
+  widgets:
+    universe: '&bUniverset'

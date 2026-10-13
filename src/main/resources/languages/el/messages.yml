@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Θέλετε να επιστρέψετε στη Γη; (%yes%/%no%)"
   affirmative: "ναι"
   negative: "όχι"
+guide:
+  widgets:
+    universe: '&bΤο Σύμπαν'

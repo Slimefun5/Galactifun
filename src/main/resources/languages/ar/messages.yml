@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "هل تريد العودة إلى الأرض؟ (%yes%/%no%)"
   affirmative: "نعم"
   negative: "لا"
+guide:
+  widgets:
+    universe: '&bالكون'

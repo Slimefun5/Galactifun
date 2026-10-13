@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Vissza szeretnél menni a Földre? (%yes%/%no%)"
   affirmative: "igen"
   negative: "nem"
+guide:
+  widgets:
+    universe: '&bA Világegyetem'

@@ -92,3 +92,6 @@ world:
   respawn-loop-question: "Chceš sa vrátiť na Zem? (%yes%/%no%)"
   affirmative: "áno"
   negative: "nie"
+guide:
+  widgets:
+    universe: '&bVesmír'
