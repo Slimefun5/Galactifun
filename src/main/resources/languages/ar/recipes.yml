@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'يتولّد طبيعيًا'
+  alien_drop:
+    name: 'غنيمة مخلوق'

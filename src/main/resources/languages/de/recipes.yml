@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Natürlich generiert'
+  alien_drop:
+    name: 'Mob-Drop'

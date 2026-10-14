@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Sinh ra Tự nhiên'
+  alien_drop:
+    name: 'Vật phẩm rơi từ quái vật'

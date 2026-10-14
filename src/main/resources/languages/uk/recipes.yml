@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Природна генерація'
+  alien_drop:
+    name: 'Здобич із мобів'

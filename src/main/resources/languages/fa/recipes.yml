@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'تولید طبیعی'
+  alien_drop:
+    name: 'غنیمت موجود'

@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Naturligt genereret'
+  alien_drop:
+    name: 'Tabt af væsen'

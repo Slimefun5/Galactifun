@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Naturligt genererad'
+  alien_drop:
+    name: 'Släpps av varelse'

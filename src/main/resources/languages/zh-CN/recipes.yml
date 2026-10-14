@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: '自然生成'
+  alien_drop:
+    name: '击杀生物掉落'

@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Luonnollisesti syntynyt'
+  alien_drop:
+    name: 'Olennon pudotus'

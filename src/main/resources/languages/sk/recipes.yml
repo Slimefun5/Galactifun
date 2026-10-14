@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Prirodzene generované'
+  alien_drop:
+    name: 'Korisť z mobov'

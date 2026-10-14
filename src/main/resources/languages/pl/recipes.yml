@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Generowane naturalnie'
+  alien_drop:
+    name: 'Łup z moba'

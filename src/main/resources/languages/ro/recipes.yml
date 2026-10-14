@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Generat Natural'
+  alien_drop:
+    name: 'Pradă de Mob'

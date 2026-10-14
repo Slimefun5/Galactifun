@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Doğal Olarak Oluşur'
+  alien_drop:
+    name: 'Yaratıktan Düşürme'

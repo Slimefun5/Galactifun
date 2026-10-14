@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'נוצר באופן טבעי'
+  alien_drop:
+    name: 'פריט מיצור'

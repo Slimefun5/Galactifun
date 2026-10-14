@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Природно генерирано'
+  alien_drop:
+    name: 'Плен од мобови'

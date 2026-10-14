@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Generado de forma natural'
+  alien_drop:
+    name: 'Botín de mob'

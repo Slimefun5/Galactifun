@@ -145,6 +145,7 @@ public final class Galactifun extends AbstractAddon {
                 .addSub(new EffectsCommand());
 
         Slimefun.getItemTranslationService().registerTranslations(this);
+        Slimefun.getLocalization().registerItemGroupTranslations(this);
         Slimefun.getAddonMessageService().registerTranslations(this);
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).

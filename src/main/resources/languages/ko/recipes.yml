@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: '자연 생성'
+  alien_drop:
+    name: '몹 드롭'

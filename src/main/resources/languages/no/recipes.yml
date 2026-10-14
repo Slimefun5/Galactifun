@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Naturlig generert'
+  alien_drop:
+    name: 'Slippes av skapning'

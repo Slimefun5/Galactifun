@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'เกิดขึ้นตามธรรมชาติ'
+  alien_drop:
+    name: 'ดรอปจากม็อบ'

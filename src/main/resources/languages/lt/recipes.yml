@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Natūraliai sugeneruota'
+  alien_drop:
+    name: 'Padarų grobis'

@@ -1,0 +1,5 @@
+galactifun:
+  world_gen:
+    name: 'Généré naturellement'
+  alien_drop:
+    name: 'Butin de monstre'
