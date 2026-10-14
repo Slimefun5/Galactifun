@@ -146,6 +146,7 @@ public final class Galactifun extends AbstractAddon {
 
         Slimefun.getItemTranslationService().registerTranslations(this);
         Slimefun.getLocalization().registerItemGroupTranslations(this);
+        Slimefun.getLocalization().registerRecipeTypeTranslations(this);
         Slimefun.getAddonMessageService().registerTranslations(this);
 
         // Register this addon's own in-game wiki page (core does not auto-generate addon wikis).
