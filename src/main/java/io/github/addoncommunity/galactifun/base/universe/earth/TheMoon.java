@@ -7,6 +7,7 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.api.worlds.TopLayer;
 import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BlockPopulator;
@@ -19,8 +20,6 @@ import io.github.addoncommunity.galactifun.api.universe.attributes.Orbit;
 import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.Atmosphere;
 import io.github.addoncommunity.galactifun.api.universe.types.PlanetaryType;
 import io.github.addoncommunity.galactifun.api.worlds.SimpleAlienWorld;
-import it.unimi.dsi.fastutil.objects.ObjectIntImmutablePair;
-import it.unimi.dsi.fastutil.objects.ObjectIntPair;
 
 /**
  * The moon
@@ -52,8 +51,8 @@ public final class TheMoon extends SimpleAlienWorld {
 
     @Nonnull
     @Override
-    protected ObjectIntPair<Material> getTop() {
-        return new ObjectIntImmutablePair<>(MaterialCompat.safe(XMaterial.LIGHT_GRAY_CONCRETE_POWDER), 2);
+    protected TopLayer getTop() {
+        return new TopLayer(MaterialCompat.safe(XMaterial.LIGHT_GRAY_CONCRETE_POWDER), 2);
     }
 
     @Nonnull

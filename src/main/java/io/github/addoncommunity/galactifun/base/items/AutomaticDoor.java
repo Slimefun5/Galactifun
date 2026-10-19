@@ -89,11 +89,11 @@ public final class AutomaticDoor extends MenuBlock {
                 if (SlimefunItem.getByItem(item) != null) return;
                 if (item != null && bannedTypes.contains(item.getType())) return;
 
-                if (item == null || item.getType().isAir() || item.getType() == mat) {
+                if (item == null || MaterialCompat.isAir(item.getType()) || item.getType() == mat) {
                     OfflinePlayer p = Bukkit.getOfflinePlayer(UUID.fromString(BlockStorage.getLocationInfo(l, "player")));
                     if (!Slimefun.getProtectionManager().hasPermission(p, l, Interaction.BREAK_BLOCK)) return;
 
-                    int size = item == null || item.getType().isAir() ?
+                    int size = item == null || MaterialCompat.isAir(item.getType()) ?
                             mat.getMaxStackSize() :
                             item.getMaxStackSize() - item.getAmount();
                     ItemStack itemStack = new ItemStack(mat);

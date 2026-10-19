@@ -28,6 +28,7 @@ import io.github.addoncommunity.galactifun.base.aliens.Martian;
 import io.github.addoncommunity.galactifun.core.managers.AlienManager;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.common.ChatColors;
 import io.github.addoncommunity.galactifun.compat.Pdc;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 
 /**
  * Abstract class for an alien
@@ -99,7 +100,7 @@ public class Alien<T extends Mob> {
             Block b = world.getHighestBlockAt(x, z).getRelative(0, 1, 0);
 
             // currently doesn't allow for aquatic aliens
-            if (b.getType().isAir() && canSpawnInLightLevel(b.getLightLevel())) {
+            if (MaterialCompat.isAir(b.getType()) && canSpawnInLightLevel(b.getLightLevel())) {
                 spawn(b.getLocation().add(0, getSpawnHeightOffset(), 0), world);
                 spawned++;
             }

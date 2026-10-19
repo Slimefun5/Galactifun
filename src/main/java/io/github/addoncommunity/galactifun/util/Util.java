@@ -120,7 +120,7 @@ public final class Util {
      */
     public static Location getHighestBlockAt(@Nonnull RegionAccessor region, int x, int z) {
         for (int y = 0; y < 319; y++) {
-            if (region.getType(x, y, z).isAir()) {
+            if (MaterialCompat.isAir(region.getType(x, y, z))) {
                 return new Location(null, x, y - 1, z);
             }
         }

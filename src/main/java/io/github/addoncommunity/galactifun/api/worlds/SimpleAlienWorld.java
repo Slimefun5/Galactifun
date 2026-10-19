@@ -23,7 +23,6 @@ import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.At
 import io.github.addoncommunity.galactifun.api.universe.types.PlanetaryType;
 import io.github.addoncommunity.galactifun.base.universe.Mars;
 import io.github.addoncommunity.galactifun.util.GenUtils;
-import it.unimi.dsi.fastutil.objects.ObjectIntPair;
 
 /**
  * A simple alien world
@@ -54,8 +53,8 @@ public abstract class SimpleAlienWorld extends AlienWorld {
     protected final void generateChunk(@Nonnull ChunkGenerator.ChunkData chunk, @Nonnull Random random,
                                        @Nonnull WorldInfo world, int chunkX, int chunkZ) {
 
-        ObjectIntPair<Material> top = getTop();
-        int heightSub = top == null ? 0 : top.rightInt();
+        TopLayer top = getTop();
+        int heightSub = top == null ? 0 : top.depth();
 
         for (int x = 0, realX = chunkX << 4; x < 16; x++, realX++) {
             for (int z = 0, realZ = chunkZ << 4; z < 16; z++, realZ++) {
@@ -76,10 +75,10 @@ public abstract class SimpleAlienWorld extends AlienWorld {
 
     @Override
     protected final void generateSurface(@Nonnull ChunkGenerator.ChunkData chunk, @Nonnull Random random, @Nonnull WorldInfo world, int chunkX, int chunkZ) {
-        ObjectIntPair<Material> top = getTop();
+        TopLayer top = getTop();
         if (top != null) {
-            Material material = top.left();
-            int height = top.rightInt();
+            Material material = top.material();
+            int height = top.depth();
 
             for (int x = 0, realX = chunkX << 4; x < 16; x++, realX++) {
                 for (int z = 0, realZ = chunkZ << 4; z < 16; z++, realZ++) {
@@ -135,14 +134,14 @@ public abstract class SimpleAlienWorld extends AlienWorld {
     protected abstract Material generateMaterial(@Nonnull Random random, int x, int y, int z, int top);
 
     /**
-     * Returns an {@link ObjectIntPair} of the top block material and the number of top blocks. Used for the
+     * Returns the top block material and the number of top blocks. Used for the
      * {@link #AlienWorld#generateSurface(ChunkGenerator.ChunkData, Random, WorldInfo, int, int)} method
      *
-     * @return an {@link ObjectIntPair} of the top block material and the number of top blocks, or null if
+     * @return the top block material and the number of top blocks, or null if
      * there is none
      */
     @Nullable
-    protected ObjectIntPair<Material> getTop() {
+    protected TopLayer getTop() {
         return null;
     }
 

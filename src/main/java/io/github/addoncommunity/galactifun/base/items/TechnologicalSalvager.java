@@ -9,6 +9,7 @@ import javax.annotation.Nonnull;
 
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.api.items.AmountRange;
 import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
@@ -25,7 +26,6 @@ import io.github.thebusybiscuit.slimefun5.core.machines.MachineProcessor;
 import io.github.thebusybiscuit.slimefun5.implementation.operations.CraftingOperation;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun5.utils.ChestMenuUtils;
-import it.unimi.dsi.fastutil.ints.IntIntPair;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenu;
 import me.mrCookieSlime.Slimefun.api.inventory.BlockMenuPreset;
 
@@ -68,9 +68,9 @@ public class TechnologicalSalvager extends AbstractMachineBlock implements Machi
                 if (SlimefunItem.getByItem(item) instanceof Relic) {
                     Relic relic = (Relic) SlimefunItem.getByItem(item);
                     List<ItemStack> results = new ArrayList<>();
-                    for (Map.Entry<ItemStack, IntIntPair> entry : relic.required().entrySet()) {
-                        int amount = ThreadLocalRandom.current().nextInt(entry.getValue().leftInt(),
-                                entry.getValue().rightInt() + 1);
+                    for (Map.Entry<ItemStack, AmountRange> entry : relic.required().entrySet()) {
+                        int amount = ThreadLocalRandom.current().nextInt(entry.getValue().min(),
+                                entry.getValue().max() + 1);
                         if (amount > 0) {
                             results.add(entry.getKey().asQuantity(amount));
                         }

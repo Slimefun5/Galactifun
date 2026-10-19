@@ -10,6 +10,8 @@ import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.LimitedRegion;
 import org.bukkit.generator.WorldInfo;
 
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
+
 /**
  * Volcano populator
  *
@@ -43,7 +45,7 @@ public class VolcanoPopulator extends BlockPopulator {
                     int realX = startX + x;
                     int realZ = startZ + z;
 
-                    if (region.getType(realX, y, realZ).isAir()) {
+                    if (MaterialCompat.isAir(region.getType(realX, y, realZ))) {
                         if (y > by && y >= minY) {
                             bx = realX;
                             by = y;

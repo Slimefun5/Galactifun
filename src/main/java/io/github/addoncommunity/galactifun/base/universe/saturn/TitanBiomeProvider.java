@@ -15,17 +15,15 @@ import org.bukkit.generator.BiomeProvider;
 import org.bukkit.generator.WorldInfo;
 import org.bukkit.util.noise.SimplexOctaveGenerator;
 
-import it.unimi.dsi.fastutil.ints.IntIntImmutablePair;
-import it.unimi.dsi.fastutil.ints.IntIntPair;
 
 final class TitanBiomeProvider extends BiomeProvider {
 
     private volatile SimplexOctaveGenerator heat;
     private volatile SimplexOctaveGenerator humidity;
 
-    private final Map<IntIntPair, TitanBiome> cachedData = Collections.synchronizedMap(new LinkedHashMap<IntIntPair, TitanBiome>() {
+    private final Map<Long, TitanBiome> cachedData = Collections.synchronizedMap(new LinkedHashMap<Long, TitanBiome>() {
         @Override
-        protected boolean removeEldestEntry(Map.Entry<IntIntPair, TitanBiome> eldest) {
+        protected boolean removeEldestEntry(Map.Entry<Long, TitanBiome> eldest) {
             return size() > 200;
         }
     });
@@ -42,7 +40,7 @@ final class TitanBiomeProvider extends BiomeProvider {
     TitanBiome getBiome(WorldInfo info, int x, int z) {
         init(info);
 
-        TitanBiome cached = cachedData.get(new IntIntImmutablePair(x, z));
+        TitanBiome cached = cachedData.get(columnKey(x, z));
         if (cached != null) {
             return cached;
         }
@@ -69,8 +67,12 @@ final class TitanBiomeProvider extends BiomeProvider {
             biome = TitanBiome.WASTELAND;
         }
 
-        cachedData.put(new IntIntImmutablePair(x, z), biome);
+        cachedData.put(columnKey(x, z), biome);
         return biome;
+    }
+
+    private static long columnKey(int x, int z) {
+        return ((long) x << 32) | (z & 0xFFFFFFFFL);
     }
 
     @Nonnull

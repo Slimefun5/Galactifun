@@ -21,6 +21,7 @@ import org.bukkit.entity.Player;
 import io.github.addoncommunity.galactifun.Galactifun;
 import io.github.addoncommunity.galactifun.api.structures.Structure;
 import io.github.addoncommunity.galactifun.api.structures.StructureRotation;
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import io.github.addoncommunity.galactifun.util.Messages;
 import io.github.mooy1.infinitylib.commands.SubCommand;
 import io.github.mooy1.infinitylib.common.PersistentType;
@@ -85,7 +86,7 @@ public final class StructureCommand extends SubCommand {
         }
 
         Block target = p.getTargetBlockExact(32);
-        if (target == null || target.getType().isAir()) {
+        if (target == null || MaterialCompat.isAir(target.getType())) {
             Messages.send(p, ChatColor.RED, "structure.must-target-block", "You must target a block!");
             return;
         }

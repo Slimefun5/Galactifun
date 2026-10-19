@@ -15,13 +15,11 @@ import io.github.addoncommunity.galactifun.core.CoreRecipeType;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItem;
 import io.github.thebusybiscuit.slimefun5.api.items.SlimefunItemStack;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.collections.RandomizedSet;
-import it.unimi.dsi.fastutil.ints.IntIntImmutablePair;
-import it.unimi.dsi.fastutil.ints.IntIntPair;
 
 public class Relic extends SlimefunItem {
 
     private final RandomizedSet<ItemStack> optionals;
-    private final Map<ItemStack, IntIntPair> required = new HashMap<>();
+    private final Map<ItemStack, AmountRange> required = new HashMap<>();
 
     public Relic(SlimefunItemStack item, RelicSettings settings, PlanetaryWorld... planets) {
         super(CoreItemGroup.RELICS, item, CoreRecipeType.WORLD_GEN, getFromPlanets(planets));
@@ -41,7 +39,7 @@ public class Relic extends SlimefunItem {
 
     public static final class RelicSettings {
         private final RandomizedSet<ItemStack> optionals = new RandomizedSet<>();
-        private final Map<ItemStack, IntIntPair> required = new HashMap<>();
+        private final Map<ItemStack, AmountRange> required = new HashMap<>();
 
         public RelicSettings addOptional(@Nonnull ItemStack item, float weight) {
             optionals.add(item, weight);
@@ -49,13 +47,13 @@ public class Relic extends SlimefunItem {
         }
 
         public RelicSettings addRequired(@Nonnull ItemStack item, int min, int max) {
-            required.put(item, new IntIntImmutablePair(min, max));
+            required.put(item, new AmountRange(min, max));
             return this;
         }
     }
 
     public RandomizedSet<ItemStack> optionals() { return optionals; }
 
-    public Map<ItemStack, IntIntPair> required() { return required; }
+    public Map<ItemStack, AmountRange> required() { return required; }
 }
 

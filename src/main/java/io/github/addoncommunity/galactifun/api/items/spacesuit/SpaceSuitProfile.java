@@ -15,6 +15,8 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import io.github.mooy1.infinitylib.common.Scheduler;
 
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
+
 @ParametersAreNonnullByDefault
 public final class SpaceSuitProfile {
     private SpaceSuitProfile() {}
@@ -77,7 +79,7 @@ public final class SpaceSuitProfile {
         ItemStack[] armorContents = p.getInventory().getArmorContents();
         for (int i = 0, armorContentsLength = armorContents.length; i < armorContentsLength; i++) {
             ItemStack item = armorContents[i];
-            if (item != null && !item.getType().isAir() && item.hasItemMeta()) {
+            if (item != null && !MaterialCompat.isAir(item.getType()) && item.hasItemMeta()) {
                 ItemMeta meta = item.getItemMeta();
                 SpaceSuitUpgrade.getUpgrades(meta, this.stats);
                 oxygenChanged[i] = oxygen[i] = SpaceSuit.getOxygen(item, meta, oxygenChanged[i] - oxygen[i]);

@@ -8,6 +8,7 @@ import javax.annotation.Nonnull;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
+import io.github.addoncommunity.galactifun.api.worlds.TopLayer;
 import io.github.addoncommunity.galactifun.util.MaterialCompat;
 import org.bukkit.block.Biome;
 import org.bukkit.generator.BlockPopulator;
@@ -25,8 +26,6 @@ import io.github.addoncommunity.galactifun.api.universe.attributes.atmosphere.At
 import io.github.addoncommunity.galactifun.api.universe.types.PlanetaryType;
 import io.github.addoncommunity.galactifun.api.worlds.SimpleAlienWorld;
 import io.github.addoncommunity.galactifun.util.GenUtils;
-import it.unimi.dsi.fastutil.objects.ObjectIntImmutablePair;
-import it.unimi.dsi.fastutil.objects.ObjectIntPair;
 
 /**
  * Class for Mars
@@ -54,9 +53,9 @@ public final class Mars extends SimpleAlienWorld {
 
     @Nonnull
     @Override
-    protected ObjectIntPair<Material> getTop() {
+    protected TopLayer getTop() {
         // top 4 blocks
-        return new ObjectIntImmutablePair<>(MaterialCompat.safe(XMaterial.RED_SAND), 4);
+        return new TopLayer(MaterialCompat.safe(XMaterial.RED_SAND), 4);
     }
 
     @Override
@@ -89,7 +88,7 @@ public final class Mars extends SimpleAlienWorld {
                     int z = random.nextInt(16) + (region.getCenterChunkZ() << 4);
 
                     for (int y = 0; y < worldInfo.getMaxHeight(); y++) {
-                        if (region.getType(x, y, z).isAir()) {
+                        if (MaterialCompat.isAir(region.getType(x, y, z))) {
                             region.setType(x, y, z, MaterialCompat.safe(XMaterial.ANCIENT_DEBRIS));
                             break;
                         }

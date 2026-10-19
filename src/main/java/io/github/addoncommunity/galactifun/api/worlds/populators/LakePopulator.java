@@ -10,6 +10,8 @@ import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.LimitedRegion;
 import org.bukkit.generator.WorldInfo;
 
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
+
 /**
  * Lake populator
  *
@@ -35,7 +37,7 @@ public class LakePopulator extends BlockPopulator {
         for (int x = startX; x < startX + 16; x++) {
             for (int z = startZ; z < startZ + 16; z++) {
                 for (int y = 0; y < maxY; y++) {
-                    if (region.getType(x, y, z).isAir()) {
+                    if (MaterialCompat.isAir(region.getType(x, y, z))) {
                         region.setType(x, y, z, liquid);
                     }
                 }

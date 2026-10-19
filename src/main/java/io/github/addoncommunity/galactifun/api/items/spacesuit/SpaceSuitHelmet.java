@@ -11,6 +11,8 @@ import io.github.thebusybiscuit.slimefun5.core.attributes.NotPlaceable;
 import io.github.thebusybiscuit.slimefun5.core.handlers.ItemUseHandler;
 import io.github.thebusybiscuit.slimefun5.libraries.dough.items.ItemUtils;
 
+import io.github.addoncommunity.galactifun.util.MaterialCompat;
+
 public final class SpaceSuitHelmet extends SpaceSuit implements NotPlaceable {
 
     /**
@@ -32,7 +34,7 @@ public final class SpaceSuitHelmet extends SpaceSuit implements NotPlaceable {
             inventory.setHelmet(e.getItem().asOne());
             ItemUtils.consumeItem(e.getItem(), true);
 
-            if (existing != null && !existing.getType().isAir()) {
+            if (existing != null && !MaterialCompat.isAir(existing.getType())) {
                 for (ItemStack stack : inventory.addItem(existing).values()) {
                     p.getWorld().dropItemNaturally(p.getLocation(), stack);
                 }
