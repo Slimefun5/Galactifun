@@ -39,10 +39,11 @@ repositories {
     maven("https://jitpack.io")
 }
 
+val sfCoreVersion = (project.findProperty("sfCoreVersion") as String?)?.takeIf { it.isNotBlank() } ?: "gh-v5.3.1.3"
+
 dependencies {
     githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
     implementation("org.bstats:bstats-bukkit:2.2.1")
-    val sfCoreVersion = (project.findProperty("sfCoreVersion") as String?)?.takeIf { it.isNotBlank() } ?: "gh-v5.3.1.3"
     githubCompileOnly("Slimefun5:Slimefun5:$sfCoreVersion")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
@@ -83,6 +84,14 @@ tasks {
     processResources {
         filesMatching("plugin.yml") {
             expand("version" to displayVersion)
+        }
+        inputs.property("slimefunApi", sfCoreVersion)
+        // Recorded for core's addon-staleness check, as Slimefun5/gradle's convention does for every other addon.
+        doLast {
+            val pluginYml = File(destinationDir, "plugin.yml")
+            if (pluginYml.exists() && !Regex("(?m)^slimefun-api:").containsMatchIn(pluginYml.readText())) {
+                pluginYml.writeText(pluginYml.readText().trimEnd() + "\nslimefun-api: $sfCoreVersion\n")
+            }
         }
     }
     jar {
