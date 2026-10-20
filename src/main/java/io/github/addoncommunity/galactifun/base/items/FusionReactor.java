@@ -15,6 +15,11 @@ import me.mrCookieSlime.Slimefun.Objects.SlimefunItem.abstractItems.MachineFuel;
 
 public final class FusionReactor extends Reactor {
 
+    /**
+     * @implNote LiteXpansion lowers this by name through reflection, so it stays non-final and keeps its name.
+     */
+    private int energyProducedPerTick = 32_768;
+
     public FusionReactor(SlimefunItemStack item, ItemStack[] recipe) {
         super(CoreItemGroup.MACHINES, item, AssemblyTable.TYPE, recipe);
     }
@@ -44,7 +49,7 @@ public final class FusionReactor extends Reactor {
 
     @Override
     public int getEnergyProduction() {
-        return 32_768; // 65,536 J/s
+        return energyProducedPerTick;
     }
 
     @Override
