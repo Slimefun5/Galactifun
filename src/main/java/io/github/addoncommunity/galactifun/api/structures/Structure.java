@@ -15,7 +15,6 @@ import javax.annotation.Nullable;
 import org.bukkit.Material;
 import io.github.thebusybiscuit.slimefun5.libraries.xseries.XMaterial;
 import io.github.addoncommunity.galactifun.util.MaterialCompat;
-import dev.walshy.sfmetrics.MetricsModule;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.data.BlockData;

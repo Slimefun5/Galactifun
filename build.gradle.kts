@@ -42,7 +42,6 @@ repositories {
 val sfCoreVersion = (project.findProperty("sfCoreVersion") as String?)?.takeIf { it.isNotBlank() } ?: "gh-v5.3.1.3"
 
 dependencies {
-    githubImplementation("Slimefun5:SlimefunMetrics:v1.0.0")
     implementation("org.bstats:bstats-bukkit:2.2.1")
     githubCompileOnly("Slimefun5:Slimefun5:$sfCoreVersion")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
